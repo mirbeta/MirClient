@@ -1,0 +1,17 @@
+In this demo, you can:
+
+Select a time period in the Range Control located above the scheduler to filter the events that are displayed.
+
+Adjust the period selected in the Range Control using any of the following methods:
+ - Drag two selection thumbs to mark the lower and upper bounds;
+ - Drag the mouse within the Range Control's area to mark new bounds;
+ - Drag the current selection within the area to move both the bounds simultaneously;
+ - Drag the selection scroll thumb of the Zoom&Scroll bar located at the Range Control's bottom edge;
+ - Click any header displayed by the ruler to select the range specified by the header's caption.
+ - Select one or more days in the Date Navigator.
+
+Zoom the selection in/out by:
+ - Using the mouse wheel while holding down the Ctrl key.
+ - Dragging the zoom grips of the Zoom&Scroll bar.
+
+Try the appearance and behavior options displayed above the Range Control.

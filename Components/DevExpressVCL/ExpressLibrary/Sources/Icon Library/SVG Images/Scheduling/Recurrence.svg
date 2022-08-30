@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="Recurrence_1_">
+	<path class="Black" d="M19.9,22.9l2.9,2.9C20.9,27.2,18.5,28,16,28C9.4,28,4,22.6,4,16v-3l-4,4v-5l6-6l6,6v5l-4-4v3
+		c0,4.4,3.6,8,8,8C17.4,24,18.8,23.6,19.9,22.9z M28,19v-3c0-6.6-5.4-12-12-12c-2.5,0-4.9,0.8-6.8,2.2l2.9,2.9C13.2,8.4,14.6,8,16,8
+		c4.4,0,8,3.6,8,8v3l-4-4v5l6,6l6-6v-5L28,19z"/>
+</g>
+</svg>

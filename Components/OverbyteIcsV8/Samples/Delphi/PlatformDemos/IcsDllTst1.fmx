@@ -1,0 +1,117 @@
+object DllTestForm: TDllTestForm
+  Left = 138
+  Top = 119
+  Caption = 'DllTest - http://www.overbyte.be'
+  ClientHeight = 213
+  ClientWidth = 371
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 138
+  Top = 119
+  object ToolsPanel: TPanel
+    Align = alTop
+    Width = 371.000000000000000000
+    Height = 57.000000000000000000
+    TabOrder = 0
+    object Label1: TLabel
+      Position.Point = '(12,12)'
+      Width = 55.191890716552730000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'Hostname'
+      WordWrap = False
+      Left = 12
+      Top = 12
+    end
+    object Label2: TLabel
+      Position.Point = '(152,12)'
+      Width = 24.759275436401370000
+      Height = 18.630859375000000000
+      TabOrder = 1
+      AutoSize = True
+      Text = 'Port'
+      WordWrap = False
+      Left = 152
+      Top = 12
+    end
+    object Label3: TLabel
+      Position.Point = '(44,36)'
+      Width = 18.464353561401370000
+      Height = 18.630859375000000000
+      TabOrder = 2
+      AutoSize = True
+      Text = 'Url'
+      WordWrap = False
+      Left = 44
+      Top = 36
+    end
+    object HostnameEdit: TEdit
+      Position.Point = '(64,8)'
+      Width = 73.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 3
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'localhost'
+      Left = 64
+      Top = 8
+    end
+    object PortEdit: TEdit
+      Position.Point = '(184,8)'
+      Width = 45.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 4
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'telnet'
+      Left = 184
+      Top = 8
+    end
+    object CallDll1Button: TButton
+      Position.Point = '(236,8)'
+      Width = 75.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = CallDll1ButtonClick
+      TabOrder = 5
+      Text = 'Call DLL1'
+      Default = True
+      Left = 236
+      Top = 8
+    end
+    object CallDll2Button: TButton
+      Position.Point = '(236,32)'
+      Width = 75.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = CallDll2ButtonClick
+      TabOrder = 6
+      Text = 'Call DLL2'
+      Left = 236
+      Top = 32
+    end
+    object UrlEdit: TEdit
+      Position.Point = '(64,32)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 7
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'http://ipv6.google.com'
+      Left = 64
+      Top = 32
+    end
+  end
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,57)'
+    Width = 371.000000000000000000
+    Height = 156.000000000000000000
+    TabOrder = 1
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+end

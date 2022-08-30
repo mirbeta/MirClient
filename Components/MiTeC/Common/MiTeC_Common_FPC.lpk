@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="MiTeC_Common_FPC"/>
+    <Author Value="Copyright (c) 2017, Michal Mutl"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="M:\Win\Libs\MSICS\Trial\FPC\Common"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="-Ur
+-dTRIAL"/>
+        <OtherDefines Count="1">
+          <Define0 Value="TRIAL"/>
+        </OtherDefines>
+      </Other>
+    </CompilerOptions>
+    <Description Value="MiTeC Comon Routines - Runtime"/>
+    <Files Count="81">
+      <Item1>
+        <Filename Value="MiTeC_Datetime.pas"/>
+        <UnitName Value="MiTeC_Datetime"/>
+      </Item1>
+      <Item2>
+        <Filename Value="MiTeC_Routines.pas"/>
+        <UnitName Value="MiTeC_Routines"/>
+      </Item2>
+      <Item3>
+        <Filename Value="MiTeC_StrUtils.pas"/>
+        <UnitName Value="MiTeC_StrUtils"/>
+      </Item3>
+      <Item4>
+        <Filename Value="MiTeC_Defs.pas"/>
+        <UnitName Value="MiTeC_Defs"/>
+      </Item4>
+      <Item5>
+        <Filename Value="MiTeC_NetAPI32.pas"/>
+        <UnitName Value="MiTeC_NetAPI32"/>
+      </Item5>
+      <Item6>
+        <Filename Value="MiTeC_Storage.pas"/>
+        <UnitName Value="MiTeC_Storage"/>
+      </Item6>
+      <Item7>
+        <Filename Value="MiTeC_WinIOCTL.pas"/>
+        <UnitName Value="MiTeC_WinIOCTL"/>
+      </Item7>
+      <Item8>
+        <Filename Value="MiTeC_CfgMgrSetupAPI.pas"/>
+        <UnitName Value="MiTeC_CfgMgrSetupAPI"/>
+      </Item8>
+      <Item9>
+        <Filename Value="MiTeC_Windows.pas"/>
+        <UnitName Value="MiTeC_Windows"/>
+      </Item9>
+      <Item10>
+        <Filename Value="MiTeC_WinCrypt.pas"/>
+        <UnitName Value="MiTeC_WinCrypt"/>
+      </Item10>
+      <Item11>
+        <Filename Value="MiTeC_SysUtils.pas"/>
+        <UnitName Value="MiTeC_SysUtils"/>
+      </Item11>
+      <Item12>
+        <Filename Value="MiTeC_NativeAPI.pas"/>
+        <UnitName Value="MiTeC_NativeAPI"/>
+      </Item12>
+      <Item13>
+        <Filename Value="MiTeC_NativeDefs.pas"/>
+        <UnitName Value="MiTeC_NativeDefs"/>
+      </Item13>
+      <Item14>
+        <Filename Value="MiTeC_WLANAPI.pas"/>
+        <UnitName Value="MiTeC_WLANAPI"/>
+      </Item14>
+      <Item15>
+        <Filename Value="MiTeC_AccountsNT.pas"/>
+        <UnitName Value="MiTeC_AccountsNT"/>
+      </Item15>
+      <Item16>
+        <Filename Value="MiTeC_AclApi.pas"/>
+        <UnitName Value="MiTeC_AclApi"/>
+      </Item16>
+      <Item17>
+        <Filename Value="MiTeC_AdvApi.pas"/>
+        <UnitName Value="MiTeC_AdvAPI"/>
+      </Item17>
+      <Item18>
+        <Filename Value="MiTeC_Apps.pas"/>
+        <UnitName Value="MiTeC_Apps"/>
+      </Item18>
+      <Item19>
+        <Filename Value="MiTeC_BTAPI.pas"/>
+        <UnitName Value="MiTeC_BTAPI"/>
+      </Item19>
+      <Item20>
+        <Filename Value="MiTeC_CmdLine.pas"/>
+        <UnitName Value="MiTeC_CmdLine"/>
+      </Item20>
+      <Item21>
+        <Filename Value="MiTeC_CRC.pas"/>
+        <UnitName Value="MiTeC_CRC"/>
+      </Item21>
+      <Item22>
+        <Filename Value="MiTeC_CtrlRtns.pas"/>
+        <UnitName Value="MiTeC_CtrlRtns"/>
+      </Item22>
+      <Item23>
+        <Filename Value="MiTeC_Dialogs.pas"/>
+        <UnitName Value="MiTeC_Dialogs"/>
+      </Item23>
+      <Item24>
+        <Filename Value="MiTeC_Disk.pas"/>
+        <UnitName Value="MiTeC_Disk"/>
+      </Item24>
+      <Item25>
+        <Filename Value="MiTeC_EDID.pas"/>
+        <UnitName Value="MiTeC_EDID"/>
+      </Item25>
+      <Item26>
+        <Filename Value="MiTeC_EML.pas"/>
+        <UnitName Value="MiTeC_EML"/>
+      </Item26>
+      <Item27>
+        <Filename Value="MiTeC_ESENT.pas"/>
+        <UnitName Value="MiTeC_ESENT"/>
+      </Item27>
+      <Item28>
+        <Filename Value="MiTeC_EventLogNT.pas"/>
+        <UnitName Value="MiTeC_EventLogNT"/>
+      </Item28>
+      <Item29>
+        <Filename Value="MiTeC_EXEModule.pas"/>
+        <UnitName Value="MiTeC_EXEModule"/>
+      </Item29>
+      <Item30>
+        <Filename Value="MiTeC_CharsetTranslator.pas"/>
+        <UnitName Value="MiTeC_CharsetTranslator"/>
+      </Item30>
+      <Item31>
+        <Filename Value="MiTeC_Internet.pas"/>
+        <UnitName Value="MiTeC_Internet"/>
+      </Item31>
+      <Item32>
+        <Filename Value="MiTeC_IPC.pas"/>
+        <UnitName Value="MiTeC_IPC"/>
+      </Item32>
+      <Item33>
+        <Filename Value="MiTeC_IpHlpAPI.pas"/>
+        <UnitName Value="MiTeC_IpHlpAPI"/>
+      </Item33>
+      <Item34>
+        <Filename Value="MiTeC_JobsNT.pas"/>
+        <UnitName Value="MiTeC_JobsNT"/>
+      </Item34>
+      <Item35>
+        <Filename Value="MiTeC_Journal.pas"/>
+        <UnitName Value="MiTeC_Journal"/>
+      </Item35>
+      <Item36>
+        <Filename Value="MiTeC_LSAAPI.pas"/>
+        <UnitName Value="MiTeC_LSAAPI"/>
+      </Item36>
+      <Item37>
+        <Filename Value="MiTeC_NetBIOS.pas"/>
+        <UnitName Value="MiTeC_NetBIOS"/>
+      </Item37>
+      <Item38>
+        <Filename Value="MiTeC_NetChangeNotify.pas"/>
+        <UnitName Value="MiTeC_NetChangeNotify"/>
+      </Item38>
+      <Item39>
+        <Filename Value="MiTeC_NetUtils.pas"/>
+        <UnitName Value="MiTeC_NetUtils"/>
+      </Item39>
+      <Item40>
+        <Filename Value="MiTeC_Networks.pas"/>
+        <UnitName Value="MiTeC_Networks"/>
+      </Item40>
+      <Item41>
+        <Filename Value="MiTeC_NTDDK.pas"/>
+        <UnitName Value="MiTeC_NTDDK"/>
+      </Item41>
+      <Item42>
+        <Filename Value="MiTeC_NTSecAPI.pas"/>
+        <UnitName Value="MiTeC_NTSecAPI"/>
+      </Item42>
+      <Item43>
+        <Filename Value="MiTeC_Params.pas"/>
+        <UnitName Value="MiTeC_Params"/>
+      </Item43>
+      <Item44>
+        <Filename Value="MiTeC_Pdh.pas"/>
+        <UnitName Value="MiTeC_Pdh"/>
+      </Item44>
+      <Item45>
+        <Filename Value="MiTeC_PerfLibNT.pas"/>
+        <UnitName Value="MiTeC_PerfLibNT"/>
+      </Item45>
+      <Item46>
+        <Filename Value="MiTeC_PerfUtils.pas"/>
+        <UnitName Value="MiTeC_PerfUtils"/>
+      </Item46>
+      <Item47>
+        <Filename Value="MiTeC_PowrProf.pas"/>
+        <UnitName Value="MiTeC_PowrProf"/>
+      </Item47>
+      <Item48>
+        <Filename Value="MiTeC_PrefsJs.pas"/>
+        <UnitName Value="MiTeC_PrefsJs"/>
+      </Item48>
+      <Item49>
+        <Filename Value="MiTeC_PSAPI.pas"/>
+        <UnitName Value="MiTeC_PSAPI"/>
+      </Item49>
+      <Item50>
+        <Filename Value="MiTeC_RawInput.pas"/>
+        <UnitName Value="MiTeC_RawInput"/>
+      </Item50>
+      <Item51>
+        <Filename Value="MiTeC_ServerNT.pas"/>
+        <UnitName Value="MiTeC_ServerNT"/>
+      </Item51>
+      <Item52>
+        <Filename Value="MiTeC_Shares.pas"/>
+        <UnitName Value="MiTeC_Shares"/>
+      </Item52>
+      <Item53>
+        <Filename Value="MiTeC_Shell.pas"/>
+        <UnitName Value="MiTeC_Shell"/>
+      </Item53>
+      <Item54>
+        <Filename Value="MiTeC_SIF.pas"/>
+        <UnitName Value="MiTeC_SIF"/>
+      </Item54>
+      <Item55>
+        <Filename Value="MiTeC_SimpleCrypt.pas"/>
+        <UnitName Value="MiTeC_SimpleCrypt"/>
+      </Item55>
+      <Item56>
+        <Filename Value="MiTeC_Sqlite3API.pas"/>
+        <UnitName Value="MiTeC_SqLite3Api"/>
+      </Item56>
+      <Item57>
+        <Filename Value="MiTeC_SS.pas"/>
+        <UnitName Value="MiTeC_SS"/>
+      </Item57>
+      <Item58>
+        <Filename Value="MiTeC_StringsHelper.pas"/>
+        <UnitName Value="MiTeC_StringsHelper"/>
+      </Item58>
+      <Item59>
+        <Filename Value="MiTeC_SvrAPI.pas"/>
+        <UnitName Value="MiTeC_SvrAPI"/>
+      </Item59>
+      <Item60>
+        <Filename Value="MiTeC_USB.pas"/>
+        <UnitName Value="MiTeC_USB"/>
+      </Item60>
+      <Item61>
+        <Filename Value="MiTeC_VersionInfo.pas"/>
+        <UnitName Value="MiTeC_VersionInfo"/>
+      </Item61>
+      <Item62>
+        <Filename Value="MiTeC_WideStrings.pas"/>
+        <UnitName Value="MiTeC_WideStrings"/>
+      </Item62>
+      <Item63>
+        <Filename Value="MiTeC_WinPerf.pas"/>
+        <UnitName Value="MiTeC_WinPerf"/>
+      </Item63>
+      <Item64>
+        <Filename Value="MiTeC_WkstaNT.pas"/>
+        <UnitName Value="MiTeC_WkstaNT"/>
+      </Item64>
+      <Item65>
+        <Filename Value="MiTeC_WnASPI32.pas"/>
+        <UnitName Value="MiTeC_WnASPI32"/>
+      </Item65>
+      <Item66>
+        <Filename Value="MiTeC_Ws2_32.pas"/>
+        <UnitName Value="MiTeC_Ws2_32"/>
+      </Item66>
+      <Item67>
+        <Filename Value="MiTeC_WtsApi32.pas"/>
+        <UnitName Value="MiTeC_WtsApi32"/>
+      </Item67>
+      <Item68>
+        <Filename Value="MiTeC_WMI.pas"/>
+        <UnitName Value="MiTeC_WMI"/>
+      </Item68>
+      <Item69>
+        <Filename Value="MiTeC_FPC_WbemScripting_TLB.pas"/>
+        <UnitName Value="MiTeC_FPC_WbemScripting_TLB"/>
+      </Item69>
+      <Item70>
+        <Filename Value="MiTeC_FPC_ActiveDs_TLB.pas"/>
+        <UnitName Value="MiTeC_FPC_ActiveDs_TLB"/>
+      </Item70>
+      <Item71>
+        <Filename Value="MiTeC_ADSI.pas"/>
+        <UnitName Value="MiTeC_ADSI"/>
+      </Item71>
+      <Item72>
+        <Filename Value="MiTeC_FPC.pas"/>
+        <UnitName Value="MiTeC_FPC"/>
+      </Item72>
+      <Item73>
+        <Filename Value="MiTeC_TaskScheduler_TLB.pas"/>
+        <UnitName Value="MiTeC_TaskScheduler_TLB"/>
+      </Item73>
+      <Item74>
+        <Filename Value="MiTeC_Arrays.pas"/>
+        <UnitName Value="MiTeC_Arrays"/>
+      </Item74>
+      <Item75>
+        <Filename Value="MiTeC_Cert.pas"/>
+        <UnitName Value="MiTeC_Cert"/>
+      </Item75>
+      <Item76>
+        <Filename Value="MiTeC_CryptUI.pas"/>
+        <UnitName Value="MiTeC_CryptUI"/>
+      </Item76>
+      <Item77>
+        <Filename Value="MiTeC_IPTypes.pas"/>
+        <UnitName Value="MiTeC_IPTypes"/>
+      </Item77>
+      <Item78>
+        <Filename Value="MiTeC_NCC.pas"/>
+        <UnitName Value="MiTeC_NCC"/>
+      </Item78>
+      <Item79>
+        <Filename Value="MiTeC_IcmpApi.pas"/>
+        <UnitName Value="MiTeC_IcmpAPI"/>
+      </Item79>
+      <Item80>
+        <Filename Value="MiTeC_WinTrust.pas"/>
+        <UnitName Value="MiTeC_WinTrust"/>
+      </Item80>
+      <Item81>
+        <Filename Value="MiTeC_MachineJournal.pas"/>
+        <UnitName Value="MiTeC_MachineJournal"/>
+      </Item81>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCLBase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="c:\0"/>
+      <UseExcludeFileFilter Value="True"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

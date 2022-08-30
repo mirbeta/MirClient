@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Print_Titles" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M0,10h8v6H0V10z M0,24h8v-6H0V24z M14,10h-4v4h4V10z"/>
+</g>
+<path class="Green" d="M18,8h-8V2h8V8z M0,8h8V2H0V8z M20,2v6h8V2H20z"/>
+<path class="Black" d="M18,18h-2v-8h10v8h-2v-6h-6V18z M32,18v10c0,1.1-0.9,2-2,2h-4v2H16v-2h-4c-1.1,0-2-0.9-2-2V18
+	c0-1.1,0.9-2,2-2h2v3c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1v-3h2C31.1,16,32,16.9,32,18z M24,30v-4h-6v4H24z"/>
+</svg>

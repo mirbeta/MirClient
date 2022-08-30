@@ -1,0 +1,18 @@
+This program manages software project issues.
+
+The panel on the right contains editors for displaying/modifying the fields of the current record. However, you may prefer to edit the focused record directly within the grid using the in-place editors.
+
+Use the tabs placed on the left side of the grid or the View menu to switch the data display. Options include a simple list, grouped data and a master-detail display.
+
+Summary details can be modified as required. Right-click on the summary footer to select the type of the calculation for the column.
+
+To insert/delete records, use the navigator in the right side panel or simply press the Insert or Delete via the keyboard.
+
+When you begin working with the program, you should specify:
+ - the department;
+ - the list of users for each department;
+ - the list of projects;
+ - the manager for each project;
+ - the project team for each project.
+
+After that, you should schedule work for each person for the coming week. Finally, enter data for your project, i.e. the list of project items to be managed.

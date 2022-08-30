@@ -1,0 +1,17 @@
+In this demo you can:
+
+Switch between the 'Summary Table', 'Summary Chart', and 'DrillDown Table' tabs to display a pivot grid's data using a corresponding ExpressQuantumGrid View and dataset:
+  - Summary Table tab. You can navigate through records as well as sort and filter data.
+  - Summary Chart tab. You can change the diagram type, customize chart appearance settings and use data mining capabilities.
+  - DrillDown Table tab. Click a cell within the pivot grid to update the View with data corresponding to the cell.
+
+Also you can:
+  - Summarize data on car sales
+  - Filter source data
+  - Organize the layout by dragging fields into different drop areas
+  - Export data in either Excel format, as text, html or xml (the File/Export menu)
+  - Change the location of totals (the Options/Totals Location menu)
+  - Hide subtotals and grand totals (the Options/Totals Visibility menu)
+  - Specify the visibility of fields and filter separator (the Options/Elements Visibility menu)
+  - Customize selection options (the Options/Selection menu)
+  - Select a particular look and feel from the five look and feel options available (the Look&Feel menu)

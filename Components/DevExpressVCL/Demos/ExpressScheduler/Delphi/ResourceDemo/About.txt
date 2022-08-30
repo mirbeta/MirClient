@@ -1,0 +1,74 @@
+This demo shows how the ExpressScheduler can be used in applications that deal with resource allocation. In this example it is used by a small rental company which has 4 exotic sport cars.
+
+In this demo you can:
+
+- Show/hide resources (in this example they are the cars) and the associated events that are displayed for them depend upon what is selected in the list view (located on the main form's left side)
+
+- Change how events are grouped and the layout of resources using the "Resources" item in the Main menu
+
+- Choose different views and see how they display resources and events (select different periods of time in the Date Navigator or use the View menu: Day, Work week, Week, etc.)
+
+- Rent a car or cancel a reservation using the Main menu, the popup menu or the toolbar (you can see the Date Navigator function in standalone mode and also how to work with events in code). All the other ways of modifying the contents of the scheduler are disabled
+
+- See recurring events used for "Car wash" and "Maintenance"
+
+- Use custom menu items in the scheduler's built-in popup menu ("Rent a car" and "Cancel reservation")
+
+- Switch between the Modern and Classic styles for the scheduler (View menu: View Style)
+
+- See how the scheduler changes its appearance depending on the Look&Feel used (Skins menu)
+
+- See how custom drawing can be used to change the default colors of the day, week and weeks views and the appearance of the Date Navigator (you can turn this on and off by using the "View|Use alternative colors" menu item)
+
+- See how the TStringGrid (or any other similar control) can be placed on the scheduler and filled with data from events
+
+- Synchronize the selection in the TStringGrid with the selected events in the scheduler by selecting an event or row
+
+- Menu File/Export:
+	- export data in either Excel's format, as text, html or xml
+
+- Menu File/Synchronization:
+	- synchronize the scheduler with MS Outlook®
+	- synchronize MS Outlook® with the scheduler
+
+- Menu Options/Day:
+	- hide the all-day event area
+	- make event times permanently visibile regardless of whether they match the timescale's units or not
+	- hide non-working hours
+	- show minutes in a time ruler
+	- switch the visibility of the day headers and specify how the Modern View style displays their captions
+
+- Menu Options/Week:
+	- compress weekends
+	- switch between either one or two columns of week view days
+
+- Menu Options/Month:
+	- compress weekends
+	- hide weekends
+
+- Menu Options/Timegrid:
+	- hide non-working hours
+
+- Menu Options/Year:	
+	- show only all-day events
+
+- Menu Events/Intersection:
+	- schedule overlapped events
+
+- Menu Events/Sharing between resources:
+	- allow events to be assigned to specific resources
+
+- Menu Resources/GroupBy:
+	- show the time view without resources
+	- view events organized first by resources and then by dates
+	- view events organized first by dates and then by resources 
+
+- Menu Resources/LayoutEditor...:
+	- rearrange resources using the Resources layout editor
+
+- Menu Resources/Resources per page:
+	- show all resources in the time view
+	- group either one, two or three resources per page
+
+- Menu Event Dialog Style:
+	- choose from the available Event dialog styles, including the standard and Ribbon styles

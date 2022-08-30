@@ -1,0 +1,10 @@
+TRzLauncher
+This nonvisual component makes it very easy to start another application from within your program. Simply select a file to launch. If the file is not an executable file, the component attempts to start the application associated with the selected file's type. TRzLauncher supports two ways of starting another application: Launch and Execute.
+
+The Launch method causes the component to become notified when the launched application is terminated or if an error occurs.  Check the Wait Until Finished option if you want the main application to sleep while the launched application is running. Otherwise, a background thread is created to wait for the launched application to terminate. In this demo, the notification of termination is displayed using the TRzTrayIcon.ShowBalloonHint method.
+
+The Execute method simply starts the appropriate application and immediately returns control back to the calling program.
+
+TRzURLLabel
+This TRzLabel descendant makes it easy to create hyperlinks within your application, which point to web pages, email addresses, newsgroups, and more.
+                                        

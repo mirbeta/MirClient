@@ -1,0 +1,9 @@
+In this demo, you can:
+
+- create filter conditions using the Filter Control located above the tree list 
+
+- filter out nodes and display only those that match the created conditions (the Apply button)
+
+- load/save filter conditions from/to a file (the Load... and Save As... buttons)
+
+- roll back to the previously applied filter conditions (the Reset button)

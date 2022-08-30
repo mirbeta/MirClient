@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="DCPconst">
+  <const name="DCPcipherpage" type="string">
+    <value>
+      DCPciphers
+    </value>
+  </const>
+  <const name="DCPhashpage" type="string">
+    <value>
+      DCPhashes
+    </value>
+  </const>
+  <const name="DCP_rc2" type="Integer">
+    <value>
+      $1
+    </value>
+  </const>
+  <const name="DCP_sha1" type="Integer">
+    <value>
+      $2
+    </value>
+  </const>
+  <const name="DCP_rc5" type="Integer">
+    <value>
+      $3
+    </value>
+  </const>
+  <const name="DCP_rc6" type="Integer">
+    <value>
+      $4
+    </value>
+  </const>
+  <const name="DCP_blowfish" type="Integer">
+    <value>
+      $5
+    </value>
+  </const>
+  <const name="DCP_twofish" type="Integer">
+    <value>
+      $6
+    </value>
+  </const>
+  <const name="DCP_cast128" type="Integer">
+    <value>
+      $7
+    </value>
+  </const>
+  <const name="DCP_gost" type="Integer">
+    <value>
+      $8
+    </value>
+  </const>
+  <const name="DCP_rijndael" type="Integer">
+    <value>
+      $9
+    </value>
+  </const>
+  <const name="DCP_ripemd160" type="Integer">
+    <value>
+      $A
+    </value>
+  </const>
+  <const name="DCP_misty1" type="Integer">
+    <value>
+      $B
+    </value>
+  </const>
+  <const name="DCP_idea" type="Integer">
+    <value>
+      $C
+    </value>
+  </const>
+  <const name="DCP_mars" type="Integer">
+    <value>
+      $D
+    </value>
+  </const>
+  <const name="DCP_haval" type="Integer">
+    <value>
+      $E
+    </value>
+  </const>
+  <const name="DCP_cast256" type="Integer">
+    <value>
+      $F
+    </value>
+  </const>
+  <const name="DCP_md5" type="Integer">
+    <value>
+      $10
+    </value>
+  </const>
+  <const name="DCP_md4" type="Integer">
+    <value>
+      $11
+    </value>
+  </const>
+  <const name="DCP_rc4" type="Integer">
+    <value>
+      $13
+    </value>
+  </const>
+  <const name="DCP_ice" type="Integer">
+    <value>
+      $14
+    </value>
+  </const>
+  <const name="DCP_thinice" type="Integer">
+    <value>
+      $15
+    </value>
+  </const>
+  <const name="DCP_ice2" type="Integer">
+    <value>
+      $16
+    </value>
+  </const>
+  <const name="DCP_des" type="Integer">
+    <value>
+      $17
+    </value>
+  </const>
+  <const name="DCP_3des" type="Integer">
+    <value>
+      $18
+    </value>
+  </const>
+</namespace>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="AlignFloatingObjectTopRight"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+</style>
+<path class="Black" d="M29,0H1C0.5,0,0,0.5,0,1v28c0,0.5,0.5,1,1,1h28c0.5,0,1-0.5,1-1V1C30,0.5,29.5,0,29,0z M28,28H2V2h26V28z
+	 M18,6H4V4h14V6z M18,10H4V8h14V10z M26,14H4v-2h22V14z M26,18H4v-2h22V18z M26,22H4v-2h22V22z M26,26H4v-2h22V26z"/>
+<rect x="20" y="4" class="Yellow" width="6" height="6"/>
+</svg>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/09 19:56:41.000.124,D:\BlueCodePXL\Components\JSocket\JSocket.pas=</Transaction>
+    <Transaction>2020/09/09 19:56:50.000.008,=D:\BlueCodePXL\Components\JSocket\System.Win.ScktComp.pas</Transaction>
+    <Transaction>2020/09/09 19:58:50.000.071,=rtl.dcp</Transaction>
+    <Transaction>2020/09/09 20:00:32.000.478,=D:\BlueCodePXL\Components\JSocket\ScktComp.pas</Transaction>
+    <Transaction>2020/09/09 20:11:46.000.223,=D:\BlueCodePXL\Components\JSocket\D7ScktComp.pas</Transaction>
+  </Transactions>
+</BorlandProject>

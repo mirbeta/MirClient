@@ -1,0 +1,44 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="InvoiceDemoD103Rio">
+    <MSBuild Projects="Invoice\InvoiceDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CustomFunctionDemoD103Rio">
+    <MSBuild Projects="CustomFunction\CustomFunctionDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoD103Rio">
+    <MSBuild Projects="CustomDraw\CustomDrawDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="OutlineDemoD103Rio">
+    <MSBuild Projects="Outline\OutlineDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ConditionalFormattingDemoD103Rio">
+    <MSBuild Projects="ConditionalFormatting\ConditionalFormattingDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CommentsDemoD103Rio">
+    <MSBuild Projects="Comments\CommentsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SimpleReportDemoD103Rio">
+    <MSBuild Projects="SimpleReport\SimpleReportDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="HorizontalReportDemoD103Rio">
+    <MSBuild Projects="HorizontalReport\HorizontalReportDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailReportDemoD103Rio">
+    <MSBuild Projects="MasterDetailReport\MasterDetailReportDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="InvoiceReportDemoD103Rio">
+    <MSBuild Projects="InvoiceReport\InvoiceReportDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="InvoiceDemoD103Rio;CustomFunctionDemoD103Rio;CustomDrawDemoD103Rio;OutlineDemoD103Rio;ConditionalFormattingDemoD103Rio;CommentsDemoD103Rio;SimpleReportDemoD103Rio;HorizontalReportDemoD103Rio;MasterDetailReportDemoD103Rio;InvoiceReportDemoD103Rio" />
+  </Target>
+</Project>

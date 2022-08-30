@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="None_Horizontal_Gridlines" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M10.2,16H2v-2h8.2l1,1L10.2,16z M13.8,22h4.3l-2-2h-0.3L13.8,22z M8.2,20H2v2h8.2L8.2,20z M10.2,8H2v2h6.2
+		L10.2,8z M13.8,8l2,2h0.3l2-2H13.8z M23.8,10H30V8h-8.2L23.8,10z M2,2v2h28V2H2z M20.8,15l1,1H30v-2h-8.2L20.8,15z M2,28h28v-2H2
+		V28z M21.8,22H30v-2h-6.2L21.8,22z"/>
+</g>
+<polygon class="Red" points="22,11 20,9 16,13 12,9 10,11 14,15 10,19 12,21 16,17 20,21 22,19 18,15 "/>
+</svg>

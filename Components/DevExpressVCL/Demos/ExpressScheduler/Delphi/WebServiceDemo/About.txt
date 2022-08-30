@@ -1,0 +1,17 @@
+In this demo, you can:
+
+ - Choose an online calendar service to access and sign in to the account registered on this service (the "Add Calendar..." button).
+
+ - The Google calendar service: Click Allow in the "Request for Permission" window to grant the demo access to the account's resources with the permissions listed in this window.
+
+ - The Microsoft Office calendar service: Click Accept in the "Sign in to your account" window to grant the demo access to the account's resources with the permissions listed in this window.
+
+ - Use check boxes to select one or more calendars available in the account for display in the scheduler.
+
+ - Browse, create, modify, or remove calendar events.
+
+ - Synchronize the scheduler with the connected calendars (the F5 key or the "Reload Events" button).
+
+The demo does not store any client application credentials (client ID or secret). However, the demo stores calendar IDs along with access and refresh tokens associated with the signed-in accounts to an INI file, so you don't need to authenticate yourself again on the next run. This file (called Demo.INI) resides in the demo application's folder. You can delete this file at any moment.
+
+Important Note: This token storing approach is for demonstration purposes only. We do not recommend using it in real applications.

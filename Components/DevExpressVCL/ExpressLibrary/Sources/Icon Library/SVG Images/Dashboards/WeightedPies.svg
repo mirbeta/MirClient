@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="WeightedPies">
+	<path class="Blue" d="M26,10c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2h-8V4c0-1.1-0.9-2-2-2s-2,0.9-2,2v2H6C4.9,6,4,6.9,4,8
+		c0,1.1,0.9,2,2,2L0,22c0.5,3.4,3.4,6,7,6s6.5-2.6,7-6L8,10h6h4h6l-6,12c0.5,3.4,3.4,6,7,6s6.5-2.6,7-6L26,10z M2.2,22L7,12.5
+		l4.8,9.5H2.2z M20.2,22l4.8-9.5l4.8,9.5H20.2z"/>
+</g>
+</svg>

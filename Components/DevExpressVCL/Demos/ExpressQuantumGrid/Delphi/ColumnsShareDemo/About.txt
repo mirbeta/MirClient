@@ -1,0 +1,5 @@
+In this demo you can:
+
+- see how to share editors between columns
+
+- customize the single LookUp editor properties and see how it affects the Creator, Owner, Manager and Name columns (first two via the Items tab, last two in Projects tab)

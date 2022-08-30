@@ -1,0 +1,32 @@
+object wnd_msi_UserPicture: Twnd_msi_UserPicture
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'wnd_msi_UserPicture'
+  ClientHeight = 128
+  ClientWidth = 161
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image: TImage
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 155
+    Height = 122
+    Align = alClient
+    AutoSize = True
+    Center = True
+    OnClick = ImageClick
+    ExplicitLeft = 212
+    ExplicitTop = 149
+    ExplicitWidth = 105
+    ExplicitHeight = 105
+  end
+end

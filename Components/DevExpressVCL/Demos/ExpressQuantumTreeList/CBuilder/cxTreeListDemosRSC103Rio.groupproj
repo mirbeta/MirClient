@@ -1,0 +1,65 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="BandedDemoRSC103Rio">
+    <MSBuild Projects="BandedDemo\BandedDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="BandedFixedDemoRSC103Rio">
+    <MSBuild Projects="BandedFixedDemo\BandedFixedDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ColumnsMultiEditorsDemoRSC103Rio">
+    <MSBuild Projects="ColumnsMultiEditorsDemo\ColumnsMultiEditorsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CheckGroupsDemoRSC103Rio">
+    <MSBuild Projects="CheckGroupsDemo\CheckGroupsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoRSC103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="DragDropDemoRSC103Rio">
+    <MSBuild Projects="DragDropDemo\DragDropDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="VirtualModeDemoRSC103Rio">
+    <MSBuild Projects="VirtualModeDemo\VirtualModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ProviderModeDemoRSC103Rio">
+    <MSBuild Projects="ProviderModeDemo\ProviderModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SimpleListDemoRSC103Rio">
+    <MSBuild Projects="SimpleListDemo\SimpleListDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SimpleTreeDemoRSC103Rio">
+    <MSBuild Projects="SimpleTreeDemo\SimpleTreeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoRSC103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesSimpleDemoRSC103Rio">
+    <MSBuild Projects="StylesSimpleDemo\StylesSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SummariesDemoRSC103Rio">
+    <MSBuild Projects="SummariesDemo\SummariesDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundModeDemoRSC103Rio">
+    <MSBuild Projects="UnboundModeDemo\UnboundModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceValidationDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceValidationDemo\EditorsInPlaceValidationDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FilterDropDownDemoRSC103Rio">
+    <MSBuild Projects="FilterDropDownDemo\FilterDropDownDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="BandedDemoRSC103Rio;BandedFixedDemoRSC103Rio;ColumnsMultiEditorsDemoRSC103Rio;CheckGroupsDemoRSC103Rio;CustomDrawDemoRSC103Rio;DragDropDemoRSC103Rio;EditorsInPlaceDemoRSC103Rio;VirtualModeDemoRSC103Rio;ProviderModeDemoRSC103Rio;SimpleListDemoRSC103Rio;SimpleTreeDemoRSC103Rio;StylesMultiDemoRSC103Rio;StylesSimpleDemoRSC103Rio;SummariesDemoRSC103Rio;UnboundModeDemoRSC103Rio;EditorsInPlaceValidationDemoRSC103Rio;FilterDropDownDemoRSC103Rio" />
+  </Target>
+</Project>

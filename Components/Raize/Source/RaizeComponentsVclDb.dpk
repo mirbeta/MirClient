@@ -1,0 +1,59 @@
+{$I RzComps.inc}
+{$WARN SYMBOL_DEPRECATED OFF}
+
+package RaizeComponentsVclDb;
+
+{$R *.res}
+{$R *.otares}
+{$R 'RaizeComponentsVclDb.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $50400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  Vcl,
+  VclDB,
+  RaizeComponentsVcl;
+
+contains
+  RzDBBnEd in 'RzDBBnEd.pas',
+  RzDBChk in 'RzDBChk.pas',
+  RzDBCmbo in 'RzDBCmbo.pas',
+  RzDBDTP in 'RzDBDTP.pas',
+  RzDBEdit in 'RzDBEdit.pas',
+  RzDBGrid in 'RzDBGrid.pas',
+  RzDBLbl in 'RzDBLbl.pas',
+  RzDBList in 'RzDBList.pas',
+  RzDBLook in 'RzDBLook.pas',
+  RzDBLookupForm in 'RzDBLookupForm.pas',
+  RzDBNav in 'RzDBNav.pas',
+  RzDBProg in 'RzDBProg.pas',
+  RzDBRGrp in 'RzDBRGrp.pas',
+  RzDBSpin in 'RzDBSpin.pas',
+  RzDBStat in 'RzDBStat.pas',
+  RzDBTrak in 'RzDBTrak.pas';
+
+end.

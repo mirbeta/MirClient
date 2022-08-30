@@ -1,0 +1,35 @@
+#define VS_FFI_FILEFLAGSMASK    0x0000003FL
+#define VOS__WINDOWS32          0x00000004L
+#define VFT_APP                 0x00000001L
+#define VFT_DLL                 0x00000002L;
+
+1 VERSIONINFO LOADONCALL MOVEABLE DISCARDABLE IMPURE
+FILEVERSION 6, 0, 0, 0
+PRODUCTVERSION 6, 0, 0, 0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Raize Software, Inc.\000"
+      VALUE "FileDescription", "Raize Components Demo\000"
+      VALUE "FileVersion", "6.0.0.0\000"
+      VALUE "InternalName", "\000"
+      VALUE "LegalCopyright", "Copyright \251 1995-2011 Raize Software, Inc.\000"
+      VALUE "LegalTrademarks", "\000"
+      VALUE "OriginalFilename", "\000"
+      VALUE "ProductName", "CodeSite\000"
+      VALUE "ProductVersion", "6.0.0.0\000"
+      VALUE "Comments", "\000"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 1033, 1252
+  END
+END
+

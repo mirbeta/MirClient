@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.6;}
+</style>
+<path class="Black" d="M4,2v28h24V8h-6V2H4z"/>
+<polygon class="White" points="6,4 6,28 26,28 26,10 20,10 20,4 "/>
+<g id="Save_and_close">
+	<g>
+		<path class="Red" d="M25,18c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S21.1,18,25,18z"/>
+		<polygon class="Red" points="28.8,27.3 27.4,28.7 25,26.4 22.7,28.7 21.3,27.3 23.6,25 21.3,22.7 22.7,21.3 25,23.6 27.3,21.3 
+			28.7,22.7 26.4,25 		"/>
+	</g>
+	<g>
+		<path class="Red" d="M25,18c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S21.1,18,25,18z"/>
+		<polygon class="White" points="28.8,27.3 27.4,28.7 25,26.4 22.7,28.7 21.3,27.3 23.6,25 21.3,22.7 22.7,21.3 25,23.6 27.3,21.3 
+			28.7,22.7 26.4,25 		"/>
+	</g>
+</g>
+<g id="Слой_2" class="st0">
+	<rect x="8" y="20" class="Black" width="8" height="2"/>
+	<rect x="8" y="16" class="Black" width="12" height="2"/>
+	<rect x="8" y="12" class="Black" width="16" height="2"/>
+	<rect x="8" y="8" class="Black" width="10" height="2"/>
+</g>
+</svg>

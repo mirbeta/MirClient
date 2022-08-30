@@ -1,0 +1,22 @@
+This example demonstrates the data drilling functionality of the ChartView along with a few additional features:
+
+- Data Drilling
+Initially data (orders) is grouped by Product, Customer and Payment Type. The topmost level (Products) is visible. Order is the deepest level representing actual data.
+Payment Amount series is visible and the sum of its values for each group (product) is represented as a chart value (column for column diagram, pie slice for pie diagram, etc).
+To drill down you can click on a chart value or select a value from the list available for each data group on the toolbox (located at the top of the chart). This value becomes active for the data group.
+To drill up you can simply press the right mouse button anywhere on the chart or select a data group on the toolbox by clicking its caption.
+You can then drill up/down by clicking on data group captions if the appropriate data group active values are set already.
+ChartView gives end-user the ability to rearrange, show and hide data groups. You can rearrange them by using drag & drop on the toolbox and show/hide them from/to the Customization Form (click on the toolbox's Customize Chart button to show/hide this form).
+
+- Customization Form
+In addition to data groups, you can customize series (show/hide/move/sort) and other chart options (legend/title/toolbox/hints).
+
+- Diagram selection
+You can choose which diagram should be used to display the chart's data by clicking on the link at the right corner of the toolbox (list of available diagrams will be shown).
+
+- Scrolling Histogram (Column/Bar/Line/Area diagram) categories
+If there are more than 10 (defined by the chart's property) categories in the chart, a scrollbar will appear allowing you to see all values.
+
+- Table synchronization with the chart
+You can always click on the Table tab of the grid to view chart data in table format. The table will display the same grouping, summary and fields as that of the chart. Active groups and their active values will be marked using a bold font. Rows that correspond to the currently visible chart values will be selected.
+This synchronization is implemented in the demo - see the SynchronizeTableWithChart method of the main form.

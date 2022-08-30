@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Date__x26__Time" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+</style>
+<path class="Red" d="M7,4h21V3c0-0.6-0.4-1-1-1H7C5.3,2,4,3.3,4,5v22c0,1.7,1.3,3,3,3h20c0.6,0,1-0.4,1-1V6H7C6.4,6,6,5.6,6,5
+	S6.4,4,7,4z M14.4,10.1c5.6-1.1,10.5,3.8,9.4,9.4c-0.6,3.1-3.1,5.7-6.3,6.3c-5.6,1.1-10.5-3.8-9.4-9.4C8.7,13.3,11.3,10.7,14.4,10.1
+	z"/>
+<polygon class="Black" points="16,18 16,12 14,12 14,20 22,20 22,18 "/>
+</svg>

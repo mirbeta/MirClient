@@ -1,0 +1,72 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{00A613AC-6508-497B-9427-438B09FA0A98}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="tmsc2011.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="tmsexc2011.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="tmsdec2011.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="tmsxlsc2011.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="tmsc2011">
+			<MSBuild Projects="tmsc2011.cbproj"/>
+		</Target>
+		<Target Name="tmsc2011:Clean">
+			<MSBuild Projects="tmsc2011.cbproj" Targets="Clean"/>
+		</Target>
+		<Target Name="tmsc2011:Make">
+			<MSBuild Projects="tmsc2011.cbproj" Targets="Make"/>
+		</Target>
+		<Target Name="tmsexc2011">
+			<MSBuild Projects="tmsexc2011.cbproj"/>
+		</Target>
+		<Target Name="tmsexc2011:Clean">
+			<MSBuild Projects="tmsexc2011.cbproj" Targets="Clean"/>
+		</Target>
+		<Target Name="tmsexc2011:Make">
+			<MSBuild Projects="tmsexc2011.cbproj" Targets="Make"/>
+		</Target>
+		<Target Name="tmsdec2011">
+			<MSBuild Projects="tmsdec2011.cbproj"/>
+		</Target>
+		<Target Name="tmsdec2011:Clean">
+			<MSBuild Projects="tmsdec2011.cbproj" Targets="Clean"/>
+		</Target>
+		<Target Name="tmsdec2011:Make">
+			<MSBuild Projects="tmsdec2011.cbproj" Targets="Make"/>
+		</Target>
+		<Target Name="tmsxlsc2011">
+			<MSBuild Projects="tmsxlsc2011.cbproj"/>
+		</Target>
+		<Target Name="tmsxlsc2011:Clean">
+			<MSBuild Projects="tmsxlsc2011.cbproj" Targets="Clean"/>
+		</Target>
+		<Target Name="tmsxlsc2011:Make">
+			<MSBuild Projects="tmsxlsc2011.cbproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="tmsc2011;tmsexc2011;tmsdec2011;tmsxlsc2011"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="tmsc2011:Clean;tmsexc2011:Clean;tmsdec2011:Clean;tmsxlsc2011:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="tmsc2011:Make;tmsexc2011:Make;tmsdec2011:Make;tmsxlsc2011:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

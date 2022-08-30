@@ -1,0 +1,77 @@
+object Form3: TForm3
+  Left = 0
+  Height = 500
+  Top = 0
+  Width = 602
+  Caption = 'USB History'
+  ClientHeight = 500
+  ClientWidth = 602
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.8.0.6'
+  Visible = False
+  object lv: TListView
+    Left = 3
+    Height = 467
+    Top = 3
+    Width = 602
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'Device'
+        Width = 200
+      end    
+      item
+        Caption = 'Serial number'
+        Width = 150
+      end    
+      item
+        Caption = 'Last seen'
+        Width = 120
+      end    
+      item
+        Caption = 'Class'
+        Width = 100
+      end>
+    ColumnClick = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+    OnCompare = lvCompare
+  end
+  object Button3: TButton
+    Cursor = crHandPoint
+    Left = 3
+    Height = 25
+    Top = 470
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Save...'
+    OnClick = Button3Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Cursor = crHandPoint
+    Left = 522
+    Height = 25
+    Top = 470
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'Close'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object sd: TSaveDialog
+    DefaultExt = '.sif'
+    Filter = 'System Information files|*.sif|All files|*.*'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
+    left = 378
+    top = 182
+  end
+end

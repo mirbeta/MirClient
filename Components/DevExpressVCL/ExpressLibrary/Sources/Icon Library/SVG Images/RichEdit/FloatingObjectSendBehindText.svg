@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="FloatingObjectSendBehindText"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+</style>
+<path class="Black" d="M21,0H1C0.5,0,0,0.5,0,1v20c0,0.5,0.5,1,1,1h20c0.5,0,1-0.5,1-1V1C22,0.5,21.5,0,21,0z M20,20H2V2h18V20z
+	 M18,6H4V4h14V6z M18,10H4V8h14V10z M18,14H4v-2h14V14z M18,18H4v-2h14V18z"/>
+<path class="Blue" d="M24,12.5V22c0,1.1-0.9,2-2,2h-9.5c1.2,3.5,4.6,6,8.5,6c5,0,9-4,9-9C30,17.1,27.5,13.8,24,12.5z"/>
+</svg>

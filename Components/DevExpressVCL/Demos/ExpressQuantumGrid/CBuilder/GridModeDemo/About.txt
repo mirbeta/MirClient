@@ -1,0 +1,11 @@
+In this demo:
+
+ - first click the "Add about 100,000 orders" button to generate a large set of data (by adding  records to the 1,000 which exist already)
+
+ - expand orders for any model
+
+ - select Options/Customize views "Calculate Summaries" to see how many records were loaded for each model
+
+ - sort and/or filter the large set of data (see Options/Customize views)
+
+Note: Support is provided for BDE 32-bit (BDE 64-bit is not supported).

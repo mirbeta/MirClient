@@ -1,0 +1,11 @@
+This is a very basic demo showing the grid's master/detail capabilities, including displaying views within tabbed pages.
+
+If you have not tried using the grid at design time, this is the place to start.
+
+In this demo you can:
+
+- change the position of the detail views' tabs (see Options/Tabs Position) 
+
+- enable synchronization of the detail views. In this case any changes in one detail view (e.g. sorting, filtering etc) will be duplicated in the other detail views at the same level
+
+- see how little code was required 

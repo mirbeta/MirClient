@@ -1,0 +1,17 @@
+In this demo you can:
+
+- apply the predefined filter templates using the combobox
+
+- use the standard filter buttons on the column headers to filter by column values
+
+- use the Custom Filter dialog to apply complex filter conditions
+
+- use a custom filter by selecting filter values from the custom filter dialog
+
+- click the 'ONLY GRIDS' item from the filter value list for the Product column. This has the same effect as selecting the 'Only grid components' element from the combo box
+
+- use the FilterBox checkbox to display data unfiltered
+
+- use the FilterBox button to clear filtering
+
+- change the FilterBox's position  

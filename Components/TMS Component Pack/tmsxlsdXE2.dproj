@@ -1,0 +1,187 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{e2e6ee1c-96ba-4dca-9d2b-0ba6d3e61236}</ProjectGuid>
+			<MainSource>tmsxlsdxe2.dpk</MainSource>
+			<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\tmsxlsd2007.bpl</DCC_DependencyCheckOutputName>
+			<ProjectVersion>13.4</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Base>True</Base>
+			<AppType>Package</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+			<TargetedPlatforms>1</TargetedPlatforms>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+			<Base_Win64>true</Base_Win64>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+			<Base_Win32>true</Base_Win32>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+			<DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Data.Win;Datasnap;Web;Soap;Winapi;System.Win;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<VerInfo_Locale>2067</VerInfo_Locale>
+			<DCC_CBuilderOutput>All</DCC_CBuilderOutput>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DesignOnlyPackage>false</DesignOnlyPackage>
+			<DCC_Description>TMS TAdvStringGrid Excel support</DCC_Description>
+			<DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\7.0\Bpl\tmsxlsd2010.bpl</DCC_DependencyCheckOutputName>
+			<DCC_WriteableConstants>true</DCC_WriteableConstants>
+			<DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
+			<GenDll>true</GenDll>
+			<GenPackage>true</GenPackage>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win64)'!=''">
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win32)'!=''">
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<Version>7.0</Version>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_WriteableConstants>True</DCC_WriteableConstants>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<Version>7.0</Version>
+			<DCC_WriteableConstants>True</DCC_WriteableConstants>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="$(MainSource)">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="vcl.dcp"/>
+			<DCCReference Include="vclimg.dcp"/>
+			<DCCReference Include="tmsdxe2.dcp"/>
+			<DCCReference Include="rtl.dcp"/>
+			<DCCReference Include="xlsadapter\tmsXlsMessages.pas"/>
+			<DCCReference Include="xlsadapter\tmsAdvExcelIOReg.pas"/>
+			<DCCReference Include="xlsadapter\tmsAdvGridExcel.pas"/>
+			<DCCReference Include="xlsadapter\tmsUBreakList.pas"/>
+			<DCCReference Include="xlsadapter\tmsUEscherGraphToBSE.pas"/>
+			<DCCReference Include="xlsadapter\tmsUEscherOtherRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUEscherRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUExcelAdapter.pas"/>
+			<DCCReference Include="xlsadapter\tmsUExcelRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUFlxFormats.pas"/>
+			<DCCReference Include="xlsadapter\tmsUFlxMessages.pas"/>
+			<DCCReference Include="xlsadapter\tmsUFlxNumberFormat.pas"/>
+			<DCCReference Include="xlsadapter\tmsUFlxRowComments.pas"/>
+			<DCCReference Include="xlsadapter\tmsUFlxStack.pas"/>
+			<DCCReference Include="xlsadapter\tmsUFlxUtils.pas"/>
+			<DCCReference Include="xlsadapter\tmsUOle2Impl.pas"/>
+			<DCCReference Include="xlsadapter\tmsUSheetNameList.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsBaseClientData.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsBaseList.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsBaseRecordLists.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsBaseRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsCellRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsChart.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsClientData.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsColInfo.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsCondFmt.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsEncodeFormula.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsEscher.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsFormula.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsFormulaParser.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsHyperLink.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsMD5.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsNotes.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsOtherRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsPageBreaks.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsPalette.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsPictures.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsProtect.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsRangeRecords.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsReferences.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsRowColEntries.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsSections.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsSheet.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsSST.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsStrings.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsTokenArray.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsWorkbookGlobals.pas"/>
+			<DCCReference Include="xlsadapter\tmsUXlsXF.pas"/>
+			<DCCReference Include="xlsadapter\tmsXLSAdapter.pas"/>
+			<DCCReference Include="xlsadapter\tmsXlsBaseTemplateStore.pas"/>
+			<DCCReference Include="xlsadapter\tmsXlsFormulaMessages.pas"/>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Package</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters/>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">2067</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">tmsxlsdxe2.dpk</Source>
+					</Source>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win64">False</Platform>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Stacked_Line_Chart_No_Markers"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+</style>
+<polygon class="Red" points="1.9,5.9 2.8,4.1 14.3,9.9 27.8,2.2 28.8,3.9 14.3,12.2 1.9,5.9 "/>
+<path class="Yellow" d="M2,16l0.6-1.9L14.3,18L28,14.1l0.5,1.9l-14.3,4.1L2,16L2,16z M2,16L2,16L2,16L2,16L2,16z"/>
+<path class="Blue" d="M2,28.1L2.6,30l11.7-3.9L28,30l0.5-1.9L14.3,24L2,28.1L2,28.1z M2,28.1L2,28.1L2,28.1L2,28.1L2,28.1z"/>
+</svg>

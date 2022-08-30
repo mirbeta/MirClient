@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Stock_Chart_Volume_Open_High_Low_Close"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="Table_Convert_To_Range">
+	<path class="Blue" d="M6,6H0V2h6V6z M14,2H8v4h6V2z M22,2h-6v4h6V2z"/>
+	<g class="st0">
+		<path class="Black" d="M14,12H8V8h6V12z M6,8H0v4h6V8z M16,8v4h6V8H16z"/>
+	</g>
+	<g class="st1">
+		<path class="Black" d="M13.4,26H14v4H8v-0.6l1.1-0.7L13.4,26z M16,30h6v-4h-6V30z M9.1,15.3l4.3,2.7H14v-4H8v0.6L9.1,15.3z
+			 M17.1,20.3l2.7,1.7l-2.7,1.7L16.6,24H22v-4h-5.4L17.1,20.3z M16,18h6v-4h-6V18z M24,24h6v-4h-6V24z M24,14v4h6v-4H24z M24,30h6
+			v-4h-6V30z"/>
+	</g>
+	<path class="Green" d="M16,22l-8-5v4c-2.2,0-4-1.8-4-4v-3H2v3c0,3.3,2.7,6,6,6v4L16,22z"/>
+</g>
+</svg>

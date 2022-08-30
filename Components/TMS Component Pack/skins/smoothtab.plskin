@@ -1,0 +1,15 @@
+[NORMAL]
+TOP=tabh.bmp
+CENTER=tabc.bmp
+BOTTOM=tabb.bmp
+
+[SELECTED]
+TOP=tabhs.bmp
+CENTER=tabcs.bmp
+BOTTOM=tabbs.bmp
+
+[MARGIN]
+X=4
+Y=10
+CAPTIONX=4
+CAPTIONY=0

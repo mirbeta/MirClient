@@ -1,0 +1,15 @@
+In this demo you can:
+
+- calculate different summaries when data is grouped by different columns
+
+- change the summary types (right mouse click on the group footer cell)
+
+- calculate using selected records only (see Options/Summary submenu)
+
+- ignore Null values for "Average Payment Amount" summary (see Options/Summary submenu)
+
+- change the layout of summary values shown on group rows (see Options/Group Summary Layout submenu)
+
+- define group footer visibility for the entire view and show/hide them for the specific group level (see Options/Group Footers)
+
+- group the table by dragging column header(s) to the grouping area (note the different summaries depending on the grouped columns)

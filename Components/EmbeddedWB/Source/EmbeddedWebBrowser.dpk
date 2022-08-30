@@ -1,0 +1,133 @@
+{*******************************************************}
+{          Embedded Web Browser package Delphi XE4      }
+{                                                       }
+{            For Delphi 5, 6, 7, 2005, 2006, 2007, 2009 }
+{                Freeware Components                    }
+{            Please note our uses terms                 }
+{                                                       }
+{                       Enjoy!                          }
+{   UPDATES:                                            }
+{               http://www.bsalsa.com                   }
+{*******************************************************************************}
+{LICENSE:
+THIS SOFTWARE IS PROVIDED TO YOU "AS IS" WITHOUT WARRANTY OF ANY KIND,
+EITHER EXPRESSED OR IMPLIED INCLUDING BUT NOT LIMITED TO THE APPLIED
+WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+YOU ASSUME THE ENTIRE RISK AS TO THE ACCURACY AND THE USE OF THE SOFTWARE
+AND ALL OTHER RISK ARISING OUT OF THE USE OR PERFORMANCE OF THIS SOFTWARE
+AND DOCUMENTATION. [YOUR NAME] DOES NOT WARRANT THAT THE SOFTWARE IS ERROR-FREE
+OR WILL OPERATE WITHOUT INTERRUPTION. THE SOFTWARE IS NOT DESIGNED, INTENDED
+OR LICENSED FOR USE IN HAZARDOUS ENVIRONMENTS REQUIRING FAIL-SAFE CONTROLS,
+INCLUDING WITHOUT LIMITATION, THE DESIGN, CONSTRUCTION, MAINTENANCE OR
+OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS,
+AIR TRAFFIC CONTROL, AND LIFE SUPPORT OR WEAPONS SYSTEMS. VSOFT SPECIFICALLY
+DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR SUCH PURPOSE.
+
+You may use, change or modify the component under 4 conditions:
+1. In your website, add a link to "http://www.bsalsa.com"
+2. In your application, add credits to "Embedded Web Browser"
+3. Mail me  (bsalsa@bsalsa.com) any code change in the unit
+   for the benefit of the other users.
+4. Please, consider donation in our web site!
+{*******************************************************************************}
+
+package EmbeddedWebBrowser;
+{$R *.res}
+{$R *.otares}
+{$R 'EWB.dcr'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Internet Embedded Web Browser Components'}
+{$IMPLICITBUILD ON}
+
+requires
+  designide,
+  rtl,
+  vcl,
+  vclimg;
+
+contains
+  EmbeddedWB in 'EmbeddedWB.pas',
+  AppWebUpdater in 'AppWebUpdater.pas',
+  AppWUStrings in 'AppWUStrings.pas',
+  ExportFavorites in 'ExportFavorites.pas',
+  IEParser in 'IEParser.pas',
+  FavMenu in 'FavMenu.pas',
+  FavoritesListView in 'FavoritesListView.pas',
+  FavoritesTree in 'FavoritesTree.pas',
+  HistoryListView in 'HistoryListView.pas',
+  HistoryMenu in 'HistoryMenu.pas',
+  IECache in 'IECache.pas',
+  IEDownload in 'IEDownload.pas',
+  IEMultiDownload in 'IEMultiDownload.pas',
+  IEDownloadStrings in 'IEDownloadStrings.pas',
+  IEDownloadAcc in 'IEDownloadAcc.pas',
+  IETravelLog in 'IETravelLog.pas',
+  ImportFavorites in 'ImportFavorites.pas',
+  LibXmlComps in 'LibXmlComps.pas',
+  LibXmlParser in 'LibXmlParser.pas',
+  LinksBar in 'LinksBar.pas',
+  RichEditBrowser in 'RichEditBrowser.pas',
+  SecurityManager in 'SecurityManager.pas',
+  SendMail_For_Ewb in 'SendMail_For_Ewb.pas',
+  UrlHistory in 'UrlHistory.pas',
+  Edithost in 'Edithost.pas',
+  EditDesigner in 'EditDesigner.pas',
+  IEAddress in 'IEAddress.pas',
+  EwbEditors in 'EwbEditors.pas',
+  EwbReg in 'EwbReg.pas',
+  Browse4Folder in 'Browse4Folder.pas',
+  FileExtAssociate in 'FileExtAssociate.pas',
+  EwbAcc in 'EwbAcc.pas',
+  EwbTools in 'EwbTools.pas',
+  DirMonitor in 'DirMonitor.pas',
+  HighLightXML in 'HighLightXML.pas',
+  HighLightHTML in 'HighLightHTML.pas',
+  Mshtml_Ewb in 'Mshtml_Ewb.pas',
+  HighLightRichSyntax in 'HighLightRichSyntax.pas',
+  SHDocVw_EWB in 'SHDocVw_EWB.pas',
+  UI_Less in 'UI_Less.pas',
+  EwbCore in 'EwbCore.pas',
+  MenuContext in 'MenuContext.pas',
+  FavoritesPopup in 'FavoritesPopup.pas',
+  EwbDDE in 'EwbDDE.pas',
+  EwbCoreTools in 'EwbCoreTools.pas',
+  EwbClasses in 'EwbClasses.pas',
+  EwbBehaviorsComp in 'EwbBehaviorsComp.pas',
+  EwbEvents in 'EwbEvents.pas',
+  EwbEventsComp in 'EwbEventsComp.pas',
+  EwbActns in 'EwbActns.pas',
+  EwbUrl in 'EwbUrl.pas',
+  IEDownloadTools in 'IEDownloadTools.pas',
+  wbhFixes in 'wbhFixes.pas',
+  MSHTMLEvents in 'MSHTMLEvents.pas',
+  EwbControlComponent in 'EwbControlComponent.pas',
+  EwbMouseHook in 'EwbMouseHook.pas',
+  EwbFocusControl in 'EwbFocusControl.pas',
+  LinksLabel in 'LinksLabel.pas',
+  Wcrypt2 in 'Wcrypt2.pas',
+  EWB.IEConst in 'EWB.IEConst.pas';
+
+end.

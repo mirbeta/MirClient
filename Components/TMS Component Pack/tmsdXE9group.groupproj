@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{204C13D2-0B57-4A8A-B95A-439B013C651C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="tmsdXE9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsexdXE9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsdedXE9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmswizdXE9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsxlsdXE9.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="tmsdXE9">
+        <MSBuild Projects="tmsdXE9.dproj"/>
+    </Target>
+    <Target Name="tmsdXE9:Clean">
+        <MSBuild Projects="tmsdXE9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsdXE9:Make">
+        <MSBuild Projects="tmsdXE9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsexdXE9">
+        <MSBuild Projects="tmsexdXE9.dproj"/>
+    </Target>
+    <Target Name="tmsexdXE9:Clean">
+        <MSBuild Projects="tmsexdXE9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsexdXE9:Make">
+        <MSBuild Projects="tmsexdXE9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsdedXE9">
+        <MSBuild Projects="tmsdedXE9.dproj"/>
+    </Target>
+    <Target Name="tmsdedXE9:Clean">
+        <MSBuild Projects="tmsdedXE9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsdedXE9:Make">
+        <MSBuild Projects="tmsdedXE9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmswizdXE9">
+        <MSBuild Projects="tmswizdXE9.dproj"/>
+    </Target>
+    <Target Name="tmswizdXE9:Clean">
+        <MSBuild Projects="tmswizdXE9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmswizdXE9:Make">
+        <MSBuild Projects="tmswizdXE9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsxlsdXE9">
+        <MSBuild Projects="tmsxlsdXE9.dproj"/>
+    </Target>
+    <Target Name="tmsxlsdXE9:Clean">
+        <MSBuild Projects="tmsxlsdXE9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsxlsdXE9:Make">
+        <MSBuild Projects="tmsxlsdXE9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="tmsdXE9;tmsexdXE9;tmsdedXE9;tmswizdXE9;tmsxlsdXE9"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="tmsdXE9:Clean;tmsexdXE9:Clean;tmsdedXE9:Clean;tmswizdXE9:Clean;tmsxlsdXE9:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="tmsdXE9:Make;tmsexdXE9:Make;tmsdedXE9:Make;tmswizdXE9:Make;tmsxlsdXE9:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+</style>
+<g id="Group">
+	<path class="Green" d="M10,11c0-0.5,0.5-1,1-1h9V3c0-0.5-0.5-1-1-1H3C2.5,2,2,2.5,2,3v16c0,0.5,0.5,1,1,1h7V11z"/>
+	<path class="Black" d="M30,2v6h-2V4h-4V2H30z M8,30v-2H4v-4H2v6H8z"/>
+</g>
+<path class="Blue" d="M29,30H13c-0.6,0-1-0.4-1-1V13c0-0.6,0.4-1,1-1h16c0.6,0,1,0.4,1,1v16C30,29.6,29.6,30,29,30z"/>
+</svg>

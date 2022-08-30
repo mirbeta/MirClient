@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#039C23;}
+	.st3{display:inline;fill:#D11C1C;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="PasteSpecial">
+	<path class="Yellow" d="M12,24v4H5c-0.6,0-1-0.4-1-1V3c0-0.6,0.4-1,1-1h3v22H12z M25,2h-3v10h4V2.8C26,2.4,25.6,2,25,2z"/>
+	<path class="Black" d="M20,2v3c0,0.6-0.4,1-1,1h-8c-0.6,0-1-0.4-1-1V2h2V1c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1v1H20z"/>
+	<path class="Blue" d="M30,18h2v-3c0-0.5-0.5-1-1-1H15c-0.5,0-1,0.5-1,1v3h2H30z"/>
+	<path class="Black" d="M14,29V18h2v10h14V18h2v11c0,0.5-0.5,1-1,1H15C14.5,30,14,29.5,14,29z M28,20H18v2h10V20z M28,24H18v2h10V24
+		z"/>
+</g>
+</svg>

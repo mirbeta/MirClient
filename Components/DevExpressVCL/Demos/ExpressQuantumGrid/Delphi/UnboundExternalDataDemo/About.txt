@@ -1,0 +1,9 @@
+In this demo you can:
+
+- load files. Odbcinst_test.ini and others in the same folder are test files which you may update as you wish
+
+- be careful though when viewing live INI files
+
+- click on column headers to sort the rows
+
+- use the header buttons to filter data

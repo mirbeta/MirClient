@@ -1,0 +1,78 @@
+package dxEMFRS26;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressEntityMapping Framework by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dbrtl,
+  vcl,
+  dxCoreRS26;
+
+contains
+  dxEMF.Attributes,
+  dxEMF.Core,
+  dxEMF.Core.Collections,
+  dxEMF.Core.DBHelper,
+  dxEMF.Core.Helpers,
+  dxEMF.Core.Loader,
+  dxEMF.Core.Pool,
+  dxEMF.Data,
+  dxEMF.DataSet,
+  dxEMF.DB.AliasExpander,
+  dxEMF.DB.Criteria,
+  dxEMF.DB.Firebird,
+  dxEMF.DB.Generator,
+  dxEMF.DB.MSAccess,
+  dxEMF.DB.Model,
+  dxEMF.DB.MSSQL,
+  dxEMF.DB.MySQL,
+  dxEMF.DB.Query,
+  dxEMF.DB.Oracle,
+  dxEMF.DB.SQLConnectionProvider,
+  dxEMF.DB.SQLGenerator,
+  dxEMF.DB.SQLite,
+  dxEMF.DB.Utils,
+  dxEMF.Linq,
+  dxEMF.Linq.Expressions,
+  dxEMF.Metadata,
+  dxEMF.Serializer,
+  dxEMF.Strs,
+  dxEMF.Types,
+  dxEMF.Utils,
+  dxEMF.Utils.CriteriaParser,
+  dxEMF.Utils.Evaluator,
+  dxEMF.Utils.Exceptions,
+  dxEMF.Utils.Expressions;
+
+end.

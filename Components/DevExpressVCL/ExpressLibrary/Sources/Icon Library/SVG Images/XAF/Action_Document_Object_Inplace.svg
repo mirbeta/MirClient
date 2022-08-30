@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.st0{opacity:0.75;}
+</style>
+<g>
+	<g>
+		<path class="Black" d="M27,2H5C4.4,2,4,2.4,4,3v26c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3C28,2.4,27.6,2,27,2z M26,28H6V4h20V28z"
+			/>
+	</g>
+	<g>
+		<path class="Black" d="M27,2H5C4.4,2,4,2.4,4,3v26c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3C28,2.4,27.6,2,27,2z M26,28H6V4h20V28z"
+			/>
+	</g>
+</g>
+<path class="Yellow" d="M8,10v8h16v-8H8z M22,16H10v-4h12V16z"/>
+<g class="st0">
+	<rect x="10" y="6" class="Black" width="12" height="2"/>
+	<rect x="10" y="20" class="Black" width="12" height="2"/>
+	<rect x="10" y="24" class="Black" width="12" height="2"/>
+</g>
+</svg>

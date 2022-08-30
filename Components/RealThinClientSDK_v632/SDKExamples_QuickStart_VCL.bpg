@@ -1,0 +1,78 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = BrowserUpload.exe RTCDualServer.exe rtcUploadClient.exe \
+  rtcUploadServer.exe CliProject1.exe SrvProject1.exe rtcParseTest.exe \
+  template.exe templateForm.exe RTCScriptTester.exe rtcServer1.exe rtcServer2.exe \
+  rtcServer2b.exe rtcServer3.exe rtcServer4.exe RTC_XMLRPCTest.exe LinksLocal.exe \
+  LinksClient.exe LinksServer.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+BrowserUpload.exe: QuickStart\BrowserUpload\BrowserUpload.dpr
+  $(DCC)
+
+RTCDualServer.exe: QuickStart\DualServer\RTCDualServer.dpr
+  $(DCC)
+
+rtcUploadClient.exe: QuickStart\ClientUpload\rtcUploadClient.dpr
+  $(DCC)
+
+rtcUploadServer.exe: QuickStart\ClientUpload\rtcUploadServer.dpr
+  $(DCC)
+
+CliProject1.exe: QuickStart\RemoteFunctions\CliProject1.dpr
+  $(DCC)
+
+SrvProject1.exe: QuickStart\RemoteFunctions\SrvProject1.dpr
+  $(DCC)
+
+rtcParseTest.exe: QuickStart\rtcParse1\rtcParseTest.dpr
+  $(DCC)
+
+template.exe: QuickStart\rtcParse2\template.dpr
+  $(DCC)
+
+templateForm.exe: QuickStart\rtcParse3\templateForm.dpr
+  $(DCC)
+
+RTCScriptTester.exe: QuickStart\rtcScript\RTCScriptTester.dpr
+  $(DCC)
+
+rtcServer1.exe: QuickStart\ServerLesson1\rtcServer1.dpr
+  $(DCC)
+
+rtcServer2.exe: QuickStart\ServerLesson2\rtcServer2.dpr
+  $(DCC)
+
+rtcServer2b.exe: QuickStart\ServerLesson2b\rtcServer2b.dpr
+  $(DCC)
+
+rtcServer3.exe: QuickStart\ServerLesson3\rtcServer3.dpr
+  $(DCC)
+
+rtcServer4.exe: QuickStart\ServerLesson4\rtcServer4.dpr
+  $(DCC)
+
+RTC_XMLRPCTest.exe: QuickStart\XMLRPCTest\RTC_XMLRPCTest.dpr
+  $(DCC)
+
+LinksLocal.exe: QuickStart\LinkedObjects\LinksLocal.dpr
+  $(DCC)
+
+LinksClient.exe: QuickStart\LinkedObjects\LinksClient.dpr
+  $(DCC)
+
+LinksServer.exe: QuickStart\LinkedObjects\LinksServer.dpr
+  $(DCC)
+
+

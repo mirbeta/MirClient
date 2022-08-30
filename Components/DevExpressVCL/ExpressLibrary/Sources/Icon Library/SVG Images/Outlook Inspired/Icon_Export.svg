@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{fill:#727272;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.75;}
+</style>
+<g id="Export">
+	<path class="Black" d="M10,12H6V6h4V12z M22,12v6v9c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1V7c0-0.6,0.4-1,1-1h3v8h14v-2H22z M18,18H4
+		v6h14V18z"/>
+	<polygon class="Green" points="16,6 24,6 24,2 32,8 24,14 24,10 16,10 	"/>
+</g>
+</svg>

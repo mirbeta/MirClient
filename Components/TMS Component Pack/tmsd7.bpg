@@ -1,0 +1,32 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = tmsd7.bpl tmsexd7.bpl tmsded7.bpl tmsxlsd7.bpl tmswizd7.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+tmsd7.bpl: tmsd7.dpk
+  $(DCC)
+
+tmsded7.bpl: tmsded7.dpk
+  $(DCC)
+
+tmsxlsd7.bpl: tmsxlsd7.dpk
+  $(DCC)
+
+tmswizd7.bpl: tmswizd7.dpk
+  $(DCC)
+
+tmsexd7.bpl: tmsexd7.dpk
+  $(DCC)
+
+

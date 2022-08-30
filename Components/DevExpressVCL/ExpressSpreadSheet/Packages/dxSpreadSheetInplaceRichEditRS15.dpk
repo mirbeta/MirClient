@@ -1,0 +1,57 @@
+package dxSpreadSheetInplaceRichEditRS15;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressSpreadSheet In-place RichEdit Support by Developer Express Inc.'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dbrtl,
+  vcl,
+  vclx,
+  vclie,
+  vcldb,
+  vclimg,
+  dxComnRS15,
+  dxCoreRS15,
+  cxLibraryRS15,
+  dxCloudServiceLibraryRS15,
+  dxGDIPlusRS15,
+  dxRichEditCoreRS15,
+  dxRichEditDocumentModelRS15,
+  dxRichEditControlCoreRS15,
+  dxRichEditInplaceRS15,
+  dxSpreadSheetRS15;
+
+contains
+  dxSpreadSheetFormattedTextUtils;
+
+end.

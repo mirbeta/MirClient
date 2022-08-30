@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E19D5DFA-4F4F-45B3-AC38-88992B4D68FD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="tmscxe5.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsexcxe5.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsdecxe5.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsxlscxe5.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="tmscxe5">
+        <MSBuild Projects="tmscxe5.cbproj"/>
+    </Target>
+    <Target Name="tmscxe5:Clean">
+        <MSBuild Projects="tmscxe5.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmscxe5:Make">
+        <MSBuild Projects="tmscxe5.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsexcxe5">
+        <MSBuild Projects="tmsexcxe5.cbproj"/>
+    </Target>
+    <Target Name="tmsexcxe5:Clean">
+        <MSBuild Projects="tmsexcxe5.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsexcxe5:Make">
+        <MSBuild Projects="tmsexcxe5.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsdecxe5">
+        <MSBuild Projects="tmsdecxe5.cbproj"/>
+    </Target>
+    <Target Name="tmsdecxe5:Clean">
+        <MSBuild Projects="tmsdecxe5.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsdecxe5:Make">
+        <MSBuild Projects="tmsdecxe5.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsxlscxe5">
+        <MSBuild Projects="tmsxlscxe5.cbproj"/>
+    </Target>
+    <Target Name="tmsxlscxe5:Clean">
+        <MSBuild Projects="tmsxlscxe5.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsxlscxe5:Make">
+        <MSBuild Projects="tmsxlscxe5.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="tmscxe5;tmsexcxe5;tmsdecxe5;tmsxlscxe5"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="tmscxe5:Clean;tmsexcxe5:Clean;tmsdecxe5:Clean;tmsxlscxe5:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="tmscxe5:Make;tmsexcxe5:Make;tmsdecxe5:Make;tmsxlscxe5:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,16 @@
+In this demo you can:
+
+- apply different custom draw techniques to the following tree list elements (see the Options/Show Custom Draw Editor...):
+
+  Background
+  BandHeader
+  Cell
+  CellsGroup
+  Footer
+  FooterCell
+  GroupFooter
+  Header
+  HeaderCell
+  IndentCell
+  IndicatorCell
+  Preview

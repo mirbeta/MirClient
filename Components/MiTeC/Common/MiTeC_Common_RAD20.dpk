@@ -1,0 +1,128 @@
+package MiTeC_Common_RAD20;
+
+{$R *.res}
+{$R *.otares}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'MiTeC Common Routines'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclimg,
+  xmlrtl,
+  soaprtl;
+
+contains
+  MiTeC_AccountsNT in 'MiTeC_AccountsNT.pas',
+  MiTeC_AclApi in 'MiTeC_AclApi.pas',
+  MiTeC_ActiveDs_TLB in 'MiTeC_ActiveDs_TLB.pas',
+  MiTeC_ADSI in 'MiTeC_ADSI.pas',
+  MiTeC_AdvApi in 'MiTeC_AdvApi.pas',
+  MiTeC_Apps in 'MiTeC_Apps.pas',
+  MiTeC_Arrays in 'MiTeC_Arrays.pas',
+  MiTeC_BTAPI in 'MiTeC_BTAPI.pas',
+  MiTeC_Cert in 'MiTeC_Cert.pas',
+  MiTeC_CfgMgrSetupAPI in 'MiTeC_CfgMgrSetupAPI.pas',
+  MiTeC_CmdLine in 'MiTeC_CmdLine.pas',
+  MiTeC_CRC in 'MiTeC_CRC.pas',
+  MiTeC_CryptUI in 'MiTeC_CryptUI.pas',
+  MiTeC_CtrlRtns in 'MiTeC_CtrlRtns.pas',
+  MiTeC_Datetime in 'MiTeC_Datetime.pas',
+  MiTeC_Dialogs in 'MiTeC_Dialogs.pas',
+  MiTeC_Disk in 'MiTeC_Disk.pas',
+  MiTeC_EDID in 'MiTeC_EDID.pas',
+  MiTeC_EML in 'MiTeC_EML.pas',
+  MiTeC_ESENT in 'MiTeC_ESENT.pas',
+  MiTeC_EventLogNT in 'MiTeC_EventLogNT.pas',
+  MiTeC_EXEModule in 'MiTeC_EXEModule.pas',
+  MiTeC_Helpers in 'MiTeC_Helpers.pas',
+  MiTeC_CharsetTranslator in 'MiTeC_CharsetTranslator.pas',
+  MiTeC_IcmpApi in 'MiTeC_IcmpApi.pas',
+  MiTeC_Internet in 'MiTeC_Internet.pas',
+  MiTeC_IPC in 'MiTeC_IPC.pas',
+  MiTeC_IpHlpAPI in 'MiTeC_IpHlpAPI.pas',
+  MiTeC_IPTypes in 'MiTeC_IPTypes.pas',
+  MiTeC_JobsNT in 'MiTeC_JobsNT.pas',
+  MiTeC_Journal in 'MiTeC_Journal.pas',
+  MiTeC_Lists in 'MiTeC_Lists.pas',
+  MiTeC_LSAAPI in 'MiTeC_LSAAPI.pas',
+  MiTeC_MachineJournal in 'MiTeC_MachineJournal.pas',
+  MiTeC_Mappings in 'MiTeC_Mappings.pas',
+  MiTeC_MSAccess in 'MiTeC_MSAccess.pas',
+  MiTeC_MultiMon in 'MiTeC_MultiMon.pas',
+  MiTeC_NativeAPI in 'MiTeC_NativeAPI.pas',
+  MiTeC_NativeDefs in 'MiTeC_NativeDefs.pas',
+  MiTeC_NCC in 'MiTeC_NCC.pas',
+  MiTeC_NetAPI32 in 'MiTeC_NetAPI32.pas',
+  MiTeC_NetBIOS in 'MiTeC_NetBIOS.pas',
+  MiTeC_NetChangeNotify in 'MiTeC_NetChangeNotify.pas',
+  MiTeC_NetUtils in 'MiTeC_NetUtils.pas',
+  MiTeC_Networks in 'MiTeC_Networks.pas',
+  MiTeC_NTDDK in 'MiTeC_NTDDK.pas',
+  MiTeC_NTSecAPI in 'MiTeC_NTSecAPI.pas',
+  MiTeC_Params in 'MiTeC_Params.pas',
+  MiTeC_Pdh in 'MiTeC_Pdh.pas',
+  MiTeC_PerfLibNT in 'MiTeC_PerfLibNT.pas',
+  MiTeC_PerfUtils in 'MiTeC_PerfUtils.pas',
+  MiTeC_PowrProf in 'MiTeC_PowrProf.pas',
+  MiTeC_PrefsJs in 'MiTeC_PrefsJs.pas',
+  MiTeC_PSAPI in 'MiTeC_PSAPI.pas',
+  MiTeC_RC4 in 'MiTeC_RC4.pas',
+  MiTeC_RegUtils in 'MiTeC_RegUtils.pas',
+  MiTeC_Routines in 'MiTeC_Routines.pas',
+  MiTeC_ServerNT in 'MiTeC_ServerNT.pas',
+  MiTeC_Shares in 'MiTeC_Shares.pas',
+  MiTeC_Shell in 'MiTeC_Shell.pas',
+  MiTeC_SIF in 'MiTeC_SIF.pas',
+  MiTeC_SimpleCrypt in 'MiTeC_SimpleCrypt.pas',
+  MiTeC_Sqlite3API in 'MiTeC_Sqlite3API.pas',
+  MiTeC_SS in 'MiTeC_SS.pas',
+  MiTeC_Storage in 'MiTeC_Storage.pas',
+  MiTeC_StrUtils in 'MiTeC_StrUtils.pas',
+  MiTeC_SvrAPI in 'MiTeC_SvrAPI.pas',
+  MiTeC_SysUtils in 'MiTeC_SysUtils.pas',
+  MiTeC_TaskScheduler_TLB in 'MiTeC_TaskScheduler_TLB.pas',
+  MiTeC_USB in 'MiTeC_USB.pas',
+  MiTeC_VersionInfo in 'MiTeC_VersionInfo.pas',
+  MiTeC_VssApi in 'MiTeC_VssApi.pas',
+  MiTeC_WbemScripting_TLB in 'MiTeC_WbemScripting_TLB.pas',
+  MiTeC_WideStrings in 'MiTeC_WideStrings.pas',
+  MiTeC_WinCrypt in 'MiTeC_WinCrypt.pas',
+  MiTeC_Windows in 'MiTeC_Windows.pas',
+  MiTeC_WinIOCTL in 'MiTeC_WinIOCTL.pas',
+  MiTeC_WinPerf in 'MiTeC_WinPerf.pas',
+  MiTeC_WINSATLib_TLB in 'MiTeC_WINSATLib_TLB.pas',
+  MiTeC_WinTrust in 'MiTeC_WinTrust.pas',
+  MiTeC_WkstaNT in 'MiTeC_WkstaNT.pas',
+  MiTeC_WLANAPI in 'MiTeC_WLANAPI.pas',
+  MiTeC_WMI in 'MiTeC_WMI.pas',
+  MiTeC_WnASPI32 in 'MiTeC_WnASPI32.pas',
+  MiTeC_Ws2_32 in 'MiTeC_Ws2_32.pas',
+  MiTeC_WtsApi32 in 'MiTeC_WtsApi32.pas';
+
+end.

@@ -1,0 +1,5 @@
+In this demo, the grid control needs to be connected to data tables (Orders and Customers) on a Microsoft SQL Server instance. Please use this window to configure the connection and data settings.
+
+1. Specify the name of an existing Microsoft SQL Server instance that will contain the target database.
+2. Test the settings by clicking "Test connection".
+3. If the connection succeeds, do one of the following. On the first run, specify the number of records in the Orders table and click the Add Records and Start Demo button. A new database and two tables populated with sample data will be created, and then an ADO query that joins the tables will be executed. After this, the demo will start with the grid control bound to the query's result set. On subsequent runs, you can add more records to the Orders table or just start the demo without generating additional data.

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.White{fill:#FFFFFF;}
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.6;}
+</style>
+<g id="Слой_1">
+	<rect x="4" y="4" class="Yellow" width="24" height="28"/>
+	<path class="Black" d="M24,6V2h-4l-0.6-0.6C18.5,0.5,17.3,0,16,0s-2.5,0.5-3.4,1.4L12,2H8v4H6v24h20V10V6H24z"/>
+	<polygon class="White" points="24,12 24,8 20,8 8,8 8,28 18,28 18,32 28,32 28,18 24,18 	"/>
+	<polygon class="Blue" points="22,20 19,17 18,18 20,20 20,26 28,26 32,20 	"/>
+	<path class="Blue" d="M22,28c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S23.1,28,22,28z M28,28c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2
+		S29.1,28,28,28z"/>
+</g>
+<g id="Слой_2" class="st0">
+	<path class="Black" d="M10,10v2h12v-2H10z M10,16h12v-2H10V16z M10,20h6v-2h-6V20z M10,24h6v-2h-6V24z"/>
+</g>
+</svg>

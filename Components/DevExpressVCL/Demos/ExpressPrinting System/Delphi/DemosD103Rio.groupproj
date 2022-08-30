@@ -1,0 +1,44 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="EQGridReportLinkD103Rio">
+    <MSBuild Projects="EQGridRL\EQGridReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FlowChartReportLinkD103Rio">
+    <MSBuild Projects="FlowChartRL\FlowChartReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="LayoutControlReportLinkD103Rio">
+    <MSBuild Projects="LayoutControlRL\LayoutControlReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="OrgChartReportLinkD103Rio">
+    <MSBuild Projects="OrgChartRL\OrgChartReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ReportExplorerD103Rio">
+    <MSBuild Projects="ReportExplorer\ReportExplorerD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SchedulerLinkD103Rio">
+    <MSBuild Projects="SchedulerRL\SchedulerLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SpreadSheetRLD103Rio">
+    <MSBuild Projects="SpreadSheetRL\SpreadSheetRLD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StandardReportLinkD103Rio">
+    <MSBuild Projects="StandardRL\StandardReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="PivotGridReportLinkD103Rio">
+    <MSBuild Projects="PivotGridRL\PivotGridReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="cxTreeListReportLinkD103Rio">
+    <MSBuild Projects="cxTreeListRL\cxTreeListReportLinkD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="EQGridReportLinkD103Rio;FlowChartReportLinkD103Rio;LayoutControlReportLinkD103Rio;OrgChartReportLinkD103Rio;ReportExplorerD103Rio;SchedulerLinkD103Rio;SpreadSheetRLD103Rio;StandardReportLinkD103Rio;PivotGridReportLinkD103Rio;cxTreeListReportLinkD103Rio" />
+  </Target>
+</Project>

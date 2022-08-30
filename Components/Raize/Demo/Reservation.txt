@@ -1,0 +1,20 @@
+This form highlights several of the data-aware components included in Raize Components.
+
+TRzDBGrid
+The grid is an instance of the TRzDBGrid, which inherits its base functionality from the TDBGrid control. However, the TRzDBGrid provides several additional display features including Custom Framing support, XP Theme support, and LineColor and FixedLineColor properties.
+
+TRzDBButtonEdit
+The Customer field is displayed by the data-aware version of our button edit component. The AllowEdit property is False so the user cannot change the data with the keyboard, but the user can click the ... button or press F4 to display a customer lookup dialog box that illustrates even more ways to use the data-aware components.
+
+TRzDBLookupDialog
+The Event field is also edited by a TRzDBButtonEdit. However, for this field the user *is* allowed to type in an Event Number. The user can also click the Find button to search by Event Name using a TRzDBLookupDialog component, which is a dialog-based component that provides an easy way to perform lookups. In this example, the KeyField property is set to the EventNo field while the SearchField property is set to EventName.
+
+TRzDBComboBox
+The Method of Payment field is edited using a TRzDBComboBox control. The Values property contains the coded values that map to the more descriptive strings in the drop down list. 
+
+Edit Controls
+The other database fields are connected to TRzDBEdit, TRzDBSpinEdit, TRzDBDateTimeEdit, TRzDBMemo, TRzDBComboBox, and TRzDBCheckBox components. The controls were altered to appear as flat lines by setting the appropriate Custom Fframing options. In particular, FrameVisible is True, FrameStyle is fsFlat, and FrameSides is [sdBottom].
+
+Status Controls
+The status area contains a TRzDBStatusPane and a TRzDBStateStatus. The data-aware status pane displays the current order number. The identifying caption is controlled through the FieldLabel property. The TRzDBStateStatus component shows the current state of the Reservation database table.
+                              

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Font_Color" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.st0{fill:none;}
+	.st1{opacity:0.25;}
+</style>
+<path class="Black" d="M24,22h-3.1l-1.5-4.6h-6.7L11.1,22H8l6.4-18h3.2L24,22z M18.6,15l-2.4-7.2c-0.1-0.2-0.1-0.6-0.2-1.1l0,0
+	c-0.1,0.5-0.2,0.9-0.2,1.1L13.3,15H18.6z"/>
+<rect id="Indicator" y="24" class="st0" width="32" height="8"/>
+<g class="st1">
+	<path class="Black" d="M0,24V32h32V24H0z M30,30H2v-4h28V30z"/>
+</g>
+</svg>

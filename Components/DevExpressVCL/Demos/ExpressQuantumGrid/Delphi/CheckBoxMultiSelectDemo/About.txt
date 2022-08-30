@@ -1,0 +1,5 @@
+This demo shows how to use check boxes for row selection by allowing you to:
+- Adjust their visibility and position.
+- Explore various behavior options while selecting rows using mouse clicks and Shift/Ctrl key combinations.
+- See how check boxes synchronize their selected state between group rows and their child rows.
+- Apply different paint styles to a form (the Look&Feel menu item).

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{display:none;}
+	.st3{display:inline;fill:#FFB115;}
+	.st4{display:inline;}
+	.st5{display:inline;opacity:0.75;}
+	.st6{display:inline;opacity:0.5;}
+	.st7{display:inline;fill:#039C23;}
+	.st8{display:inline;fill:#D11C1C;}
+	.st9{display:inline;fill:#1177D7;}
+	.st10{display:inline;fill:#FFFFFF;}
+</style>
+<g id="Country">
+	<path class="Red" d="M32,8H16V6h16V8z M32,10H16v2h16V10z M32,14H16v2h16V14z M32,18H0v2h32V18z M32,22H0v2h32V22z"/>
+	<path class="Blue" d="M0,6v10h14V6H0z M4,14H2v-2h2V14z M4,10H2V8h2V10z M8,14H6v-2h2V14z M8,10H6V8h2V10z M12,14h-2v-2h2V14z
+		 M12,10h-2V8h2V10z"/>
+</g>
+</svg>

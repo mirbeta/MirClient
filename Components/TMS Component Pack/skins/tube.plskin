@@ -1,0 +1,15 @@
+[NORMAL]
+TOP=tubeh.bmp
+CENTER=tubec.bmp
+BOTTOM=tubeb.bmp
+
+[SELECTED]
+TOP=tubehs.bmp
+CENTER=tubec.bmp
+BOTTOM=tubeb.bmp
+
+[MARGIN]
+X=4
+Y=8
+CAPTIONX=8
+CAPTIONY=0

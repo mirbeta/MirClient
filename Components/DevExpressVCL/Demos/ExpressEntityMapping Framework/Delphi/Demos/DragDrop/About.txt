@@ -1,0 +1,29 @@
+The demo creates a master-detail relationship between two datasets (TdxEMFDataSet components) using a DataSetField property.
+
+In this demo, you can:
+
+(1) Add films to categories:
+
+ - Select a specific category by clicking one of the tabs on the left of the main form;
+
+ - Ensure the Films tab is active on the Dictionaries form;
+
+ - Drag a grid row from the Dictionaries form and drop it on the main form.
+
+(2) Assign a person to a film as an actor or a director, etc.:
+
+ - Expand the required film entry on the main form and switch to the People tab;
+
+ - Switch to the Persons tab on the Dictionaries form;
+
+ - Drag any row of a Person on the Dictionaries form and drop it on the main form;
+
+ - Adjust the occupation field as required.
+
+(3) Assign companies to films:
+
+ - Expand the required film entry on the main form and switch to the Companies tab;
+
+ - Switch to the Companies tab on the Dictionaries form;
+
+ - Select a Company on the Dictionaries form and drop it on the main form.

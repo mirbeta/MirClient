@@ -1,0 +1,8 @@
+In this demo, you can:
+
+- Select one or more months displayed as tokens including a month name and an icon.
+- To select a month, start typing its name into the editor's input field and either select a month from the lookup drop-down window or complete the name manually and press the Enter key. Note that duplicates cannot be selected.
+- To remove a token, either click its Close button or press the Backspace key when the caret is positioned after the token.
+- Change the different behavior and appearance options.
+- See how the edit value is updated in response to token selection and option customization.
+- Apply different paint styles to a form (the Look&Feel menu item).

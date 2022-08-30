@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+</style>
+<g id="Underline">
+	<path class="Green" d="M2,28v4h26v-4H2z"/>
+	<path class="Black" d="M24,4h-4v4h0l0,8.3c0,4.8-1.8,5.7-5.2,5.7c-3.2,0-4.8-0.8-4.8-5.4l0-4.6h0V4H6l0,12.6C6,22.9,9,26,14.8,26
+		c6.1,0,9.2-3.2,9.2-9.7L24,4z"/>
+</g>
+</svg>

@@ -1,0 +1,23 @@
+In this demo you can:
+
+- see different summary sets depending upon the grouped column for the Car, Payment Type and all other columns
+
+- change the summary type or select several summary types for each column (right-click on a summary cell)
+
+- sort group rows by group value or by group summary (right-click on a group row);
+  you can sort by any group summary or group footer summary, but note that some of them are removed from the list of available summaries: this is done by using the <SummaryItem>.VisibleForCustomization property;
+  sorted summary values are underlined
+
+- calculate summaries using selected data rows only (see Options/Summary)
+
+- ignore Null values for the Count and Average summaries of the Payment Amount column (see Options/Summary)
+
+- base footer summaries on actual row values or on the group summaries (see Options/Summary)
+
+- change group footers visibility (see Options/Group Footers)
+
+- show single or multiple summaries for each column (see Options/Multiple Summaries in Footer/Group Footers)
+
+- see how custom summaries for records with Payment Amount greater than $300,000 are calculated in code
+
+- note that Min summaries are shown in blue and Max in red - this is done using the OnGetFooterSummaryStyle event

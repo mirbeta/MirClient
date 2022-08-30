@@ -1,0 +1,7 @@
+TRzPageControl & TRzTabControl
+The TRzPageControl and TRzTabControl components are native VCL implementations of a PageControl and TabControl, respectively. That is, neither control requires the Windows Common Controls library. However, these custom controls offer many more display options than the common control versions. 
+
+In particular, there are six styles of tabs to choose from by using the TabStyle property. Plus, there are options to change the colors of the tabs using the TabColors and UseColoredTabs properties. Tab text is controlled by the TextAlignment, TextAlignmentVertical, TextColors, and TextOrientation properties. Images from an image list can be displayed on tabs using the Images, ImageAlignment, ImageAlignmentVertical, ImageMargin, and ImagePosition properties.
+
+In addition, both the TRzPageControl and TRzTabControl support a Menu button and a Close button.  When the menu button is pressed a dropdown menu containing all of the visible tabs are displayed. This makes it much easier to jump to another tab that may not be in view.  For the Close button, there are two options for where it is displayed.  The first option is to display a single close button next to the scrollers in the corner of the control.  New in RC5 is the ability to display a close button on the active tab.
+                                  

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Full_Stacked_Bar_3D_Chart"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Blue" d="M8,14H2V6h6V14z M18,6h-6v6h6V6z M28,6h-6v10h6V6z"/>
+</g>
+<g class="st0">
+	<path class="Yellow" d="M8,22H2v-8h6V22z M18,12h-6v12h6V12z M28,16h-6v6h6V16z"/>
+</g>
+<g class="st0">
+	<path class="Red" d="M8,28H2v-6h6V28z M18,24h-6v4h6V24z M28,22h-6v6h6V22z"/>
+</g>
+<g class="st1">
+	<path class="Blue" d="M10,4v2H2l2-2H10z M14,4l-2,2h8V4H14z M24,4l-2,2h8V4H24z"/>
+</g>
+<path class="Red" d="M10,26l-2,2v-6l2-2V26z M20,22l-2,2v4l2-2V22z M30,20l-2,2v6l2-2V20z"/>
+<path class="Yellow" d="M10,20l-2,2V12h2V20z M20,10h-2v14l2-2V10z M30,14h-2v8l2-2V14z"/>
+<path class="Blue" d="M10,12l-2,2V6l2-2V12z M20,4l-2,2v6l2-2V4z M30,4l-2,2v10l2-2V4z"/>
+</svg>

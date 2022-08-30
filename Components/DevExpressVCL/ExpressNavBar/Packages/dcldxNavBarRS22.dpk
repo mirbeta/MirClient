@@ -1,0 +1,60 @@
+package dcldxNavBarRS22;
+
+{$R *.res}
+{$R dxNavBarReg.dcr}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressNavBar by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  designide,
+  vcldesigner,
+  dbrtl,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxComnRS22,
+  dxCoreRS22,
+  dxGDIPlusRS22,
+  cxLibraryRS22,
+  dxNavBarRS22,
+  dcldxCoreRS22,
+  dclcxLibraryRS22;
+
+contains
+  dxNavBarDsgnConsts,
+  dxfmNavBarDsgnEditor,
+  dxNavBarDsgnUtils,
+  dxNavBarReg;
+
+end.

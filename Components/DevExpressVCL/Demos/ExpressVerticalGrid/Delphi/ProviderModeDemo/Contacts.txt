@@ -1,0 +1,21 @@
+John Doe	Doe Enterprises
+Jane Doe	Doe Enterprises
+Sam Hill	Hill Corporation
+Karen Holmes	Holmes World
+Bobbie Valentine	Valentine Hearts
+Jennie Valentine	Valentine Hearts
+Ricardo Menendez	Menedez Development
+Frank Frankson	Frankson Media
+Christa Christie	Christies House of Design
+Jimmie Jones	Jones & Assoc
+Alfred Newma	Newman Systems
+James Johnson	Development House
+Robert James	James Systems
+June Alessandro	Alessandro & Associates
+Mildred Johansson	Mildreds World
+Henry McAllister	McAllister Systems
+Michael Jeffers	Jeffers Clinic
+Scott Mathewson	Mathewson Design
+Mickey Alcorn	Mickeys World of Fun
+Roger Michelson	Michelson Systems
+Leticia Ford	Ford Consulting

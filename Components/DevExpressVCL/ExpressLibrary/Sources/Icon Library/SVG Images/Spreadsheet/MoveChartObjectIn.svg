@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="MoveChartObjectIn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M16,28v2h-6v-2H8v3c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1v-3H16z"/>
+</g>
+<path class="Black" d="M31,0H1C0.5,0,0,0.5,0,1v25v1v4c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1v-3h21c0.6,0,1-0.5,1-1V1
+	C32,0.5,31.6,0,31,0z M30,26C30,26,30,26,30,26l-20,0H8v2v2H2v-2v-2v-2V2c0,0,0,0,0,0h28c0,0,0,0,0,0V26z"/>
+<path class="Blue" d="M12,20H8v-4h4V20z M18,12h-4v8h4V12z M24,8h-4v12h4V8z M4,4v20h24V4H4z M26,22H6V6h20V22z"/>
+</svg>

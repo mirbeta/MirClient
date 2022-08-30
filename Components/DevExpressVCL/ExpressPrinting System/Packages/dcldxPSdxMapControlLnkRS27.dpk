@@ -1,0 +1,59 @@
+package dcldxPSdxMapControlLnkRS27;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressPrinting System ReportLink for ExpressMap Control by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  IndyCore,
+  IndySystem,
+  IndyProtocols,
+  dxHttpIndyRequestRS27,
+  dxCoreRS27,
+  dxGDIPlusRS27,
+  cxLibraryRS27,
+  dxMapControlRS27,
+  dxPSCoreRS27,
+  dxPSdxMapControlLnkRS27,
+  dcldxCoreRS27,
+  dcldxPSCoreRS27;
+
+contains
+  dxPSdxMapControlLnkReg;
+
+end.

@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A70109EA-B099-491C-8EDE-C0D3E19082E4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="tmscxe3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsexcxe3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsdecxe3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tmsxlscxe3.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="tmscxe3">
+        <MSBuild Projects="tmscxe3.cbproj"/>
+    </Target>
+    <Target Name="tmscxe3:Clean">
+        <MSBuild Projects="tmscxe3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmscxe3:Make">
+        <MSBuild Projects="tmscxe3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsexcxe3">
+        <MSBuild Projects="tmsexcxe3.cbproj"/>
+    </Target>
+    <Target Name="tmsexcxe3:Clean">
+        <MSBuild Projects="tmsexcxe3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsexcxe3:Make">
+        <MSBuild Projects="tmsexcxe3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsdecxe3">
+        <MSBuild Projects="tmsdecxe3.cbproj"/>
+    </Target>
+    <Target Name="tmsdecxe3:Clean">
+        <MSBuild Projects="tmsdecxe3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsdecxe3:Make">
+        <MSBuild Projects="tmsdecxe3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="tmsxlscxe3">
+        <MSBuild Projects="tmsxlscxe3.cbproj"/>
+    </Target>
+    <Target Name="tmsxlscxe3:Clean">
+        <MSBuild Projects="tmsxlscxe3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="tmsxlscxe3:Make">
+        <MSBuild Projects="tmsxlscxe3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="tmscxe3;tmsexcxe3;tmsdecxe3;tmsxlscxe3"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="tmscxe3:Clean;tmsexcxe3:Clean;tmsdecxe3:Clean;tmsxlscxe3:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="tmscxe3:Make;tmsexcxe3:Make;tmsdecxe3:Make;tmsxlscxe3:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

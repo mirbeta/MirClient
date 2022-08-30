@@ -1,0 +1,25 @@
+In this demo you can:
+
+- customize the demo as you wish(see the Options menu)
+
+- change Storage Location to IniFile/Registry/Memory (see Storage/Storage Location)
+
+- Store/Restore the demo settings in/from the current properties storage (see Storage/Store and Storage/Restore)
+
+- Activate/Deactivate auto saving of the demo settings before closing the demo(see Storage/Save the settings before closing the demo)
+
+- Use data-aware lookup editors
+
+- Change the Project's Name via the Project lookup editor (using incremental filtering)
+
+- Switch between the Edit, Standard and Pick lookup modes. (see Options/Lookup Options):
+
+Edit mode: switches the 'Issue Creator' and 'Issue Owner' editor to edit mode. Type some text and press Enter (or set focus to another control). You will see the NewUser form.
+
+Standard mode: switches the 'Project Name', 'Issue Creator' and 'Issue Owner' editors to the standard mode.
+Focus on either editor and press a letter key. The editor will automatically locate the first record with a value starting with the typed letter.
+
+Pick mode: switches the 'Project Name', 'Issue Creator' and 'Issue Owner' editors to the incremental filtering mode.
+Select the content of a cell and type some text. A dropdown window will be opened and records will be filtered according to the typed text.
+
+- See the relationship between the editor's properties and the datasets in use

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#039C23;}
+	.st3{display:inline;fill:#D11C1C;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="Card">
+	<path class="Black" d="M31,4H1C0.5,4,0,4.5,0,5v20c0,0.5,0.5,1,1,1h30c0.5,0,1-0.5,1-1V5C32,4.5,31.5,4,31,4z M30,24H2V6h28V24z"/>
+	<g class="st0">
+		<path class="Black" d="M28,10H18V8h10V10z M28,12H18v2h10V12z M28,16H18v2h10V16z M28,20H18v2h10V20z"/>
+	</g>
+	<path class="Blue" d="M16,22H4c0.4-2.8,2.4-2.3,3.5-3.5C8.1,19.4,8.9,20,10,20c1.1,0,1.9-0.6,2.5-1.4C13.7,19.7,15.6,19.2,16,22z
+		 M6.9,14.8v0.1C7.3,16.4,8.2,18,10,18s2.8-1.6,3.2-3.1v-0.1c0.7,0,0.4-0.7,0.6-1s0.3-0.5,0.2-0.9c-0.1-0.3-0.3-0.2-0.4-0.2
+		c1.2-3.1-0.7-2.9-0.7-2.9S12.7,8,9.2,8C6,8,5.6,10.5,6.3,12.7c0,0.1-0.2,0.1-0.3,0.2c-0.1,0.4,0.1,0.6,0.3,0.9S6.2,14.8,6.9,14.8z"
+		/>
+</g>
+</svg>

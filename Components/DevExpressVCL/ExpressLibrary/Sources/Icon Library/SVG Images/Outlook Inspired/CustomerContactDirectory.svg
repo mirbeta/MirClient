@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{fill:#727272;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.75;}
+</style>
+<g id="CustomerContactDirectory">
+	<path class="Black" d="M29,0H3C2.5,0,2,0.5,2,1v30c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V1C30,0.5,29.5,0,29,0z M28,30H4V2h24V30z"/>
+	<g class="st2">
+		<polygon class="Black" points="14,18 14,16 10,16 10,12 8,12 8,26 14,26 14,24 10,24 10,18 		"/>
+	</g>
+	<path class="Yellow" d="M24,28h-8v-6h8V28z M24,14h-8v6h8V14z M14,4H6v6h8V4z"/>
+</g>
+</svg>

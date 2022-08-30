@@ -1,0 +1,90 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Bluetooth devices'
+  ClientHeight = 388
+  ClientWidth = 729
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Bevel1: TBevel
+    Left = 8
+    Top = 333
+    Width = 713
+    Height = 14
+    Anchors = [akLeft, akRight, akBottom]
+    Shape = bsTopLine
+  end
+  object bRefresh: TButton
+    Left = 8
+    Top = 348
+    Width = 75
+    Height = 25
+    Cursor = crHandPoint
+    Anchors = [akLeft, akBottom]
+    Caption = 'Refresh'
+    TabOrder = 1
+    OnClick = cmRefresh
+  end
+  object bClose: TButton
+    Left = 647
+    Top = 348
+    Width = 75
+    Height = 25
+    Cursor = crHandPoint
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'Close'
+    Default = True
+    TabOrder = 2
+    OnClick = bCloseClick
+  end
+  object lv: TListView
+    Left = 8
+    Top = 8
+    Width = 713
+    Height = 314
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Columns = <
+      item
+        Caption = 'Device'
+        Width = 150
+      end
+      item
+        Caption = 'Address'
+        Width = 150
+      end
+      item
+        Caption = 'Last Used'
+        Width = 120
+      end
+      item
+        Caption = 'Last Seen'
+        Width = 120
+      end
+      item
+        Caption = 'Authenticated'
+      end
+      item
+        Caption = 'Remembered'
+      end
+      item
+        Caption = 'Connected'
+      end>
+    ColumnClick = False
+    ReadOnly = True
+    RowSelect = True
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+end

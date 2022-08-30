@@ -1,0 +1,23 @@
+This application is a fully-functional viewer of PDF files, built with the PDF Viewer control.
+
+In this demo, you can:
+
+ - Open a PDF file.
+
+ - Zoom, scroll, and rotate its content.
+
+ - Select and copy text and images to the clipboard.
+
+ - Search specific text within a document via the Find panel and navigate between the highlighted found matches.
+
+ - Navigate through the document using available commands.
+
+ - Display the "Page Thumbnails" or "Bookmarks" panel by clicking the corresponding glyph located on the left side of the document.
+
+ - Zoom and scroll numbered page thumbnails to locate a specific document page and click the thumbnail to display its page.
+
+ - Click a bookmark to navigate to the associated section.
+
+ - Export the document either as a multi-frame TIFF file or as a set of PNG files.
+
+ - Print specific pages, sections, or an entire document.

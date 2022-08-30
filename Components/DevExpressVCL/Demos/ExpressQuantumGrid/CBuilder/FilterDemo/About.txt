@@ -1,0 +1,22 @@
+This example demonstrates the advanced filter functionality of the Table view:
+
+- MultiSelect in the column filter popup
+You can select multiple values rather than just one (TableView.Filtering.ColumnPopup.MultiSelect) in the column filter popup.
+The filter can be applied immediately when selecting values via the check list box or after you click the button located at the bottom of the popup (TableView.Filtering.ColumnPopup.ApplyMultiSelectChanges).
+
+- Filtering of values in the column filter popup
+Filter can be applied to the values in the column filter popup so that you will only see the values actually available for the currently filtered grid (TableView.Filtering.ColumnFilteredItemsList).
+
+- Filter Row
+Filter row (TableView.FilterRow) located at the top of the records in the table view allows you to define a filter value for each column.
+You can use symbols like * and ? to define masked filter values (TableView.DataController.Filter.PercentWildcard/UnderscoreWildcard). When you run this example project you can see an 'Express*' filter value set for the "Product" column. This is done in code - see TfrmMain.FormCreate method for more information.
+Value that you entered in the Filter Row can be applied to filter on cell exit or imediately as you type (TableView.FilterRow.ApplyChanges).
+
+- Special DateTime filters
+"Order Date" column filter popup contains several special filters available for DateTime data (TableView.DateTimeHandling.Filters). You can choose which filters to list there using the "DateTime Filters" submenu. One of these unique filter options (foThisMonth) is applied to the "Order Date" column in the TfrmMain.FormCreate method of the demo.
+Notice that data in the "Order Date" column contains both date and time portions, but only dates are used for filtering (TableView.DateTimeHandling.IgnoreTimeForFiltering). Note, however, that the time portion will still be taken into account during sorting operations.
+
+You can see that the column filter popup button appears in the column header when you move your mouse cursor over it and is hidden when the cursor is no longer over the header. This is a new feature of the ExpressQuantumGrid v6 (TableView.OptionsView.ShowColumnFilterButtons).
+
+When you group data by the "Order Date" column, you will see groups generated based on their proximity to today's date. This behavior is defined by the TableView.DateTimeHandling.Grouping property.
+For a detailed demonstration on this feature, see the Office11GroupRowStyleDemo project.

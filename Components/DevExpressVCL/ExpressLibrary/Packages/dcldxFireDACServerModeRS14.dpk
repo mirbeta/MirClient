@@ -1,0 +1,60 @@
+package dcldxFireDACServerModeRS14;
+
+{$R *.res}
+{$R 'dxServerModeFireDACDataSourceReg.dcr'}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'FireDAC Data Source for ExpressDataController Server Mode by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  xmlrtl,
+  designide,
+  vcldesigner,
+  dcldb,
+  AnyDAC_Phys_D14,
+  AnyDAC_ComI_D14,
+  AnyDAC_Comp_D14,
+  dxCoreRS14,
+  dxGDIPlusRS14,
+  cxLibraryRS14,
+  dxServerModeRS14,
+  dcldxCoreRS14,
+  dclcxLibraryRS14,
+  dcldxServerModeRS14,
+  dxFireDACServerModeRS14;
+
+contains
+  dxServerModeFireDACDataSourceReg;
+
+end.

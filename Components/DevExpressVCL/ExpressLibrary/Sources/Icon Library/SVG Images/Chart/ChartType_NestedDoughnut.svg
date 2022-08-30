@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{opacity:0.35;}
+	.st3{opacity:0.65;}
+</style>
+<g id="NestedDoughnut">
+	<path class="Red" d="M14,25.9v4C6.2,29.4,0,22.9,0,15C0,6.7,6.7,0,15,0c3.8,0,7.2,1.4,9.9,3.7L22,6.6C20.1,5,17.7,4,15,4
+		C8.9,4,4,8.9,4,15C4,20.7,8.4,25.4,14,25.9z M10,15c0-2.4,1.7-4.4,4-4.9v-4C9.5,6.6,6,10.4,6,15c0,2.1,0.7,4.1,2,5.6l2.9-2.9
+		C10.3,17,10,16,10,15z"/>
+	<path class="Blue" d="M30,15c0,3.8-1.4,7.3-3.7,9.9L23.4,22c1.6-1.9,2.6-4.4,2.6-7s-1-5.1-2.6-7l2.9-2.9C28.6,7.8,30,11.2,30,15z
+		 M20,15c0,1-0.3,2-0.8,2.8l2.9,2.9c1.2-1.5,2-3.5,2-5.6c0-4.6-3.5-8.4-8-8.9v4C18.3,10.6,20,12.6,20,15z"/>
+	<path class="Yellow" d="M22.1,23.4l2.8,2.8c-2.4,2.1-5.5,3.5-8.9,3.7v-4C18.3,25.7,20.4,24.8,22.1,23.4z M17.8,19.2
+		C17,19.7,16,20,15,20s-2-0.3-2.8-0.8L9.4,22c1.5,1.2,3.5,2,5.6,2s4.1-0.7,5.6-2L17.8,19.2z"/>
+</g>
+</svg>

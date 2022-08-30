@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>Platform eXtended Library (PXL): PXL.Boards.Types</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="tipuesearch/jquery.min.js"></script>
+<script type="text/javascript" src="tipuesearch/tipuesearch_data.js"></script>
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+<script type="text/javascript" src="tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="tipuesearch/tipuesearch.js"></script>
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<center><a href="http://www.afterwarp.net"><img src="afterwarp-logo.png" /></a><img src="Logo.png" /></center><h2>Platform eXtended Library (PXL)</h2><p><a href="AllUnits.html" class="navigation">Units</a></p><p><a href="ClassHierarchy.html" class="navigation">Class Hierarchy</a></p><p><a href="AllClasses.html" class="navigation">Classes, Interfaces, Objects and Records</a></p><p><a href="AllTypes.html" class="navigation">Types</a></p><p><a href="AllVariables.html" class="navigation">Variables</a></p><p><a href="AllConstants.html" class="navigation">Constants</a></p><p><a href="AllFunctions.html" class="navigation">Functions and Procedures</a></p><p><a href="AllIdentifiers.html" class="navigation">Identifiers</a></p><p><form class="search-form" action="_tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input"></div><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></form>
+<div style="clear: both"></div>
+
+<script>
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        /* 10 items to display seems standard */
+        'show': 10,
+        /* For PasDoc docs, showing urls is not very useful,
+           since the page title already shows the unit and identifier. */
+        'showURL': false
+    });
+});
+</script>
+</p></td><td class="content">
+<h1 class="unit">Unit PXL.Boards.Types</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Description</a></td><td>Uses</td><td><a class="section" href="#PasDoc-Classes">Classes, Interfaces, Objects and Records</a></td><td>Functions and Procedures</td><td><a class="section" href="#PasDoc-Types">Types</a></td><td><a class="section" href="#PasDoc-Constants">Constants</a></td><td>Variables</td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="description">Description</h2>
+<p>
+Basic types and components commonly used on microcontrollers and compact singleboard devices.</p>
+<a name="PasDoc-Uses"></a><h2 class="overview">Overview</h2>
+<a name="PasDoc-Classes"></a><h3 class="cio">Classes, Interfaces, Objects and Records</h3>
+<table class="classestable wide_list">
+<tr class="listheader">
+<th class="itemname">Name</th>
+<th class="itemdesc">Description</th>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomADC.html"><code>TCustomADC</code></a></td>
+<td class="itemdesc">Abstract ADC (Analog-to-Digital Converter) manager.</td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomDataPort.html"><code>TCustomDataPort</code></a></td>
+<td class="itemdesc">Abstract communication manager can be used for reading and writing data.</td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomGPIO.html"><code>TCustomGPIO</code></a></td>
+<td class="itemdesc">Abstract GPIO (General Purpose Input / Output) manager.</td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomPortI2C.html"><code>TCustomPortI2C</code></a></td>
+<td class="itemdesc">Abstract I2C (Inter-Integrated Circuit) communication manager.</td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomPortSPI.html"><code>TCustomPortSPI</code></a></td>
+<td class="itemdesc">Abstract SPI (Serial Peripheral Interface) communication manager.</td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomPortUART.html"><code>TCustomPortUART</code></a></td>
+<td class="itemdesc">Abstract UART (Universal Asynchronous Receiver / Transmitter) communication manager.</td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomPWM.html"><code>TCustomPWM</code></a></td>
+<td class="itemdesc">Abstract PWM (Pulse-Width Modulation) manager.</td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="PXL.Boards.Types.TCustomSystemCore.html"><code>TCustomSystemCore</code></a></td>
+<td class="itemdesc">System core of the board, which provides high-performance utility functions for accurate timing and delays.</td>
+</tr>
+</table>
+<a name="PasDoc-Types"></a><h3 class="summary">Types</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TBitsPerWord">TBitsPerWord</a></b> = Cardinal;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TChipSelectMode">TChipSelectMode</a></b> = (...);</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TMicroseconds">TMicroseconds</a></b> = <a  href="PXL.Boards.Types.html#TTickCounter">TTickCounter</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TMilliseconds">TMilliseconds</a></b> = <a  href="PXL.Boards.Types.html#TTickCounter">TTickCounter</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TParity">TParity</a></b> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TPinChannel">TPinChannel</a></b> = <a  href="PXL.Boards.Types.html#TPinIdentifier">TPinIdentifier</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TPinDrive">TPinDrive</a></b> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TPinIdentifier">TPinIdentifier</a></b> = Cardinal;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TPinMode">TPinMode</a></b> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TPinValue">TPinValue</a></b> = (...);</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TSignalEdge">TSignalEdge</a></b> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TSPIMode">TSPIMode</a></b> = Cardinal;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TStopBits">TStopBits</a></b> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#TTickCounter">TTickCounter</a></b> =  UInt64 ;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Constants"></a><h3 class="summary">Constants</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#DefaultSPIFrequency">DefaultSPIFrequency</a></b> = 8000000;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#DefaultUARTBaudRate">DefaultUARTBaudRate</a></b> = 115200;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#MaxI2CTransferSize">MaxI2CTransferSize</a></b> =  32 ;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#MaxSPITransferSize">MaxSPITransferSize</a></b> =  4096 ;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Boards.Types.html#PinDisabled">PinDisabled</a></b> = <a  href="PXL.Boards.Types.html#TPinIdentifier">TPinIdentifier</a>(-1);</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Types</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TBitsPerWord"></a><code><b>TBitsPerWord</b> = Cardinal;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Number of bits each data packet (or &quot;word) occupies.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TChipSelectMode"></a><code><b>TChipSelectMode</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Chip Select operation mode.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+Disabled: Chip Select pin shuld not be managed.</li>
+<li>
+ActiveLow: Chip Select should be helf active low during operations. This is the default mode.</li>
+<li>
+ActiveHigh: Chip Select should be helf active high during operations.</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TMicroseconds"></a><code><b>TMicroseconds</b> = <a  href="PXL.Boards.Types.html#TTickCounter">TTickCounter</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TMilliseconds"></a><code><b>TMilliseconds</b> = <a  href="PXL.Boards.Types.html#TTickCounter">TTickCounter</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TParity"></a><code><b>TParity</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Parity bit type used for transceiving binary strings.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+None = 0: No parity bit.</li>
+<li>
+Odd = 1: Odd parity bit.</li>
+<li>
+Even = 2: Even parity bit.</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TPinChannel"></a><code><b>TPinChannel</b> = <a  href="PXL.Boards.Types.html#TPinIdentifier">TPinIdentifier</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Generic channel number, which can actually represent a physical pin.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TPinDrive"></a><code><b>TPinDrive</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Drive mode that is used in GPIO pins.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+None: Strong low and high or high-impedance (no pull-up or pull-down resistor).</li>
+<li>
+PullUp: Resistive high, strong low (pull-up resistor).</li>
+<li>
+PullDown: Resistive low, strong high (pull-down resistor).</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TPinIdentifier"></a><code><b>TPinIdentifier</b> = Cardinal;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Unique number that identifies each individual pin on the chip. The actual interpretation and meaning of this value may vary on different implementations.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TPinMode"></a><code><b>TPinMode</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+I/O mode typically used in GPIO pins.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+Input = 0: Pin set for input / high impedance</li>
+<li>
+Output = 1: Pin set for output</li>
+<li>
+Unknown = 99: Pin set for alternate Pinfunction</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TPinValue"></a><code><b>TPinValue</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Digital value of the pin.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+Low = 0: Low (0) or zero voltage.</li>
+<li>
+High = 1: High (1) or full voltage.</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TSignalEdge"></a><code><b>TSignalEdge</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Transition type of digital signal on a certain pin.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+None: Depending on implementation this value can mean either that transition is unknown, disabled or using both falling and raising edges.</li>
+<li>
+Falling: Falling edge, where signal goes from high (1) to low (0).</li>
+<li>
+Raising: Raising edge, where signal goes from low (0) to high (1).</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TSPIMode"></a><code><b>TSPIMode</b> = Cardinal;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+SPI operation mode. The actual interpretation of this value depends on each platform and implementation.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TStopBits"></a><code><b>TStopBits</b> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Number of stop bits used for transceiving binary strings.</p>
+<h6 class="description_section">Values</h6>
+<ul>
+<li>
+One = 0: One stop bit.</li>
+<li>
+OneDotFive = 1: One and &quot;half&quot; stop bits.</li>
+<li>
+Two = 2: Two stop bits.</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="TTickCounter"></a><code><b>TTickCounter</b> =  UInt64 ;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Special unsigned integer that is used to represent ticks in microseconds.</p>
+</td></tr>
+</table>
+<h3 class="detail">Constants</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="DefaultSPIFrequency"></a><code><b>DefaultSPIFrequency</b> = 8000000;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Default frequency at which SPI controller operates.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="DefaultUARTBaudRate"></a><code><b>DefaultUARTBaudRate</b> = 115200;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Default baud rate at which UART controller operates.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="MaxI2CTransferSize"></a><code><b>MaxI2CTransferSize</b> =  32 ;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Maximum number of bytes that can be reliably sent through I2C protocol in each read/write call.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="MaxSPITransferSize"></a><code><b>MaxSPITransferSize</b> =  4096 ;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Maximum number of bytes that can be reliably sent through SPI protocol in each read/write call.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="PinDisabled"></a><code><b>PinDisabled</b> = <a  href="PXL.Boards.Types.html#TPinIdentifier">TPinIdentifier</a>(-1);</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Constant value indicating that the specified pin is not connected and should not be used.</p>
+</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo">Copyright &copy; 2000 - 2017 Yuriy Kotsarenko. <em>Help files generated by <u>PasDoc</u>.</em>
+</span>
+</td></tr></table></body></html>

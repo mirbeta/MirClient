@@ -1,0 +1,16 @@
+This demo shows new diagram options in the Chart View:
+
+- Stacked Bars
+- Full-Stacked Bars
+- Side-by-Side Stacked Bars
+- Side-by-Side Full-Stacked Bars
+
+All diagrams can be rotated by 90 degrees, so that data is represented in column format.
+
+In this demo, you can perform the following operations using the main menu:
+
+- Switch between different diagram types.
+- Rotate the active diagram.
+- Change positions of the diagram title, legend, toolbox and value caption.
+- Customize different options of the category and value axes.
+- In customization mode (activated via the toolbox), make changes to the diagram elements.

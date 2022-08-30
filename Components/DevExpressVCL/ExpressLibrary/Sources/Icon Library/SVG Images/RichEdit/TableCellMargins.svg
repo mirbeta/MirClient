@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="TableCellMargins" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+</style>
+<path class="Black" d="M32,6V4h-4V0h-2v4H6V0H4v4H0v2h4v20H0v2h4v4h2v-4h20v4h2v-4h4v-2h-4V6H32z M26,26H6V6h20V26z"/>
+<path class="Blue" d="M8,8v16h16V8H8z M22,22H10V10h12V22z"/>
+</svg>

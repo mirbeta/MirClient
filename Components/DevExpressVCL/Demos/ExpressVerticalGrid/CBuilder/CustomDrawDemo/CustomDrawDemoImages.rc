@@ -1,0 +1,5 @@
+CAR RCDATA "..\..\Data\Car.bmp"
+SKY RCDATA "..\..\Data\SKY.bmp"
+EGYPT RCDATA "..\..\Data\EGYPT.bmp"
+MYFACE RCDATA "..\..\Data\MYFACE.bmp"
+TILE RCDATA "..\..\Data\TILE.bmp"

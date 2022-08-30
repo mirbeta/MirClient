@@ -1,0 +1,7 @@
+In this demo, you can:
+
+- Select the edit mode and initiate data row editing.
+- The In-place edit mode allows you to click any row cell to activate its editor. Use the editor to modify the cell's value. Once finished with data modifications, move focus to another row to post your changes. Press the Esc key to discard the changes made to the cell. Press the Esc key again to discard the changes made to the entire row.
+- In "Edit Form" modes, focus a row and initiate data editing either by double-clicking a cell or by pressing the Enter key. This will invoke the Edit Form populated with editors displaying the focused row's data. Edit values using editors and click Update to post the changes. To discard the changes, click Cancel.
+- Customize the Edit Form's layout using the built-in customization capabilities provided by the Layout Control (the Customize Edit Form… button or the Options | Customize Edit Form… menu item).
+- Apply different paint styles to a form (the Skins menu item).

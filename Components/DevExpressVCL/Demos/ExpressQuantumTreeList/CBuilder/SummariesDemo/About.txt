@@ -1,0 +1,15 @@
+In this demo you can:
+
+- invoke the footer and group footer context menus to:
+  - specify the summary types to be calculated
+  - specify whether to calculate summaries using all child nodes or only the immediate child nodes
+  - filter nodes by clicking custom menu options
+  - adjust the calculation base by filtering nodes
+
+- invoke the column header context menu to customize the visibility and layout of tree list elements
+
+- browse the source code to see how to:
+  - add custom menu items to the footer and group footer context menu (the menu's OnPopup event)
+  - provide custom summary values (the OnSummary event)
+  - get summary values (the OnAfterSummary event)
+  - customize the summary's display text (the Name column summary's OnGetText event)

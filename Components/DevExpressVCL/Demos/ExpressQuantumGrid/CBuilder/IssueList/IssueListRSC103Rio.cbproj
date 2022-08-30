@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{E7CB1711-30E3-4991-999A-F56DBDE03F2A}</ProjectGuid>
+    <ProjectVersion>14.6</ProjectVersion>
+    <MainSource>IssueList.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Base</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <Multithreaded>true</Multithreaded>
+    <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;cxLibraryRS26.lib;dxCoreRS26.lib;dxServerModeRS26.lib;cxGridRS26.lib;dsnap.lib;cxExportRS26.lib;dxGDIPlusRS26.lib;vcldb.lib;dbrtl.lib;adortl.lib;vclx.lib;dxmdsRS26.lib;dxSpreadSheetRS26.lib;dxSpreadSheetCoreRS26.lib;dxSpreadSheetCoreDialogsRS26.lib;dxComnRS26.lib;</AllPackageLibs>
+    <LinkPackageImports></LinkPackageImports>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+   <IncludePath>$(IncludePath);..\Common;..</IncludePath>
+   <ILINK_LibraryPath>$(ILINK_LibraryPath);..\Common;..</ILINK_LibraryPath>
+    <DCC_Namespace>WinApi;Vcl;System;System.Win;Vcl.Imaging;Data;Data.Win;Bde;Xml;Xml.Win;Vcl.Shell;VclTee;Datasnap;IBX;Vcl.Samples;$(DCC_Namespace)</DCC_Namespace>
+    <BCC_wpar>false</BCC_wpar>
+  </PropertyGroup>
+  <ItemGroup>
+    <ResFiles Include="IssueList.res">
+    </ResFiles>
+    <CppCompile Include="IssueList.cpp"> </CppCompile>
+    <CppCompile Include="IssueListMain.cpp">
+      <Form>IssueListMainForm</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListData.cpp">
+      <Form>dmMain</Form>
+    </CppCompile>
+    <CppCompile Include="..\AboutDemoForm.cpp">
+      <Form>formAboutDemo</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListGrid.cpp">
+      <Form>IssueListGridForm</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListFrames.cpp"> </CppCompile>
+    <CppCompile Include="IssueListForm.cpp">
+      <Form>frmBasic</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListUsers.cpp">
+      <Form>frmUsers</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListDepartments.cpp">
+      <Form>frmDepartments</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListItems.cpp">
+      <Form>frmItems</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListProjects.cpp">
+      <Form>frmProjects</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListSchedule.cpp">
+      <Form>frmSchedule</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListTeams.cpp">
+      <Form>frmTeams</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListStyles.cpp">
+      <Form>IssueListStylesForm</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListStyleData.cpp">
+      <Form>dmStyles</Form>
+    </CppCompile>
+    <CppCompile Include="IssueListConst.cpp"> </CppCompile>
+    <CppCompile Include="..\BaseForm.cpp">
+      <Form>fmBaseForm</Form>
+    </CppCompile>
+    <FormResources Include="IssueListMain.dfm" />
+    <FormResources Include="IssueListData.dfm" />
+    <FormResources Include="..\AboutDemoForm.dfm" />
+    <FormResources Include="IssueListGrid.dfm" />
+    <FormResources Include="IssueListForm.dfm" />
+    <FormResources Include="IssueListUsers.dfm" />
+    <FormResources Include="IssueListDepartments.dfm" />
+    <FormResources Include="IssueListItems.dfm" />
+    <FormResources Include="IssueListProjects.dfm" />
+    <FormResources Include="IssueListSchedule.dfm" />
+    <FormResources Include="IssueListTeams.dfm" />
+    <FormResources Include="IssueListStyles.dfm" />
+    <FormResources Include="IssueListStyleData.dfm" />
+    <FormResources Include="..\BaseForm.dfm" />  </ItemGroup>
+  <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+      <CPlusPlusBuilder.Personality>
+      </CPlusPlusBuilder.Personality>
+      <Platforms>
+        <Platform value="Win32">True</Platform>
+        <Platform value="Win64">True</Platform>
+      </Platforms>
+    </BorlandProject>
+    <ProjectFileVersion>12</ProjectFileVersion>
+  </ProjectExtensions>
+</Project>

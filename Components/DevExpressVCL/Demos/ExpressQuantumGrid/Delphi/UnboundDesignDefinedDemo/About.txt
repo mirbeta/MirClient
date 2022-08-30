@@ -1,0 +1,13 @@
+This is a design time demo. It shows you how to adjust an unbound grid at design time.
+
+To edit Layout and Data:
+
+- right click with the mouse on the GridView entry (located above the Grid's bottom right corner,  in this case named as 'bvCars') and then select the 'Edit Layout and Data ...' item.
+
+With the Layout editor you can:
+
+- edit the view's layout via the mouse (e.g. using drag&drop).
+
+- edit data in the same way as at runtime.
+
+Check also how little source code is required.

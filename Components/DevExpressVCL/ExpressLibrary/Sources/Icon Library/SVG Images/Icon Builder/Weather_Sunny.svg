@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+</style>
+<g id="Sunny">
+	<rect y="14" class="Yellow" width="6" height="2"/>
+	<rect x="3.5" y="22.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -14.6985 11.4853)" class="Yellow" width="6" height="2"/>
+	<rect x="5.5" y="3.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.6985 6.5147)" class="Yellow" width="2" height="6"/>
+	<rect x="14" class="Yellow" width="2" height="6"/>
+	<rect x="20.5" y="5.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 2.2721 18.5147)" class="Yellow" width="6" height="2"/>
+	<rect x="22.5" y="20.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.7279 23.4853)" class="Yellow" width="2" height="6"/>
+	<rect x="14" y="24" class="Yellow" width="2" height="6"/>
+	<rect x="24" y="14" class="Yellow" width="6" height="2"/>
+	<circle class="Yellow" cx="15" cy="15" r="7"/>
+</g>
+</svg>

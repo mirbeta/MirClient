@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ungroup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.75;}
+</style>
+<g class="st0">
+	<path class="Black" d="M14,4H8v2H6V2h8V4z M8,26v-2H6v2v2h2h6v-2H8z"/>
+</g>
+<path class="Black" d="M16,2v8v2v6v2v8h16v-8v-2v-6v-2V2H16z M30,26H18v-6h12V26z M30,18H18v-6h12V18z M18,10V4h12v6H18z"/>
+<path class="Blue" d="M28,8h-8V6h8V8z M28,14h-8v2h8V14z M28,22h-8v2h8V22z"/>
+<path class="Red" d="M7,8c-3.9,0-7,3.1-7,7c0,3.9,3.1,7,7,7s7-3.1,7-7C14,11.1,10.9,8,7,8z M7,10c1,0,2,0.3,2.8,0.8l-6.9,6.9
+	C2.3,17,2,16,2,15C2,12.2,4.2,10,7,10z M7,20c-1,0-2-0.3-2.8-0.8l6.9-6.9C11.7,13,12,14,12,15C12,17.8,9.8,20,7,20z"/>
+</svg>

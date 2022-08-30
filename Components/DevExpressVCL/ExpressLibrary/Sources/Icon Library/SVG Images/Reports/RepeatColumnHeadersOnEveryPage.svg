@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="RepeatColumnHeadersOnEveryPage">
+	<g class="st0">
+		<path class="Black" d="M6,24H0v-4h6V24z M14,20H8v4h6V20z M22,20h-6v4h6V20z M6,26H0v4h6V26z M14,26H8v4h6V26z M22,26h-6v4h6V26z
+			 M30,8h-6v4h6V8z M22,8h-6v4h6V8z M14,8H8v4h6V8z M30,14h-6v4h6V14z"/>
+	</g>
+	<path class="Blue" d="M22,18H0v-4h22V18z M30,2H8v4h22V2z"/>
+</g>
+</svg>

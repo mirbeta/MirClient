@@ -1,0 +1,20 @@
+This sample application demonstrates how easy it is to create an RTF editor with a Ribbon interface similar to that found in Microsoft Office 2007 and higher.
+
+To emulate the appearance and layout capabilities of the Microsoft Office Ribbon, it uses our TdxBarManager, TdxRibbon, TdxRibbonBackstageView, TdxRibbonBackstageViewGalleryControl, TdxBarApplicationMenu, TdxRibbonMiniToolbar, TdxRibbonPopupMenu, TdxRibbonRadialMenu, TdxBarScreenTipRepository, TdxRibbonStatusBar, TdxRibbonDropDownGallery, and TcxImageList components.
+
+In the demo you can:
+
+1)  Use the Options dialog (via the Options item) to customize the appearance and behavior of the Ribbon.
+
+    • Pick between five different Ribbon-based styles: Office 2007 Ribbon, Office 2010 Ribbon, Office 2013 Ribbon, Office 2016 Ribbon, Office 2016 Tablet, and the Windows Scenic Ribbon.
+    • Select a color scheme (a theme or skin) to apply to the Ribbon form.
+    • Select a color accent for the Office 2010, Office 2013, Office 2016, Office 2016 Tablet, or Windows Scenic style Ribbon.
+    • Choose the manner in which hint information is displayed on-screen.
+
+2)  Switch the Touch Mode option located in the Quick Access Toolbar to make the size of tap-able Ribbon UI elements fit the average size of a fingertip, and revert back to the default size.
+
+3)  Make a selection within the editor to show the 'Selection Tools' contextual tab and Ribbon Mini Toolbar (provided that the corresponding Context Menu Style option is enabled). 
+
+4)  Invoke the document's context menu. Based on Context Menu Style setting, this menu will be represented either as a radial or traditional popup menu.
+
+5)  Invoke the Ribbon control's context menu and select 'Customize the Ribbon...' or 'Customize Quick Access Toolbar...' to try the runtime customization capabilities.

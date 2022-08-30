@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#039C23;}
+	.st3{display:inline;fill:#D11C1C;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="TaskList">
+	<path class="Black" d="M29,0H3C2.5,0,2,0.5,2,1v28c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V1C30,0.5,29.5,0,29,0z M28,28H4V2h24V28z"/>
+	<g class="st0">
+		<path class="Black" d="M24,8H12V6h12V8z M24,10H12v2h12V10z M24,14H12v2h12V14z M24,18H12v2h12V18z M24,22H12v2h12V22z"/>
+	</g>
+	<path class="Blue" d="M10,8H8V6h2V8z M10,10H8v2h2V10z M10,14H8v2h2V14z M10,18H8v2h2V18z M10,22H8v2h2V22z"/>
+</g>
+</svg>

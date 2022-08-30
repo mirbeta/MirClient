@@ -1,0 +1,7 @@
+In this demo you can:
+
+- change between a combined or two separate grids (see Options)
+
+- group either table by dragging one or more column headers to a grouping area
+
+- display resizable images by clicking on the focused icon

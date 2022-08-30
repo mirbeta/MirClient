@@ -1,0 +1,100 @@
+package dclcxGridWizardRS15;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressQuantumGrid Wizard by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxCoreRS15,
+  dxServerModeRS15,
+  dxGDIPlusRS15,
+  cxLibraryRS15,
+  cxExportRS15,
+  cxGridRS15,
+  dxWizardControlRS15,
+  dcldb,
+  designide,
+  vcldesigner,
+  dcldxCoreRS15,
+  dcldxServerModeRS15,
+  dclcxLibraryRS15,
+  dclcxGridRS15,
+  dcldxWizardControlRS15;
+
+contains
+  cxGridWizard,
+  cxGridWizardReg,
+  cxGridWizardStrs,
+  cxGridWizardCustomPage,
+  cxGridWizardCustomHelper,
+  cxGridWizardCommonCustomizeItemsPage,
+  cxGridWizardCommonOptionsFilteringSortingPage,
+  cxGridWizardCommonFinishPage,
+  cxGridWizardCommonSelectViewPage,
+  cxGridWizardCommonWizardModePage,
+  cxGridWizardBandedTableViewHelper,
+  cxGridWizardBandedTableViewOptionsBandsPage,
+  cxGridWizardCardViewHelper,
+  cxGridWizardCardViewOptionsInterfaceElementsPage,
+  cxGridWizardCardViewOptionsBehaviorPage,
+  cxGridWizardCardViewOptionsSizingPage,
+  cxGridWizardCardStructureEditor,
+  cxGridWizardChartViewHelper,
+  cxGridWizardChartViewOptionsViewSettingsPage,
+  cxGridWizardDBViewsDataLoadingSettingsPage,
+  cxGridWizardDBViewsDataSourcePage,
+  cxGridWizardDBViewsSelectItemsForDisplayPage,
+  cxGridWizardLayoutViewHelper,
+  cxGridWizardLayoutViewOptionsCarouselModePage,
+  cxGridWizardLayoutViewOptionsCustomizeItemsPage,
+  cxGridWizardLayoutViewOptionsInterfaceElementsPage,
+  cxGridWizardLayoutViewOptionsBehaviorPage,
+  cxGridWizardLayoutViewOptionsViewSettingsPage,
+  cxGridWizardServerModeViewHelper,
+  cxGridWizardServerModeViewsDataSourcePage,
+  cxGridWizardTableViewHelper,
+  cxGridWizardTableViewOptionsFilteringSortingPage,
+  cxGridWizardTableViewOptionsInplaceEditFormLayoutPage,
+  cxGridWizardTableViewOptionsInplaceEditFormPage,
+  cxGridWizardTableViewOptionsInterfaceElementsPage,
+  cxGridWizardTableViewOptionsBehaviorPage,
+  cxGridWizardTableViewOptionsSizingPage,
+  cxGridWizardTableViewOptionsSummaryPage,
+  cxGridWizardUnboundViewsEditItemDialog,
+  cxGridWizardUnboundViewsSelectItemsForDisplayPage;
+
+end.

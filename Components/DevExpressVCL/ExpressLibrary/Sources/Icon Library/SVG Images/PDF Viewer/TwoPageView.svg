@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+</style>
+<g id="TwoPageView">
+	<path class="Black" d="M13,4H1C0.5,4,0,4.5,0,5v20c0,0.5,0.5,1,1,1h12c0.5,0,1-0.5,1-1V5C14,4.5,13.5,4,13,4z M12,24H2V6h10V24z
+		 M29,4H17c-0.5,0-1,0.5-1,1v20c0,0.5,0.5,1,1,1h12c0.5,0,1-0.5,1-1V5C30,4.5,29.5,4,29,4z M28,24H18V6h10V24z"/>
+	<path class="Blue" d="M10,12H4v-2h6V12z M10,14H4v2h6V14z M10,18H4v2h6V18z M26,12h-6v-2h6V12z M26,14h-6v2h6V14z M26,18h-6v2h6V18
+		z"/>
+</g>
+</svg>

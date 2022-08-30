@@ -1,0 +1,13 @@
+In this demo, you can:
+
+- Edit cell values and move focus or press the Enter key in order to validate the input.
+
+- Correct input errors based on the requirements displayed in error hints.
+
+- Try various validation options to customize validation error display (the Options | Validation Options menu item).
+
+- See how OnValidateDrawValue and Properties.OnValidate column events are handled to provide cell-specific validation results.
+
+- See how a custom error icon is specified for the Email column editor via the Properties.ErrorIcon property.
+
+- See how error hints are customized by handling a hint style controller's OnShowHintEx event.

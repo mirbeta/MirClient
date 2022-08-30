@@ -1,0 +1,4 @@
+In this demo you can perform the following operations:
+
+- Navigate within the shell hierarchy using either the breadcrumb edit, the tree view, or the list view, and see how changes are automatically reflected in other controls.
+- Change the shell view style using the speed button.

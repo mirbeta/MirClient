@@ -1,0 +1,47 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="CustomDrawDemoD103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoD103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ProviderModeDemoD103Rio">
+    <MSBuild Projects="ProviderModeDemo\ProviderModeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RTTIInspectorDemoD103Rio">
+    <MSBuild Projects="RTTIInspectorDemo\RTTIInspectorDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SimpleVerticalGridDemoD103Rio">
+    <MSBuild Projects="SimpleVerticalGridDemo\SimpleVerticalGridDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoD103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StylesSimpleDemoD103Rio">
+    <MSBuild Projects="STYLESSIMPLEDEMO\StylesSimpleDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RowsMultiEditorsDemoD103Rio">
+    <MSBuild Projects="RowsMultiEditorsDemo\RowsMultiEditorsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceValidationDemoD103Rio">
+    <MSBuild Projects="EditorsInPlaceValidationDemo\EditorsInPlaceValidationDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FindPanelDemoD103Rio">
+    <MSBuild Projects="FindPanelDemo\FindPanelDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FilterDropDownDemoD103Rio">
+    <MSBuild Projects="FilterDropDownDemo\FilterDropDownDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="CustomDrawDemoD103Rio;EditorsInPlaceDemoD103Rio;ProviderModeDemoD103Rio;RTTIInspectorDemoD103Rio;SimpleVerticalGridDemoD103Rio;StylesMultiDemoD103Rio;StylesSimpleDemoD103Rio;RowsMultiEditorsDemoD103Rio;EditorsInPlaceValidationDemoD103Rio;FindPanelDemoD103Rio;FilterDropDownDemoD103Rio" />
+  </Target>
+</Project>

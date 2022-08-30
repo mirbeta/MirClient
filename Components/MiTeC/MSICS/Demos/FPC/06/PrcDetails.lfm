@@ -1,0 +1,496 @@
+object dlg_PrcDetails: Tdlg_PrcDetails
+  Left = 333
+  Height = 526
+  Top = 447
+  Width = 661
+  Caption = 'Process Details'
+  ClientHeight = 526
+  ClientWidth = 661
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '1.8.2.0'
+  Visible = False
+  object Bevel1: TBevel
+    Left = 12
+    Height = 6
+    Top = 473
+    Width = 637
+    Anchors = [akLeft, akRight, akBottom]
+    Shape = bsTopLine
+  end
+  object imgIcon: TImage
+    Left = 14
+    Height = 32
+    Top = 11
+    Width = 32
+    Center = True
+  end
+  object bClose: TButton
+    Cursor = crHandPoint
+    Left = 574
+    Height = 25
+    Top = 487
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'Close'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object pc: TPageControl
+    Cursor = crHandPoint
+    Left = 12
+    Height = 407
+    Top = 52
+    Width = 637
+    ActivePage = tsEnv
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    MultiLine = True
+    ParentFont = False
+    TabIndex = 4
+    TabOrder = 1
+    Options = [nboMultiLine]
+    object TabSheet1: TTabSheet
+      Caption = ' General '
+      ClientHeight = 0
+      ClientWidth = 0
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 1
+      ParentFont = False
+      object GenList: TListView
+        Left = 11
+        Height = 353
+        Top = 14
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Color = clBtnFace
+        Columns = <        
+          item
+            Width = 125
+          end        
+          item
+            Width = 450
+          end>
+        ColumnClick = False
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowColumnHeaders = False
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = GenListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = GenListAdvancedCustomDrawSubItem
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = ' Performance '
+      ClientHeight = 0
+      ClientWidth = 0
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 3
+      ParentFont = False
+      object CntList: TListView
+        Left = 12
+        Height = 353
+        Top = 12
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Color = clBtnFace
+        Columns = <        
+          item
+            Caption = 'Name'
+            Width = 350
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Current'
+            Width = 100
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Peak'
+            Width = 100
+          end>
+        ColumnClick = False
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = GenListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = GenListAdvancedCustomDrawSubItem
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Modules'
+      ClientHeight = 0
+      ClientWidth = 0
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      object ModList: TListView
+        Left = 11
+        Height = 357
+        Top = 12
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'Name'
+            Width = 125
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Size [B]'
+            Width = 75
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Base Address'
+            Width = 120
+          end        
+          item
+            Caption = 'Description'
+            Width = 300
+          end>
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'Threads'
+      ClientHeight = 0
+      ClientWidth = 0
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 4
+      ParentFont = False
+      object ThdList: TListView
+        Left = 11
+        Height = 353
+        Top = 12
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'ID'
+          end        
+          item
+            Caption = 'Start Address'
+            Width = 80
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Base Pri'
+            Width = 55
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Dyn Pri'
+          end        
+          item
+            Caption = 'State'
+            Width = 100
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'CntxSwitch Cnt'
+            Width = 85
+          end        
+          item
+            Caption = 'Kernel Time'
+            Width = 70
+          end        
+          item
+            Caption = 'User Time'
+            Width = 70
+          end>
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+      end
+    end
+    object tsEnv: TTabSheet
+      Caption = 'Environment'
+      ClientHeight = 381
+      ClientWidth = 629
+      ImageIndex = 8
+      object EnvBox: TListBox
+        Left = 14
+        Height = 319
+        Top = 14
+        Width = 591
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        ItemHeight = 0
+        TabOrder = 0
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = ' Handles '
+      ClientHeight = 0
+      ClientWidth = 0
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 5
+      ParentFont = False
+      object HList: TListView
+        Left = 12
+        Height = 353
+        Top = 12
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'Handle'
+          end        
+          item
+            Caption = 'Type'
+            Width = 75
+          end        
+          item
+            Caption = 'Access'
+            Width = 80
+          end        
+          item
+            Caption = 'Name'
+            Width = 350
+          end>
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+      end
+    end
+    object TabSheet7: TTabSheet
+      Caption = ' Windows '
+      ClientHeight = 0
+      ClientWidth = 0
+      ImageIndex = 6
+      object WinTree: TTreeView
+        Left = 11
+        Height = 312
+        Top = 12
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        HideSelection = False
+        Images = ImageList
+        Indent = 19
+        ReadOnly = True
+        TabOrder = 0
+        OnDblClick = cmWinDetails
+        OnDeletion = WinTreeDeletion
+        Options = [tvoAutoItemHeight, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+      end
+      object Button5: TButton
+        Cursor = crHandPoint
+        Left = 542
+        Height = 25
+        Top = 338
+        Width = 75
+        Anchors = [akRight, akBottom]
+        Caption = 'Details...'
+        OnClick = cmWinDetails
+        TabOrder = 1
+      end
+    end
+    object TabSheet8: TTabSheet
+      Caption = ' Security '
+      ClientHeight = 0
+      ClientWidth = 0
+      ImageIndex = 7
+      object SecList: TListView
+        Left = 10
+        Height = 353
+        Top = 11
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Color = clBtnFace
+        Columns = <        
+          item
+            Width = 450
+          end        
+          item
+            Width = 115
+          end>
+        ColumnClick = False
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowColumnHeaders = False
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = GenListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = GenListAdvancedCustomDrawSubItem
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Child Processes'
+      ClientHeight = 0
+      ClientWidth = 0
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 2
+      ParentFont = False
+      object CPList: TListView
+        Left = 12
+        Height = 357
+        Top = 12
+        Width = 606
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'PID'
+            Width = 125
+          end        
+          item
+            Caption = 'Name'
+            Width = 450
+          end>
+        HideSelection = False
+        ParentShowHint = False
+        ReadOnly = True
+        RowSelect = True
+        ShowHint = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+      end
+    end
+  end
+  object eName: TEdit
+    Left = 54
+    Height = 21
+    Top = 16
+    Width = 593
+    Anchors = [akTop, akLeft, akRight]
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentColor = True
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object ImageList: TImageList
+    left = 108
+    top = 472
+    Bitmap = {
+      4C69020000001000000010000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000CECECEFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFFCECECEFF00000000000000009C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF00000000000000009C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      00009C9C9CFF9C9C9CFF000000009C9C9CFF9C9C9CFF000000009C9C9CFF9C9C
+      9CFF000000009C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009C9C9CFF00000000000000009C9C9CFF000000009C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF000000009C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009C9C9CFF00000000000000009C9C9CFF000000009C9C9CFF0000
+      00009C9C9CFF9C9C9CFF000000009C9C9CFF9C9C9CFF000000009C9C9CFF9C9C
+      9CFF000000009C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009C9C9CFF00000000000000009C9C9CFF000000009C9C9CFF0000
+      00009C9C9CFF9C9C9CFF000000009C9C9CFF9C9C9CFF000000009C9C9CFF9C9C
+      9CFF000000009C9C9CFF00000000000000009C9C9CFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000009C9C9CFF00000000000000009C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C9CFF9C9C
+      9CFF9C9C9CFF9C9C9CFF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000FFCE9CFFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFFCE9CFF0000000000000000FF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FF0000000000000000FF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFF9C9C9CFF9C9C9CFFFFFFFFFF9C9C9CFF9C9C9CFFFFFFFFFF9C9C9CFF9C9C
+      9CFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFCE9C63FFCE9C
+      63FFCE9C63FFCE9C63FFCE9C63FFCE9C63FFCE9C63FFCE9C63FFCE9C63FFCE9C
+      63FFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFF9C9C9CFFFFFF
+      FFFF9C9C9CFF9C9C9CFFFFFFFFFF9C9C9CFF9C9C9CFFFFFFFFFF9C9C9CFF9C9C
+      9CFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFF9C9C9CFFFFFF
+      FFFF9C9C9CFF9C9C9CFFFFFFFFFF9C9C9CFF9C9C9CFFFFFFFFFF9C9C9CFF9C9C
+      9CFFFFFFFFFFFF3100FF0000000000000000FF3100FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFF3100FF0000000000000000FF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF3100FFFF31
+      00FFFF3100FFFF3100FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000
+    }
+  end
+end

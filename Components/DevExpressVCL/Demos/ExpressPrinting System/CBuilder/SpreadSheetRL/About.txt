@@ -1,0 +1,16 @@
+This demo illustrates how you can build reports for the spreadsheet control.
+
+The demo allows you to perform the following:
+
+- Use the Report Designer to customize a report as you need.
+- Open the Print dialog to choose the print destination and printer settings.
+- Use the Preview dialog to preview and then print a report, or export it to a .PDF file.
+- Use the Page Setup dialog to change the print settings before printing the report.
+- Apply anti-aliasing to images in a report, to make image edges smoother.
+- Apply one of the three built-in styles specific to the Print Preview dialog.
+
+Note that initially, you can only use the Standard style of the Print Preview dialog. However, if you open a project's form and build the project, units of the following Print Preview dialog styles are automatically added to the 'uses' clause:
+- Ribbon (if the ExpressBars Suite v6 is installed).
+- Advanced (if the ExpressBars Suite is installed).
+
+As a result, the Ribbon and Advanced menu items are automatically added to the Options | Preview Dialog Style menu at runtime.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Green{fill:#039C23;}
+</style>
+<g id="PersonalID">
+	<rect x="18" y="16" class="Black" width="8" height="2"/>
+	<rect x="18" y="12" class="Black" width="8" height="2"/>
+	<circle class="Black" cx="11" cy="13" r="3"/>
+	<path class="Black" d="M29,6H3C2.4,6,2,6.5,2,7v18c0,0.5,0.4,1,1,1h26c0.6,0,1-0.5,1-1V7C30,6.5,29.6,6,29,6z M28,24H4V8h24V24z"/>
+	<path class="Black" d="M14.2,16.8c-0.9,0.7-2,1.2-3.2,1.2s-2.3-0.5-3.2-1.2C6,18.5,6,22,6,22h10C16,22,16,18.5,14.2,16.8z"/>
+</g>
+</svg>

@@ -1,0 +1,49 @@
+{$I RzComps.inc}
+
+package RaizeComponentsVclDb_Design;
+
+{$R *.res}
+{$R *.otares}
+{$R 'RaizeComponentsVclDb_Design.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $50C00000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  VCL,
+  DesignIDE,
+  DclDB,
+  RaizeComponentsVcl_Design,
+  RaizeComponentsVclDb;
+
+contains
+  RaizeComponentsVclDb_Reg in 'RaizeComponentsVclDb_Reg.pas',
+  RzDBDesignEditors in 'RzDBDesignEditors.pas',
+  RzDBComboBoxEditor in 'RzDBComboBoxEditor.pas',
+  RzDBNavEditor in 'RzDBNavEditor.pas',
+  RzDBRadioGroupEditor in 'RzDBRadioGroupEditor.pas';
+
+end.

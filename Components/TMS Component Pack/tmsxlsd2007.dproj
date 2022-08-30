@@ -1,0 +1,139 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e2e6ee1c-96ba-4dca-9d2b-0ba6d3e61236}</ProjectGuid>
+    <MainSource>tmsxlsd2007.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\tmsxlsd2007.bpl</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="PackageDescription">TMS TAdvStringGrid Excel support</Package_Options><Package_Options Name="ImplicitBuild">False</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2067</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">tmsxlsd2007.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="tmsxlsd2007.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="rtl.dcp" />
+    <DCCReference Include="tmsd2007.dcp" />
+    <DCCReference Include="vcl.dcp" />
+    <DCCReference Include="vcljpg.dcp" />
+    <DCCReference Include="xlsadapter\tmsAdvExcelIOReg.pas" />
+    <DCCReference Include="xlsadapter\tmsAdvGridExcel.pas" />
+    <DCCReference Include="xlsadapter\tmsUBreakList.pas" />
+    <DCCReference Include="xlsadapter\tmsUEscherGraphToBSE.pas" />
+    <DCCReference Include="xlsadapter\tmsUEscherOtherRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUEscherRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUExcelAdapter.pas" />
+    <DCCReference Include="xlsadapter\tmsUExcelRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUFlxFormats.pas" />
+    <DCCReference Include="xlsadapter\tmsUFlxMessages.pas" />
+    <DCCReference Include="xlsadapter\tmsUFlxNumberFormat.pas" />
+    <DCCReference Include="xlsadapter\tmsUFlxRowComments.pas" />
+    <DCCReference Include="xlsadapter\tmsUFlxStack.pas" />
+    <DCCReference Include="xlsadapter\tmsUFlxUtils.pas" />
+    <DCCReference Include="xlsadapter\tmsUOle2Impl.pas" />
+    <DCCReference Include="xlsadapter\tmsUSheetNameList.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsBaseClientData.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsBaseList.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsBaseRecordLists.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsBaseRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsCellRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsChart.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsClientData.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsColInfo.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsCondFmt.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsEncodeFormula.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsEscher.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsFormula.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsFormulaParser.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsHyperLink.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsMD5.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsNotes.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsOtherRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsPageBreaks.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsPalette.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsPictures.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsProtect.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsRangeRecords.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsReferences.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsRowColEntries.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsSections.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsSheet.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsSST.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsStrings.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsTokenArray.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsWorkbookGlobals.pas" />
+    <DCCReference Include="xlsadapter\tmsUXlsXF.pas" />
+    <DCCReference Include="xlsadapter\tmsXLSAdapter.pas" />
+    <DCCReference Include="xlsadapter\tmsXlsBaseTemplateStore.pas" />
+    <DCCReference Include="xlsadapter\tmsXlsFormulaMessages.pas" />
+    <DCCReference Include="xlsadapter\tmsXlsMessages.pas" />
+    <DCCReference Include="XlsAdapter\UBreakList.pas" />
+    <DCCReference Include="XlsAdapter\UEscherGraphToBSE.pas" />
+    <DCCReference Include="XlsAdapter\UEscherOtherRecords.pas" />
+    <DCCReference Include="XlsAdapter\UEscherRecords.pas" />
+    <DCCReference Include="XlsAdapter\UExcelAdapter.pas" />
+    <DCCReference Include="XlsAdapter\UExcelRecords.pas" />
+    <DCCReference Include="XlsAdapter\UFlxFormats.pas" />
+    <DCCReference Include="XlsAdapter\UFlxMessages.pas" />
+    <DCCReference Include="XlsAdapter\UFlxNumberFormat.pas" />
+    <DCCReference Include="XlsAdapter\UFlxRowComments.pas" />
+    <DCCReference Include="XlsAdapter\UFlxStack.pas" />
+    <DCCReference Include="XlsAdapter\UFlxUtils.pas" />
+    <DCCReference Include="XlsAdapter\USheetNameList.pas" />
+    <DCCReference Include="XLSAdapter\UTextDelim.pas" />
+    <DCCReference Include="XlsAdapter\UXlsBaseClientData.pas" />
+    <DCCReference Include="XlsAdapter\UXlsBaseList.pas" />
+    <DCCReference Include="XlsAdapter\UXlsBaseRecordLists.pas" />
+    <DCCReference Include="XlsAdapter\UXlsBaseRecords.pas" />
+    <DCCReference Include="XlsAdapter\UXlsCellRecords.pas" />
+    <DCCReference Include="XlsAdapter\UXlsChart.pas" />
+    <DCCReference Include="XlsAdapter\UXlsClientData.pas" />
+    <DCCReference Include="XlsAdapter\UXlsColInfo.pas" />
+    <DCCReference Include="XlsAdapter\UXlsCondFmt.pas" />
+    <DCCReference Include="XLSAdapter\UXlsEncodeFormula.pas" />
+    <DCCReference Include="XlsAdapter\UXlsEscher.pas" />
+    <DCCReference Include="XlsAdapter\UXlsFormula.pas" />
+    <DCCReference Include="XLSAdapter\UXlsFormulaParser.pas" />
+    <DCCReference Include="XLSAdapter\UXlsHyperLink.pas" />
+    <DCCReference Include="XlsAdapter\UXlsMD5.pas" />
+    <DCCReference Include="XlsAdapter\UXlsNotes.pas" />
+    <DCCReference Include="XlsAdapter\UXlsOtherRecords.pas" />
+    <DCCReference Include="XlsAdapter\UXlsPageBreaks.pas" />
+    <DCCReference Include="XlsAdapter\UXlsPalette.pas" />
+    <DCCReference Include="XlsAdapter\UXlsPictures.pas" />
+    <DCCReference Include="XlsAdapter\UXlsRangeRecords.pas" />
+    <DCCReference Include="XlsAdapter\UXlsReferences.pas" />
+    <DCCReference Include="XlsAdapter\UXlsRowColEntries.pas" />
+    <DCCReference Include="XlsAdapter\UXlsSections.pas" />
+    <DCCReference Include="XlsAdapter\UXlsSheet.pas" />
+    <DCCReference Include="XlsAdapter\UXlsSST.pas" />
+    <DCCReference Include="XlsAdapter\UXlsStrings.pas" />
+    <DCCReference Include="XlsAdapter\UXlsTokenArray.pas" />
+    <DCCReference Include="XlsAdapter\UXlsWorkbookGlobals.pas" />
+    <DCCReference Include="XlsAdapter\UXlsXF.pas" />
+    <DCCReference Include="XlsAdapter\WOLE2Stream.pas" />
+    <DCCReference Include="XlsAdapter\XlsAdapter.pas" />
+    <DCCReference Include="XlsAdapter\XlsBaseTemplateStore.pas" />
+    <DCCReference Include="XlsAdapter\XlsFormulaMessages.pas" />
+    <DCCReference Include="XlsAdapter\XlsMessages.pas" />
+  </ItemGroup>
+</Project>

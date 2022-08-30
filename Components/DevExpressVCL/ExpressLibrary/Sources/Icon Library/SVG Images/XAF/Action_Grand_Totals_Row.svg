@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.5;}
+</style>
+<path class="Yellow" d="M31,16H19c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1V17C32,16.4,31.6,16,31,16z M30,20h-7.2
+	l3,3l-3,3H30v2H20v-2l3-3l-3-3v-2h10V20z"/>
+<rect x="12" y="2" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 24 -4)" class="Yellow" width="4" height="16"/>
+<g class="st0">
+	<rect x="12" y="-4" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 18 -10)" class="Black" width="4" height="16"/>
+	<rect x="9" y="11" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 27 5)" class="Black" width="4" height="10"/>
+	<rect x="9" y="17" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 33 11)" class="Black" width="4" height="10"/>
+</g>
+<rect y="8" class="Yellow" width="4" height="4"/>
+<g class="st0">
+	<rect y="2" class="Black" width="4" height="4"/>
+	<rect y="14" class="Black" width="4" height="4"/>
+	<rect y="20" class="Black" width="4" height="4"/>
+</g>
+</svg>

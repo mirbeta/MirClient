@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.75;}
+</style>
+<g id="Briefcase">
+	<rect x="14" y="14" class="Black" width="4" height="4"/>
+	<path class="Black" d="M20,19c0,0.5-0.5,1-1,1h-6c-0.5,0-1-0.5-1-1v-3H2v11c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V16H20V19z"/>
+	<path class="Black" d="M29,8h-7V5c0-0.5-0.5-1-1-1H11c-0.5,0-1,0.5-1,1v3H3C2.5,8,2,8.5,2,9v5h10v-1c0-0.5,0.5-1,1-1h6
+		c0.5,0,1,0.5,1,1v1h10V9C30,8.5,29.5,8,29,8z M20,8h-8V6h8V8z"/>
+</g>
+</svg>

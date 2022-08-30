@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3395AC55-2B51-4164-8B8A-967E48AA5C99}</ProjectGuid>
+    <ProjectVersion>14.6</ProjectVersion>
+    <MainSource>SummaryFooterDemo.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Base</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <Multithreaded>true</Multithreaded>
+    <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;cxLibraryRS26.lib;dxCoreRS26.lib;dxServerModeRS26.lib;cxGridRS26.lib;dsnap.lib;cxExportRS26.lib;dxGDIPlusRS26.lib;vcldb.lib;dbrtl.lib;adortl.lib;vclx.lib;dxmdsRS26.lib;dxSpreadSheetRS26.lib;dxSpreadSheetCoreRS26.lib;dxSpreadSheetCoreDialogsRS26.lib;dxComnRS26.lib;</AllPackageLibs>
+    <LinkPackageImports></LinkPackageImports>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+   <IncludePath>$(IncludePath);..\Common;..</IncludePath>
+   <ILINK_LibraryPath>$(ILINK_LibraryPath);..\Common;..</ILINK_LibraryPath>
+    <DCC_Namespace>WinApi;Vcl;System;System.Win;Vcl.Imaging;Data;Data.Win;Bde;Xml;Xml.Win;Vcl.Shell;VclTee;Datasnap;IBX;Vcl.Samples;$(DCC_Namespace)</DCC_Namespace>
+    <BCC_wpar>false</BCC_wpar>
+  </PropertyGroup>
+  <ItemGroup>
+    <ResFiles Include="SummaryFooterDemo.res">
+    </ResFiles>
+    <CppCompile Include="SummaryFooterDemo.cpp"> </CppCompile>
+    <CppCompile Include="SummaryFooterDemoMain.cpp">
+      <Form>SummaryFooterDemoMainForm</Form>
+    </CppCompile>
+    <CppCompile Include="SummaryFooterDemoData.cpp">
+      <Form>SummaryFooterDemoDataDM</Form>
+    </CppCompile>
+    <CppCompile Include="..\AboutDemoForm.cpp">
+      <Form>formAboutDemo</Form>
+    </CppCompile>
+    <CppCompile Include="..\BaseForm.cpp">
+      <Form>fmBaseForm</Form>
+    </CppCompile>
+    <CppCompile Include="SummaryFooterDemoEditSummary.cpp">
+      <Form>SummaryFooterDemoEditSummaryForm</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\CarsData.cpp">
+      <Form>dmCars</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\CarsDataForGrid.cpp">
+      <Form>dmGridCars</Form>
+    </CppCompile>
+    <FormResources Include="SummaryFooterDemoMain.dfm" />
+    <FormResources Include="SummaryFooterDemoData.dfm" />
+    <FormResources Include="..\AboutDemoForm.dfm" />
+    <FormResources Include="..\BaseForm.dfm" />
+    <FormResources Include="SummaryFooterDemoEditSummary.dfm" />
+    <FormResources Include="..\Common\CarsData.dfm" />
+    <FormResources Include="..\Common\CarsDataForGrid.dfm" />  </ItemGroup>
+  <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+      <CPlusPlusBuilder.Personality>
+      </CPlusPlusBuilder.Personality>
+      <Platforms>
+        <Platform value="Win32">True</Platform>
+        <Platform value="Win64">True</Platform>
+      </Platforms>
+    </BorlandProject>
+    <ProjectFileVersion>12</ProjectFileVersion>
+  </ProjectExtensions>
+</Project>

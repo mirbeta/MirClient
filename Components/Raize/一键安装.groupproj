@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9FBBDECA-AC38-48D9-AC6E-9BE2D5E54A9A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Source\RaizeComponentsVcl.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Source\RaizeComponentsVcl_Design.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Source\RaizeComponentsVclDb.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Source\RaizeComponentsVclDb_Design.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RaizeComponentsVcl">
+        <MSBuild Projects="Source\RaizeComponentsVcl.dproj"/>
+    </Target>
+    <Target Name="RaizeComponentsVcl:Clean">
+        <MSBuild Projects="Source\RaizeComponentsVcl.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RaizeComponentsVcl:Make">
+        <MSBuild Projects="Source\RaizeComponentsVcl.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RaizeComponentsVcl_Design">
+        <MSBuild Projects="Source\RaizeComponentsVcl_Design.dproj"/>
+    </Target>
+    <Target Name="RaizeComponentsVcl_Design:Clean">
+        <MSBuild Projects="Source\RaizeComponentsVcl_Design.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RaizeComponentsVcl_Design:Make">
+        <MSBuild Projects="Source\RaizeComponentsVcl_Design.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RaizeComponentsVclDb">
+        <MSBuild Projects="Source\RaizeComponentsVclDb.dproj"/>
+    </Target>
+    <Target Name="RaizeComponentsVclDb:Clean">
+        <MSBuild Projects="Source\RaizeComponentsVclDb.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RaizeComponentsVclDb:Make">
+        <MSBuild Projects="Source\RaizeComponentsVclDb.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RaizeComponentsVclDb_Design">
+        <MSBuild Projects="Source\RaizeComponentsVclDb_Design.dproj"/>
+    </Target>
+    <Target Name="RaizeComponentsVclDb_Design:Clean">
+        <MSBuild Projects="Source\RaizeComponentsVclDb_Design.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RaizeComponentsVclDb_Design:Make">
+        <MSBuild Projects="Source\RaizeComponentsVclDb_Design.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RaizeComponentsVcl;RaizeComponentsVcl_Design;RaizeComponentsVclDb;RaizeComponentsVclDb_Design"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RaizeComponentsVcl:Clean;RaizeComponentsVcl_Design:Clean;RaizeComponentsVclDb:Clean;RaizeComponentsVclDb_Design:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RaizeComponentsVcl:Make;RaizeComponentsVcl_Design:Make;RaizeComponentsVclDb:Make;RaizeComponentsVclDb_Design:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

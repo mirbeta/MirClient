@@ -1,0 +1,15 @@
+This demo shows a Layout View that provides advanced customization of the layout of a record card at runtime.
+
+In the demo, you can perform the following operations:
+
+# Customize the card's layout.
+  Click the "Customize Layout" button to open the Customization Form. This also activates customization mode.
+  In the Customization Form, re-structure the card layout both manually (via drag and drop) and by using the context menus.
+
+# Arrange the cards within the View in different ways:
+  - Display a single card in the View.
+  - Display cards in rows (across the View).
+  - Display cards in columns.
+  - Display only cards that are entirely visible in the View (in other words, clipped cards are not shown in the View).
+  - Center a card or cards (rows or columns) in the View.
+  - Display expand buttons in cards to make the cards collapsible.

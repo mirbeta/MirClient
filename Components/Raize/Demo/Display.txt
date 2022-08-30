@@ -1,0 +1,18 @@
+TRzLEDDisplay
+This component provides a digital readout style of display. More precisely, TRzLEDDisplay displays characters as 5x7 grids of dots. The Caption property is used to specify the contents of the display. The SegOnColor and the SegOffColor properties control the color of each character. Plus, the Caption displayed by the control can be scrolled using the Scrolling and ScrollType properties.
+
+TRzLabel
+The TRzLabel component is great for emphasizing information. The component supports several 3D text styles and can be rotated to any angle. Plus, TRzLabel has built-in support for the same bordering options as our TRzPanel component.
+
+TRzProgressBar
+This component can have its appearance altered in many different ways. For example, the bar can be displayed as a traditional bar, and LED, or using a gradient fill style. The border, bar color, and background color are all customizable by the user.
+
+TRzTrackBar
+This custom VCL control is much more powerful and flexible than the common track bar control. Every aspect of the control can be customized. Plus, the track bar used for changing the TRzLabel angle illustrates owner-draw tick marks.  The track bar used to change the progress bar value is using a custom thumb.
+
+TRzAnimator
+The animated Raize Components logo is rendered by the custom VCL TRzAnimator component.
+
+TRzBackground
+The textured background of this form is controlled by a TRzBackground component. This component gives you many different ways to customize the appearance of a form including textured tiling and gradient fills.
+

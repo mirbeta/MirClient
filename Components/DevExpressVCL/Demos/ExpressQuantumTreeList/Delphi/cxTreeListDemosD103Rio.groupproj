@@ -1,0 +1,71 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="BandedDemoD103Rio">
+    <MSBuild Projects="BandedDemo\BandedDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="BandedFixedDemoD103Rio">
+    <MSBuild Projects="BandedFixedDemo\BandedFixedDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CheckGroupsDemoD103Rio">
+    <MSBuild Projects="CheckGroupsDemo\CheckGroupsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoD103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoD103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceValidationDemoD103Rio">
+    <MSBuild Projects="EditorsInPlaceValidationDemo\EditorsInPlaceValidationDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SimpleListDemoD103Rio">
+    <MSBuild Projects="SimpleListDemo\SimpleListDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SimpleTreeDemoD103Rio">
+    <MSBuild Projects="SimpleTreeDemo\SimpleTreeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoD103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StylesSimpleDemoD103Rio">
+    <MSBuild Projects="StylesSimpleDemo\StylesSimpleDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SummariesDemoD103Rio">
+    <MSBuild Projects="SummariesDemo\SummariesDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="UnboundModeDemoD103Rio">
+    <MSBuild Projects="UnboundModeDemo\UnboundModeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="VirtualModeDemoD103Rio">
+    <MSBuild Projects="VirtualModeDemo\VirtualModeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ProviderModeDemoD103Rio">
+    <MSBuild Projects="ProviderModeDemo\ProviderModeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="DragDropDemoD103Rio">
+    <MSBuild Projects="DragDropDemo\DragDropDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ColumnsMultiEditorsDemoD103Rio">
+    <MSBuild Projects="ColumnsMultiEditorsDemo\ColumnsMultiEditorsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FindPanelDemoD103Rio">
+    <MSBuild Projects="FindPanelDemo\FindPanelDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FilterControlDemoD103Rio">
+    <MSBuild Projects="FilterControlDemo\FilterControlDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FilterDropDownDemoD103Rio">
+    <MSBuild Projects="FilterDropDownDemo\FilterDropDownDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="BandedDemoD103Rio;BandedFixedDemoD103Rio;CheckGroupsDemoD103Rio;CustomDrawDemoD103Rio;EditorsInPlaceDemoD103Rio;EditorsInPlaceValidationDemoD103Rio;SimpleListDemoD103Rio;SimpleTreeDemoD103Rio;StylesMultiDemoD103Rio;StylesSimpleDemoD103Rio;SummariesDemoD103Rio;UnboundModeDemoD103Rio;VirtualModeDemoD103Rio;ProviderModeDemoD103Rio;DragDropDemoD103Rio;ColumnsMultiEditorsDemoD103Rio;FindPanelDemoD103Rio;FilterControlDemoD103Rio;FilterDropDownDemoD103Rio" />
+  </Target>
+</Project>

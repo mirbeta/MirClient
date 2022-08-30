@@ -1,0 +1,29 @@
+In this demo, you can:
+
+- Create/delete/edit events (use popup menus, in-place editor and dialogs)
+
+- Use integrated popup menus for different scheduler areas
+
+- Select days in the Date Navigator
+
+- Switch between the Modern and Classic styles for the scheduler (View menu: View Style)
+
+- Change the scheduler's layout (View menu: Date Navigator/Control Box/View position; you can also use the splitters located between the View, Date Navigator and Control Box)
+
+- See how the scheduler changes its appearance depending on the Look&Feel used (Skins menu)
+
+- Menu Agenda Options:
+	- switch between either the horizontal or vertical layout of day headers
+	- choose days to include on the list (all days or those selected in the Date Navigator)
+	- control if listed events display locations and resources associated with them
+	- optionally display an event's time as a miniature clock
+
+- Menu Event Dialog Style:
+	- choose from the available Event dialog styles, including the standard and Ribbon styles
+
+- Menu File/Export:
+	- export data in Excel format (either XLSX or XLS), as text, html or xml
+
+- Menu File/Synchronization:
+	- synchronize the scheduler with MS Outlook®
+	- synchronize MS Outlook® with the scheduler

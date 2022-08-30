@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="InsertComboBox">
+	<path class="Black" d="M30,12H16H2V4h14V2H1C0.5,2,0,2.5,0,3v26c0,0.5,0.5,1,1,1h30c0.5,0,1-0.5,1-1V12H30z M30,28H2V14h28V28z
+		 M26,20H6v-2h20V20z M26,24H6v-2h20V24z"/>
+	<path class="Blue" d="M31,2H16v12h15c0.5,0,1-0.5,1-1V3C32,2.5,31.5,2,31,2z M24,10l-4-4h8L24,10z"/>
+</g>
+</svg>

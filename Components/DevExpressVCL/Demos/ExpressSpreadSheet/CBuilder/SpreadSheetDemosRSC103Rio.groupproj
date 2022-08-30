@@ -1,0 +1,41 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="InvoiceDemoRSC103Rio">
+    <MSBuild Projects="Invoice\InvoiceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoRSC103Rio">
+    <MSBuild Projects="CustomDraw\CustomDrawDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="OutlineDemoRSC103Rio">
+    <MSBuild Projects="Outline\OutlineDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ConditionalFormattingDemoRSC103Rio">
+    <MSBuild Projects="ConditionalFormatting\ConditionalFormattingDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CommentsDemoRSC103Rio">
+    <MSBuild Projects="Comments\CommentsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SimpleReportDemoRSC103Rio">
+    <MSBuild Projects="SimpleReport\SimpleReportDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="HorizontalReportDemoRSC103Rio">
+    <MSBuild Projects="HorizontalReport\HorizontalReportDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailReportDemoRSC103Rio">
+    <MSBuild Projects="MasterDetailReport\MasterDetailReportDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="InvoiceReportDemoRSC103Rio">
+    <MSBuild Projects="InvoiceReport\InvoiceReportDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="InvoiceDemoRSC103Rio;CustomDrawDemoRSC103Rio;OutlineDemoRSC103Rio;ConditionalFormattingDemoRSC103Rio;CommentsDemoRSC103Rio;SimpleReportDemoRSC103Rio;HorizontalReportDemoRSC103Rio;MasterDetailReportDemoRSC103Rio;InvoiceReportDemoRSC103Rio" />
+  </Target>
+</Project>

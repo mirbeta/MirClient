@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<path opacity="0.3" fill="#010101" enable-background="new    " d="M18,8v6h6V8H18z M22,12h-2v-2h2V12z"/>
+<path fill="#377AB5" d="M18,0v6h6V0H18z M22,4h-2V2h2V4z"/>
+<path fill="#4DAE89" d="M26,14v6h6v-6H26z M30,18h-2v-2h2V18z"/>
+<path fill="#D04D2F" d="M18,26v6h6v-6H18z M22,30h-2v-2h2V30z"/>
+<polygon fill="#377AB5" points="4,0 4,26 0,26 5,32 10,26 6,26 6,0 "/>
+<path fill="#4DAE89" d="M10,14v6h6v-6H10z M14,18h-2v-2h2V18z"/>
+<g opacity="0.6">
+	<rect x="20" y="6" fill="#010101" width="2" height="2"/>
+	<polygon fill="#010101" points="24,10 24,12 28,12 28,14 30,14 30,10 	"/>
+	<polygon fill="#010101" points="14,12 18,12 18,10 12,10 12,14 14,14 	"/>
+	<polygon fill="#010101" points="28,22 20,22 14,22 14,20 12,20 12,24 20,24 20,26 22,26 22,24 30,24 30,20 28,20 	"/>
+</g>
+</svg>

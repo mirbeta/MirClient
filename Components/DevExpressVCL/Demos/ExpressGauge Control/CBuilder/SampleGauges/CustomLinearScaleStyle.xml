@@ -1,0 +1,45 @@
+<ScaleStyle Type = "Linear" Name = "CustomLinearScaleStyle">
+  <CompositeShape>
+	<Canvas Name="_9" Width="250" Height="250">
+	 <Canvas Name="BackgroundLayer1" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+		<Ellipse Fill="Gray" Height="240" Canvas.Left="40" Width="175"/>
+		<Ellipse Fill="White" Height="230" Canvas.Left="45" Width="165" Canvas.Top="5"/>
+	 </Canvas>
+	</Canvas>  
+  </CompositeShape>
+  <DefaultParameters>
+	<LinearScale>		  
+		<Font>
+			<Color Value="White"/>
+			<Name Value="Tachoma"/> 
+			<Size Value="8"/>
+		</Font>
+		<Labels>
+			<Offset Value="25"/>
+			<ShowLabels Value="True"/>
+		</Labels>
+		<TicksVisibility>
+			<AllowOverlapMajorTicks Value="False"/>
+			<ShowFirstTick Value="True"/>
+			<ShowLastTick Value="True"/>
+			<ShowTicks Value="True"/>
+		</TicksVisibility>
+		<MajorTicks>
+			<Count Value="6"/>
+			<Offset Value="12"/>
+			<ScaleFactor Value="1, 1"/>
+			<TickType Value="Tick1"/>
+		</MajorTicks>
+		<MinorTicks>
+			<Count Value="4"/>
+			<Offset Value="12"/>
+			<ScaleFactor Value="1, 1"/>
+			<TickType Value="Tick2"/>
+		</MinorTicks>				
+		<RotateTicks Value = "True"/>
+		<LevelBarStartPosition Value="62.5, 218"/>
+		<LevelBarEndPosition Value="62.5, 34"/>
+		<LevelBarsScaleFactor Value = "1.5, 1.5">
+	</LinearScale>
+  </DefaultParameters>
+</ScaleStyle>

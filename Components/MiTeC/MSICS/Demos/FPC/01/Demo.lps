@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Demo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="69" Y="12"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\Common\MiTeC_WinCrypt.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="20186"/>
+        <CursorPos X="31" Y="20198"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\MSI_CPU.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="9"/>
+        <CursorPos X="42" Y="21"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="..\..\..\..\..\Common\MiTeC_WinCrypt.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\..\Common\MiTeC_WinCrypt.pas"/>
+        <Caret Line="91" Column="24" TopLine="84"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\..\..\Common\MiTeC_WinCrypt.pas"/>
+        <Caret Line="54" Column="11" TopLine="32"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\MSI_CPU.pas"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

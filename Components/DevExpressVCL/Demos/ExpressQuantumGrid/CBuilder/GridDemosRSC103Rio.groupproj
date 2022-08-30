@@ -1,0 +1,206 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="ViewTableSimpleDemoRSC103Rio">
+    <MSBuild Projects="ViewTableSimpleDemo\ViewTableSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewBandedDemoRSC103Rio">
+    <MSBuild Projects="ViewBandedDemo\ViewBandedDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewBandedFixedDemoRSC103Rio">
+    <MSBuild Projects="ViewBandedFixedDemo\ViewBandedFixedDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewNestedBandsDemoRSC103Rio">
+    <MSBuild Projects="ViewNestedBandsDemo\ViewNestedBandsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewCardSimpleDemoRSC103Rio">
+    <MSBuild Projects="ViewCardSimpleDemo\ViewCardSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewCardDemoRSC103Rio">
+    <MSBuild Projects="ViewCardDemo\ViewCardDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailTableDemoRSC103Rio">
+    <MSBuild Projects="MasterDetailTableDemo\MasterDetailTableDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailCardDemoRSC103Rio">
+    <MSBuild Projects="MasterDetailCardDemo\MasterDetailCardDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailDemoRSC103Rio">
+    <MSBuild Projects="MasterDetailDemo\MasterDetailDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailMultiDemoRSC103Rio">
+    <MSBuild Projects="MasterDetailMultiDemo\MasterDetailMultiDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundSimpleDemoRSC103Rio">
+    <MSBuild Projects="UnboundSimpleDemo\UnboundSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundListDemoRSC103Rio">
+    <MSBuild Projects="UnboundListDemo\UnboundListDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundExternalDataDemoRSC103Rio">
+    <MSBuild Projects="UnboundExternalDataDemo\UnboundExternalDataDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundDesignDefinedDemoRSC103Rio">
+    <MSBuild Projects="UnboundDesignDefinedDemo\UnboundDesignDefinedDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundModeDemoRSC103Rio">
+    <MSBuild Projects="UnboundModeDemo\UnboundModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundColumnsDemoRSC103Rio">
+    <MSBuild Projects="UnboundColumnsDemo\UnboundColumnsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SummaryFooterDemoRSC103Rio">
+    <MSBuild Projects="SummaryFooterDemo\SummaryFooterDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SummaryGroupDemoRSC103Rio">
+    <MSBuild Projects="SummaryGroupDemo\SummaryGroupDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SummaryMultiDemoRSC103Rio">
+    <MSBuild Projects="SummaryMultiDemo\SummaryMultiDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FilterByCodeDemoRSC103Rio">
+    <MSBuild Projects="FilterByCodeDemo\FilterByCodeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FilterControlDemoRSC103Rio">
+    <MSBuild Projects="FilterControlDemo\FilterControlDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="GridModeDemoRSC103Rio">
+    <MSBuild Projects="GridModeDemo\GridModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ColumnsSimpleDemoRSC103Rio">
+    <MSBuild Projects="ColumnsSimpleDemo\ColumnsSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ColumnsMultiEditorsDemoRSC103Rio">
+    <MSBuild Projects="ColumnsMultiEditorsDemo\ColumnsMultiEditorsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ColumnsShareDemoRSC103Rio">
+    <MSBuild Projects="ColumnsShareDemo\ColumnsShareDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoRSC103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesCardViewDemoRSC103Rio">
+    <MSBuild Projects="StylesCardViewDemo\StylesCardViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesSimpleDemoRSC103Rio">
+    <MSBuild Projects="StylesSimpleDemo\StylesSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CellLevelMultiselectDemoRSC103Rio">
+    <MSBuild Projects="CellLevelMultiselectDemo\CellLevelMultiselectDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawTableViewDemoRSC103Rio">
+    <MSBuild Projects="CustomDrawTableViewDemo\CustomDrawTableViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawCardViewDemoRSC103Rio">
+    <MSBuild Projects="CustomDrawCardViewDemo\CustomDrawCardViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Office11GroupRowStyleDemoRSC103Rio">
+    <MSBuild Projects="Office11GroupRowStyleDemo\Office11GroupRowStyleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="DragDropDemoRSC103Rio">
+    <MSBuild Projects="DragDropDemo\DragDropDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomRowHeightDemoRSC103Rio">
+    <MSBuild Projects="CustomRowHeightDemo\CustomRowHeightDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="GridMenuViewsDemoRSC103Rio">
+    <MSBuild Projects="GridMenuViewsDemo\GridMenuViewsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="IssueListRSC103Rio">
+    <MSBuild Projects="IssueList\IssueListRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewChartDemoRSC103Rio">
+    <MSBuild Projects="ViewChartDemo\ViewChartDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ViewChartStackedDemoRSC103Rio">
+    <MSBuild Projects="ViewChartStackedDemo\ViewChartStackedDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailChartDemoRSC103Rio">
+    <MSBuild Projects="MasterDetailChartDemo\MasterDetailChartDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CardLayoutDemoRSC103Rio">
+    <MSBuild Projects="CardLayoutDemo\CardLayoutDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ChartDataDrillingDemoRSC103Rio">
+    <MSBuild Projects="ChartDataDrillingDemo\ChartDataDrillingDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FilterDemoRSC103Rio">
+    <MSBuild Projects="FilterDemo\FilterDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="LayoutViewDemoRSC103Rio">
+    <MSBuild Projects="LayoutViewDemo\LayoutViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ServerModeADODemoRSC103Rio">
+    <MSBuild Projects="ServerModeADODemo\ServerModeADODemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ServerModeDBXDemoRSC103Rio">
+    <MSBuild Projects="ServerModeDBXDemo\ServerModeDBXDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ServerModeFireDACDemoRSC103Rio">
+    <MSBuild Projects="ServerModeFireDACDemo\ServerModeFireDACDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ServerModeADOQueryDemoRSC103Rio">
+    <MSBuild Projects="ServerModeADOQueryDemo\ServerModeADOQueryDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ServerModeDBXQueryDemoRSC103Rio">
+    <MSBuild Projects="ServerModeDBXQueryDemo\ServerModeDBXQueryDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ServerModeFireDACQueryDemoRSC103Rio">
+    <MSBuild Projects="ServerModeFireDACQueryDemo\ServerModeFireDACQueryDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceValidationDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceValidationDemo\EditorsInPlaceValidationDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="LayoutViewCarouselModeDemoRSC103Rio">
+    <MSBuild Projects="LayoutViewCarouselModeDemo\LayoutViewCarouselModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="InplaceEditFormDemoRSC103Rio">
+    <MSBuild Projects="InplaceEditFormDemo\InplaceEditFormDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FindPanelDemoRSC103Rio">
+    <MSBuild Projects="FindPanelDemo\FindPanelDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="RatingControlDemoRSC103Rio">
+    <MSBuild Projects="RatingControlDemo\RatingControlDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SparklinesDemoRSC103Rio">
+    <MSBuild Projects="SparklinesDemo\SparklinesDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FixedGroupsDemoRSC103Rio">
+    <MSBuild Projects="FixedGroupsDemo\FixedGroupsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="WinExplorerViewDemoRSC103Rio">
+    <MSBuild Projects="WinExplorerViewDemo\WinExplorerViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="LayoutViewDemoGroupScrollingRSC103Rio">
+    <MSBuild Projects="LayoutViewDemoGroupScrolling\LayoutViewDemoGroupScrollingRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MergedGroupsDemoRSC103Rio">
+    <MSBuild Projects="MergedGroupsDemo\MergedGroupsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CheckBoxMultiSelectDemoRSC103Rio">
+    <MSBuild Projects="CheckBoxMultiSelectDemo\CheckBoxMultiSelectDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ConditionalFormattingDemoRSC103Rio">
+    <MSBuild Projects="ConditionalFormattingDemo\ConditionalFormattingDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FixedDataRowsDemoRSC103Rio">
+    <MSBuild Projects="FixedDataRowsDemo\FixedDataRowsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FilterDropDownDemoRSC103Rio">
+    <MSBuild Projects="FilterDropDownDemo\FilterDropDownDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="ViewTableSimpleDemoRSC103Rio;ViewBandedDemoRSC103Rio;ViewBandedFixedDemoRSC103Rio;ViewNestedBandsDemoRSC103Rio;ViewCardSimpleDemoRSC103Rio;ViewCardDemoRSC103Rio;MasterDetailTableDemoRSC103Rio;MasterDetailCardDemoRSC103Rio;MasterDetailDemoRSC103Rio;MasterDetailMultiDemoRSC103Rio;UnboundSimpleDemoRSC103Rio;UnboundListDemoRSC103Rio;UnboundExternalDataDemoRSC103Rio;UnboundDesignDefinedDemoRSC103Rio;UnboundModeDemoRSC103Rio;UnboundColumnsDemoRSC103Rio;SummaryFooterDemoRSC103Rio;SummaryGroupDemoRSC103Rio;SummaryMultiDemoRSC103Rio;FilterByCodeDemoRSC103Rio;FilterControlDemoRSC103Rio;GridModeDemoRSC103Rio;ColumnsSimpleDemoRSC103Rio;EditorsInPlaceDemoRSC103Rio;ColumnsMultiEditorsDemoRSC103Rio;ColumnsShareDemoRSC103Rio;StylesMultiDemoRSC103Rio;StylesCardViewDemoRSC103Rio;StylesSimpleDemoRSC103Rio;CellLevelMultiselectDemoRSC103Rio;CustomDrawTableViewDemoRSC103Rio;CustomDrawCardViewDemoRSC103Rio;Office11GroupRowStyleDemoRSC103Rio;DragDropDemoRSC103Rio;CustomRowHeightDemoRSC103Rio;GridMenuViewsDemoRSC103Rio;IssueListRSC103Rio;ViewChartDemoRSC103Rio;ViewChartStackedDemoRSC103Rio;MasterDetailChartDemoRSC103Rio;CardLayoutDemoRSC103Rio;ChartDataDrillingDemoRSC103Rio;FilterDemoRSC103Rio;LayoutViewDemoRSC103Rio;ServerModeADODemoRSC103Rio;ServerModeDBXDemoRSC103Rio;ServerModeFireDACDemoRSC103Rio;ServerModeADOQueryDemoRSC103Rio;ServerModeDBXQueryDemoRSC103Rio;ServerModeFireDACQueryDemoRSC103Rio;EditorsInPlaceValidationDemoRSC103Rio;LayoutViewCarouselModeDemoRSC103Rio;InplaceEditFormDemoRSC103Rio;FindPanelDemoRSC103Rio;RatingControlDemoRSC103Rio;SparklinesDemoRSC103Rio;FixedGroupsDemoRSC103Rio;WinExplorerViewDemoRSC103Rio;LayoutViewDemoGroupScrollingRSC103Rio;MergedGroupsDemoRSC103Rio;CheckBoxMultiSelectDemoRSC103Rio;ConditionalFormattingDemoRSC103Rio;FixedDataRowsDemoRSC103Rio;FilterDropDownDemoRSC103Rio" />
+  </Target>
+</Project>

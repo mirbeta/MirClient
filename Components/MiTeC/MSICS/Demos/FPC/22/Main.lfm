@@ -1,0 +1,140 @@
+object wndMain: TwndMain
+  Left = 0
+  Height = 465
+  Top = 0
+  Width = 833
+  ActiveControl = bOK
+  Caption = 'Handles'
+  ClientHeight = 465
+  ClientWidth = 833
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  Visible = False
+  object Label1: TLabel
+    Left = 0
+    Height = 275
+    Top = 149
+    Width = 833
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'Refreshing...please wait'
+    ParentColor = False
+  end
+  object ButtonPanel: TPanel
+    Left = 0
+    Height = 41
+    Top = 424
+    Width = 833
+    Align = alBottom
+    ClientHeight = 41
+    ClientWidth = 833
+    TabOrder = 0
+    object bOK: TButton
+      Cursor = crHandPoint
+      Left = 747
+      Height = 25
+      Top = 6
+      Width = 75
+      Anchors = [akTop, akRight]
+      Cancel = True
+      Caption = 'OK'
+      OnClick = bOKClick
+      TabOrder = 0
+    end
+    object bRefresh: TButton
+      Cursor = crHandPoint
+      Left = 12
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'Refresh'
+      OnClick = bRefreshClick
+      TabOrder = 1
+    end
+  end
+  object List: TListView
+    Left = 0
+    Height = 275
+    Top = 149
+    Width = 833
+    Align = alClient
+    Columns = <    
+      item
+        Caption = 'PID'
+        Width = 75
+      end    
+      item
+        Caption = 'Processname'
+        Width = 150
+      end    
+      item
+        Caption = 'Handle'
+        Width = 75
+      end    
+      item
+        Caption = 'Type'
+        Width = 100
+      end    
+      item
+        Caption = 'Filename'
+        Width = 400
+      end>
+    ColumnClick = False
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 1
+    ViewStyle = vsReport
+  end
+  object clb: TCheckListBox
+    Cursor = crHandPoint
+    Left = 0
+    Height = 149
+    Top = 0
+    Width = 833
+    Align = alTop
+    Columns = 4
+    Items.Strings = (
+      'TYPE'
+      'DIRECTORY'
+      'SYMBOLIC_LINK'
+      'TOKEN'
+      'PROCESS'
+      'THREAD'
+      'JOB'
+      'DEBUG_OBJECT'
+      'EVENT'
+      'EVENT_PAIR'
+      'MUTANT'
+      'CALLBACK'
+      'SEMAPHORE'
+      'TIMER'
+      'PROFILE'
+      'KEYED_EVENT'
+      'WINDOWS_STATION'
+      'DESKTOP'
+      'SECTION'
+      'KEY'
+      'PORT'
+      'WAITABLE_PORT'
+      'ADAPTER'
+      'CONTROLLER'
+      'DEVICE'
+      'DRIVER'
+      'IOCOMPLETION'
+      'FILE'
+      'WMIGUID'
+    )
+    ItemHeight = 17
+    TabOrder = 2
+    Data = {
+      1D00000000000000000000000000000000000000000000000000000000000000
+      00
+    }
+  end
+end

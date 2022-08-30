@@ -1,0 +1,45 @@
+package rtcSDK_Raw;
+
+{$R *.res}
+{$R 'rtcTcpCli.dcr'}
+{$R 'rtcTcpSrv.dcr'}
+{$R 'rtcUdpCli.dcr'}
+{$R 'rtcUdpSrv.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'RealThinClient SDK RAW v6.32'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  rtcSDK,
+  designide;
+
+contains
+  rtcRegisterRaw in 'rtcRegisterRaw.pas',
+  rtcTcpCli in 'rtcTcpCli.pas',
+  rtcTcpSrv in 'rtcTcpSrv.pas',
+  rtcUdpCli in 'rtcUdpCli.pas',
+  rtcUdpSrv in 'rtcUdpSrv.pas';
+
+end.

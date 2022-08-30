@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#039C23;}
+	.st3{display:inline;fill:#D11C1C;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="SaveAs">
+	<path class="Black" d="M16,9c0-1.1,0.2-2.1,0.5-3H8v8h9.5C16.6,12.6,16,10.9,16,9z M12,12h-2V8h2V12z M26,18v11c0,0.6-0.4,1-1,1H3
+		c-0.6,0-1-0.4-1-1V7c0-0.6,0.4-1,1-1h3v10h13.3c0.2,0.2,0.4,0.3,0.7,0.5V20H6v6h16v-8H26z"/>
+	<path class="Green" d="M25,2c-3.9,0-7,3.1-7,7c0,3.9,3.1,7,7,7s7-3.1,7-7C32,5.1,28.9,2,25,2z M22,10h-2V8h2V10z M26,10h-2V8h2V10z
+		 M28,10V8h2v2H28z"/>
+</g>
+</svg>

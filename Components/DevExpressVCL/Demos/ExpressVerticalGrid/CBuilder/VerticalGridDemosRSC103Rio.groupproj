@@ -1,0 +1,41 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="CustomDrawDemoRSC103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ProviderModeDemoRSC103Rio">
+    <MSBuild Projects="ProviderModeDemo\ProviderModeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="RowsMultiEditorsDemoRSC103Rio">
+    <MSBuild Projects="RowsMultiEditorsDemo\RowsMultiEditorsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="RTTIInspectorDemoRSC103Rio">
+    <MSBuild Projects="RTTIInspectorDemo\RTTIInspectorDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SimpleVerticalGridDemoRSC103Rio">
+    <MSBuild Projects="SimpleVerticalGridDemo\SimpleVerticalGridDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoRSC103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesSimpleDemoRSC103Rio">
+    <MSBuild Projects="StylesSimpleDemo\StylesSimpleDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceValidationDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceValidationDemo\EditorsInPlaceValidationDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="CustomDrawDemoRSC103Rio;EditorsInPlaceDemoRSC103Rio;ProviderModeDemoRSC103Rio;RowsMultiEditorsDemoRSC103Rio;RTTIInspectorDemoRSC103Rio;SimpleVerticalGridDemoRSC103Rio;StylesMultiDemoRSC103Rio;StylesSimpleDemoRSC103Rio;EditorsInPlaceValidationDemoRSC103Rio" />
+  </Target>
+</Project>

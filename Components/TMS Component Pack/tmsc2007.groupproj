@@ -1,0 +1,64 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{bb1144ee-867a-44e8-ad11-43c059b9807d}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="tmsc2007.cbproj" />
+    <Projects Include="tmsdec2007.cbproj" />
+    <Projects Include="tmsexc2007.cbproj" />
+    <Projects Include="tmsxlsc2007.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="tmsc2007">
+    <MSBuild Projects="tmsc2007.cbproj" Targets="" />
+  </Target>
+  <Target Name="tmsc2007:Clean">
+    <MSBuild Projects="tmsc2007.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="tmsc2007:Make">
+    <MSBuild Projects="tmsc2007.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="tmsexc2007">
+    <MSBuild Projects="tmsexc2007.cbproj" Targets="" />
+  </Target>
+  <Target Name="tmsexc2007:Clean">
+    <MSBuild Projects="tmsexc2007.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="tmsexc2007:Make">
+    <MSBuild Projects="tmsexc2007.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="tmsdec2007">
+    <MSBuild Projects="tmsdec2007.cbproj" Targets="" />
+  </Target>
+  <Target Name="tmsdec2007:Clean">
+    <MSBuild Projects="tmsdec2007.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="tmsdec2007:Make">
+    <MSBuild Projects="tmsdec2007.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="tmsxlsc2007">
+    <MSBuild Projects="tmsxlsc2007.cbproj" Targets="" />
+  </Target>
+  <Target Name="tmsxlsc2007:Clean">
+    <MSBuild Projects="tmsxlsc2007.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="tmsxlsc2007:Make">
+    <MSBuild Projects="tmsxlsc2007.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="tmsc2007;tmsexc2007;tmsdec2007;tmsxlsc2007" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="tmsc2007:Clean;tmsexc2007:Clean;tmsdec2007:Clean;tmsxlsc2007:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="tmsc2007:Make;tmsexc2007:Make;tmsdec2007:Make;tmsxlsc2007:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

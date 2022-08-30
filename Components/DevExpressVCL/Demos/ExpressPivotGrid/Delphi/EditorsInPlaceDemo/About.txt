@@ -1,0 +1,7 @@
+  In this demo you can:
+  - Export data in either Excel format, as text, html or xml (the File/Export menu)
+  - Change the location of grand totals (the Options/Totals Location menu)
+  - Hide subtotals and grand totals (the Options/Totals Visibility menu)
+  - Specify the visibility of fields and filter separator (the Options/Elements Visibility menu)
+  - Customize selection options (the Options/Selection menu)  
+  - Select a particular look and feel from the five look and feel options available (the Look&Feel menu)

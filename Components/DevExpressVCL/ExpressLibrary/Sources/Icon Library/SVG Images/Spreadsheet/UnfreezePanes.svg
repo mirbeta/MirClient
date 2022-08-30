@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Unfreeze_Panes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+</style>
+<rect x="10" y="12" class="Yellow" width="8" height="6"/>
+<g class="st0">
+	<path class="Black" d="M20,12h8v6h-8V12z M10,20v6h8v-6H10z"/>
+</g>
+<path class="Blue" d="M0,18v-6h8v6H0z M8,26v-6H0v6H8z M8,4H0v6h8V4z M18,4h-8v6h8V4z M28,4h-8v6h8V4z"/>
+<polygon class="Red" points="32,22 30,20 26,24 22,20 20,22 24,26 20,30 22,32 26,28 30,32 32,30 28,26 "/>
+</svg>

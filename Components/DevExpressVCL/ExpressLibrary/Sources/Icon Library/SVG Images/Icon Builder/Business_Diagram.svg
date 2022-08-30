@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.75;}
+</style>
+<g id="Diagram">
+	<polygon class="Black" points="12,14 6,14 6,20 8,20 8,16 14,16 14,12 12,12 	"/>
+	<polygon class="Black" points="20,14 20,12 18,12 18,16 24,16 24,20 26,20 26,14 	"/>
+	<path class="Blue" d="M11,12h10c0.5,0,1-0.5,1-1V3c0-0.5-0.5-1-1-1H11c-0.5,0-1,0.5-1,1v8C10,11.5,10.5,12,11,12z"/>
+	<path class="Blue" d="M29,20H19c-0.5,0-1,0.5-1,1v8c0,0.5,0.5,1,1,1h10c0.5,0,1-0.5,1-1v-8C30,20.5,29.5,20,29,20z"/>
+	<path class="Blue" d="M13,20H3c-0.5,0-1,0.5-1,1v8c0,0.5,0.5,1,1,1h10c0.5,0,1-0.5,1-1v-8C14,20.5,13.5,20,13,20z"/>
+</g>
+</svg>

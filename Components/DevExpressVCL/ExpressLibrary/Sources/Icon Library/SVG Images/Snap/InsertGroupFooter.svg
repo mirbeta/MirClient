@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+</style>
+<g id="AddGroupFooter_1_">
+	<rect x="4" y="18" class="Blue" width="14" height="6"/>
+	<g class="st0">
+		<path class="Black" d="M18,8H4V6h14V8z M18,10H4v2h14V10z M18,14H4v2h14V14z"/>
+	</g>
+	<path class="Black" d="M22,26h-2h-2H2V4h18v14h2v-4V3c0-0.5-0.5-1-1-1H1C0.5,2,0,2.5,0,3v24c0,0.5,0.5,1,1,1h20c0.5,0,1-0.5,1-1V26
+		z"/>
+	<polygon class="Green" points="32,20 28,20 28,16 24,16 24,20 20,20 20,24 24,24 24,28 28,28 28,24 32,24 	"/>
+</g>
+</svg>

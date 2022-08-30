@@ -1,0 +1,10 @@
+This demo shows how to validate data input in standalone editors using the built-in validation capabilities.
+
+In this demo, you can:
+- Input data into each editor and either move focus or click Validate in order to validate your input.
+- Correct input errors based on the requirements displayed in error hints and labels shown next to editors.
+- Try various validation options to customize validation error display.
+- See how the Properties.OnValidate event is handled to provide editor-specific validation results.
+- See how a custom error icon is specified for the Person editor via the Properties.ErrorIcon property.
+- See how error hints are provided using a hint style controller and ScreenTip repository.
+- Apply different paint styles to a form (the Look&Feel menu item).

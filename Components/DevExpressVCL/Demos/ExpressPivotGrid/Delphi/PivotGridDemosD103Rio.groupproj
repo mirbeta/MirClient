@@ -1,0 +1,50 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="OrderReportsDemoD103Rio">
+    <MSBuild Projects="OrderReportsDemo\OrderReportsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CompactLayoutDemoD103Rio">
+    <MSBuild Projects="CompactLayoutDemo\CompactLayoutDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="MultipleTotalsDemoD103Rio">
+    <MSBuild Projects="MultipleTotalsDemo\MultipleTotalsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="SortBySummaryDemoD103Rio">
+    <MSBuild Projects="SortBySummaryDemo\SortBySummaryDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="UnboundExternalDemoD103Rio">
+    <MSBuild Projects="UnboundExternalDemo\UnboundExternalDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoD103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoD103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="DataSetsDemoD103Rio">
+    <MSBuild Projects="DataSetsDemo\DataSetsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ChartConnectionDemoD103Rio">
+    <MSBuild Projects="ChartConnectionDemo\ChartConnectionDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="OLAPBrowserD103Rio">
+    <MSBuild Projects="OLAPBrowser\OLAPBrowserD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="PrefilterByCodeDemoD103Rio">
+    <MSBuild Projects="PrefilterByCodeDemo\PrefilterByCodeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoD103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="OrderReportsDemoD103Rio;CompactLayoutDemoD103Rio;MultipleTotalsDemoD103Rio;SortBySummaryDemoD103Rio;UnboundExternalDemoD103Rio;StylesMultiDemoD103Rio;CustomDrawDemoD103Rio;DataSetsDemoD103Rio;ChartConnectionDemoD103Rio;OLAPBrowserD103Rio;PrefilterByCodeDemoD103Rio;EditorsInPlaceDemoD103Rio" />
+  </Target>
+</Project>

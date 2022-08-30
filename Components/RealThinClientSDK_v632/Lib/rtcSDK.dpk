@@ -1,0 +1,123 @@
+package rtcSDK;
+
+{$include rtcDefs.inc}
+
+{$R *.res}
+{$R 'rtcConn.dcr'}
+{$R 'rtcHttpSrv.dcr'}
+{$R 'rtcDataSrv.dcr'}
+{$R 'rtcHttpCli.dcr'}
+{$R 'rtcDataCli.dcr'}
+{$R 'rtcSrvModule.dcr'}
+{$R 'rtcCliModule.dcr'}
+{$R 'rtcFunction.dcr'}
+{$R 'rtcISAPISrv.dcr'}
+{$R 'rtcPlugins.dcr'}
+{$R 'rtcScript.dcr'}
+{$R 'rtcDataRoute.dcr'}
+{$R 'rtcLoadBalance.dcr'}
+{$R 'rtcLink.dcr'}
+{$R 'rtcThrPool.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'RealThinClient SDK v6.32'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl
+(*{$IF Defined(RTC_FMI)} ,fmi
+  {$ELSEIF Defined(RTC_FMX)} ,fmx {$IFEND}*)
+  {$IFNDEF RTC_NOINTF} ,designide {$ENDIF};
+
+contains
+  rtcRegister in 'rtcRegister.pas',
+  rtcConn in 'rtcConn.pas',
+  rtcHttpSrv in 'rtcHttpSrv.pas',
+  rtcTimer in 'rtcTimer.pas',
+  rtcInfo in 'rtcInfo.pas',
+  rtcThrPool in 'rtcThrPool.pas',
+  rtcLog in 'rtcLog.pas',
+  rtcDataSrv in 'rtcDataSrv.pas',
+  rtcHttpCli in 'rtcHttpCli.pas',
+  rtcDataCli in 'rtcDataCli.pas',
+  rtcSrvModule in 'rtcSrvModule.pas',
+  rtcCliModule in 'rtcCliModule.pas',
+  rtcFunction in 'rtcFunction.pas',
+  rtcISAPISrv in 'rtcISAPISrv.pas',
+  rtcParse in 'rtcParse.pas',
+  rtcISAPIApp in 'rtcISAPIApp.pas',
+  rtcSocketCliProv in 'rtcSocketCliProv.pas',
+  rtcSocketSrvProv in 'rtcSocketSrvProv.pas',
+  rtcZLib in 'rtcZLib.pas',
+  rtcWinSocket in 'rtcWinSocket.pas',
+  rtcCrypt in 'rtcCrypt.pas',
+  rtcISAPISrvProv in 'rtcISAPISrvProv.pas',
+  rtcHWndPool in 'rtcHWndPool.pas',
+  rtcSocketPool in 'rtcSocketPool.pas',
+  rtcThrConnProv in 'rtcThrConnProv.pas',
+  memBinTree in 'memBinTree.pas',
+  memObjList in 'memObjList.pas',
+  rtcConnProv in 'rtcConnProv.pas',
+  rtcSyncObjs in 'rtcSyncObjs.pas',
+  memBinList in 'memBinList.pas',
+  memPtrPool in 'memPtrPool.pas',
+  memStringObjList in 'memStringObjList.pas',
+  memXList in 'memXList.pas',
+  rtcPlugins in 'rtcPlugins.pas',
+  rtcTransports in 'rtcTransports.pas',
+  rtcMsgCli in 'rtcMsgCli.pas',
+  rtcMsgCliProv in 'rtcMsgCliProv.pas',
+  rtcMsgSrv in 'rtcMsgSrv.pas',
+  rtcMsgSrvProv in 'rtcMsgSrvProv.pas',
+  memStringIntList in 'memStringIntList.pas',
+  rtcWInetHttpCliProv in 'rtcWInetHttpCliProv.pas',
+  rtcFastStrings in 'rtcFastStrings.pas',
+  rtcScriptCompile in 'rtcScriptCompile.pas',
+  rtcScript in 'rtcScript.pas',
+  rtcWinHttpCliProv in 'rtcWinHttpCliProv.pas',
+  memStrIntList in 'memStrIntList.pas',
+  memStrObjList in 'memStrObjList.pas',
+  rtcSocketHttpCliProv in 'rtcSocketHttpCliProv.pas',
+  rtcSocketHttpSrvProv in 'rtcSocketHttpSrvProv.pas',
+  rtcSockBaseCliProv in 'rtcSockBaseCliProv.pas',
+  rtcSockBaseSrvProv in 'rtcSockBaseSrvProv.pas',
+  rtcSockBase in 'rtcSockBase.pas',
+  rtcSockets in 'rtcSockets.pas',
+  memXObjList in 'memXObjList.pas',
+  rtcSockBaseSyn in 'rtcSockBaseSyn.pas',
+  rtcSynSocket in 'rtcSynSocket.pas',
+  rtcSynAPI in 'rtcSynAPI.pas',
+  rtcWinSock in 'rtcWinSock.pas',
+  memStrList in 'memStrList.pas',
+  memXSList in 'memXSList.pas',
+  rtcCliPool in 'rtcCliPool.pas',
+  rtcDataRoute in 'rtcDataRoute.pas',
+  rtcLoadBalance in 'rtcLoadBalance.pas',
+  rtcTypes in 'rtcTypes.pas',
+  memStringPtrList in 'memStringPtrList.pas',
+{$IFNDEF RTC_NOINTF}
+  rtcEditors in 'rtcEditors.pas',
+{$ENDIF}
+  rtcLink in 'rtcLink.pas';
+
+end.

@@ -1,0 +1,9 @@
+In this demo you can:
+
+- switch between different types of style sheet via the radio-buttons (none, pre-defined or user defined)
+
+- use a different pre-defined style sheet by selecting from the list provided.
+
+- select a user defined style sheet via the combobox supplied and use the Edit button to modify one or more fonts and/or colors
+
+- load/save user defined style sheets from/to ini-files using openfile/savefile dialogs

@@ -1,0 +1,25 @@
+Welcome to the Raize Components 6 (RC6) demonstration program! This area is the Notes pane and is used to display information pertaining to the currently focused form.  To display a form, simply click on one of the toolbar buttons, click on an item in Demos group in the group bar, or select an item from the Demo menu. Each form demonstrates several of the more than 125 components that are included in RC6.
+
+VCL Styles
+RAD Studio XE2 introduced a new feature called VCL Styles. RC6 takes full advantage of VCL Styles if they are available in an application. VCL Styles is essentially a style engine--often called a skinning engine--that manages the appearance of all controls in an application. Use the combo box in the VCL Styles group to switch between available styles.
+
+TRzGroupBar
+The control on the left side of this main form is called a TRzGroupBar. This control is used to present a collection of user interface command groups. A command group typically contains a list of clickable items that invoke commands. Typical examples of group bars include the navigational bar (i.e. Outlook Bar) in Microsoft Outlook and the category view in Windows XP's Control Panel (also called the Explorer Bar).  Another example of a group bar is the Task List view in Microsoft Office XP. TRzGroupBar is a single component that supports all of these types of display styles as illustrated by invoking the commands listed in the first group.
+
+TRzToolbar
+The toolbar on this main form is a TRzToolbar component, which is a custom descendant of TRzPanel. TRzToolbar automatically handles aligning all controls dropped onto it, as well as wrapping the controls to multiple lines. In this demo, each button on the toolbar is a TRzToolButton utilizing its HotIndex property to display a different image when the mouse is positioned over the button. You can customize the appearance of the toolbar by using the commands in the Toolbar Settings group.
+
+TRzStatusBar
+The status bar on this main form is a TRzStatusBar, which is another custom TRzPanel descendant. This custom VCL component provides more features than the standard TStatusBar such as automatically scaling the status panes. More importantly, the status panes are actually separate controls that can be used independently of a status bar. In addition to the simple text-based TRzStatusPane, Raize Components comes with 10 other types of status panes such as TRzGlyphStatus, TRzClockStatus, TRzProgressStatus, and TRzMarqueeStatus to name a few.
+
+TRzSizePanel
+Both the group bar and this note area are contained within TRzSizePanel controls. Another TRzPanel descendant, TRzSizePanel controls can be resized at runtime using a sizing bar. That is, the width or height of the panel is changed by dragging the sizing bar. For the group bar size panel, the SizeBarStyle is set to ssGroupBar, which cause the bar to display in a gradient fill opposit that of the group bar. The note size panel has its HotSpotVisible property set to True, which allows the user to quickly close (and re-open) the panel.
+
+TRzTrayIcon
+Located in the system notification tray, you will find an icon for this application. The icon displayed is changed as you navigate through this application, and when you minimize this application, the button from the task bar is hidden. To restore the app, double click on the tray icon.  This functionality is all handled by the TRzTrayIcon component.
+
+TRzMenuController
+Although the main menu was defined by the standard TMainMenu component, the appearance of the menu has a more modern look resulting from the TRzMenuController component. This component updates the appearance of all popup menus used in the application as well.
+
+TRzBalloonHints
+By default, the VCL does not wrap long hint messages to multiple lines. By simply placing a TRzBalloonHints component on your form, your long hint messages will be automatically wrapped to display a multi-line hint message. In this demo, the ShowBalloon property is set to True so that hints are displayed in a balloon-style hint window.

@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppPackage</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{F3CE32A4-9551-408C-91B5-4C656214AD96}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<Source>
+			<Source Name="MainSource">tmsexc2006.cpp</Source>
+		</Source>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="name" value="tmsexc2006.bpl"/>
+        <property category="build.node" name="packages" value="rtl;vcl;vclx;dbrtl;vcldb;tee;vcljpg;VclSmp;bdertl;tmsc2006;adortl;xmlrtl;vclactnband"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg" value="&quot;TMS Component Pack Extra&quot;"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="C:\Builder2006\Pack"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0pkg32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="memmgr.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="tmsexc2006.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tmsexc2006" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\rtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="rtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="tmsexc2006.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="tmsexc2006.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\vcl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="calpreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="calpreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="calpreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="calcomp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="calcomp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="calcreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="calcreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="calcreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="calpanel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="calpanel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="exeinforeg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="exeinforeg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="exeinforeg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="ellipslabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="ellipslabel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="ellipslblreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="ellipslblreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="ellipslblreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="exeinfo.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="exeinfo" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="hotspotimagereg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="hotspotimagereg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="hotspotimagereg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="formsize.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="formsize" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="frmshape.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="frmshape" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="frmsreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="frmsreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="frmsreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="fsreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="fsreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="fsreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="hotspotimage.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="hotspotimage" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="sysmreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="sysmreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="sysmreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="layeredform.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="layeredform" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="lfreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="lfreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="lfreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothPageSliderReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothPageSlider.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothPageSlider" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothPageSliderReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothPageSliderReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="linelibrary.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="linelibrary" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="macrorecorder.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="macrorecorder" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="macrorecorderreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="macrorecorderreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="macrorecorderreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="sysmon.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="sysmon" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSyskeyboardHookReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSyskeyboardHookReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSyskeyboardHookReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSyskeyboardHook.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSyskeyboardHook" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvTouchkeyboardReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvTouchkeyboardReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvTouchkeyboard.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvTouchkeyboard" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothXPVS.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothXPVS" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothButton.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothButton" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothButtonReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothButtonReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothButtonReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothCalendar.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothCalendar" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothCalendarReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothCalendarReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothCalendarReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDatePicker.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothDatePicker" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDatePickerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothDatePickerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDatePickerReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothEddd.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothEddd" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothEdit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothEdit" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothEditButton.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothEditButton" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothFillPreview.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothFillPreview" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothFillPreviewReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothFillPreviewReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothHTMLEditor.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothHTMLEditor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothLabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothLabel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothLabelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothLabelReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothLabelReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="DBAdvSmoothLabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothLabel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothLabelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothLabelReg" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="AdvSmoothListBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothListBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothListBoxDragDrop.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothListBoxDragDrop" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothListBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothListBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothListBoxReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothImageListBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothImageListBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBoxReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBoxPicker.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothImageListBoxPicker" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBoxPickerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothImageListBoxPickerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBoxPickerReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothMenu.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothMenu" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothMenuReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothMenuReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothMenuReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothPanel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothPanel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothPanelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothPanelReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothPanelReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSelectors.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSelectors" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSelectorsReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSelectorsReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSpin.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSpin" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSpinReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSpinReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothStyles.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothStyles" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTheme.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTheme" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\vclx.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vclx" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\dbrtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dbrtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\vcldb.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcldb" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\tee.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="tee" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\vcljpg.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcljpg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\VclSmp.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="VclSmp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\bdertl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="bdertl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvFocusHelper.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvFocusHelper" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvFocusHelperReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvFocusHelperReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvFocusHelperReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPPictureContainerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPPictureContainerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPPictureContainerReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPFill.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPFill" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="gdipicture.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="gdipicture" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPPictureContainer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPPictureContainer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\tmsc2006.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="tmsc2006" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvExplorerTreeviewReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvExplorerTreeviewReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvExplorerTreeview.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvExplorerTreeview" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSpinnerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSpinnerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSpinnerReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSpinner.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSpinner" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothJogWheel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothJogWheel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothJogWheelReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothJogWheelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothJogWheelReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothLEDLabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothLEDLabel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothLEDLabelReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothLEDLabelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothLEDLabelReg" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="DBAdvSmoothLEDLabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothLEDLabel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothLEDLabelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothLEDLabelReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTrackBar.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTrackBar" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTrackBarReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTrackBarReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTrackBarReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothProgressBar.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothProgressBar" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothProgressBarReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothProgressBarReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothProgressBarReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothToggleButton.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothToggleButton" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothToggleButtonReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothToggleButtonReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothToggleButtonReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothGauge.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothGauge" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothGaugeReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothGaugeReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothGaugeReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTabPager.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTabPager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTabPagerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTabPagerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTabPagerReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothComboBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothComboBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothComboBoxReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothComboBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothComboBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="adortl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="adortl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xmlrtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="xmlrtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="vclactnband.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vclactnband" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="HotSpotEditorComp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="HotSpotEditorComp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="hotspoteditor.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="hotspoteditor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTimeLineReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTimeLineReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTimeLineReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDock.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothDock" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDockDragDrop.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothDockDragDrop" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDockReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothDockReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothDockReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderButtonPanel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothExpanderButtonPanel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderButtonPanelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothExpanderButtonPanelReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderGroup.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothExpanderGroup" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderGroupReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothExpanderGroupReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderGroupReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothMessageDialog.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothMessageDialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothMessageDialogReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothMessageDialogReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothMessageDialogReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothScrollBar.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothScrollBar" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothScrollBarReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothScrollBarReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothScrollBarReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSlider.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSlider" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSliderReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSliderReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSliderReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSplashScreen.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSplashScreen" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSplashScreenReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothSplashScreenReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothSplashScreenReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothTimeLine.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothTimeLine" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderPanelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothExpanderPanelReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothExpanderPanel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothExpanderPanel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPMenu.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPMenu" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothcalculatorReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothcalculatorReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothcalculatorReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothcalculator.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothcalculator" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothcalculatordropdown.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothcalculatordropdown" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothImageListBoxDragDrop.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvSmoothImageListBoxDragDrop" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothTimeLineReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothTimeLineReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothComboBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothComboBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothComboBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothComboBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothImageListBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothImageListBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothImageListBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothImageListBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothListBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothListBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothListBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothListBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothTimeLine.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothTimeLine" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothDatePickerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothDatePickerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DBAdvSmoothDatePicker.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothDatePicker" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPWedgeItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPWedgeItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvHorizontalPolyList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvHorizontalPolyList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvHorizontalPolyListReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvHorizontalPolyListReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvHorizontalPolyListReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvPolyBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyBoxReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvPolyBoxReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyBoxReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvPolyList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyListReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvPolyListReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyListReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyPager.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvPolyPager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyPagerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvPolyPagerReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvPolyPagerReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="CustomItemsContainer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="CustomItemsContainer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPBase.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPBase" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPButtonBarItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPButtonBarItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPButtonItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPButtonItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPCheckItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPCheckItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPCustomItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPCustomItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPDropDownItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPDropDownItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPExpandableImageSectionItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPExpandableImageSectionItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPFullDropDownItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPFullDropDownItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPGraphicItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPGraphicItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPGroupItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPGroupItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPHeaderItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPHeaderItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPHTMLItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPHTMLItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPHTMLSectionItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPHTMLSectionItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPImageItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPImageItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPImageSectionItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPImageSectionItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPImageTextButtonItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPImageTextButtonItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPImageTextButtonSectionItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPImageTextButtonSectionItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPImageTextItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPImageTextItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPLargeButtonedHTMLItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPLargeButtonedHTMLItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPLargeButtonedItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPLargeButtonedItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPRadioItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPRadioItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPSectionItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPSectionItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPSplitterItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPSplitterItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPTextItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPTextItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="GDIPProgressItem.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="GDIPProgressItem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothslideshowreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothslideshowreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothslideshowreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothslideshow.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothslideshow" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothPopupreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothPopupreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothPopupreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothPopup.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothPopup" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="advsmoothStepControlreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothStepControlreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothStepControlreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothStepControl.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothStepControl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="spbepcreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="spbepcreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothCapacityBarreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothCapacityBarreg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothCapacityBarreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advsmoothCapacityBar.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advsmoothCapacityBar" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="TMSW7Reg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="TMSW7Reg" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Bars.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Bars" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Buttons.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Buttons" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Classes.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Classes" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Common.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Common" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Graphics.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Graphics" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Images.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Images" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Labels.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Labels" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7ListViewItems.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7ListViewItems" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7NaviButtons.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7NaviButtons" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7Panels.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7Panels" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="W7ProgressBars.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="W7ProgressBars" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="AdvMetroReplaceDialog.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvMetroReplaceDialog" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="AdvMetroReplaceDialogReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvMetroReplaceDialogReg" FORMNAME="" DESIGNCLASS=""/>
+	   <FILE FILENAME="AdvMetroFindDialog.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvMetroFindDialog" FORMNAME="" DESIGNCLASS=""/>
+	    <FILE FILENAME="AdvMetroFindDialogReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvMetroFindDialogReg" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7Bars.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7Buttons.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7Images.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7Labels.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7ListViewItems.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7NaviButtons.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7Panels.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="W7ProgressBars.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="AdvSmoothTileListReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+	  <FILE FILENAME="AdvDataLabelReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+	  <FILE FILENAME="AdvDataLabel.pas" FORMNAME="" UNITNAME="AdvDataLabel" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+	  <FILE FILENAME="AdvDataLabelReg.pas" FORMNAME="" UNITNAME="AdvDataLabelReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSmoothTileList.pas" FORMNAME="" UNITNAME="AdvSmoothTileList" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSmoothTileListEx.pas" FORMNAME="" UNITNAME="AdvSmoothTileListEx" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSmoothTileListHTMLVisualizer.pas" FORMNAME="" UNITNAME="AdvSmoothTileListHTMLVisualizer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSmoothTileListImageVisualizer.pas" FORMNAME="" UNITNAME="AdvSmoothTileListImageVisualizer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AdvSmoothTileListReg.pas" FORMNAME="" UNITNAME="AdvSmoothTileListReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="spbepcreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="spbepc.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="spbepc" FORMNAME="" DESIGNCLASS=""/>
+	 <FILE FILENAME="advduallistboxreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="advduallistbox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advduallistbox" FORMNAME="" DESIGNCLASS=""/>
+	  <FILE FILENAME="advduallistboxreg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="advduallistboxreg" FORMNAME="" DESIGNCLASS=""/>
+  	<FILE FILENAME="AdvSmoothCircularProgressReg.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvSmoothCircularProgress.pas" FORMNAME="" UNITNAME="AdvSmoothCircularProgress" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvSmoothCircularProgressReg.pas" FORMNAME="" UNITNAME="AdvSmoothCircularProgressReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvFancyLabel.pas" FORMNAME="" UNITNAME="AdvFancyLabel" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvFancyLabelReg.pas" FORMNAME="" UNITNAME="AdvFancyLabelReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvCurve.pas" FORMNAME="" UNITNAME="AdvCurve" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvCurveReg.pas" FORMNAME="" UNITNAME="AdvCurveReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvCurveReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="AdvSmoothRotaryMenuReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothRotaryMenu.pas" FORMNAME="" UNITNAME="AdvSmoothRotaryMenu" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvSmoothRotaryMenuReg.pas" FORMNAME="" UNITNAME="AdvSmoothRotaryMenuReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+	<FILE FILENAME="AdvCheckTreeViewReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvCheckTreeView.pas" FORMNAME="" UNITNAME="AdvCheckTreeView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvCheckTreeViewReg.pas" FORMNAME="" UNITNAME="AdvCheckTreeViewReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+	<FILE FILENAME="AdvSmoothWin8MarqueeReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvSmoothWin8Marquee.pas" FORMNAME="" UNITNAME="AdvSmoothWin8Marquee" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+        <FILE FILENAME="AdvSmoothWin8MarqueeReg.pas" FORMNAME="" UNITNAME="AdvSmoothWin8MarqueeReg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+	<FILE FILENAME="AdvGraphicCheckLabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvGraphicCheckLabel" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="AdvGraphicCheckLabelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="AdvGraphicCheckLabelReg" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="DBAdvGraphicCheckLabel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvGraphicCheckLabel" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="DBAdvGraphicCheckLabelReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvGraphicCheckLabelReg" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="WebPictureContainer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="WebPictureContainer" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="WebPictureContainerReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="WebPictureContainerReg" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="DBAdvSmoothSlider.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothSlider" FORMNAME="" DESIGNCLASS=""/>
+	<FILE FILENAME="DBAdvSmoothSliderReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="DBAdvSmoothSliderReg" FORMNAME="" DESIGNCLASS=""/>	
+	<FILE FILENAME="WebPictureContainerreg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="AdvGraphicCheckLabelReg.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">2067</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Excluded_Packages>
+          <Excluded_Packages Name="c:\program files\borland\bds\4.0\Bin\dcltee100.bpl">TeeChart Components</Excluded_Packages>
+          <Excluded_Packages Name="C:\Delphi2006\IWQS\common\amsqlc2006.bpl">amsqlc2006</Excluded_Packages>
+        </Excluded_Packages>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<buildevents/>
+	</CPlusPlusBuilder.Personality>
+</BorlandProject>

@@ -1,0 +1,38 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="EMFTutorialsD103Rio">
+    <MSBuild Projects="Tutorials\EMFTutorialsD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="FilmsRS103Rio">
+    <MSBuild Projects="Demos\Common\FilmsRS103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="DragDropDemoD103Rio">
+    <MSBuild Projects="Demos\DragDrop\DragDropDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailCardDemoD103Rio">
+    <MSBuild Projects="Demos\MasterDetailCard\MasterDetailCardDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="MasterDetailTableDemoD103Rio">
+    <MSBuild Projects="Demos\MasterDetailTable\MasterDetailTableDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RealtorWorldRS103Rio">
+    <MSBuild Projects="Demos\Common\RealtorWorldRS103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RealtorWorldAgentsDemoD103Rio">
+    <MSBuild Projects="Demos\RealtorWorldAgents\RealtorWorldAgentsDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RealtorWorldLoanCalculatorDemoD103Rio">
+    <MSBuild Projects="Demos\RealtorWorldLoanCalculator\RealtorWorldLoanCalculatorDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="EMFTutorialsD103Rio;FilmsRS103Rio;DragDropDemoD103Rio;MasterDetailCardDemoD103Rio;MasterDetailTableDemoD103Rio;RealtorWorldRS103Rio;RealtorWorldAgentsDemoD103Rio;RealtorWorldLoanCalculatorDemoD103Rio" />
+  </Target>
+</Project>

@@ -1,0 +1,6 @@
+In this demo, you can:
+
+- Select a tab to browse through the activity indicator styles.
+- Customize animation and appearance options.
+- Size a form to resize the activity indicators.
+- Apply different paint styles to a form (the Look&Feel menu item).

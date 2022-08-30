@@ -1,0 +1,91 @@
+File: msics_sources.7z
+Product: MiTeC System Information Component Suite
+Version: 13.4.0
+Author: Michal Mutl
+E-Mail: michal.mutl@mitec.cz
+Target: FPC, Delphi 2005, Delphi 2006, Delphi 2007, Delphi 2009, Delphi 2010, Delphi XE, Delphi XE2, Delphi XE3, Delphi XE4, Delphi XE5, Delphi XE6, Delphi XE7, Delphi XE8, Delphi 10 Seattle, Delphi 10.1 Berlin, Delphi 10.2 Tokyo, Delphi 10.3 Rio, 64bit
+Platform: W2000, Windows XP, Windows 2003, Windows Vista, Windows 7, Windows Server 2008, Windows Server 2008 R2, Windows 8, Windows 8.1, Windows 10, Windows Server 2016
+Description: The most complex system probe in the Delphi world.
+It consists of many standalone components covering many system information problematics:
+ + TMiTeC_AD: Active Directory enumerations
+ + TMiTeC_APM: provides informaton about Advanced Power Management
+ + TMiTeC_BT: detects Bluetooth devices using Native Bluetooth Enumerator)
+ + TMiTeC_CPU: provides detailed CPU information
+ + TMiTeC_DeviceMonitor: It fires event whenever any usb, firewire etc. device or volume is connected or disconnected to machine.
+ + TMiTeC_Devices: provides devices information like Windows Device Manager
+ + TMiTeC_Disk: provides logical drive information
+ + TMiTeC_DiskMonitor: It watches specified drive or path and fires event when specified event occurs
+ + TMiTeC_Display: provides display adapter information
+ + TMiTeC_DMA: provides direct memory acceess
+ + TMiTeC_DriveContent: It scans and saves specified drive content
+ + TMiTeC_Engines: provides information about various installed engines
+ + TMiTeC_EventLog: retrieves Windows Event Log messages for given source
+ + TMiTeC_Firewall: enumerates settings and rules from Windows Firewall
+ + TMiTeC_Machine: provides informaton about computer or virtual machine, BIOS etc.
+ + TMiTeC_Media: provides media devices information
+ + TMiTeC_Memory: provides memory information
+ + TMiTeC_Monitor: provides all connected moitors information
+ + TMiTeC_MSProduct: It detects some Microsoft products installed and their product keys
+ + TMiTeC_Network: provides network card info, TCP/IP ad Winsock config, installed protocols, clients and services.
+ + TMiTeC_NetCreds: enumerates cached network credentials
+ + TMiTeC_OperatingSystem: provides OS detailed information, Locale, Timezone, NT specific info, hotfixes, internet settings etc.
+ + TMiTeC_Printers: detects installed printers and their properties
+ + TMiTeC_ProcessList: collects list of running processes, services, drivers and their properties
+ + TMiTeC_Security: detects installed AntiViruses, AntiSpyware and Firewalls
+ + TMiTeC_SMBIOS:  reads SMBIOS information from memory
+ + TMiTeC_Software: provides list of installed software
+ + TMiTeC_Startup: provides list of applications that are started during system startup
+ + TMiTeC_Storage: detects S-ATA, ATA, ATAPI, RAID, SCSI, USB, Firewire storage devices and their parameters
+ + TMiTeC_SystemInfo: gathers all following components to one for simple use
+ + TMiTeC_USB: detects USB ports and devices and their parameters
+ + TMiTeC_USBHistory: USB usage detection component
+ + TMiTeC_WIFI: detects available Wi-Fi networks with all their parameters
+ + TMiTeC_WLANC: known Wi-Fi networks enumeration (including network keys)
+    
+ + TProMonThread: monitors given process via its Process IDentifier and provides basic process properties, memory, CPU and I/O process usage, enumerates process threads with their runtime properties.
+ + TSysMonThread: monitors system and provides basic properties and CPU, memory and disks usage. This class is so-called singleton - it means it ensures to be instantiated only once per application
+ + TProcModListMonThread: monitors running processes in real-time and provides process properties, memory and CPU process usage, etc.
+ + TSysModListMonThread: monitors system modules in real-time and provides their properties. 
+ + TNetConMonThread: monitors network connections by processes in real-time and provides their properties.
+ + TPerfMonThread: monitors specified performance counters in real-time and provides their properties.  
+ + THndListMonThread: monitors all system handles in real-time and provides their properties.  
+ 
+Every component has Load/Save data capability to highly customizable format.
+
+Component functionality is shown in all-explaining demos:
+ + Main Demo - complex demo featuring system information overview
+ + StreamCodeProcedure - custom defined data storage file format and header demo
+ + APM - complex demo featuring TMiTeC_APM component
+ + Installed Software - detects installed software and Microsoft serial numbers
+ + USB Devices - demonstrates USB ports and devices enumeration
+ + Disk View - demonstrates storage devices enumeration
+ + Process Viewer - demonstrates running processes enumeration
+ + Software View demo - complex demo featuring TMiTeC_Software and TMiTeC_MSProduct component
+ + WMI - complex demo featuring system information overview obtained via WMI
+ + Device Monitor - complex demo featuring TMiTeC_DeviceMonitor component
+ + Bluetooth devices - complex demo featuring TMiTeC_BT component
+ + Directory Monitor - complex demo featuring directory changes watch dog
+ + APM - demonstrates machine power and cpu power settings and status
+ + EventLog Viewer - complex demo presenting TMiTeC_EventLog features
+ + Device Browser - DeviceManager-like demo
+ + CPU Test - TMiTeC_CPU testing demo
+ + Security demo - complex demo featuring TMiTeC_Security component
+ + Wi-Fi Available Networks demo - complex demo featuring TMiTeC_WIFI component
+ + Network interface enumeration
+ + Single process monitoring (cpu usage, memory, i/o,...)
+ + Process and system monitoring (cpu usage, memory, threads,...)
+ + Network connections by process
+ + Network Credentials enumeration
+ + USB History enumeration
+ + Known Wi-Fi networks enumeration
+ + Windows Firewall Rules enumeration
+
+Very usable applications with professional look and value are available too:
+ + MSI: all-features-presenting application with professional design and look for system information and evaluation
+ + WMI Explorer: WMI object explorer with WQL query tool
+ + ROM BIOS Explorer: tool for BIOS/SMBIOS/DMI browsing and disassembling
+ + GetSys: console application providing system information
+ + Process Viewer: tool for running processes exploring. Under NT allows explore also services and drivers.
+ + AD Explorer: Active Directory explorer
+ + Version Info Editor: allows to edit version informastion of any Portable Executable file.
+ + PerfLib: Performace Counter Viewer

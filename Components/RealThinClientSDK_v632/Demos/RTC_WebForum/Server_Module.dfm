@@ -1,0 +1,30 @@
+object Data_Server: TData_Server
+  OldCreateOrder = False
+  OnDestroy = DataModuleDestroy
+  Left = 314
+  Top = 274
+  Height = 163
+  Width = 196
+  object Server: TRtcHttpServer
+    MultiThreaded = True
+    Timeout.AfterConnecting = 240
+    ServerPort = '80'
+    OnConnecting = ServerConnecting
+    OnDisconnecting = ServerDisconnecting
+    OnDisconnect = ServerDisconnect
+    RestartOn.ListenLost = True
+    OnListenStart = ServerListenStart
+    OnListenStop = ServerListenStop
+    OnListenError = ServerListenError
+    FixupRequest.RemovePrefix = True
+    FixupRequest.DecodeFileName = True
+    OnRequestNotAccepted = ServerRequestNotAccepted
+    MaxRequestSize = 128000
+    MaxHeaderSize = 16000
+    OnInvalidRequest = ServerInvalidRequest
+    TimeoutsOfAPI.SendTimeout = 60
+    TimeoutsOfAPI.ReceiveTimeout = 120
+    Left = 28
+    Top = 20
+  end
+end

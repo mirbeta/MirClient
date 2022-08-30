@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+</style>
+<g id="Highlight">
+	<path class="Blue" d="M6,2H0V0h6V2z M2,2H0v4h2V2z M14,0H8v2h6V0z M22,0h-6v2h6V0z M30,0h-6v2h6V0z M30,2h-2v4h2V2z M30,8h-2v6h2V8
+		z M30,16h-2v6h2V16z M30,24h-2v6h2V24z M30,28h-6v2h6V28z M16,30h6v-2h-6V30z M8,30h6v-2H8V30z M0,30h6v-2H0V30z M2,24H0v6h2V24z
+		 M2,16H0v6h2V16z M2,8H0v6h2V8z M22,21V9c0-0.6-0.5-1-1-1H9C8.4,8,8,8.4,8,9v12c0,0.5,0.4,1,1,1h12C21.5,22,22,21.5,22,21z"/>
+	<g class="st2">
+		<rect class="Blue" width="30" height="30"/>
+	</g>
+</g>
+</svg>

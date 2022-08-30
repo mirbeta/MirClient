@@ -1,0 +1,16 @@
+Change(const v:itemType;const info:infoType);
+{$IFDEF RTC_BINTREE}
+  begin
+  remove(v);
+  insert(v,info);
+  end
+{$ELSE}
+  var
+    x:pnode;
+  begin
+  x:=head^.r;
+  while (x<>z) and ({$IFDEF RTC_GENERIC}itemC.Compare(v,x^.key)<>0{$ELSE}v<>x^.key{$ENDIF}) do
+    if ({$IFDEF RTC_GENERIC}itemC.Compare(v,x^.key)<0{$ELSE}v<x^.key{$ENDIF}) then x:=x^.l else x:=x^.r;
+  x^.info:=info;
+  end
+{$ENDIF}

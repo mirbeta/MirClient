@@ -1,0 +1,11 @@
+In this demo you can:
+
+- click on columns to sort (hold down the shift key for sorting multiple columns)
+
+- scroll middle band horizontally without hiding the fixed bands
+
+- move columns into/out of the fixed bands
+
+- right-click a band and try the popup menu
+
+- check how little source code is required

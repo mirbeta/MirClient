@@ -1,0 +1,23 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="RealtorWorldRSC103Rio">
+    <MSBuild Projects="RealtorWorld\RealtorWorldRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FrameAnimationDemoRSC103Rio">
+    <MSBuild Projects="FrameAnimationDemo\FrameAnimationDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="DesktopDemoRSC103Rio">
+    <MSBuild Projects="DesktopDemo\DesktopDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="RealtorWorldRSC103Rio;FrameAnimationDemoRSC103Rio;DesktopDemoRSC103Rio" />
+  </Target>
+</Project>

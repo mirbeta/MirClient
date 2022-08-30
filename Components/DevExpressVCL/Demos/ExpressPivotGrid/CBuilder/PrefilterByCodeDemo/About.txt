@@ -1,0 +1,7 @@
+In this demo you can:
+
+- Apply the predefined prefilter templates using the combo box.
+- Click the "Custom prefilter" item to invoke the Filter Builder dialog to apply complex filter conditions.
+- Use the prefilter panel's button to display the data unfiltered.
+- Click the prefilter panel's button to clear the currently applied prefilter.
+- Change the prefilter panel's position (the Options/Prefilter Position menu).

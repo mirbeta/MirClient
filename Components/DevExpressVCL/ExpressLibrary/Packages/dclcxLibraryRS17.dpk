@@ -1,0 +1,103 @@
+package dclcxLibraryRS17;
+
+{$R *.res}
+{$R cxLibraryReg.dcr}
+{$R cxEditReg.dcr}
+{$R cxExtEditReg.dcr}
+{$R cxFilterControlReg.dcr}
+{$R dxEditReg.dcr}
+{$R cxPCReg.dcr}
+{$R dxLayoutControlReg.dcr}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Express Cross Platform Library by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  designide,
+  vcldesigner,
+  rtl,
+  dbrtl,
+  vcl,
+  vclx,
+  vcldb,
+  dcldb,
+  dxCoreRS17,
+  dxComnRS17,
+  dxGDIPlusRS17,
+  cxLibraryRS17,
+  dcldxCoreRS17;
+
+contains
+  dxIconLibraryEditorHelpers,
+  dxUIGeneratorDesignHelpers,
+  dxUIGeneratorWizard,
+  cxDesignWindows,
+  cxStyleRepositoryEditor,
+  cxPropEditors,
+  cxLibraryReg,
+  dxActionsReg,
+  cxStyleSheetsLoad,
+  cxPropertiesStoreEditor,
+  cxImportDialog,
+  cxConverterFactory,
+  cxComponentCollectionEditor,
+  dxRichTextEditor,
+  dxScreenTipRepositoryEditor,
+  cxImageListEditor,
+  cxImageListEditorView,
+  dxGalleryDesigner,
+  dxDesignHelpers,
+  cxClassesReg,
+  cxEditReg,
+  cxEditRepositoryEditor,
+  cxMaskEditTextEditor,
+  cxSelectEditRepositoryItem,
+  cxFilterControlReg,
+  cxEditPropEditors,
+  cxInplaceContainerReg,
+  cxExtEditReg,
+  cxShellEditorsReg,
+  cxHintEditor,
+  cxCheckGroupStatesEditor,
+  cxSplitterEditor,
+  dxAlertWindowDesignTester,
+  dxEditReg,
+  dxImagePropEditor,
+  dxBreadcrumbEditEditor,
+  dxSpinImagePropEditor,
+  dxWheelPickerItemIndexesEditor,
+  dxUIAdornerTargetElementPathEditor,
+  cxPCReg,
+  dxLayoutLookAndFeelListDesignForm,
+  dxLayoutImport,
+  dxLayoutControlReg;
+
+end.

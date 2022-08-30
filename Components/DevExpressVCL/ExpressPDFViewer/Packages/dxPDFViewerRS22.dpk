@@ -1,0 +1,82 @@
+package dxPDFViewerRS22;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressPDFViewer by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  dxCoreRS22,
+  dxGDIPlusRS22,
+  cxLibraryRS22;
+
+contains
+  dxPDFBase,
+  dxPDFText,
+  dxPDFTypes,
+  dxPDFEncryption,
+  dxFontFile,
+  dxJBIG2,
+  dxJPX,
+  dxPDFCharacterMapping,
+  dxPDFColorSpace,
+  dxPDFCommand,
+  dxPDFCommandInterpreter,
+  dxPDFCommandConstructor,
+  dxPDFCore,
+  dxPDFDocument,
+  dxPDFDocumentStrs,
+  dxPDFDocumentViewer,
+  dxPDFInteractivity,
+  dxPDFFont,
+  dxPDFFontEncoding,
+  dxPDFFontUtils,
+  dxPDFFunction,
+  dxPDFParser,
+  dxPDFPostScript,
+  dxPDFShading,
+  dxPDFStreamFilter,
+  dxPDFType1Font,
+  dxPDFRecognizedObject,
+  dxPDFUtils,
+  dxPDFSelection,
+  dxPDFViewer,
+  dxPDFViewerPopupMenu,
+  dxPDFViewerDialogsStrs,
+  dxPDFViewerPasswordDialog,
+  dxPDFViewerDocumentPropertiesDialog,
+  dxPDFViewerActions,
+  dxPDFViewerActionsStrs;
+
+end.

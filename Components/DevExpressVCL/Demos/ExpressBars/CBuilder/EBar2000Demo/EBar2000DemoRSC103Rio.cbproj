@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6919480B-E0A6-4AD5-AD98-3F18824E0CF0}</ProjectGuid>
+    <ProjectVersion>14.6</ProjectVersion>
+    <MainSource>EBar2000Demo.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Base</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <Multithreaded>true</Multithreaded>
+    <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;vcldb.lib;dbrtl.lib;adortl.lib;VCLX.lib;dxComnRS26.lib;cxLibraryRS26.lib;dxBarRS26.lib;dxBarExtItemsRS26.lib;dxBarExtDBItemsRS26.lib;dxBarDBNavRS26.lib;dxDockingRS26.lib;dxGDIPlusRS26.lib;dxCoreRS26.lib;</AllPackageLibs>
+    <LinkPackageImports></LinkPackageImports>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+   <IncludePath>$(IncludePath);..\Common;..</IncludePath>
+   <ILINK_LibraryPath>$(ILINK_LibraryPath);..\Common;..</ILINK_LibraryPath>
+    <DCC_Namespace>WinApi;Vcl;System;System.Win;Vcl.Imaging;Data;Data.Win;Bde;Xml;Xml.Win;Vcl.Shell;VclTee;Datasnap;IBX;Vcl.Samples;$(DCC_Namespace)</DCC_Namespace>
+    <BCC_wpar>false</BCC_wpar>
+  </PropertyGroup>
+  <ItemGroup>
+    <ResFiles Include="EBar2000Demo.res">
+    </ResFiles>
+    <CppCompile Include="EBar2000Demo.cpp"> </CppCompile>
+    <CppCompile Include="EBar2000DemoMain.cpp">
+      <Form>EBar2000DemoMainForm</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\EBarsDemoRating.cpp">
+      <Form>EBarsDemoRatingForm</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\AboutDemoForm.cpp">
+      <Form>formAboutDemo</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\EBarsUtils.cpp">
+      <Form>dmCommonData</Form>
+    </CppCompile>
+    <FormResources Include="EBar2000DemoMain.dfm" />
+    <FormResources Include="..\Common\EBarsDemoRating.dfm" />
+    <FormResources Include="..\Common\AboutDemoForm.dfm" />
+    <FormResources Include="..\Common\EBarsUtils.dfm" />  </ItemGroup>
+  <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+      <CPlusPlusBuilder.Personality>
+      </CPlusPlusBuilder.Personality>
+      <Platforms>
+        <Platform value="Win32">True</Platform>
+        <Platform value="Win64">True</Platform>
+      </Platforms>
+    </BorlandProject>
+    <ProjectFileVersion>12</ProjectFileVersion>
+  </ProjectExtensions>
+</Project>

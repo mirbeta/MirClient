@@ -1,0 +1,8 @@
+In this demo, you can: 
+- Fix/unfix rows using any of the following methods: 
+  - Hover the mouse pointer over a data row, click the pin displayed in the leftmost cell or select an option in the pin's popup menu. 
+  - Right-click a data row to invoke its context menu and select an option. 
+ 
+- Experiment with the pins' appearance and behavior options displayed in the group boxes above the grid. 
+- Adjust the width of the separators displayed between fixed and standard data rows. 
+- Apply different paint styles to a form (the Look&Feel menu item).

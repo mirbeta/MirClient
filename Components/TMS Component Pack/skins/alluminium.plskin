@@ -1,0 +1,15 @@
+[NORMAL]
+TOP=alluh.bmp
+CENTER=allucs.bmp
+BOTTOM=allubs.bmp
+
+[SELECTED]
+TOP=alluhs.bmp
+CENTER=allucs.bmp
+BOTTOM=allubs.bmp
+
+[MARGIN]
+X=4
+Y=4
+CAPTIONX=4
+CAPTIONY=0

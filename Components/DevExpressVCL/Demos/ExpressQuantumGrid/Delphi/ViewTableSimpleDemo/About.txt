@@ -1,0 +1,9 @@
+In this demo you can:
+
+- try the table view options
+
+- insert/delete records (via the Ins/Del keys)
+
+- delete several records at once using the Multi Select option
+
+- check how little source code is required

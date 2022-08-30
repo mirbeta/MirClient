@@ -1,0 +1,11 @@
+In this demo you can:
+
+- switch between the Outlook 2003 and Standard GroupRow styles (see "Options/Outlook 2003 GroupRow Style" menu item)
+
+- group data by clicking on the column headers (see "Options/Group by Sorting" menu item)
+
+- show all groups as permanently expanded (see "Options/Always Expanded Groups" menu item)
+
+- try different kinds of grouping against DateTime data ("Sent" and "Received" columns) available via the "DateTime Grouping" submenu
+
+- note that filtering options (available from the column header filter popup) for the "Sent" and "Received" columns include dates and relative filters instead of actual DateTime values

@@ -1,0 +1,65 @@
+package dcldxRibbonRS16;
+
+{$R *.res}
+{$R dxRibbonReg.dcr}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressBars Ribbon controls by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  designide,
+  vcldesigner,
+  rtl,
+  vcl,
+  vclx,
+  dxCoreRS16,
+  dxComnRS16,
+  dxGDIPlusRS16,
+  cxLibraryRS16,
+  dxBarRS16,
+  dxRibbonRS16,
+  dcldxCoreRS16,
+  dclcxLibraryRS16,
+  dcldxBarRS16;
+
+contains
+  dxRibbonBackstageViewReg,
+  dxRibbonGalleryFilterEd,
+  dxRibbonGalleryReg,
+  dxRibbonColorGalleryReg,
+  dxRibbonReg,
+  dxRibbonUIGenerator,
+  dxRibbonFormWizard,
+  dxRibbonFormWizardReg,
+  dxSkinChooserGalleryReg,
+  dxOfficeSearchBoxReg;
+
+end.

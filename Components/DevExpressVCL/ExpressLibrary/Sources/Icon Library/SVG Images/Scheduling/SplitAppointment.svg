@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="SplitAppointment">
+	<path class="Green" d="M30,14V3c0-0.5-0.5-1-1-1H3C2.5,2,2,2.5,2,3v11h4v2H2v11c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V16h-4v-2H30z
+		 M12,16H8v-2h4V16z M18,16h-4v-2h4V16z M24,16h-4v-2h4V16z"/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+In this demo you can:
+
+- change the photo's magnification level using the custom row height feature (see Options/Picture Zoom)
+
+- insert/delete films (via Ins/Del keys)
+
+- filter data by clicking a column header's filter button 
+
+- sort data by clicking a column header
+
+- see how little code was required 

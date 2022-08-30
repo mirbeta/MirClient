@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{opacity:0.25;}
+</style>
+<g id="OpenCalendar_1_">
+	<g class="st0">
+		<path class="Black" d="M10,26H6v-4h4V26z M16,22h-4v4h4V22z M22,22h-4v4h4V22z M28,22h-4v4h4V22z M22,10h-4v4h4V10z M28,10h-4v4h4
+			V10z M28,16h-4v4h4V16z M16,16h-4v4h4V16z M10,16H6v4h4V16z M16,10h-4v4h4V10z"/>
+	</g>
+	<path class="Black" d="M31,4H16v4h14v20H4V14v-4H2v19c0,0.6,0.4,1,1,1h28c0.6,0,1-0.4,1-1V5C32,4.4,31.6,4,31,4z"/>
+	<polygon class="Green" points="14,4 10,4 10,0 6,0 6,4 2,4 2,8 6,8 6,12 10,12 10,8 14,8 	"/>
+	<rect x="18" y="16" class="Red" width="4" height="4"/>
+</g>
+</svg>

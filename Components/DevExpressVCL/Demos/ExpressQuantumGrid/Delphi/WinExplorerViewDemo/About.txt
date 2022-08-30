@@ -1,0 +1,7 @@
+This demo shows how to display records with images and short captions using the WinExplorer View.
+
+In this demo, you can:
+- Choose from the available display modes (Small images, Medium images, Large images, Extra large images, Tiles, List, or Content).
+- Group records by a specific attribute and change their sort order.
+- Experiment with the appearance and behavior options displayed above the grid.
+- Apply different paint styles to a form (the Look&Feel menu item).

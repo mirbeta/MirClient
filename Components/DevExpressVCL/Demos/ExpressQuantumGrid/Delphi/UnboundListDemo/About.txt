@@ -1,0 +1,9 @@
+In this demo you can:
+
+- edit the customer list by pressing the Insert and Delete buttons
+
+- right click in column headers to set column options
+
+- drag a column header to the grouping area
+
+- examine the code in the LoadData method to see how easy it is to handle text data

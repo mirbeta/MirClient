@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Data_Labels" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M10,28H4V18h6V28z M18,14h-6v14h6V14z M26,10h-6v18h6V10z"/>
+</g>
+<path class="Green" d="M10,16H4v-4h6V16z M18,8h-6v4h6V8z M26,4h-6v4h6V4z"/>
+</svg>

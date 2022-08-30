@@ -1,0 +1,6 @@
+This demo shows how to calculate the area of a triangle using a custom function.
+
+In this demo, you can:
+- Enter values to calculate the area of a triangle.
+- See the formula used for calculation (the Options | Show Formulas menu item). The custom function is called TRIANGLEAREA. Refer to the demo's source code to see how this function is implemented and registered with the spreadsheet control.
+- Apply different paint styles to a form (the Look&Feel menu item).

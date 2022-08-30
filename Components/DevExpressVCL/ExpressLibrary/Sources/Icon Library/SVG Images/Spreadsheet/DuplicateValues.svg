@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Duplicate_Values" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<rect x="14" y="14" class="Blue" width="10" height="10"/>
+<g class="st0">
+	<polygon class="Blue" points="12,12 18,12 18,8 8,8 8,18 12,18 	"/>
+</g>
+<path class="Black" d="M31,2H1C0.4,2,0,2.4,0,3v26c0,0.6,0.4,1,1,1h30c0.6,0,1-0.4,1-1V3C32,2.4,31.6,2,31,2z M30,28H2V4h28V28z"/>
+</svg>

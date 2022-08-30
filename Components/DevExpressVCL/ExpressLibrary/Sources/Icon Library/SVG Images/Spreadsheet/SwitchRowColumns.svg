@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Switch_Row_x2F_Column" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M12,24v6H4v-5.8 M7.4,22H12v-6h-0.9L7.4,22z M14,30h8v-6h-8V30z M24,8v6h8V8H24z M24,22h8v-6h-8V22z M14,22
+		h8v-6h-8V22z M24,30h8v-6h-8V30z M21.1,8.7L14,13.1V14h8V8.1L21.1,8.7z"/>
+</g>
+<path class="Blue" d="M20,7l-8-5v4c-4.4,0-8,3.6-8,8H0l5,8l5-8H6c0-3.3,2.7-6,6-6v4L20,7z"/>
+</svg>

@@ -1,0 +1,7 @@
+In this demo, you can:
+
+- Select a tab to browse through the available barcode symbologies.
+- Specify the text to be encoded into a barcode image.
+- Change the different barcode customization options grouped within the Common Properties and Specific Properties tabbed pages.
+- Resize the form if a barcode doesn't fit the control's bounds.
+- Apply different paint styles to a form (the Look&Feel menu item).

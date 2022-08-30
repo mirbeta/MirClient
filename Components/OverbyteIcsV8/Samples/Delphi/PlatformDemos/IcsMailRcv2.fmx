@@ -1,0 +1,20 @@
+object MessageForm: TMessageForm
+  Left = 81
+  Top = 115
+  Caption = 'Message'
+  ClientHeight = 347
+  ClientWidth = 449
+  Visible = False
+  StyleLookup = 'backgroundstyle'
+  Left = 81
+  Top = 115
+  object DisplayMemo: TMemo
+    Align = alClient
+    Width = 449.000000000000000000
+    Height = 347.000000000000000000
+    TabOrder = 0
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+end

@@ -1,0 +1,13 @@
+The following dock panel schemes are demonstrated within this application:
+
+Scheme1: two tabbed containers
+
+Scheme2: single tabbed container with internal side container
+
+Scheme3: single panel with auto hide set
+
+Scheme4: floating tabbed container
+
+Scheme5: vertical site container within horizontal site container
+
+Experiment with docking to different sites and see the effect of floating the various panels. You can also modify styles via the View menu.

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6E8D6F49-294E-47C3-A391-1FACD5F73D71}</ProjectGuid>
+    <ProjectVersion>14.6</ProjectVersion>
+    <MainSource>LayoutControlReportLink.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Base</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <Multithreaded>true</Multithreaded>
+    <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;dxPSLnksRS26.lib;dxPSdxLCLnkRS26.lib;VCLX.lib;dxPSCoreRS26.lib;dxGDIPlusRS26.lib;cxLibraryRS26.lib;vcldb.lib;dbrtl.lib;adortl.lib;dxCoreRS26.lib;dxmdsRS26.lib;dxPScxCommonRS26.lib;dxPScxExtCommonRS26.lib;dxPScxPCProdRS26.lib;dxComnRS26.lib;</AllPackageLibs>
+    <LinkPackageImports></LinkPackageImports>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+   <IncludePath>$(IncludePath);..\Common;..</IncludePath>
+   <ILINK_LibraryPath>$(ILINK_LibraryPath);..\Common;..</ILINK_LibraryPath>
+    <DCC_Namespace>WinApi;Vcl;System;System.Win;Vcl.Imaging;Data;Data.Win;Bde;Xml;Xml.Win;Vcl.Shell;VclTee;Datasnap;IBX;Vcl.Samples;$(DCC_Namespace)</DCC_Namespace>
+    <BCC_wpar>false</BCC_wpar>
+  </PropertyGroup>
+  <ItemGroup>
+    <ResFiles Include="LayoutControlReportLink.res">
+    </ResFiles>
+    <CppCompile Include="LayoutControlReportLink.cpp"> </CppCompile>
+    <CppCompile Include="LayoutControlRLMain.cpp">
+      <Form>LayoutControlMainForm</Form>
+    </CppCompile>
+    <CppCompile Include="DemoDM.cpp">
+      <Form>dmDemo</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\AboutDemoForm.cpp">
+      <Form>formAboutDemo</Form>
+    </CppCompile>
+    <CppCompile Include="..\Common\DemoBasicMain.cpp">
+      <Form>DemoBasicMainForm</Form>
+    </CppCompile>
+    <FormResources Include="LayoutControlRLMain.dfm" />
+    <FormResources Include="DemoDM.dfm" />
+    <FormResources Include="..\Common\AboutDemoForm.dfm" />
+    <FormResources Include="..\Common\DemoBasicMain.dfm" />  </ItemGroup>
+  <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+      <CPlusPlusBuilder.Personality>
+      </CPlusPlusBuilder.Personality>
+      <Platforms>
+        <Platform value="Win32">True</Platform>
+        <Platform value="Win64">True</Platform>
+      </Platforms>
+    </BorlandProject>
+    <ProjectFileVersion>12</ProjectFileVersion>
+  </ProjectExtensions>
+</Project>

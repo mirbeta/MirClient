@@ -1,0 +1,30 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = RtcSimpleGateway.exe RtcGateTestClient.exe ChatServer.exe \
+  ChatClient.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+RtcSimpleGateway.exe: Demos\GatewayTest\RtcSimpleGateway.dpr
+  $(DCC)
+
+RtcGateTestClient.exe: Demos\GatewayTest\RtcGateTestClient.dpr
+  $(DCC)
+
+ChatServer.exe: Demos\GateChatServer\ChatServer.dpr
+  $(DCC)
+
+ChatClient.exe: Demos\GateChatClient\ChatClient.dpr
+  $(DCC)
+
+

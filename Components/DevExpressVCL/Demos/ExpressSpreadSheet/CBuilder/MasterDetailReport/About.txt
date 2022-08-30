@@ -1,0 +1,14 @@
+This demo shows how to create a spreadsheet-based multi-level report using data from datasets linked into master-detail relationships.
+
+In this demo, you can:
+
+- Customize the report template:
+  - Manage report sections (the Report | Sections submenu).
+  - Add dataset fields to spreadsheet cells using drag and drop (the Field Chooser panel). Note that fields in this panel are nested to reflect the relationships established between the datasets.
+  - Build formula expressions using dataset fields.
+
+- Filter the master dataset to provide data of specific suppliers (the Filter Options panel).
+
+- Build and preview a report (the Report | Preview menu item).
+
+- Apply different paint styles to forms (the Look&Feel menu item).

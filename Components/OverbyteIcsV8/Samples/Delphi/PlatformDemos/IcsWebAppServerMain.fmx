@@ -1,0 +1,71 @@
+object WebAppSrvForm: TWebAppSrvForm
+  Left = 79
+  Top = 292
+  Caption = 'Overbyte ICS Web Application Server Demo'
+  ClientHeight = 213
+  ClientWidth = 371
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 79
+  Top = 292
+  object ToolsPanel: TPanel
+    Align = alTop
+    Width = 371.000000000000000000
+    Height = 41.000000000000000000
+    TabOrder = 0
+  end
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,41)'
+    Width = 371.000000000000000000
+    Height = 172.000000000000000000
+    TabOrder = 1
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object HousekeepingTimer: TTimer
+    Enabled = False
+    OnTimer = HousekeepingTimerTimer
+    Left = 176
+    Top = 88
+  end
+  object HttpAppSrv1: THttpAppSrv
+    ListenBacklog = 5
+    MultiListenSockets = <>
+    Port = '80'
+    Addr = '0.0.0.0'
+    SocketFamily = sfIPv4
+    MaxClients = 0
+    DocDir = 'c:\wwwroot'
+    TemplateDir = 'c:\wwwroot\templates'
+    DefaultDoc = 'index.html'
+    LingerOnOff = wsLingerNoSet
+    LingerTimeout = 0
+    Options = []
+    KeepAliveTimeSec = 10
+    MaxRequestsKeepAlive = 100
+    SizeCompressMin = 5000
+    SizeCompressMax = 5000000
+    MaxBlkSize = 8192
+    BandwidthLimit = 0
+    BandwidthSampling = 1000
+    OnServerStarted = HttpAppSrv1ServerStarted
+    OnServerStopped = HttpAppSrv1ServerStopped
+    OnClientConnect = HttpAppSrv1ClientConnect
+    OnGetDocument = HttpAppSrv1GetDocument
+    OnBeforeProcessRequest = HttpAppSrv1BeforeProcessRequest
+    OnAfterAnswer = HttpAppSrv1AfterAnswer
+    AuthTypes = []
+    AuthRealm = 'ics'
+    OnBgException = HttpAppSrv1BgException
+    SessionTimeout = 300
+    OnDeleteSession = HttpAppSrv1DeleteSession
+    OnVirtualException = HttpAppSrv1VirtualException
+    Left = 52
+    Top = 88
+  end
+end

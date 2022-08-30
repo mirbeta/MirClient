@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppPackage</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{F34832D5-7A26-42C4-B45F-9D3801886E5F}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="dontverifylibs" value="0"/>
+        <property category="build.node" name="libraries" value="vclSmp.lib bcboffice2k.lib indysystem.lib indycore.lib dbxcds.lib soaprtl.lib dbexpress.lib inetdbxpress.lib inetdbbde.lib bcbsmp.lib dsnapcon.lib dss.lib tee.lib teedb.lib teeui.lib dsnapcon.lib dsnap.lib ibxpress.lib vcldbx.lib bdertl.lib adortl.lib vcldb.lib"/>
+        <property category="build.node" name="name" value="tmsxlsc2006.bpl"/>
+        <property category="build.node" name="packages" value="rtl;vcl;vcljpg;designide;bcbie;tmsc2006"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcldb.lib adortl.lib bdertl.lib vcldbx.lib ibxpress.lib dsnap.lib dsnapcon.lib teeui.lib teedb.lib tee.lib dss.lib dsnapcon.lib bcbsmp.lib inetdbbde.lib inetdbxpress.lib dbexpress.lib bcbie.lib soaprtl.lib dbxcds.lib indycore.lib indysystem.lib bcboffice2k.lib vclSmp.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="$(BDS)\Pack\xlsadapter"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="$(BDS)\Comp\xlsadapter"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vx.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.X.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.k.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.y.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.1" value="_DEBUG"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.1" value="$(BDS)\Pack\xlsadapter"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.2" value="$(BDS)\Comp\xlsadapter"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.3" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.4" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.5" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.6" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.1" value="YD"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.2" value="W"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.1" value="."/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value=".\"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.1" value="_DEBUG"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="$(BDS)\Pack\xlsadapter"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="$(BDS)\Comp\xlsadapter"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.boa.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg" value="cpp"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg" value="&quot;TAdvStringGrid Excel support&quot;"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\Pack\xlsadapter"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="C:\Program Files\IntraWeb\CBuilder\LibCB6"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\Projects\Lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="$(BDS)\Comp\xlsadapter"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="xlsadapter"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="."/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0pkg32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="Memmgr.Lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.1" value="_DEBUG"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.1" value="$(BDS)\Pack\xlsadapter"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.2" value="$(BDS)\Comp\xlsadapter"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.3" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.4" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.5" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.6" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.w2.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="tmsxlsc2006.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="tmsxlsc2006.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="tmsxlsc2006.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tmsxlsc2006" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\xlsadapter\rtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="rtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\xlsadapter\vcl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\xlsadapter\vcljpg.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcljpg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\xlsadapter\designide.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="designide" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\bcbie.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="bcbie" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="C:\Documents and Settings\Bruno Fierens\My Documents\Borland Studio Projects\Bpl\tmsc2006.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="tmsc2006" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsAdvGridExcel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsAdvGridExcel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsAdvExcelIOReg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsAdvExcelIOReg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsXlsMessages.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsXlsMessages" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUBreakList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUBreakList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUEscherGraphToBSE.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUEscherGraphToBSE" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUEscherOtherRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUEscherOtherRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUEscherRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUEscherRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUExcelAdapter.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUExcelAdapter" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUExcelRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUExcelRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUFlxFormats.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUFlxFormats" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUFlxMessages.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUFlxMessages" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUFlxNumberFormat.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUFlxNumberFormat" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUFlxRowComments.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUFlxRowComments" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUFlxStack.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUFlxStack" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUFlxUtils.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUFlxUtils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUOle2Impl.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUOle2Impl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUSheetNameList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUSheetNameList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsBaseClientData.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsBaseClientData" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsBaseList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsBaseList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsBaseRecordLists.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsBaseRecordLists" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsBaseRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsBaseRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsCellRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsCellRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsChart.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsChart" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsClientData.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsClientData" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsColInfo.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsColInfo" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsCondFmt.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsCondFmt" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsEncodeFormula.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsEncodeFormula" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsEscher.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsEscher" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsFormula.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsFormula" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsFormulaParser.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsFormulaParser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsHyperLink.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsHyperLink" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsMD5.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsMD5" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsNotes.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsNotes" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsOtherRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsOtherRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsPageBreaks.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsPageBreaks" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsPalette.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsPalette" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsPictures.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsPictures" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsProtect.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsProtect" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsRangeRecords.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsRangeRecords" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsReferences.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsReferences" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsRowColEntries.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsRowColEntries" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsSections.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsSections" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsSheet.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsSheet" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsSST.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsSST" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsStrings.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsStrings" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsTokenArray.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsTokenArray" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsWorkbookGlobals.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsWorkbookGlobals" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsUXlsXF.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsUXlsXF" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsXLSAdapter.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsXLSAdapter" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsXlsBaseTemplateStore.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsXlsBaseTemplateStore" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xlsadapter\tmsXlsFormulaMessages.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="tmsXlsFormulaMessages" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">2067</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<Source>
+			<Source Name="MainSource">tmsxlsc2006.cpp</Source>
+		</Source>
+		<buildevents/>
+	</CPlusPlusBuilder.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

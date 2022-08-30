@@ -1,0 +1,10 @@
+This form highlights the components that inherit their base abilities from the Windows Common Controls.  In addition, this form illustrates the HotSpot feature of the TRzSplitter component, as well as the ability to nest splitters to easily created multi-paned splitting regions.
+
+TRzTreeView and TRzCheckTree
+This form shows an example of the TRzCheckTree, which is a descendant of TRzTreeView. Therefore, in addition to being able to associate a check box with each node and cascade check states up and down the tree, the component supports a custom SelectionPen property as well as Custom Framing.
+
+TRzListView
+This enhanced list view component supports custom framing, but also defines some additional properties such as FillLastColumn, which attempts to resize the last column so that it fills the remaining space of the list view. When the AlphaSortAll property is True, the component automatically handles sorting whatever column is clicked.
+
+TRzSplitter
+There are two splitters used on this form. Each one has its HotSpotVisible property set to True, which causes the thin button in the middle of the splitter bar to appear. Clicking this button causes the splitter bar to be immediately positioned to the side. Clicking the button again causes the bar to return to its original position. In this example, the HotSpotDirection is set to hsdBoth so the splitter bar can be positioned to either the top or bottom of the window.

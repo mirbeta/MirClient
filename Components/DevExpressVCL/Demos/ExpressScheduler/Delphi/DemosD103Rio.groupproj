@@ -1,0 +1,47 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="AgendaViewDemoD103Rio">
+    <MSBuild Projects="AgendaViewDemo\AgendaViewDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RangeControlDemoD103Rio">
+    <MSBuild Projects="RangeControlDemo\RangeControlDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="UnboundDemoD103Rio">
+    <MSBuild Projects="UnboundDemo\UnboundDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="DBDemoD103Rio">
+    <MSBuild Projects="DBDemo\DBDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoD103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="StylesDemoD103Rio">
+    <MSBuild Projects="StylesDemo\StylesDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ResourceDemoD103Rio">
+    <MSBuild Projects="ResourceDemo\ResourceDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="GanttViewDemoD103Rio">
+    <MSBuild Projects="GanttViewDemo\GanttViewDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="AggregateDemoD103Rio">
+    <MSBuild Projects="AggregateDemo\AggregateDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="HolidaysDemoD103Rio">
+    <MSBuild Projects="HolidaysDemo\HolidaysDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="WebServiceDemoD103Rio">
+    <MSBuild Projects="WebServiceDemo\WebServiceDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="AgendaViewDemoD103Rio;RangeControlDemoD103Rio;UnboundDemoD103Rio;DBDemoD103Rio;CustomDrawDemoD103Rio;StylesDemoD103Rio;ResourceDemoD103Rio;GanttViewDemoD103Rio;AggregateDemoD103Rio;HolidaysDemoD103Rio;WebServiceDemoD103Rio" />
+  </Target>
+</Project>

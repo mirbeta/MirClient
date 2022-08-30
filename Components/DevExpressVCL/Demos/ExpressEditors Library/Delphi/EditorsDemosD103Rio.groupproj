@@ -1,0 +1,62 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="TokenEditDemoD103Rio">
+    <MSBuild Projects="TokenEditDemo\TokenEditDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="RangeControlDemoD103Rio">
+    <MSBuild Projects="RangeControlDemo\RangeControlDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="BarCodeDemoD103Rio">
+    <MSBuild Projects="BarCodeDemo\BarCodeDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ActivityIndicatorDemoD103Rio">
+    <MSBuild Projects="ActivityIndicatorDemo\ActivityIndicatorDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="AlertWindowDemoD103Rio">
+    <MSBuild Projects="AlertWindowDemo\AlertWindowDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="AlertWindowCustomDrawDemoD103Rio">
+    <MSBuild Projects="AlertWindowCustomDrawDemo\AlertWindowCustomDrawDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsLookupDemoD103Rio">
+    <MSBuild Projects="EditorsLookupDemo\EditorsLookupDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsMaskDemoD103Rio">
+    <MSBuild Projects="EditorsMaskDemo\EditorsMaskDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsStylesDemoD103Rio">
+    <MSBuild Projects="EditorsStylesDemo\EditorsStylesDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="BreadcrumbEditDemoD103Rio">
+    <MSBuild Projects="BreadcrumbEditDemo\BreadcrumbEditDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="DBBreadcrumbEditDemoD103Rio">
+    <MSBuild Projects="DBBreadcrumbEditDemo\DBBreadcrumbEditDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ShellBreadcrumbEditDemoD103Rio">
+    <MSBuild Projects="ShellBreadcrumbEditDemo\ShellBreadcrumbEditDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="EditorsValidationDemoD103Rio">
+    <MSBuild Projects="EditorsValidationDemo\EditorsValidationDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ImageViewerDemoD103Rio">
+    <MSBuild Projects="ImageViewerDemo\ImageViewerDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ImageSliderDemoD103Rio">
+    <MSBuild Projects="ImageSliderDemo\ImageSliderDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="CloudStorageDemoD103Rio">
+    <MSBuild Projects="CloudStorageDemo\CloudStorageDemoD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="TokenEditDemoD103Rio;RangeControlDemoD103Rio;BarCodeDemoD103Rio;ActivityIndicatorDemoD103Rio;AlertWindowDemoD103Rio;AlertWindowCustomDrawDemoD103Rio;EditorsLookupDemoD103Rio;EditorsMaskDemoD103Rio;EditorsStylesDemoD103Rio;BreadcrumbEditDemoD103Rio;DBBreadcrumbEditDemoD103Rio;ShellBreadcrumbEditDemoD103Rio;EditorsValidationDemoD103Rio;ImageViewerDemoD103Rio;ImageSliderDemoD103Rio;CloudStorageDemoD103Rio" />
+  </Target>
+</Project>

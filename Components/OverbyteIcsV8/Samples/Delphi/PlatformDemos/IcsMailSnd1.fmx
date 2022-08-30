@@ -1,0 +1,1011 @@
+object SmtpTestForm: TSmtpTestForm
+  Left = 197
+  Top = 144
+  Caption = 'SmtpTestForm - http://www.overbyte.be'
+  ClientHeight = 525
+  ClientWidth = 582
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 197
+  Top = 144
+  object MsgMemo: TMemo
+    Align = alTop
+    Position.Point = '(0,235)'
+    Width = 582.000000000000000000
+    Height = 120.000000000000000000
+    TabOrder = 0
+    Lines.Strings = (
+      'MsgMemo')
+    KeyboardType = vktDefault
+  end
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,441)'
+    Width = 582.000000000000000000
+    Height = 84.000000000000000000
+    TabOrder = 1
+    Lines.Strings = (
+      'DisplayMemo')
+    ReadOnly = True
+    KeyboardType = vktDefault
+  end
+  object ToolsPanel: TPanel
+    Align = alTop
+    Width = 582.000000000000000000
+    Height = 235.000000000000000000
+    TabOrder = 2
+    object Label5: TLabel
+      Position.Point = '(12,219)'
+      Width = 74.264640808105470000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'Message text:'
+      WordWrap = False
+      Left = 12
+      Top = 219
+    end
+    object ClearDisplayButton: TButton
+      Position.Point = '(480,102)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ClearDisplayButtonClick
+      TabOrder = 1
+      Text = 'Clear &Info'
+      Left = 480
+      Top = 102
+    end
+    object ConnectButton: TButton
+      Position.Point = '(400,24)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ConnectButtonClick
+      TabOrder = 2
+      Text = 'Connect'
+      Left = 400
+      Top = 24
+    end
+    object HeloButton: TButton
+      Position.Point = '(400,43)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = HeloButtonClick
+      TabOrder = 3
+      Text = 'Helo'
+      Left = 400
+      Top = 43
+    end
+    object MailFromButton: TButton
+      Position.Point = '(400,102)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MailFromButtonClick
+      TabOrder = 4
+      Text = 'MailFrom'
+      Left = 400
+      Top = 102
+    end
+    object RcptToButton: TButton
+      Position.Point = '(400,142)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RcptToButtonClick
+      TabOrder = 5
+      Text = 'RcptTo'
+      Left = 400
+      Top = 142
+    end
+    object DataButton: TButton
+      Position.Point = '(400,162)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = DataButtonClick
+      TabOrder = 6
+      Text = 'Data'
+      Left = 400
+      Top = 162
+    end
+    object AbortButton: TButton
+      Position.Point = '(480,82)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AbortButtonClick
+      TabOrder = 7
+      Text = 'Abort'
+      Left = 480
+      Top = 82
+    end
+    object QuitButton: TButton
+      Position.Point = '(480,63)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = QuitButtonClick
+      TabOrder = 8
+      Text = 'Quit'
+      Left = 480
+      Top = 63
+    end
+    object MailButton: TButton
+      Position.Point = '(480,43)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MailButtonClick
+      TabOrder = 9
+      Text = 'Mail'
+      Left = 480
+      Top = 43
+    end
+    object OpenButton: TButton
+      Position.Point = '(480,24)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = OpenButtonClick
+      TabOrder = 10
+      Text = 'Open'
+      Left = 480
+      Top = 24
+    end
+    object EhloButton: TButton
+      Position.Point = '(400,63)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = EhloButtonClick
+      TabOrder = 11
+      Text = 'Ehlo'
+      Left = 400
+      Top = 63
+    end
+    object AuthButton: TButton
+      Position.Point = '(400,82)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AuthButtonClick
+      TabOrder = 12
+      Text = 'Auth'
+      Left = 400
+      Top = 82
+    end
+    object AllInOneButton: TButton
+      Position.Point = '(480,142)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AllInOneButtonClick
+      TabOrder = 13
+      Text = 'All In One'
+      Left = 480
+      Top = 142
+    end
+    object SendToFileButton: TButton
+      Position.Point = '(400,198)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SendToFileButtonClick
+      TabOrder = 14
+      Text = 'Send To File'
+      Left = 400
+      Top = 198
+    end
+    object MsgSizeButton: TButton
+      Position.Point = '(480,198)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MsgSizeButtonClick
+      TabOrder = 15
+      Text = 'CalcMsgSize'
+      Left = 480
+      Top = 198
+    end
+    object MailFromSIZEButton: TButton
+      Position.Point = '(400,122)'
+      Width = 77.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MailFromSIZEButtonClick
+      TabOrder = 16
+      Text = 'MailFromSIZE'
+      Left = 400
+      Top = 122
+    end
+    object SettingsPageControl: TTabControl
+      Width = 385.000000000000000000
+      Height = 211.000000000000000000
+      TabOrder = 17
+      TabIndex = 0
+      TabHeight = 20.000000000000000000
+      Left = 4
+      Top = 4
+      object BasicSettingsTabSheet: TTabItem
+        Width = 80.000000000000000000
+        Height = 20.000000000000000000
+        TabOrder = 0
+        Index = 0
+        TextAlign = taCenter
+        Text = 'Basic Settings'
+        WordWrap = False
+        object Label1: TLabel
+          Position.Point = '(21,11)'
+          Width = 57.000000000000000000
+          Height = 15.000000000000000000
+          TabOrder = 0
+          Text = 'SMTP Host'
+          WordWrap = False
+          Left = 25
+          Top = 11
+        end
+        object Label4: TLabel
+          Position.Point = '(222,11)'
+          Width = 23.500000000000000000
+          Height = 15.500000000000000000
+          TabOrder = 1
+          Text = 'Port'
+          WordWrap = False
+          Left = 222
+          Top = 11
+        end
+        object Label2: TLabel
+          Position.Point = '(48,36)'
+          Width = 28.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 2
+          Text = 'From'
+          WordWrap = False
+          Left = 52
+          Top = 36
+        end
+        object Label3: TLabel
+          Position.Point = '(230,36)'
+          Width = 14.500000000000000000
+          Height = 15.500000000000000000
+          TabOrder = 3
+          Text = 'To'
+          WordWrap = False
+          Left = 230
+          Top = 36
+        end
+        object Label12: TLabel
+          Position.Point = '(60,60)'
+          Width = 14.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 4
+          Text = 'Cc'
+          WordWrap = False
+          Left = 64
+          Top = 60
+        end
+        object Label13: TLabel
+          Position.Point = '(226,60)'
+          Width = 18.500000000000000000
+          Height = 15.500000000000000000
+          TabOrder = 5
+          Text = 'Bcc'
+          WordWrap = False
+          Left = 226
+          Top = 60
+        end
+        object Subject: TLabel
+          Position.Point = '(36,156)'
+          Width = 40.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 6
+          Text = 'Subject'
+          WordWrap = False
+          Left = 40
+          Top = 156
+        end
+        object Label8: TLabel
+          Position.Point = '(218,84)'
+          Width = 24.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 7
+          Text = 'Sign'
+          WordWrap = False
+          Left = 222
+          Top = 84
+        end
+        object Label9: TLabel
+          Position.Point = '(24,108)'
+          Width = 54.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 8
+          Text = 'Username'
+          WordWrap = False
+          Left = 28
+          Top = 108
+        end
+        object Label10: TLabel
+          Position.Point = '(220,108)'
+          Width = 24.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 9
+          Text = 'Pass'
+          WordWrap = False
+          Left = 220
+          Top = 108
+        end
+        object Label11: TLabel
+          Position.Point = '(50,132)'
+          Width = 26.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 10
+          Text = 'Auth'
+          WordWrap = False
+          Left = 6
+          Top = 132
+        end
+        object Label14: TLabel
+          Position.Point = '(204,132)'
+          Width = 38.000000000000000000
+          Height = 16.000000000000000000
+          TabOrder = 11
+          Text = 'Priority'
+          WordWrap = False
+          Left = 208
+          Top = 132
+        end
+        object HostEdit: TEdit
+          Position.Point = '(80,8)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 12
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'HostEdit'
+          Left = 80
+          Top = 8
+        end
+        object PortEdit: TEdit
+          Position.Point = '(246,8)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 13
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'PortEdit'
+          Left = 246
+          Top = 8
+        end
+        object FromEdit: TEdit
+          Position.Point = '(80,32)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 14
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'FromEdit'
+          Left = 80
+          Top = 32
+        end
+        object ToEdit: TEdit
+          Position.Point = '(246,32)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 15
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'ToEdit'
+          Left = 246
+          Top = 32
+        end
+        object CcEdit: TEdit
+          Position.Point = '(80,56)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 16
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'CcEdit'
+          Left = 80
+          Top = 56
+        end
+        object BccEdit: TEdit
+          Position.Point = '(246,56)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 17
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'BccEdit'
+          Left = 246
+          Top = 56
+        end
+        object SubjectEdit: TEdit
+          Position.Point = '(80,152)'
+          Width = 287.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 18
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'SubjectEdit'
+          Left = 80
+          Top = 152
+        end
+        object SignOnEdit: TEdit
+          Position.Point = '(246,80)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 19
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'SignOnEdit'
+          Left = 246
+          Top = 80
+        end
+        object UsernameEdit: TEdit
+          Position.Point = '(80,104)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 20
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'UsernameEdit'
+          Left = 80
+          Top = 104
+        end
+        object PasswordEdit: TEdit
+          Position.Point = '(246,104)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 21
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'PasswordEdit'
+          Left = 246
+          Top = 104
+        end
+        object AuthComboBox: TComboBox
+          Position.Point = '(80,128)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 22
+          ItemIndex = 0
+          object ListBoxItem1: TListBoxItem
+            Position.Point = '(5000,5000)'
+            Width = 96.000000000000000000
+            Height = 17.000000000000000000
+            HitTest = False
+            TabOrder = 0
+            IsSelected = True
+            Text = 'None'
+          end
+          object ListBoxItem2: TListBoxItem
+            Position.Point = '(0,13)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 1
+            Text = 'Plain'
+          end
+          object ListBoxItem3: TListBoxItem
+            Position.Point = '(0,26)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 2
+            Text = 'Login'
+          end
+          object ListBoxItem4: TListBoxItem
+            Position.Point = '(0,39)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 3
+            Text = 'CramMD5'
+          end
+          object ListBoxItem5: TListBoxItem
+            Position.Point = '(0,52)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 4
+            Text = 'CramSHA1'
+          end
+          object ListBoxItem6: TListBoxItem
+            Position.Point = '(0,65)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 5
+            Text = 'NTLM'
+          end
+          object ListBoxItem7: TListBoxItem
+            Position.Point = '(0,78)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 6
+            Text = 'AutoSelect'
+          end
+        end
+        object PriorityComboBox: TComboBox
+          Position.Point = '(246,128)'
+          Width = 121.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 23
+          ItemIndex = 0
+          object ListBoxItem8: TListBoxItem
+            Position.Point = '(5000,5000)'
+            Width = 96.000000000000000000
+            Height = 17.000000000000000000
+            HitTest = False
+            TabOrder = 0
+            IsSelected = True
+            Text = 'Not specified'
+          end
+          object ListBoxItem9: TListBoxItem
+            Position.Point = '(0,13)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 1
+            Text = 'Highest'
+          end
+          object ListBoxItem10: TListBoxItem
+            Position.Point = '(0,26)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 2
+            Text = 'High'
+          end
+          object ListBoxItem11: TListBoxItem
+            Position.Point = '(0,39)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 3
+            Text = 'Normal'
+          end
+          object ListBoxItem12: TListBoxItem
+            Position.Point = '(0,52)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 4
+            Text = 'Low'
+          end
+          object ListBoxItem13: TListBoxItem
+            Position.Point = '(0,65)'
+            Width = 19.000000000000000000
+            Height = 19.000000000000000000
+            HitTest = False
+            TabOrder = 5
+            Text = 'Lowest'
+          end
+        end
+        object ConfirmCheckBox: TCheckBox
+          Position.Point = '(80,80)'
+          Width = 121.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 24
+          Text = 'Confirm Receipt'
+          Top = 80
+        end
+      end
+      object CharsetSettingsTabSheet: TTabItem
+        Position.Point = '(80,0)'
+        Width = 140.000000000000000000
+        Height = 20.000000000000000000
+        TabOrder = 1
+        Index = 1
+        TextAlign = taCenter
+        Text = 'Charset & MIME Settings'
+        WordWrap = False
+        object WrapTextCheckBox: TCheckBox
+          Position.Point = '(239,119)'
+          Width = 142.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 0
+          Text = 'WrapMailMessageText'
+          Left = 208
+          Top = 72
+        end
+        object WrapAtEdit: TEdit
+          Position.Point = '(241,155)'
+          Width = 39.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 1
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'WrapAtEdit'
+          Left = 208
+          Top = 106
+        end
+        object UseMailMessageCheckBox: TCheckBox
+          Position.Point = '(33,15)'
+          Width = 356.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 2
+          Text = 'Use property MailMessage (required for some properties below).'
+          Left = 19
+          Top = 6
+        end
+        object ToggleCsViewButton: TButton
+          Position.Point = '(302,59)'
+          Width = 73.000000000000000000
+          Height = 21.000000000000000000
+          OnClick = ToggleCsViewButtonClick
+          TabOrder = 3
+          Text = 'Toggle View'
+          Left = 177
+          Top = 16
+        end
+        object Label17: TLabel
+          Position.Point = '(298,156)'
+          Width = 73.749015808105470000
+          Height = 18.630859375000000000
+          TabOrder = 4
+          AutoSize = True
+          Text = '(default = 76)'
+          WordWrap = False
+          Left = 256
+          Top = 109
+        end
+        object Label16: TLabel
+          Position.Point = '(238,140)'
+          Width = 144.609848022460900000
+          Height = 18.630859375000000000
+          TabOrder = 5
+          AutoSize = True
+          Text = 'Wrap text at (bytes per line)'
+          WordWrap = False
+          Left = 208
+          Top = 92
+        end
+        object Label15: TLabel
+          Position.Point = '(35,40)'
+          Width = 43.531246185302730000
+          Height = 18.630859375000000000
+          TabOrder = 6
+          AutoSize = True
+          Text = 'Charset'
+          WordWrap = False
+          Left = 7
+          Top = 2
+        end
+        object FoldHeadersCheckBox: TCheckBox
+          Position.Point = '(34,111)'
+          Width = 87.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 7
+          Text = 'FoldHeaders'
+          Left = 6
+          Top = 72
+        end
+        object DefEncodingComboBox: TComboBox
+          Position.Point = '(39,147)'
+          Width = 125.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 8
+          ItemIndex = 0
+          ItemHeight = 13.000000000000000000
+          Left = 6
+          Top = 106
+          object ListBoxItem14: TListBoxItem
+            Position.Point = '(5000,5000)'
+            Width = 100.000000000000000000
+            Height = 17.000000000000000000
+            HitTest = False
+            TabOrder = 0
+            IsSelected = True
+            Text = 'smtpEnc7bit'
+          end
+          object ListBoxItem15: TListBoxItem
+            Position.Point = '(0,13)'
+            Width = 105.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 1
+            Text = 'smtpEnc8bit'
+          end
+          object ListBoxItem16: TListBoxItem
+            Position.Point = '(0,26)'
+            Width = 105.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 2
+            Text = 'smtpEncQuotedPrintable'
+          end
+          object ListBoxItem17: TListBoxItem
+            Position.Point = '(0,39)'
+            Width = 105.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 3
+            Text = 'smtpEncBase64'
+          end
+        end
+        object DefEnc: TLabel
+          Position.Point = '(36,132)'
+          Width = 135.624008178710900000
+          Height = 18.630859375000000000
+          TabOrder = 9
+          AutoSize = True
+          Text = 'Default(Transfer)Encoding'
+          WordWrap = False
+          Left = 6
+          Top = 92
+        end
+        object CharsetTestButton: TButton
+          Position.Point = '(222,59)'
+          Width = 73.000000000000000000
+          Height = 21.000000000000000000
+          OnClick = CharsetTestButtonClick
+          TabOrder = 10
+          Text = 'Test Charset'
+          Left = 249
+          Top = 16
+        end
+        object CharsetInfoLabel1: TLabel
+          Position.Point = '(84,40)'
+          Width = 95.673820495605470000
+          Height = 18.630859375000000000
+          TabOrder = 11
+          AutoSize = True
+          Text = 'CharsetInfoLabel1'
+          WordWrap = False
+          Left = 48
+          Top = 2
+        end
+        object Allow8BitCheckBox: TCheckBox
+          Position.Point = '(34,91)'
+          Width = 107.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 12
+          Text = 'Allow8BitChars'
+          Left = 6
+          Top = 56
+        end
+        object IcsCharsetComboBox1: TIcsCharsetComboBox
+          Position.Point = '(37,59)'
+          Width = 181.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 13
+          ItemIndex = 30
+          CharSet = 'windows-1252'
+        end
+      end
+      object ProxyTabsheet: TTabItem
+        Position.Point = '(220,0)'
+        Width = 100.000000000000000000
+        Height = 20.000000000000000000
+        TabOrder = 2
+        Index = 2
+        TextAlign = taCenter
+        Text = 'Transparent Proxy'
+        WordWrap = False
+        object Label18: TLabel
+          Position.Point = '(43,73)'
+          Width = 58.860347747802730000
+          Height = 18.630859375000000000
+          TabOrder = 0
+          AutoSize = True
+          Text = 'Proxy host:'
+          WordWrap = False
+          Left = 35
+          Top = 73
+        end
+        object Label19: TLabel
+          Position.Point = '(44,99)'
+          Width = 58.237300872802730000
+          Height = 18.630859375000000000
+          TabOrder = 1
+          AutoSize = True
+          Text = 'Proxy port:'
+          WordWrap = False
+          Left = 36
+          Top = 99
+        end
+        object Label20: TLabel
+          Position.Point = '(43,125)'
+          Width = 58.242671966552730000
+          Height = 18.630859375000000000
+          TabOrder = 2
+          AutoSize = True
+          Text = 'Proxy user:'
+          WordWrap = False
+          Left = 35
+          Top = 125
+        end
+        object Label21: TLabel
+          Position.Point = '(18,153)'
+          Width = 84.630851745605470000
+          Height = 18.630859375000000000
+          TabOrder = 3
+          AutoSize = True
+          Text = 'Proxy password:'
+          WordWrap = False
+          Left = 10
+          Top = 153
+        end
+        object Label22: TLabel
+          Position.Point = '(42,16)'
+          Width = 59.069820404052730000
+          Height = 18.630859375000000000
+          TabOrder = 4
+          AutoSize = True
+          Text = 'Proxy type:'
+          WordWrap = False
+          Left = 34
+          Top = 16
+        end
+        object Label23: TLabel
+          Position.Point = '(10,43)'
+          Width = 91.726066589355470000
+          Height = 18.630859375000000000
+          TabOrder = 5
+          AutoSize = True
+          Text = 'HTTP proxy auth.:'
+          WordWrap = False
+          Left = 2
+          Top = 43
+        end
+        object ProxyHostEdit: TEdit
+          Position.Point = '(105,70)'
+          Width = 145.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 6
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'ProxyHostEdit'
+          Left = 97
+          Top = 70
+        end
+        object ProxyPortEdit: TEdit
+          Position.Point = '(105,97)'
+          Width = 56.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 7
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'ProxyPortEdit'
+          Left = 97
+          Top = 97
+        end
+        object ProxyPasswordEdit: TEdit
+          Position.Point = '(105,151)'
+          Width = 145.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 8
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'ProxyPasswordEdit'
+          Left = 97
+          Top = 151
+        end
+        object ProxyUserEdit: TEdit
+          Position.Point = '(105,124)'
+          Width = 145.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 9
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'ProxyUserEdit'
+          Left = 97
+          Top = 124
+        end
+        object ProxyTypeComboBox: TComboBox
+          Position.Point = '(105,13)'
+          Width = 145.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 10
+          ItemIndex = -1
+          OnChange = ProxyTypeComboBoxCloseUp
+          Left = 97
+          Top = 13
+        end
+        object ProxyHttpAuthTypeComboBox: TComboBox
+          Position.Point = '(105,40)'
+          Width = 145.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 11
+          ItemIndex = -1
+          OnChange = ProxyHttpAuthTypeComboBoxCloseUp
+          Left = 97
+          Top = 40
+        end
+      end
+    end
+  end
+  object AttachPanel: TPanel
+    Align = alTop
+    Position.Point = '(0,355)'
+    Width = 582.000000000000000000
+    Height = 17.000000000000000000
+    TabOrder = 3
+    Top = 355
+    object Label6: TLabel
+      Position.Point = '(12,2)'
+      Width = 76.149894714355470000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'Attached files:'
+      WordWrap = False
+      Left = 16
+      Top = 2
+    end
+  end
+  object FileAttachMemo: TMemo
+    Align = alTop
+    Position.Point = '(0,372)'
+    Width = 582.000000000000000000
+    Height = 49.000000000000000000
+    TabOrder = 4
+    Lines.Strings = (
+      'FileAttachMemo')
+    KeyboardType = vktDefault
+  end
+  object InfoPanel: TPanel
+    Align = alTop
+    Position.Point = '(0,421)'
+    Width = 582.000000000000000000
+    Height = 20.000000000000000000
+    TabOrder = 5
+    Top = 421
+    object Label7: TLabel
+      Position.Point = '(16,2)'
+      Width = 79.463859558105470000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'Info messages:'
+      WordWrap = False
+      Left = 16
+      Top = 2
+    end
+    object ProgressBar1: TProgressBar
+      Align = alRight
+      Position.Point = '(220,0)'
+      Width = 362.000000000000000000
+      Height = 20.000000000000000000
+      TabOrder = 1
+      Max = 100.000000000000000000
+      Orientation = orHorizontal
+      Value = 13.000000000000000000
+      Left = 192
+      Top = 3
+    end
+    object ProgressCheckBox: TCheckBox
+      Position.Point = '(120,1)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 2
+      Text = 'Progress'
+      Left = 120
+      Top = 1
+    end
+  end
+  object SmtpClient: TSmtpCli
+    Tag = 0
+    ShareMode = smtpShareDenyWrite
+    LocalAddr = '0.0.0.0'
+    Port = 'smtp'
+    AuthType = smtpAuthNone
+    ConfirmReceipt = False
+    HdrPriority = smtpPriorityNone
+    CharSet = 'windows-1252'
+    ConvertToCharset = True
+    WrapMsgMaxLineLen = 76
+    SendMode = smtpToSocket
+    DefaultEncoding = smtpEnc7bit
+    Allow8bitChars = True
+    FoldHeaders = False
+    WrapMessageText = False
+    ContentType = smtpPlainText
+    OwnHeaders = False
+    OnDisplay = SmtpClientDisplay
+    OnCommand = SmtpClientDisplay
+    OnResponse = SmtpClientDisplay
+    OnGetData = SmtpClientGetData
+    OnHeaderLine = SmtpClientHeaderLine
+    OnRequestDone = SmtpClientRequestDone
+    XMailer = 'ICS SMTP Component V%VER%'
+    ProxyType = smtpNoProxy
+    ProxyHttpAuthType = htatDetect
+    OnAttachContentTypeEh = SmtpClientAttachContentTypeEh
+    SocketFamily = sfIPv4
+    Left = 32
+    Top = 258
+  end
+end

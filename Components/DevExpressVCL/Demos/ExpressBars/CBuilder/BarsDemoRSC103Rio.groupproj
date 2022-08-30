@@ -1,0 +1,35 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="BackgroundDemoRSC103Rio">
+    <MSBuild Projects="BackgroundDemo\BackgroundDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="DockingMegaDemoRSC103Rio">
+    <MSBuild Projects="DockingMegaDemo\DockingMegaDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EBar2000DemoRSC103Rio">
+    <MSBuild Projects="EBar2000Demo\EBar2000DemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="InPlaceEditorsDemoRSC103Rio">
+    <MSBuild Projects="InPlaceEditorsDemo\InPlaceEditorsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="BarNotepadDemoRSC103Rio">
+    <MSBuild Projects="BarNotepadDemo\BarNotepadDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="RibbonNotepadDemoRSC103Rio">
+    <MSBuild Projects="RibbonNotepadDemo\RibbonNotepadDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SampleDockingRSC103Rio">
+    <MSBuild Projects="SampleDocking\SampleDockingRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="BackgroundDemoRSC103Rio;DockingMegaDemoRSC103Rio;EBar2000DemoRSC103Rio;InPlaceEditorsDemoRSC103Rio;BarNotepadDemoRSC103Rio;RibbonNotepadDemoRSC103Rio;SampleDockingRSC103Rio" />
+  </Target>
+</Project>

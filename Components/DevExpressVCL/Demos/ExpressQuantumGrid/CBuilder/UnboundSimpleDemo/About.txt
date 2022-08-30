@@ -1,0 +1,9 @@
+In this demo you can:
+
+- first, uncheck the checkbox in the filter row (near the bottom)  to display all planets and moons
+
+- second, group by "orbits" to show moons by their planet (drag the column header to the grouping area)
+
+- experiment with sorting and filtering (by clicking on a column header)
+
+- incremental search by pressing keys on keyboard

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<g id="Window">
+	<path class="Black" d="M28,8v20H4V8H2v21c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V8H28z"/>
+	<path class="Blue" d="M30,10V5c0-0.5-0.5-1-1-1H3C2.5,4,2,4.5,2,5v5H30z"/>
+</g>
+<g class="st0">
+	<rect x="6" y="12" class="Black" width="8" height="2"/>
+	<path class="Black" d="M16,12v6h10v-6H16z M24,16h-6v-2h6V16z"/>
+	<path class="Black" d="M16,20v6h10v-6H16z M24,24h-6v-2h6V24z"/>
+	<rect x="6" y="20" class="Black" width="8" height="2"/>
+</g>
+</svg>

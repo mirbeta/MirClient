@@ -1,0 +1,15 @@
+TRzFormShape
+This custom image component is used to create the non-rectangular form displayed here. The transparent regions of the image are removed from the form when the application is run.
+
+TRzCalendar
+This TRzCustomPanel descendant is designed for selecting dates. The user navigates through months and years using the arrows at the top of the control.  There are several properties that control the appearance of the calendar.  For example,  CalendarColors and Elements. The OnGetDayFormat event allows a developer to highlight specific days by changing the colors and font style.
+
+TRzColorPicker
+This component displays a grid of color values. The user simply clicks on a cell to select a color. There are several ways to customize the control. In particular, the ShowNoColor, ShowCustomColor, ShowDefaultColor, and ShowSystemColors properties toggle the visibility of the various regions in the control.
+
+TRzTimePicker
+This component provides a visual way of selecting times. The hands of the clock face are moved using the Left-mouse button (hours) and the Right-mouse button (minutes). Holding the Ctrl key down while using the Right-mouse button causes the minutes to be Restricted to 5 minute increments (i.e. 5, 10, 15, etc.)  To always restirct minutes, set RestrictMinutes to True.  Select AM or PM by clicking the appropriate radio button.
+
+TRzCalculator
+This component provides calculator, which can be used to peform simple mathematical calculations. Like the other controls on this page, the appearance of the calculator can be customized.
+                                         

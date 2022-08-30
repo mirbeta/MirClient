@@ -1,0 +1,72 @@
+{$I RzComps.inc}
+
+package RaizeComponentsVcl_Design;
+
+{$R *.res}
+{$R *.otares}
+{$R 'RaizeComponentsVcl_Design.res'}
+{$R 'RaizeComponentsVcl_24x24.dcr'}
+{$R 'RaizeComponentsVcl_16x16.dcr'}
+{$R 'RaizeComponentsVcl_32x32.dcr'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $50800000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  Vcl,
+  DesignIDE,
+  DclStd,
+  VclImg,
+  RaizeComponentsVcl;
+
+contains
+  RaizeComponentsVcl_Reg in 'RaizeComponentsVcl_Reg.pas',
+  RzDesignEditors in 'RzDesignEditors.pas',
+  RzAboutEditor in 'RzAboutEditor.pas',
+  RzButtonEditor in 'RzButtonEditor.pas',
+  RzCaptionEditor in 'RzCaptionEditor.pas',
+  RzCheckGroupEditor in 'RzCheckGroupEditor.pas',
+  RzCheckListEditor in 'RzCheckListEditor.pas',
+  RzCheckListItemForm in 'RzCheckListItemForm.pas',
+  RzCheckListTabStopEditor in 'RzCheckListTabStopEditor.pas',
+  RzColorNamesEditor in 'RzColorNamesEditor.pas',
+  RzComboBoxEditor in 'RzComboBoxEditor.pas',
+  RzGroupBarEditor in 'RzGroupBarEditor.pas',
+  RzImageListEditor in 'RzImageListEditor.pas',
+  RzRadioGroupEditor in 'RzRadioGroupEditor.pas',
+  RzLabelEditor in 'RzLabelEditor.pas',
+  RzPanelEditor in 'RzPanelEditor.pas',
+  RzPathBarEditor in 'RzPathBarEditor.pas',
+  RzSelectImageEditor in 'RzSelectImageEditor.pas',
+  RzShellDesignEditors in 'RzShellDesignEditors.pas',
+  RzSplitterEditor in 'RzSplitterEditor.pas',
+  RzStringListEditor in 'RzStringListEditor.pas',
+  RzStringModule in 'RzStringModule.pas',
+  RzTabStopEditor in 'RzTabStopEditor.pas',
+  RzToolbarEditor in 'RzToolbarEditor.pas',
+  RzToolbarPrefixForm in 'RzToolbarPrefixForm.pas';
+
+end.

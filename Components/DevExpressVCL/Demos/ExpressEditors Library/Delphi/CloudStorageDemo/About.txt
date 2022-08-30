@@ -1,0 +1,17 @@
+This demo allows you to
+
+ - Choose the online service you want to access and sign in to your account (Options | Cloud Storage Provider submenu):
+
+    - Google Drive: Click Allow in the "Request for Permission" window to grant the demo access to the account's resources with the permissions listed in this window.
+
+    - Microsoft OneDrive: Click Accept in the "Sign in to your account" window to grant the demo access to the account's resources with the permissions listed in this window.
+
+ - Browse the folder hierarchy on the connected drive.
+
+ - Create or delete folders.
+
+ - Upload files.
+
+ - Double-click a file to download and open it in an associated application.
+
+Important: The demo does not store the client application's credentials (client ID or secret).

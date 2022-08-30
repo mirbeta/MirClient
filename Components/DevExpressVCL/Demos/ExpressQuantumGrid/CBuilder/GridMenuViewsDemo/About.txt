@@ -1,0 +1,13 @@
+In this demo you can:
+
+- add/delete/change the summaries (right mouse click on the footer summary cell)
+
+- copy the summary values to the clipboard (right mouse click on the footer summary cell)
+
+- execute operations on the grid columns (right mouse click on the column header)
+
+- use the Built-In popup menus to display an Outlook-style popup menu.  Just right click a column header or a summary footer  (See Options/Customize popup menus)
+
+- use a non built-in popup menu. Just check the "Use Custom Popup Menu" option (see Options/Customize popup menus) and then right click on any grid record.
+
+- add a custom menu item ('copy to clipboard') in the Built-In popup menu (see Options/Customize popup menus)

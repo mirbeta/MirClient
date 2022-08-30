@@ -1,0 +1,1002 @@
+PurchaseDate	PaymentType	Quantity	Car Name	Unit Price	Company Name	Payment Amount
+DateTime	String	Integer	String	Currency	String	Currency
+1/26/2002	Cash	1	Mercedes-Benz: SL500 Roadster	83800	Holmes World	83800
+1/29/2002	Visa	3	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	251400
+1/30/2002	Master	3	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	251400
+1/30/2002	AmEx	4	Mercedes-Benz: SL500 Roadster	83800	Jones & Assoc	335200
+2/2/2002	Master	1	Mercedes-Benz: SL500 Roadster	83800	Jones & Assoc	83800
+2/6/2002	Cash	2	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	167600
+2/13/2002	Cash	3	Mercedes-Benz: SL500 Roadster	83800	Mildreds World	251400
+2/18/2002	AmEx	5	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	419000
+2/18/2002	Master	3	Mercedes-Benz: SL500 Roadster	83800	Development House	251400
+3/5/2002	AmEx	1	Mercedes-Benz: SL500 Roadster	83800	Mildreds World	83800
+3/9/2002	Visa	3	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	251400
+3/16/2002	Cash	4	Mercedes-Benz: SL500 Roadster	83800	James Systems	335200
+3/26/2002	Cash	3	Mercedes-Benz: SL500 Roadster	83800	Ford Consulting	251400
+3/26/2002	AmEx	1	Mercedes-Benz: SL500 Roadster	83800	Alessandro & Associates	83800
+3/28/2002	Cash	2	Mercedes-Benz: SL500 Roadster	83800	Newman Systems	167600
+4/12/2002	Master	2	Mercedes-Benz: SL500 Roadster	83800	Menedez Development	167600
+4/24/2002	Visa	4	Mercedes-Benz: SL500 Roadster	83800	Mathewson Design	335200
+5/6/2002	AmEx	2	Mercedes-Benz: SL500 Roadster	83800	Mildreds World	167600
+5/14/2002	Cash	4	Mercedes-Benz: SL500 Roadster	83800	Alessandro & Associates	335200
+5/17/2002	Visa	4	Mercedes-Benz: SL500 Roadster	83800	James Systems	335200
+5/21/2002	AmEx	2	Mercedes-Benz: SL500 Roadster	83800	Ford Consulting	167600
+5/26/2002	AmEx	4	Mercedes-Benz: SL500 Roadster	83800	Christies House of Design	335200
+5/26/2002	Master	5	Mercedes-Benz: SL500 Roadster	83800	Mildreds World	419000
+5/28/2002	Master	5	Mercedes-Benz: SL500 Roadster	83800	Menedez Development	419000
+6/2/2002	Visa	2	Mercedes-Benz: SL500 Roadster	83800	McAllister Systems	167600
+6/6/2002	Master	3	Mercedes-Benz: SL500 Roadster	83800	Mathewson Design	251400
+6/12/2002	Visa	2	Mercedes-Benz: SL500 Roadster	83800	Mildreds World	167600
+6/17/2002	AmEx	2	Mercedes-Benz: SL500 Roadster	83800	Jeffers Clinic	167600
+7/3/2002	Master	1	Mercedes-Benz: SL500 Roadster	83800	Jeffers Clinic	83800
+7/4/2002	Visa	3	Mercedes-Benz: SL500 Roadster	83800	Christies House of Design	251400
+7/4/2002	Visa	2	Mercedes-Benz: SL500 Roadster	83800	Hill Corporation	167600
+7/5/2002	Cash	1	Mercedes-Benz: SL500 Roadster	83800	Menedez Development	83800
+7/7/2002	Cash	1	Mercedes-Benz: SL500 Roadster	83800	Development House	83800
+7/24/2002	Cash	4	Mercedes-Benz: SL500 Roadster	83800	Jeffers Clinic	335200
+7/30/2002	AmEx	4	Mercedes-Benz: SL500 Roadster	83800	Doe Enterprises	335200
+8/1/2002	AmEx	3	Mercedes-Benz: SL500 Roadster	83800	Mathewson Design	251400
+8/9/2002	AmEx	1	Mercedes-Benz: SL500 Roadster	83800	Jeffers Clinic	83800
+8/9/2002	Visa	5	Mercedes-Benz: SL500 Roadster	83800	Ford Consulting	419000
+8/12/2002	Cash	4	Mercedes-Benz: SL500 Roadster	83800	Alessandro & Associates	335200
+8/14/2002	Visa	3	Mercedes-Benz: SL500 Roadster	83800	Holmes World	251400
+8/21/2002	AmEx	5	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	419000
+8/25/2002	Cash	4	Mercedes-Benz: SL500 Roadster	83800	Frankson Media	335200
+8/26/2002	AmEx	2	Mercedes-Benz: SL500 Roadster	83800	McAllister Systems	167600
+8/28/2002	AmEx	4	Mercedes-Benz: SL500 Roadster	83800	Ford Consulting	335200
+8/29/2002	Visa	3	Mercedes-Benz: SL500 Roadster	83800	Development House	251400
+9/7/2002	Master	2	Mercedes-Benz: SL500 Roadster	83800	McAllister Systems	167600
+9/10/2002	Cash	2	Mercedes-Benz: SL500 Roadster	83800	Doe Enterprises	167600
+9/10/2002	Visa	4	Mercedes-Benz: SL500 Roadster	83800	Jeffers Clinic	335200
+9/12/2002	AmEx	1	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	83800
+9/14/2002	AmEx	2	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	167600
+9/14/2002	Cash	4	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	335200
+9/15/2002	AmEx	3	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	251400
+9/16/2002	Cash	3	Mercedes-Benz: SL500 Roadster	83800	Newman Systems	251400
+9/21/2002	Visa	1	Mercedes-Benz: SL500 Roadster	83800	Alessandro & Associates	83800
+9/21/2002	Visa	3	Mercedes-Benz: SL500 Roadster	83800	Jones & Assoc	251400
+9/22/2002	Cash	5	Mercedes-Benz: SL500 Roadster	83800	Holmes World	419000
+9/24/2002	Visa	4	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	335200
+10/1/2002	AmEx	3	Mercedes-Benz: SL500 Roadster	83800	Jones & Assoc	251400
+10/6/2002	Master	3	Mercedes-Benz: SL500 Roadster	83800	Christies House of Design	251400
+10/9/2002	Master	4	Mercedes-Benz: SL500 Roadster	83800	Mickeys World of Fun	335200
+10/11/2002	AmEx	5	Mercedes-Benz: SL500 Roadster	83800	Michelson Systems	419000
+10/15/2002	Master	4	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	335200
+11/2/2002	Cash	5	Mercedes-Benz: SL500 Roadster	83800	McAllister Systems	419000
+11/3/2002	Cash	3	Mercedes-Benz: SL500 Roadster	83800	James Systems	251400
+11/3/2002	Master	4	Mercedes-Benz: SL500 Roadster	83800	Jones & Assoc	335200
+11/6/2002	Visa	4	Mercedes-Benz: SL500 Roadster	83800	Menedez Development	335200
+11/6/2002	AmEx	3	Mercedes-Benz: SL500 Roadster	83800	Mildreds World	251400
+11/14/2002	Master	5	Mercedes-Benz: SL500 Roadster	83800	Alessandro & Associates	419000
+12/2/2002	AmEx	4	Mercedes-Benz: SL500 Roadster	83800	Jeffers Clinic	335200
+12/6/2002	Cash	3	Mercedes-Benz: SL500 Roadster	83800	Valentine Hearts	251400
+12/8/2002	Cash	1	Mercedes-Benz: SL500 Roadster	83800	Christies House of Design	83800
+12/17/2002	Visa	1	Mercedes-Benz: SL500 Roadster	83800	Newman Systems	83800
+12/19/2002	Master	3	Mercedes-Benz: SL500 Roadster	83800	Development House	251400
+1/27/2002	Visa	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	McAllister Systems	159290
+2/22/2002	Master	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	James Systems	318580
+3/9/2002	AmEx	3	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Doe Enterprises	238935
+3/25/2002	AmEx	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Hill Corporation	79645
+4/5/2002	Master	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Mickeys World of Fun	398225
+4/8/2002	Master	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Alessandro & Associates	159290
+5/15/2002	Master	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Jeffers Clinic	398225
+5/21/2002	Cash	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Mathewson Design	159290
+5/23/2002	Visa	3	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Frankson Media	238935
+6/2/2002	Cash	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Valentine Hearts	398225
+6/6/2002	Visa	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Menedez Development	159290
+6/7/2002	Master	3	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Holmes World	238935
+6/13/2002	AmEx	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	James Systems	159290
+6/15/2002	Cash	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Holmes World	318580
+6/16/2002	Visa	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Mildreds World	398225
+6/23/2002	AmEx	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Michelson Systems	318580
+7/4/2002	Cash	3	Mercedes-Benz: CLK55 AMG Cabriolet	79645	James Systems	238935
+7/7/2002	Master	3	Mercedes-Benz: CLK55 AMG Cabriolet	79645	James Systems	238935
+7/19/2002	Visa	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Development House	159290
+7/24/2002	Cash	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Alessandro & Associates	79645
+7/28/2002	Cash	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Hill Corporation	79645
+8/3/2002	Visa	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Ford Consulting	318580
+8/12/2002	Visa	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Hill Corporation	79645
+8/22/2002	AmEx	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Jones & Assoc	79645
+8/23/2002	Visa	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Doe Enterprises	79645
+9/1/2002	Cash	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Jones & Assoc	159290
+9/5/2002	Master	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	398225
+9/20/2002	AmEx	3	Mercedes-Benz: CLK55 AMG Cabriolet	79645	McAllister Systems	238935
+9/25/2002	Visa	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	398225
+9/27/2002	Master	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Ford Consulting	79645
+10/16/2002	Cash	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Michelson Systems	79645
+10/17/2002	Visa	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Jeffers Clinic	159290
+10/18/2002	AmEx	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	McAllister Systems	398225
+10/21/2002	Visa	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	79645
+10/25/2002	Visa	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Newman Systems	79645
+11/8/2002	AmEx	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Mildreds World	318580
+11/10/2002	Cash	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Jeffers Clinic	159290
+11/14/2002	AmEx	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	398225
+11/15/2002	AmEx	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Ford Consulting	398225
+11/19/2002	Master	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	159290
+11/21/2002	AmEx	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	James Systems	79645
+11/27/2002	Visa	5	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	398225
+12/6/2002	Visa	2	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Frankson Media	159290
+12/14/2002	Visa	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Michelson Systems	79645
+12/15/2002	AmEx	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Mathewson Design	318580
+12/20/2002	Cash	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Doe Enterprises	79645
+12/20/2002	Cash	4	Mercedes-Benz: CLK55 AMG Cabriolet	79645	Christies House of Design	318580
+12/20/2002	Master	1	Mercedes-Benz: CLK55 AMG Cabriolet	79645	McAllister Systems	79645
+1/20/2002	AmEx	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Ford Consulting	76800
+1/20/2002	Master	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Hill Corporation	51200
+1/24/2002	Cash	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	76800
+1/31/2002	Master	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	102400
+2/2/2002	Visa	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	102400
+2/6/2002	Visa	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	128000
+2/8/2002	Visa	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Development House	25600
+2/9/2002	AmEx	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Christies House of Design	128000
+2/11/2002	Visa	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Valentine Hearts	25600
+2/17/2002	Cash	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Holmes World	128000
+2/19/2002	Visa	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	James Systems	25600
+2/20/2002	AmEx	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Jones & Assoc	51200
+2/20/2002	Master	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Michelson Systems	76800
+2/20/2002	Cash	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	51200
+3/5/2002	Master	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	102400
+3/11/2002	Visa	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mickeys World of Fun	25600
+3/14/2002	Master	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	102400
+3/22/2002	Master	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Ford Consulting	102400
+3/24/2002	Visa	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	51200
+3/30/2002	AmEx	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Hill Corporation	51200
+4/20/2002	AmEx	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	102400
+5/20/2002	Cash	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Valentine Hearts	128000
+5/21/2002	Cash	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	25600
+5/26/2002	Cash	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mickeys World of Fun	76800
+6/3/2002	Master	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Alessandro & Associates	102400
+6/15/2002	AmEx	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mildreds World	76800
+6/29/2002	Visa	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Hill Corporation	76800
+7/4/2002	Visa	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Michelson Systems	102400
+7/8/2002	AmEx	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	James Systems	25600
+7/14/2002	Visa	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	102400
+7/18/2002	Cash	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	51200
+7/28/2002	Visa	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Holmes World	25600
+8/8/2002	Master	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Ford Consulting	25600
+8/12/2002	Cash	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Christies House of Design	51200
+8/19/2002	Cash	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Christies House of Design	25600
+8/20/2002	Cash	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Ford Consulting	76800
+8/27/2002	Cash	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Jones & Assoc	25600
+8/27/2002	Cash	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	102400
+8/31/2002	Cash	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	25600
+9/3/2002	Cash	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Christies House of Design	76800
+9/4/2002	Master	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	76800
+9/9/2002	Master	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	128000
+9/11/2002	Cash	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mildreds World	102400
+9/22/2002	Cash	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	128000
+10/7/2002	Cash	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	102400
+10/11/2002	Master	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Jeffers Clinic	51200
+10/20/2002	Master	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	McAllister Systems	51200
+10/24/2002	Cash	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Newman Systems	25600
+10/25/2002	Cash	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mathewson Design	76800
+10/27/2002	Master	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Frankson Media	25600
+10/28/2002	AmEx	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Ford Consulting	51200
+10/31/2002	Visa	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Michelson Systems	51200
+11/2/2002	AmEx	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	James Systems	51200
+11/3/2002	Master	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Jeffers Clinic	102400
+11/6/2002	Visa	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Hill Corporation	128000
+11/13/2002	Visa	2	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mildreds World	51200
+11/19/2002	Visa	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Holmes World	76800
+11/19/2002	AmEx	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Jones & Assoc	102400
+11/21/2002	Visa	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Valentine Hearts	102400
+11/23/2002	Cash	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	McAllister Systems	102400
+11/23/2002	Cash	4	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Christies House of Design	102400
+11/28/2002	Master	3	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Jeffers Clinic	76800
+11/28/2002	AmEx	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Mickeys World of Fun	128000
+11/30/2002	AmEx	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Doe Enterprises	128000
+12/4/2002	Master	1	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Valentine Hearts	25600
+12/8/2002	Master	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	James Systems	128000
+12/15/2002	Cash	5	Mercedes-Benz: C230 Kompressor Sport Coupe	25600	Frankson Media	128000
+1/22/2002	Cash	3	BMW: 530i	39450	Michelson Systems	118350
+1/28/2002	AmEx	2	BMW: 530i	39450	Mathewson Design	78900
+2/4/2002	Visa	4	BMW: 530i	39450	Doe Enterprises	157800
+2/16/2002	Visa	1	BMW: 530i	39450	Hill Corporation	39450
+2/17/2002	Visa	3	BMW: 530i	39450	Ford Consulting	118350
+2/20/2002	Visa	4	BMW: 530i	39450	Mickeys World of Fun	157800
+2/20/2002	AmEx	5	BMW: 530i	39450	Mickeys World of Fun	197250
+2/20/2002	Master	1	BMW: 530i	39450	Valentine Hearts	39450
+2/21/2002	Master	5	BMW: 530i	39450	Mildreds World	197250
+2/23/2002	AmEx	4	BMW: 530i	39450	Frankson Media	157800
+2/25/2002	Cash	1	BMW: 530i	39450	Christies House of Design	39450
+2/26/2002	Master	2	BMW: 530i	39450	Doe Enterprises	78900
+2/27/2002	AmEx	5	BMW: 530i	39450	Newman Systems	197250
+3/19/2002	Cash	4	BMW: 530i	39450	Alessandro & Associates	157800
+3/25/2002	AmEx	3	BMW: 530i	39450	James Systems	118350
+3/26/2002	AmEx	4	BMW: 530i	39450	Newman Systems	157800
+3/28/2002	Cash	4	BMW: 530i	39450	Menedez Development	157800
+3/28/2002	Cash	1	BMW: 530i	39450	James Systems	39450
+3/31/2002	Cash	1	BMW: 530i	39450	Jones & Assoc	39450
+4/7/2002	Cash	2	BMW: 530i	39450	Alessandro & Associates	78900
+4/11/2002	Visa	4	BMW: 530i	39450	Frankson Media	157800
+4/14/2002	Master	5	BMW: 530i	39450	Valentine Hearts	197250
+4/15/2002	Cash	2	BMW: 530i	39450	Development House	78900
+4/18/2002	Cash	4	BMW: 530i	39450	Mickeys World of Fun	157800
+4/26/2002	Cash	1	BMW: 530i	39450	Mickeys World of Fun	39450
+5/20/2002	Master	4	BMW: 530i	39450	Mickeys World of Fun	157800
+5/28/2002	Cash	3	BMW: 530i	39450	Hill Corporation	118350
+6/2/2002	Visa	4	BMW: 530i	39450	McAllister Systems	157800
+6/4/2002	Cash	1	BMW: 530i	39450	McAllister Systems	39450
+6/5/2002	AmEx	4	BMW: 530i	39450	Mickeys World of Fun	157800
+6/11/2002	Cash	5	BMW: 530i	39450	Jeffers Clinic	197250
+6/11/2002	Visa	2	BMW: 530i	39450	Alessandro & Associates	78900
+6/15/2002	Cash	2	BMW: 530i	39450	Christies House of Design	78900
+6/16/2002	Master	3	BMW: 530i	39450	James Systems	118350
+6/20/2002	Visa	5	BMW: 530i	39450	Doe Enterprises	197250
+6/20/2002	Cash	5	BMW: 530i	39450	Michelson Systems	197250
+6/24/2002	Cash	1	BMW: 530i	39450	McAllister Systems	39450
+6/30/2002	AmEx	2	BMW: 530i	39450	Mickeys World of Fun	78900
+7/2/2002	Master	1	BMW: 530i	39450	Ford Consulting	39450
+7/8/2002	Visa	3	BMW: 530i	39450	Ford Consulting	118350
+7/9/2002	Cash	2	BMW: 530i	39450	Hill Corporation	78900
+7/10/2002	AmEx	5	BMW: 530i	39450	Development House	197250
+7/13/2002	Cash	4	BMW: 530i	39450	Alessandro & Associates	157800
+7/17/2002	Master	5	BMW: 530i	39450	Jones & Assoc	197250
+7/17/2002	Master	5	BMW: 530i	39450	Frankson Media	197250
+7/21/2002	Visa	4	BMW: 530i	39450	Jeffers Clinic	157800
+8/1/2002	AmEx	5	BMW: 530i	39450	James Systems	197250
+8/2/2002	Master	2	BMW: 530i	39450	Jones & Assoc	78900
+8/18/2002	Cash	3	BMW: 530i	39450	Holmes World	118350
+8/19/2002	Cash	5	BMW: 530i	39450	Mildreds World	197250
+8/23/2002	Master	2	BMW: 530i	39450	Menedez Development	78900
+8/24/2002	AmEx	4	BMW: 530i	39450	James Systems	157800
+8/27/2002	Master	4	BMW: 530i	39450	Menedez Development	157800
+8/28/2002	Master	2	BMW: 530i	39450	Mathewson Design	78900
+8/28/2002	AmEx	4	BMW: 530i	39450	Development House	157800
+9/8/2002	Cash	2	BMW: 530i	39450	Holmes World	78900
+9/11/2002	AmEx	1	BMW: 530i	39450	Christies House of Design	39450
+9/12/2002	Master	1	BMW: 530i	39450	Newman Systems	39450
+9/13/2002	Visa	5	BMW: 530i	39450	McAllister Systems	197250
+9/18/2002	Cash	1	BMW: 530i	39450	Alessandro & Associates	39450
+9/19/2002	Cash	4	BMW: 530i	39450	Newman Systems	157800
+9/24/2002	Visa	3	BMW: 530i	39450	Ford Consulting	118350
+9/30/2002	Master	2	BMW: 530i	39450	Mildreds World	78900
+10/22/2002	Master	3	BMW: 530i	39450	Christies House of Design	118350
+10/23/2002	Cash	2	BMW: 530i	39450	Mildreds World	78900
+11/7/2002	AmEx	2	BMW: 530i	39450	Mildreds World	78900
+11/12/2002	Master	4	BMW: 530i	39450	Menedez Development	157800
+11/12/2002	Cash	5	BMW: 530i	39450	Jeffers Clinic	197250
+11/18/2002	Master	1	BMW: 530i	39450	Mathewson Design	39450
+11/29/2002	AmEx	5	BMW: 530i	39450	Holmes World	197250
+11/30/2002	Cash	1	BMW: 530i	39450	Valentine Hearts	39450
+12/3/2002	Visa	3	BMW: 530i	39450	Frankson Media	118350
+12/7/2002	Visa	4	BMW: 530i	39450	Mickeys World of Fun	157800
+12/10/2002	AmEx	3	BMW: 530i	39450	Valentine Hearts	118350
+12/10/2002	Master	3	BMW: 530i	39450	Hill Corporation	118350
+12/12/2002	AmEx	5	BMW: 530i	39450	McAllister Systems	197250
+12/12/2002	AmEx	1	BMW: 530i	39450	Frankson Media	39450
+12/20/2002	Master	2	BMW: 530i	39450	McAllister Systems	78900
+2/14/2002	Visa	5	Rolls-Royce: Corniche	370485	Michelson Systems	1852425
+2/19/2002	Cash	1	Rolls-Royce: Corniche	370485	Mildreds World	370485
+2/23/2002	Visa	5	Rolls-Royce: Corniche	370485	Jeffers Clinic	1852425
+3/3/2002	Cash	5	Rolls-Royce: Corniche	370485	Christies House of Design	1852425
+3/11/2002	AmEx	4	Rolls-Royce: Corniche	370485	McAllister Systems	1481940
+3/12/2002	Master	5	Rolls-Royce: Corniche	370485	Michelson Systems	1852425
+3/17/2002	Cash	1	Rolls-Royce: Corniche	370485	Jeffers Clinic	370485
+3/22/2002	Visa	4	Rolls-Royce: Corniche	370485	Christies House of Design	1481940
+3/22/2002	Visa	5	Rolls-Royce: Corniche	370485	Jeffers Clinic	1852425
+3/28/2002	Master	2	Rolls-Royce: Corniche	370485	Holmes World	740970
+4/11/2002	Cash	3	Rolls-Royce: Corniche	370485	Doe Enterprises	1111455
+4/15/2002	AmEx	2	Rolls-Royce: Corniche	370485	Menedez Development	740970
+4/16/2002	AmEx	4	Rolls-Royce: Corniche	370485	Mathewson Design	1481940
+4/22/2002	Master	5	Rolls-Royce: Corniche	370485	Menedez Development	1852425
+4/26/2002	Visa	2	Rolls-Royce: Corniche	370485	James Systems	740970
+4/26/2002	Cash	5	Rolls-Royce: Corniche	370485	Jones & Assoc	1852425
+4/29/2002	Visa	3	Rolls-Royce: Corniche	370485	Jones & Assoc	1111455
+5/8/2002	AmEx	5	Rolls-Royce: Corniche	370485	Mickeys World of Fun	1852425
+5/26/2002	Cash	3	Rolls-Royce: Corniche	370485	Alessandro & Associates	1111455
+5/31/2002	AmEx	2	Rolls-Royce: Corniche	370485	Doe Enterprises	740970
+6/5/2002	AmEx	3	Rolls-Royce: Corniche	370485	Mildreds World	1111455
+6/7/2002	AmEx	3	Rolls-Royce: Corniche	370485	Mildreds World	1111455
+6/11/2002	Cash	4	Rolls-Royce: Corniche	370485	Mildreds World	1481940
+6/20/2002	Master	5	Rolls-Royce: Corniche	370485	Newman Systems	1852425
+6/22/2002	AmEx	5	Rolls-Royce: Corniche	370485	Michelson Systems	1852425
+6/25/2002	Cash	5	Rolls-Royce: Corniche	370485	McAllister Systems	1852425
+6/28/2002	Master	2	Rolls-Royce: Corniche	370485	Mildreds World	740970
+7/1/2002	AmEx	3	Rolls-Royce: Corniche	370485	Development House	1111455
+7/9/2002	Cash	1	Rolls-Royce: Corniche	370485	Michelson Systems	370485
+7/13/2002	Visa	4	Rolls-Royce: Corniche	370485	Hill Corporation	1481940
+7/24/2002	Master	5	Rolls-Royce: Corniche	370485	Newman Systems	1852425
+7/26/2002	Cash	1	Rolls-Royce: Corniche	370485	James Systems	370485
+8/1/2002	Visa	1	Rolls-Royce: Corniche	370485	Christies House of Design	370485
+8/4/2002	Master	2	Rolls-Royce: Corniche	370485	Doe Enterprises	740970
+8/4/2002	Cash	5	Rolls-Royce: Corniche	370485	Holmes World	1852425
+8/18/2002	Visa	2	Rolls-Royce: Corniche	370485	Christies House of Design	740970
+8/26/2002	Master	2	Rolls-Royce: Corniche	370485	Mickeys World of Fun	740970
+9/7/2002	AmEx	4	Rolls-Royce: Corniche	370485	Frankson Media	1481940
+9/9/2002	Cash	2	Rolls-Royce: Corniche	370485	Mildreds World	740970
+9/10/2002	Master	2	Rolls-Royce: Corniche	370485	Christies House of Design	740970
+9/12/2002	Master	3	Rolls-Royce: Corniche	370485	Hill Corporation	1111455
+9/12/2002	Master	3	Rolls-Royce: Corniche	370485	Mickeys World of Fun	1111455
+9/15/2002	AmEx	4	Rolls-Royce: Corniche	370485	Ford Consulting	1481940
+9/25/2002	Visa	2	Rolls-Royce: Corniche	370485	Frankson Media	740970
+10/4/2002	AmEx	3	Rolls-Royce: Corniche	370485	Holmes World	1111455
+10/5/2002	Cash	5	Rolls-Royce: Corniche	370485	Holmes World	1852425
+10/8/2002	Cash	3	Rolls-Royce: Corniche	370485	Jones & Assoc	1111455
+10/9/2002	Cash	5	Rolls-Royce: Corniche	370485	Development House	1852425
+10/10/2002	Cash	4	Rolls-Royce: Corniche	370485	Menedez Development	1481940
+10/21/2002	Master	2	Rolls-Royce: Corniche	370485	Development House	740970
+10/24/2002	Master	4	Rolls-Royce: Corniche	370485	Holmes World	1481940
+10/25/2002	Visa	4	Rolls-Royce: Corniche	370485	Menedez Development	1481940
+11/4/2002	AmEx	4	Rolls-Royce: Corniche	370485	Hill Corporation	1481940
+11/14/2002	Cash	2	Rolls-Royce: Corniche	370485	Ford Consulting	740970
+11/14/2002	Master	3	Rolls-Royce: Corniche	370485	Valentine Hearts	1111455
+11/24/2002	Cash	3	Rolls-Royce: Corniche	370485	Alessandro & Associates	1111455
+11/25/2002	Visa	3	Rolls-Royce: Corniche	370485	McAllister Systems	1111455
+12/2/2002	AmEx	3	Rolls-Royce: Corniche	370485	Holmes World	1111455
+12/6/2002	Cash	3	Rolls-Royce: Corniche	370485	McAllister Systems	1111455
+12/11/2002	AmEx	4	Rolls-Royce: Corniche	370485	Newman Systems	1481940
+12/12/2002	AmEx	5	Rolls-Royce: Corniche	370485	Holmes World	1852425
+12/13/2002	Master	5	Rolls-Royce: Corniche	370485	Valentine Hearts	1852425
+12/16/2002	Visa	1	Rolls-Royce: Corniche	370485	Development House	370485
+12/17/2002	AmEx	3	Rolls-Royce: Corniche	370485	Michelson Systems	1111455
+1/25/2002	Visa	1	Jaguar: S-Type 3.0	44320	Mildreds World	44320
+1/26/2002	AmEx	1	Jaguar: S-Type 3.0	44320	Mildreds World	44320
+2/8/2002	Master	5	Jaguar: S-Type 3.0	44320	Alessandro & Associates	221600
+2/8/2002	AmEx	1	Jaguar: S-Type 3.0	44320	McAllister Systems	44320
+2/9/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Alessandro & Associates	132960
+2/18/2002	Cash	5	Jaguar: S-Type 3.0	44320	Hill Corporation	221600
+2/24/2002	Master	1	Jaguar: S-Type 3.0	44320	Frankson Media	44320
+2/26/2002	Visa	5	Jaguar: S-Type 3.0	44320	Frankson Media	221600
+2/27/2002	Cash	2	Jaguar: S-Type 3.0	44320	Menedez Development	88640
+3/5/2002	Cash	4	Jaguar: S-Type 3.0	44320	Jones & Assoc	177280
+3/14/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Doe Enterprises	132960
+3/25/2002	Visa	5	Jaguar: S-Type 3.0	44320	Jeffers Clinic	221600
+4/9/2002	Master	2	Jaguar: S-Type 3.0	44320	James Systems	88640
+4/15/2002	AmEx	1	Jaguar: S-Type 3.0	44320	Alessandro & Associates	44320
+4/18/2002	Visa	5	Jaguar: S-Type 3.0	44320	Jeffers Clinic	221600
+4/18/2002	AmEx	2	Jaguar: S-Type 3.0	44320	McAllister Systems	88640
+4/30/2002	Visa	2	Jaguar: S-Type 3.0	44320	Valentine Hearts	88640
+5/2/2002	Cash	2	Jaguar: S-Type 3.0	44320	Alessandro & Associates	88640
+5/6/2002	AmEx	2	Jaguar: S-Type 3.0	44320	James Systems	88640
+5/8/2002	Master	1	Jaguar: S-Type 3.0	44320	Mildreds World	44320
+5/15/2002	Master	3	Jaguar: S-Type 3.0	44320	Newman Systems	132960
+5/17/2002	AmEx	2	Jaguar: S-Type 3.0	44320	Frankson Media	88640
+5/22/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Christies House of Design	132960
+5/26/2002	Master	5	Jaguar: S-Type 3.0	44320	Michelson Systems	221600
+5/27/2002	Visa	3	Jaguar: S-Type 3.0	44320	Newman Systems	132960
+5/28/2002	Visa	4	Jaguar: S-Type 3.0	44320	Mickeys World of Fun	177280
+6/3/2002	Visa	5	Jaguar: S-Type 3.0	44320	Mildreds World	221600
+6/9/2002	Cash	2	Jaguar: S-Type 3.0	44320	Ford Consulting	88640
+6/13/2002	Cash	1	Jaguar: S-Type 3.0	44320	Jones & Assoc	44320
+6/16/2002	AmEx	5	Jaguar: S-Type 3.0	44320	Holmes World	221600
+6/19/2002	Master	2	Jaguar: S-Type 3.0	44320	Jeffers Clinic	88640
+6/30/2002	Master	1	Jaguar: S-Type 3.0	44320	Jeffers Clinic	44320
+7/6/2002	Visa	4	Jaguar: S-Type 3.0	44320	Christies House of Design	177280
+7/7/2002	AmEx	1	Jaguar: S-Type 3.0	44320	Christies House of Design	44320
+7/9/2002	Visa	5	Jaguar: S-Type 3.0	44320	Jeffers Clinic	221600
+7/11/2002	Master	2	Jaguar: S-Type 3.0	44320	Alessandro & Associates	88640
+7/12/2002	AmEx	2	Jaguar: S-Type 3.0	44320	Mathewson Design	88640
+7/16/2002	Visa	4	Jaguar: S-Type 3.0	44320	Valentine Hearts	177280
+7/27/2002	AmEx	4	Jaguar: S-Type 3.0	44320	Mathewson Design	177280
+7/30/2002	Master	1	Jaguar: S-Type 3.0	44320	Christies House of Design	44320
+8/2/2002	Visa	4	Jaguar: S-Type 3.0	44320	Development House	177280
+8/2/2002	Visa	3	Jaguar: S-Type 3.0	44320	Christies House of Design	132960
+8/6/2002	AmEx	2	Jaguar: S-Type 3.0	44320	Michelson Systems	88640
+8/7/2002	Visa	5	Jaguar: S-Type 3.0	44320	Development House	221600
+8/8/2002	Master	3	Jaguar: S-Type 3.0	44320	Ford Consulting	132960
+8/26/2002	AmEx	3	Jaguar: S-Type 3.0	44320	McAllister Systems	132960
+8/27/2002	Cash	3	Jaguar: S-Type 3.0	44320	Christies House of Design	132960
+9/8/2002	Visa	5	Jaguar: S-Type 3.0	44320	Christies House of Design	221600
+9/10/2002	AmEx	4	Jaguar: S-Type 3.0	44320	Doe Enterprises	177280
+9/13/2002	Master	3	Jaguar: S-Type 3.0	44320	McAllister Systems	132960
+9/15/2002	Cash	4	Jaguar: S-Type 3.0	44320	Development House	177280
+9/21/2002	Cash	3	Jaguar: S-Type 3.0	44320	Christies House of Design	132960
+9/26/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Mildreds World	132960
+9/27/2002	Cash	3	Jaguar: S-Type 3.0	44320	Mathewson Design	132960
+10/2/2002	AmEx	2	Jaguar: S-Type 3.0	44320	Mathewson Design	88640
+10/4/2002	Master	4	Jaguar: S-Type 3.0	44320	Jones & Assoc	177280
+10/7/2002	Visa	3	Jaguar: S-Type 3.0	44320	Mildreds World	132960
+10/14/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Mathewson Design	132960
+10/24/2002	AmEx	5	Jaguar: S-Type 3.0	44320	Mildreds World	221600
+10/29/2002	AmEx	1	Jaguar: S-Type 3.0	44320	Ford Consulting	44320
+11/3/2002	Visa	4	Jaguar: S-Type 3.0	44320	Jeffers Clinic	177280
+11/4/2002	Visa	4	Jaguar: S-Type 3.0	44320	James Systems	177280
+11/9/2002	Visa	5	Jaguar: S-Type 3.0	44320	Mildreds World	221600
+11/12/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Hill Corporation	132960
+11/14/2002	AmEx	3	Jaguar: S-Type 3.0	44320	Menedez Development	132960
+11/14/2002	Master	5	Jaguar: S-Type 3.0	44320	Alessandro & Associates	221600
+11/16/2002	Cash	2	Jaguar: S-Type 3.0	44320	Jones & Assoc	88640
+12/2/2002	AmEx	2	Jaguar: S-Type 3.0	44320	Mickeys World of Fun	88640
+12/7/2002	AmEx	1	Jaguar: S-Type 3.0	44320	Hill Corporation	44320
+12/11/2002	AmEx	1	Jaguar: S-Type 3.0	44320	Alessandro & Associates	44320
+12/15/2002	Master	4	Jaguar: S-Type 3.0	44320	Jeffers Clinic	177280
+1/26/2002	AmEx	3	Cadillac: Seville	49600	Holmes World	148800
+1/26/2002	Master	4	Cadillac: Seville	49600	Holmes World	198400
+2/2/2002	Cash	3	Cadillac: Seville	49600	Valentine Hearts	148800
+2/2/2002	Master	1	Cadillac: Seville	49600	Mathewson Design	49600
+2/3/2002	Cash	4	Cadillac: Seville	49600	Christies House of Design	198400
+2/5/2002	Cash	5	Cadillac: Seville	49600	Newman Systems	248000
+2/8/2002	AmEx	2	Cadillac: Seville	49600	Christies House of Design	99200
+2/10/2002	Visa	2	Cadillac: Seville	49600	Menedez Development	99200
+2/18/2002	Visa	3	Cadillac: Seville	49600	Christies House of Design	148800
+2/23/2002	Cash	2	Cadillac: Seville	49600	Mathewson Design	99200
+3/1/2002	AmEx	3	Cadillac: Seville	49600	Alessandro & Associates	148800
+3/7/2002	Visa	4	Cadillac: Seville	49600	Christies House of Design	198400
+3/12/2002	Cash	4	Cadillac: Seville	49600	Development House	198400
+3/17/2002	AmEx	4	Cadillac: Seville	49600	Development House	198400
+3/19/2002	AmEx	3	Cadillac: Seville	49600	Hill Corporation	148800
+3/21/2002	Cash	2	Cadillac: Seville	49600	Alessandro & Associates	99200
+3/25/2002	Visa	4	Cadillac: Seville	49600	Frankson Media	198400
+4/2/2002	Visa	4	Cadillac: Seville	49600	Jeffers Clinic	198400
+4/9/2002	Master	5	Cadillac: Seville	49600	Alessandro & Associates	248000
+4/10/2002	AmEx	2	Cadillac: Seville	49600	Holmes World	99200
+4/10/2002	Visa	2	Cadillac: Seville	49600	Michelson Systems	99200
+4/13/2002	Visa	2	Cadillac: Seville	49600	Doe Enterprises	99200
+4/13/2002	Master	1	Cadillac: Seville	49600	Christies House of Design	49600
+4/28/2002	Master	1	Cadillac: Seville	49600	Mickeys World of Fun	49600
+5/10/2002	AmEx	1	Cadillac: Seville	49600	Menedez Development	49600
+5/11/2002	Visa	3	Cadillac: Seville	49600	Jeffers Clinic	148800
+5/12/2002	Cash	3	Cadillac: Seville	49600	Jones & Assoc	148800
+5/18/2002	AmEx	3	Cadillac: Seville	49600	Alessandro & Associates	148800
+5/23/2002	Master	5	Cadillac: Seville	49600	Doe Enterprises	248000
+5/30/2002	Cash	4	Cadillac: Seville	49600	Mildreds World	198400
+6/2/2002	AmEx	3	Cadillac: Seville	49600	Christies House of Design	148800
+6/3/2002	Cash	5	Cadillac: Seville	49600	Jeffers Clinic	248000
+6/16/2002	Cash	4	Cadillac: Seville	49600	Mickeys World of Fun	198400
+6/19/2002	AmEx	3	Cadillac: Seville	49600	Mickeys World of Fun	148800
+6/21/2002	Master	4	Cadillac: Seville	49600	Jones & Assoc	198400
+6/22/2002	Cash	2	Cadillac: Seville	49600	Valentine Hearts	99200
+6/25/2002	Cash	4	Cadillac: Seville	49600	Doe Enterprises	198400
+7/3/2002	Cash	4	Cadillac: Seville	49600	Valentine Hearts	198400
+7/11/2002	Master	2	Cadillac: Seville	49600	Jeffers Clinic	99200
+7/17/2002	AmEx	4	Cadillac: Seville	49600	Frankson Media	198400
+7/20/2002	Visa	5	Cadillac: Seville	49600	Menedez Development	248000
+7/20/2002	Cash	3	Cadillac: Seville	49600	Hill Corporation	148800
+7/20/2002	Master	4	Cadillac: Seville	49600	Menedez Development	198400
+8/14/2002	AmEx	5	Cadillac: Seville	49600	James Systems	248000
+8/18/2002	Cash	3	Cadillac: Seville	49600	Ford Consulting	148800
+8/22/2002	Master	2	Cadillac: Seville	49600	Hill Corporation	99200
+8/26/2002	Visa	1	Cadillac: Seville	49600	Doe Enterprises	49600
+8/30/2002	AmEx	5	Cadillac: Seville	49600	McAllister Systems	248000
+9/4/2002	AmEx	5	Cadillac: Seville	49600	Christies House of Design	248000
+9/8/2002	AmEx	5	Cadillac: Seville	49600	Alessandro & Associates	248000
+9/9/2002	Cash	3	Cadillac: Seville	49600	Mickeys World of Fun	148800
+9/9/2002	Master	5	Cadillac: Seville	49600	Development House	248000
+9/19/2002	Visa	1	Cadillac: Seville	49600	Newman Systems	49600
+9/20/2002	Master	5	Cadillac: Seville	49600	Valentine Hearts	248000
+9/28/2002	Cash	3	Cadillac: Seville	49600	Mathewson Design	148800
+10/3/2002	AmEx	5	Cadillac: Seville	49600	Christies House of Design	248000
+10/4/2002	Visa	1	Cadillac: Seville	49600	Christies House of Design	49600
+10/23/2002	AmEx	4	Cadillac: Seville	49600	Mildreds World	198400
+10/27/2002	Cash	3	Cadillac: Seville	49600	Development House	148800
+11/4/2002	AmEx	2	Cadillac: Seville	49600	Doe Enterprises	99200
+11/19/2002	Cash	1	Cadillac: Seville	49600	Ford Consulting	49600
+11/19/2002	Cash	2	Cadillac: Seville	49600	James Systems	99200
+11/23/2002	Master	2	Cadillac: Seville	49600	McAllister Systems	99200
+11/29/2002	Master	3	Cadillac: Seville	49600	Mickeys World of Fun	148800
+11/30/2002	Visa	2	Cadillac: Seville	49600	Newman Systems	99200
+12/3/2002	Cash	4	Cadillac: Seville	49600	Jeffers Clinic	198400
+12/3/2002	Visa	5	Cadillac: Seville	49600	Christies House of Design	248000
+12/4/2002	Master	5	Cadillac: Seville	49600	Mathewson Design	248000
+12/6/2002	Master	5	Cadillac: Seville	49600	Development House	248000
+12/10/2002	AmEx	1	Cadillac: Seville	49600	Mildreds World	49600
+12/13/2002	Cash	5	Cadillac: Seville	49600	Mickeys World of Fun	248000
+12/15/2002	Cash	1	Cadillac: Seville	49600	Doe Enterprises	49600
+12/20/2002	Visa	1	Cadillac: Seville	49600	Hill Corporation	49600
+1/23/2002	Visa	1	Cadillac: DeVille	47780	James Systems	47780
+1/24/2002	Master	2	Cadillac: DeVille	47780	Mickeys World of Fun	95560
+2/6/2002	AmEx	1	Cadillac: DeVille	47780	Development House	47780
+2/18/2002	Cash	1	Cadillac: DeVille	47780	James Systems	47780
+2/19/2002	AmEx	4	Cadillac: DeVille	47780	Hill Corporation	191120
+2/22/2002	Master	5	Cadillac: DeVille	47780	Development House	238900
+2/23/2002	Cash	5	Cadillac: DeVille	47780	McAllister Systems	238900
+2/25/2002	AmEx	4	Cadillac: DeVille	47780	Doe Enterprises	191120
+2/25/2002	AmEx	1	Cadillac: DeVille	47780	Doe Enterprises	47780
+3/2/2002	Master	4	Cadillac: DeVille	47780	Menedez Development	191120
+3/5/2002	Master	2	Cadillac: DeVille	47780	James Systems	95560
+3/13/2002	AmEx	1	Cadillac: DeVille	47780	James Systems	47780
+3/19/2002	Cash	5	Cadillac: DeVille	47780	Doe Enterprises	238900
+3/26/2002	Master	2	Cadillac: DeVille	47780	Jones & Assoc	95560
+3/31/2002	Master	1	Cadillac: DeVille	47780	Jones & Assoc	47780
+4/7/2002	Master	3	Cadillac: DeVille	47780	Doe Enterprises	143340
+4/8/2002	Cash	2	Cadillac: DeVille	47780	James Systems	95560
+4/11/2002	Master	2	Cadillac: DeVille	47780	Menedez Development	95560
+4/15/2002	Visa	2	Cadillac: DeVille	47780	Development House	95560
+4/16/2002	Cash	3	Cadillac: DeVille	47780	Frankson Media	143340
+4/22/2002	Cash	1	Cadillac: DeVille	47780	Alessandro & Associates	47780
+4/26/2002	Master	3	Cadillac: DeVille	47780	Mathewson Design	143340
+4/27/2002	AmEx	4	Cadillac: DeVille	47780	Ford Consulting	191120
+4/28/2002	Visa	3	Cadillac: DeVille	47780	Christies House of Design	143340
+5/14/2002	AmEx	1	Cadillac: DeVille	47780	Doe Enterprises	47780
+5/15/2002	Cash	4	Cadillac: DeVille	47780	Jones & Assoc	191120
+5/16/2002	Visa	3	Cadillac: DeVille	47780	Doe Enterprises	143340
+5/25/2002	Master	3	Cadillac: DeVille	47780	Valentine Hearts	143340
+5/26/2002	AmEx	4	Cadillac: DeVille	47780	Frankson Media	191120
+5/27/2002	Master	1	Cadillac: DeVille	47780	Holmes World	47780
+6/5/2002	Master	5	Cadillac: DeVille	47780	Newman Systems	238900
+6/8/2002	Master	2	Cadillac: DeVille	47780	Jeffers Clinic	95560
+6/13/2002	Visa	2	Cadillac: DeVille	47780	Hill Corporation	95560
+6/13/2002	AmEx	3	Cadillac: DeVille	47780	Michelson Systems	143340
+6/22/2002	Visa	1	Cadillac: DeVille	47780	Jones & Assoc	47780
+7/6/2002	Visa	1	Cadillac: DeVille	47780	Valentine Hearts	47780
+7/9/2002	Visa	3	Cadillac: DeVille	47780	Frankson Media	143340
+7/14/2002	Master	5	Cadillac: DeVille	47780	Doe Enterprises	238900
+8/2/2002	Visa	2	Cadillac: DeVille	47780	Mickeys World of Fun	95560
+8/4/2002	Visa	2	Cadillac: DeVille	47780	Hill Corporation	95560
+8/6/2002	Cash	2	Cadillac: DeVille	47780	Development House	95560
+8/6/2002	Cash	4	Cadillac: DeVille	47780	Newman Systems	191120
+8/10/2002	Cash	1	Cadillac: DeVille	47780	Christies House of Design	47780
+8/23/2002	Visa	4	Cadillac: DeVille	47780	Ford Consulting	191120
+8/26/2002	Cash	4	Cadillac: DeVille	47780	Michelson Systems	191120
+8/27/2002	Cash	1	Cadillac: DeVille	47780	Mildreds World	47780
+9/16/2002	Visa	2	Cadillac: DeVille	47780	Mathewson Design	95560
+9/19/2002	Master	3	Cadillac: DeVille	47780	Ford Consulting	143340
+9/19/2002	Visa	3	Cadillac: DeVille	47780	Valentine Hearts	143340
+10/3/2002	Cash	1	Cadillac: DeVille	47780	Frankson Media	47780
+10/11/2002	AmEx	2	Cadillac: DeVille	47780	Valentine Hearts	95560
+10/14/2002	Master	2	Cadillac: DeVille	47780	Jeffers Clinic	95560
+10/24/2002	Cash	4	Cadillac: DeVille	47780	Newman Systems	191120
+10/24/2002	Cash	1	Cadillac: DeVille	47780	Jones & Assoc	47780
+10/25/2002	Cash	2	Cadillac: DeVille	47780	Hill Corporation	95560
+10/27/2002	Visa	3	Cadillac: DeVille	47780	Newman Systems	143340
+11/2/2002	Visa	5	Cadillac: DeVille	47780	Newman Systems	238900
+11/10/2002	AmEx	3	Cadillac: DeVille	47780	Mildreds World	143340
+11/14/2002	Master	4	Cadillac: DeVille	47780	Mickeys World of Fun	191120
+11/29/2002	AmEx	3	Cadillac: DeVille	47780	Frankson Media	143340
+12/20/2002	Visa	4	Cadillac: DeVille	47780	James Systems	191120
+1/22/2002	Master	2	Lexus: LS430	54900	Valentine Hearts	109800
+1/28/2002	Visa	5	Lexus: LS430	54900	Development House	274500
+1/29/2002	Master	5	Lexus: LS430	54900	Mildreds World	274500
+1/30/2002	AmEx	2	Lexus: LS430	54900	Newman Systems	109800
+2/2/2002	Visa	4	Lexus: LS430	54900	Hill Corporation	219600
+2/2/2002	AmEx	1	Lexus: LS430	54900	Jones & Assoc	54900
+2/3/2002	Visa	4	Lexus: LS430	54900	Menedez Development	219600
+2/7/2002	AmEx	2	Lexus: LS430	54900	Alessandro & Associates	109800
+2/12/2002	Cash	2	Lexus: LS430	54900	Frankson Media	109800
+2/14/2002	AmEx	3	Lexus: LS430	54900	Menedez Development	164700
+2/16/2002	AmEx	1	Lexus: LS430	54900	McAllister Systems	54900
+2/25/2002	Cash	1	Lexus: LS430	54900	Mathewson Design	54900
+3/9/2002	Cash	4	Lexus: LS430	54900	Holmes World	219600
+3/12/2002	Master	2	Lexus: LS430	54900	Hill Corporation	109800
+3/15/2002	Master	4	Lexus: LS430	54900	Mildreds World	219600
+3/19/2002	Visa	2	Lexus: LS430	54900	Valentine Hearts	109800
+3/20/2002	AmEx	5	Lexus: LS430	54900	Frankson Media	274500
+4/4/2002	Master	3	Lexus: LS430	54900	Mathewson Design	164700
+4/18/2002	Master	2	Lexus: LS430	54900	Mathewson Design	109800
+4/21/2002	Cash	4	Lexus: LS430	54900	Michelson Systems	219600
+5/4/2002	Visa	3	Lexus: LS430	54900	Frankson Media	164700
+5/6/2002	Master	4	Lexus: LS430	54900	Menedez Development	219600
+5/8/2002	Master	4	Lexus: LS430	54900	Mildreds World	219600
+5/20/2002	Cash	3	Lexus: LS430	54900	McAllister Systems	164700
+5/21/2002	AmEx	5	Lexus: LS430	54900	Christies House of Design	274500
+5/22/2002	AmEx	5	Lexus: LS430	54900	Newman Systems	274500
+5/25/2002	Master	2	Lexus: LS430	54900	Mickeys World of Fun	109800
+5/27/2002	AmEx	3	Lexus: LS430	54900	Holmes World	164700
+6/6/2002	Cash	2	Lexus: LS430	54900	Frankson Media	109800
+6/23/2002	AmEx	5	Lexus: LS430	54900	Mildreds World	274500
+7/17/2002	AmEx	2	Lexus: LS430	54900	Frankson Media	109800
+7/26/2002	AmEx	2	Lexus: LS430	54900	Jones & Assoc	109800
+7/27/2002	Master	3	Lexus: LS430	54900	Holmes World	164700
+7/31/2002	Visa	1	Lexus: LS430	54900	Christies House of Design	54900
+8/1/2002	Cash	1	Lexus: LS430	54900	James Systems	54900
+8/4/2002	Visa	3	Lexus: LS430	54900	James Systems	164700
+8/7/2002	Visa	3	Lexus: LS430	54900	Holmes World	164700
+8/10/2002	Visa	1	Lexus: LS430	54900	Jeffers Clinic	54900
+8/19/2002	Visa	1	Lexus: LS430	54900	Frankson Media	54900
+8/21/2002	AmEx	3	Lexus: LS430	54900	Frankson Media	164700
+8/29/2002	Master	4	Lexus: LS430	54900	Frankson Media	219600
+8/29/2002	Cash	2	Lexus: LS430	54900	Alessandro & Associates	109800
+9/1/2002	Master	1	Lexus: LS430	54900	Michelson Systems	54900
+9/9/2002	Cash	5	Lexus: LS430	54900	James Systems	274500
+10/4/2002	Visa	4	Lexus: LS430	54900	Christies House of Design	219600
+10/17/2002	Cash	5	Lexus: LS430	54900	Jones & Assoc	274500
+10/23/2002	AmEx	1	Lexus: LS430	54900	Jeffers Clinic	54900
+10/30/2002	Visa	5	Lexus: LS430	54900	Hill Corporation	274500
+10/30/2002	Master	3	Lexus: LS430	54900	Mathewson Design	164700
+11/1/2002	AmEx	1	Lexus: LS430	54900	Menedez Development	54900
+11/13/2002	Master	2	Lexus: LS430	54900	Doe Enterprises	109800
+11/17/2002	Visa	5	Lexus: LS430	54900	Mickeys World of Fun	274500
+11/22/2002	Visa	4	Lexus: LS430	54900	Jones & Assoc	219600
+11/29/2002	Cash	4	Lexus: LS430	54900	Christies House of Design	219600
+12/4/2002	Visa	2	Lexus: LS430	54900	McAllister Systems	109800
+12/8/2002	Master	5	Lexus: LS430	54900	Christies House of Design	274500
+12/16/2002	AmEx	4	Lexus: LS430	54900	James Systems	219600
+1/25/2002	Master	2	Lexus: GS 430	41242	Christies House of Design	82484
+1/27/2002	Cash	4	Lexus: GS 430	41242	Frankson Media	164968
+2/1/2002	AmEx	4	Lexus: GS 430	41242	Michelson Systems	164968
+2/8/2002	Master	1	Lexus: GS 430	41242	McAllister Systems	41242
+2/13/2002	Cash	4	Lexus: GS 430	41242	Holmes World	164968
+2/16/2002	AmEx	2	Lexus: GS 430	41242	Jones & Assoc	82484
+2/20/2002	Visa	5	Lexus: GS 430	41242	Frankson Media	206210
+3/4/2002	Cash	3	Lexus: GS 430	41242	Christies House of Design	123726
+3/7/2002	Master	5	Lexus: GS 430	41242	Doe Enterprises	206210
+3/8/2002	Visa	2	Lexus: GS 430	41242	Jeffers Clinic	82484
+3/10/2002	Cash	2	Lexus: GS 430	41242	Holmes World	82484
+3/10/2002	Cash	1	Lexus: GS 430	41242	Mildreds World	41242
+3/20/2002	Cash	1	Lexus: GS 430	41242	Development House	41242
+3/21/2002	Master	5	Lexus: GS 430	41242	Hill Corporation	206210
+3/26/2002	Visa	1	Lexus: GS 430	41242	Ford Consulting	41242
+4/4/2002	Visa	3	Lexus: GS 430	41242	Mickeys World of Fun	123726
+4/7/2002	Visa	4	Lexus: GS 430	41242	Valentine Hearts	164968
+4/8/2002	AmEx	3	Lexus: GS 430	41242	Michelson Systems	123726
+4/15/2002	AmEx	2	Lexus: GS 430	41242	McAllister Systems	82484
+4/16/2002	Cash	3	Lexus: GS 430	41242	Menedez Development	123726
+5/1/2002	Master	5	Lexus: GS 430	41242	Christies House of Design	206210
+5/3/2002	Master	3	Lexus: GS 430	41242	Ford Consulting	123726
+5/5/2002	AmEx	3	Lexus: GS 430	41242	Frankson Media	123726
+5/11/2002	Visa	2	Lexus: GS 430	41242	Frankson Media	82484
+5/24/2002	AmEx	4	Lexus: GS 430	41242	Ford Consulting	164968
+6/13/2002	AmEx	1	Lexus: GS 430	41242	James Systems	41242
+6/13/2002	AmEx	5	Lexus: GS 430	41242	Ford Consulting	206210
+6/13/2002	Master	3	Lexus: GS 430	41242	Development House	123726
+6/23/2002	Cash	1	Lexus: GS 430	41242	Ford Consulting	41242
+6/26/2002	Cash	4	Lexus: GS 430	41242	Doe Enterprises	164968
+7/3/2002	Master	1	Lexus: GS 430	41242	Christies House of Design	41242
+7/4/2002	Cash	4	Lexus: GS 430	41242	Jeffers Clinic	164968
+7/12/2002	Cash	5	Lexus: GS 430	41242	Jeffers Clinic	206210
+7/15/2002	Cash	3	Lexus: GS 430	41242	Jeffers Clinic	123726
+7/16/2002	AmEx	5	Lexus: GS 430	41242	Hill Corporation	206210
+7/16/2002	Master	3	Lexus: GS 430	41242	Jones & Assoc	123726
+7/17/2002	Master	4	Lexus: GS 430	41242	Ford Consulting	164968
+7/18/2002	Cash	1	Lexus: GS 430	41242	Valentine Hearts	41242
+7/20/2002	Cash	3	Lexus: GS 430	41242	Christies House of Design	123726
+7/29/2002	Master	5	Lexus: GS 430	41242	Valentine Hearts	206210
+7/29/2002	Master	3	Lexus: GS 430	41242	Jones & Assoc	123726
+8/1/2002	Cash	4	Lexus: GS 430	41242	Michelson Systems	164968
+8/15/2002	Cash	4	Lexus: GS 430	41242	Frankson Media	164968
+8/17/2002	AmEx	4	Lexus: GS 430	41242	Menedez Development	164968
+8/29/2002	Master	2	Lexus: GS 430	41242	Frankson Media	82484
+9/4/2002	Visa	1	Lexus: GS 430	41242	Michelson Systems	41242
+9/4/2002	Master	2	Lexus: GS 430	41242	Jeffers Clinic	82484
+9/13/2002	AmEx	1	Lexus: GS 430	41242	McAllister Systems	41242
+9/15/2002	Master	1	Lexus: GS 430	41242	Jones & Assoc	41242
+9/16/2002	AmEx	2	Lexus: GS 430	41242	Jeffers Clinic	82484
+9/26/2002	Cash	3	Lexus: GS 430	41242	Christies House of Design	123726
+9/28/2002	Master	2	Lexus: GS 430	41242	Mildreds World	82484
+10/3/2002	Cash	5	Lexus: GS 430	41242	Valentine Hearts	206210
+10/5/2002	Master	2	Lexus: GS 430	41242	Jones & Assoc	82484
+10/6/2002	AmEx	2	Lexus: GS 430	41242	Doe Enterprises	82484
+10/10/2002	Visa	2	Lexus: GS 430	41242	Hill Corporation	82484
+10/13/2002	Master	3	Lexus: GS 430	41242	Mildreds World	123726
+10/18/2002	Visa	5	Lexus: GS 430	41242	Alessandro & Associates	206210
+10/23/2002	Visa	4	Lexus: GS 430	41242	Michelson Systems	164968
+10/31/2002	Visa	2	Lexus: GS 430	41242	Hill Corporation	82484
+11/9/2002	Master	2	Lexus: GS 430	41242	Jeffers Clinic	82484
+11/10/2002	AmEx	5	Lexus: GS 430	41242	Jeffers Clinic	206210
+11/12/2002	Cash	2	Lexus: GS 430	41242	Alessandro & Associates	82484
+11/13/2002	Visa	4	Lexus: GS 430	41242	Alessandro & Associates	164968
+11/13/2002	AmEx	3	Lexus: GS 430	41242	Jones & Assoc	123726
+11/15/2002	Master	4	Lexus: GS 430	41242	Christies House of Design	164968
+11/16/2002	AmEx	4	Lexus: GS 430	41242	Menedez Development	164968
+11/26/2002	Master	4	Lexus: GS 430	41242	Development House	164968
+11/26/2002	Cash	4	Lexus: GS 430	41242	Doe Enterprises	164968
+11/26/2002	Visa	5	Lexus: GS 430	41242	Jeffers Clinic	206210
+11/30/2002	AmEx	4	Lexus: GS 430	41242	Newman Systems	164968
+12/5/2002	Cash	1	Lexus: GS 430	41242	Michelson Systems	41242
+12/5/2002	Visa	4	Lexus: GS 430	41242	Mickeys World of Fun	164968
+12/11/2002	Cash	4	Lexus: GS 430	41242	Christies House of Design	164968
+12/13/2002	Visa	2	Lexus: GS 430	41242	Newman Systems	82484
+12/15/2002	Visa	5	Lexus: GS 430	41242	Mildreds World	206210
+2/1/2002	Master	1	Ford: Ranger FX-4	12565	Ford Consulting	12565
+2/3/2002	Cash	5	Ford: Ranger FX-4	12565	James Systems	62825
+2/3/2002	Master	1	Ford: Ranger FX-4	12565	Christies House of Design	12565
+2/8/2002	Master	5	Ford: Ranger FX-4	12565	James Systems	62825
+2/10/2002	Visa	3	Ford: Ranger FX-4	12565	Jones & Assoc	37695
+2/16/2002	Visa	5	Ford: Ranger FX-4	12565	Jones & Assoc	62825
+2/18/2002	Master	3	Ford: Ranger FX-4	12565	Mildreds World	37695
+2/28/2002	AmEx	2	Ford: Ranger FX-4	12565	Jones & Assoc	25130
+3/1/2002	Visa	1	Ford: Ranger FX-4	12565	Mildreds World	12565
+3/5/2002	AmEx	1	Ford: Ranger FX-4	12565	Menedez Development	12565
+3/6/2002	Visa	2	Ford: Ranger FX-4	12565	Mathewson Design	25130
+3/19/2002	Master	5	Ford: Ranger FX-4	12565	Menedez Development	62825
+3/25/2002	AmEx	4	Ford: Ranger FX-4	12565	Hill Corporation	50260
+3/30/2002	Visa	1	Ford: Ranger FX-4	12565	Jeffers Clinic	12565
+4/3/2002	Visa	4	Ford: Ranger FX-4	12565	Jones & Assoc	50260
+4/12/2002	Master	4	Ford: Ranger FX-4	12565	Menedez Development	50260
+4/13/2002	AmEx	4	Ford: Ranger FX-4	12565	McAllister Systems	50260
+4/15/2002	AmEx	5	Ford: Ranger FX-4	12565	Ford Consulting	62825
+4/17/2002	AmEx	1	Ford: Ranger FX-4	12565	McAllister Systems	12565
+4/26/2002	AmEx	1	Ford: Ranger FX-4	12565	Alessandro & Associates	12565
+5/3/2002	AmEx	3	Ford: Ranger FX-4	12565	Michelson Systems	37695
+5/11/2002	AmEx	5	Ford: Ranger FX-4	12565	Mildreds World	62825
+5/26/2002	Cash	5	Ford: Ranger FX-4	12565	Development House	62825
+5/30/2002	Visa	5	Ford: Ranger FX-4	12565	Menedez Development	62825
+6/4/2002	Cash	1	Ford: Ranger FX-4	12565	Mildreds World	12565
+6/9/2002	Cash	3	Ford: Ranger FX-4	12565	Alessandro & Associates	37695
+6/23/2002	Visa	1	Ford: Ranger FX-4	12565	Christies House of Design	12565
+6/26/2002	Visa	1	Ford: Ranger FX-4	12565	Christies House of Design	12565
+7/7/2002	Visa	3	Ford: Ranger FX-4	12565	Jeffers Clinic	37695
+7/14/2002	Visa	4	Ford: Ranger FX-4	12565	Holmes World	50260
+7/14/2002	Visa	4	Ford: Ranger FX-4	12565	Christies House of Design	50260
+7/18/2002	Visa	5	Ford: Ranger FX-4	12565	Hill Corporation	62825
+7/18/2002	Visa	5	Ford: Ranger FX-4	12565	McAllister Systems	62825
+7/21/2002	Master	5	Ford: Ranger FX-4	12565	Development House	62825
+7/22/2002	Cash	5	Ford: Ranger FX-4	12565	Doe Enterprises	62825
+7/26/2002	Master	1	Ford: Ranger FX-4	12565	Doe Enterprises	12565
+8/2/2002	Cash	3	Ford: Ranger FX-4	12565	Menedez Development	37695
+8/3/2002	Cash	2	Ford: Ranger FX-4	12565	Newman Systems	25130
+8/8/2002	Cash	2	Ford: Ranger FX-4	12565	Jones & Assoc	25130
+8/12/2002	Visa	1	Ford: Ranger FX-4	12565	Christies House of Design	12565
+8/13/2002	Visa	4	Ford: Ranger FX-4	12565	Jones & Assoc	50260
+8/13/2002	Cash	4	Ford: Ranger FX-4	12565	Jeffers Clinic	50260
+8/14/2002	Visa	3	Ford: Ranger FX-4	12565	Hill Corporation	37695
+8/17/2002	AmEx	1	Ford: Ranger FX-4	12565	Frankson Media	12565
+8/19/2002	AmEx	3	Ford: Ranger FX-4	12565	Menedez Development	37695
+8/25/2002	Visa	2	Ford: Ranger FX-4	12565	Development House	25130
+8/28/2002	Cash	4	Ford: Ranger FX-4	12565	Mickeys World of Fun	50260
+8/31/2002	AmEx	5	Ford: Ranger FX-4	12565	Mildreds World	62825
+9/5/2002	Visa	5	Ford: Ranger FX-4	12565	Michelson Systems	62825
+9/7/2002	AmEx	1	Ford: Ranger FX-4	12565	Ford Consulting	12565
+9/8/2002	AmEx	2	Ford: Ranger FX-4	12565	Development House	25130
+9/10/2002	Master	3	Ford: Ranger FX-4	12565	Doe Enterprises	37695
+9/14/2002	Visa	4	Ford: Ranger FX-4	12565	Holmes World	50260
+9/25/2002	Visa	2	Ford: Ranger FX-4	12565	Hill Corporation	25130
+9/27/2002	AmEx	5	Ford: Ranger FX-4	12565	Jones & Assoc	62825
+10/2/2002	Visa	5	Ford: Ranger FX-4	12565	Frankson Media	62825
+10/5/2002	Master	4	Ford: Ranger FX-4	12565	James Systems	50260
+10/10/2002	Visa	2	Ford: Ranger FX-4	12565	McAllister Systems	25130
+10/11/2002	Master	5	Ford: Ranger FX-4	12565	Ford Consulting	62825
+10/15/2002	Cash	3	Ford: Ranger FX-4	12565	Jones & Assoc	37695
+10/20/2002	Cash	2	Ford: Ranger FX-4	12565	Mickeys World of Fun	25130
+10/22/2002	Master	2	Ford: Ranger FX-4	12565	Ford Consulting	25130
+10/24/2002	Cash	4	Ford: Ranger FX-4	12565	Mildreds World	50260
+10/29/2002	AmEx	4	Ford: Ranger FX-4	12565	Development House	50260
+11/3/2002	Cash	4	Ford: Ranger FX-4	12565	Doe Enterprises	50260
+11/5/2002	Visa	4	Ford: Ranger FX-4	12565	Michelson Systems	50260
+11/5/2002	Master	3	Ford: Ranger FX-4	12565	Mickeys World of Fun	37695
+11/7/2002	Master	5	Ford: Ranger FX-4	12565	Development House	62825
+11/10/2002	Cash	5	Ford: Ranger FX-4	12565	Mathewson Design	62825
+11/12/2002	Cash	3	Ford: Ranger FX-4	12565	Mildreds World	37695
+11/13/2002	AmEx	2	Ford: Ranger FX-4	12565	James Systems	25130
+11/14/2002	Master	5	Ford: Ranger FX-4	12565	Valentine Hearts	62825
+11/23/2002	Cash	4	Ford: Ranger FX-4	12565	Christies House of Design	50260
+11/24/2002	AmEx	3	Ford: Ranger FX-4	12565	McAllister Systems	37695
+12/3/2002	Visa	3	Ford: Ranger FX-4	12565	Alessandro & Associates	37695
+12/8/2002	Master	5	Ford: Ranger FX-4	12565	Doe Enterprises	62825
+12/14/2002	Cash	4	Ford: Ranger FX-4	12565	Christies House of Design	50260
+1/20/2002	Master	5	Dodge: Ram 1500	17315	Valentine Hearts	86575
+1/31/2002	AmEx	2	Dodge: Ram 1500	17315	Hill Corporation	34630
+2/3/2002	Visa	3	Dodge: Ram 1500	17315	Hill Corporation	51945
+2/5/2002	Master	4	Dodge: Ram 1500	17315	Mathewson Design	69260
+2/10/2002	AmEx	4	Dodge: Ram 1500	17315	Hill Corporation	69260
+2/11/2002	AmEx	5	Dodge: Ram 1500	17315	Ford Consulting	86575
+2/19/2002	AmEx	5	Dodge: Ram 1500	17315	Mathewson Design	86575
+3/2/2002	AmEx	4	Dodge: Ram 1500	17315	Development House	69260
+3/6/2002	Master	5	Dodge: Ram 1500	17315	Mildreds World	86575
+3/7/2002	Master	1	Dodge: Ram 1500	17315	Menedez Development	17315
+4/2/2002	Cash	4	Dodge: Ram 1500	17315	Michelson Systems	69260
+4/4/2002	Master	5	Dodge: Ram 1500	17315	Doe Enterprises	86575
+4/22/2002	AmEx	2	Dodge: Ram 1500	17315	Menedez Development	34630
+4/22/2002	Cash	3	Dodge: Ram 1500	17315	Hill Corporation	51945
+4/25/2002	AmEx	5	Dodge: Ram 1500	17315	Hill Corporation	86575
+5/6/2002	Cash	2	Dodge: Ram 1500	17315	Ford Consulting	34630
+5/7/2002	Cash	4	Dodge: Ram 1500	17315	Development House	69260
+5/12/2002	Visa	4	Dodge: Ram 1500	17315	Alessandro & Associates	69260
+5/17/2002	Visa	1	Dodge: Ram 1500	17315	James Systems	17315
+5/30/2002	Visa	2	Dodge: Ram 1500	17315	Jones & Assoc	34630
+5/31/2002	AmEx	5	Dodge: Ram 1500	17315	Development House	86575
+6/3/2002	Master	5	Dodge: Ram 1500	17315	James Systems	86575
+6/8/2002	Master	4	Dodge: Ram 1500	17315	Ford Consulting	69260
+6/9/2002	Master	3	Dodge: Ram 1500	17315	Holmes World	51945
+6/19/2002	Cash	4	Dodge: Ram 1500	17315	McAllister Systems	69260
+6/20/2002	Cash	1	Dodge: Ram 1500	17315	Mildreds World	17315
+6/22/2002	AmEx	2	Dodge: Ram 1500	17315	McAllister Systems	34630
+6/30/2002	AmEx	3	Dodge: Ram 1500	17315	Menedez Development	51945
+7/4/2002	Cash	5	Dodge: Ram 1500	17315	Hill Corporation	86575
+7/5/2002	Visa	5	Dodge: Ram 1500	17315	Newman Systems	86575
+7/12/2002	AmEx	3	Dodge: Ram 1500	17315	Mickeys World of Fun	51945
+7/17/2002	AmEx	1	Dodge: Ram 1500	17315	Mildreds World	17315
+7/19/2002	AmEx	1	Dodge: Ram 1500	17315	Frankson Media	17315
+7/25/2002	Master	4	Dodge: Ram 1500	17315	Mickeys World of Fun	69260
+7/25/2002	Master	4	Dodge: Ram 1500	17315	Newman Systems	69260
+7/26/2002	Master	2	Dodge: Ram 1500	17315	Jones & Assoc	34630
+7/29/2002	Visa	3	Dodge: Ram 1500	17315	Mickeys World of Fun	51945
+8/1/2002	Master	2	Dodge: Ram 1500	17315	Jones & Assoc	34630
+8/19/2002	Cash	1	Dodge: Ram 1500	17315	Mickeys World of Fun	17315
+8/21/2002	Master	2	Dodge: Ram 1500	17315	Doe Enterprises	34630
+8/23/2002	Master	3	Dodge: Ram 1500	17315	Doe Enterprises	51945
+8/28/2002	AmEx	5	Dodge: Ram 1500	17315	Mildreds World	86575
+8/29/2002	Cash	4	Dodge: Ram 1500	17315	Holmes World	69260
+9/2/2002	AmEx	4	Dodge: Ram 1500	17315	Alessandro & Associates	69260
+9/14/2002	Visa	2	Dodge: Ram 1500	17315	McAllister Systems	34630
+9/20/2002	Visa	3	Dodge: Ram 1500	17315	Frankson Media	51945
+9/22/2002	Master	1	Dodge: Ram 1500	17315	Jeffers Clinic	17315
+9/27/2002	AmEx	4	Dodge: Ram 1500	17315	Development House	69260
+10/6/2002	Master	4	Dodge: Ram 1500	17315	Michelson Systems	69260
+10/12/2002	Cash	2	Dodge: Ram 1500	17315	Menedez Development	34630
+10/14/2002	Cash	1	Dodge: Ram 1500	17315	McAllister Systems	17315
+10/20/2002	AmEx	4	Dodge: Ram 1500	17315	Jones & Assoc	69260
+10/29/2002	Visa	1	Dodge: Ram 1500	17315	Michelson Systems	17315
+10/29/2002	Master	5	Dodge: Ram 1500	17315	Hill Corporation	86575
+10/31/2002	AmEx	4	Dodge: Ram 1500	17315	Mathewson Design	69260
+11/6/2002	Master	1	Dodge: Ram 1500	17315	Alessandro & Associates	17315
+11/28/2002	Cash	4	Dodge: Ram 1500	17315	Alessandro & Associates	69260
+11/30/2002	Master	2	Dodge: Ram 1500	17315	Ford Consulting	34630
+12/4/2002	Master	3	Dodge: Ram 1500	17315	James Systems	51945
+12/14/2002	Cash	1	Dodge: Ram 1500	17315	Valentine Hearts	17315
+12/20/2002	Master	2	Dodge: Ram 1500	17315	Development House	34630
+1/26/2002	AmEx	4	GMC: Siera Quadrasteer	17748	Development House	70992
+2/6/2002	Master	3	GMC: Siera Quadrasteer	17748	Menedez Development	53244
+2/8/2002	Master	3	GMC: Siera Quadrasteer	17748	Christies House of Design	53244
+2/15/2002	AmEx	4	GMC: Siera Quadrasteer	17748	James Systems	70992
+2/21/2002	Visa	1	GMC: Siera Quadrasteer	17748	Jones & Assoc	17748
+2/21/2002	AmEx	3	GMC: Siera Quadrasteer	17748	Frankson Media	53244
+3/1/2002	Cash	4	GMC: Siera Quadrasteer	17748	Alessandro & Associates	70992
+3/5/2002	Visa	5	GMC: Siera Quadrasteer	17748	James Systems	88740
+3/7/2002	Visa	4	GMC: Siera Quadrasteer	17748	James Systems	70992
+3/19/2002	AmEx	1	GMC: Siera Quadrasteer	17748	Mathewson Design	17748
+3/21/2002	Cash	1	GMC: Siera Quadrasteer	17748	Newman Systems	17748
+3/28/2002	AmEx	1	GMC: Siera Quadrasteer	17748	Newman Systems	17748
+3/31/2002	Cash	4	GMC: Siera Quadrasteer	17748	Holmes World	70992
+4/5/2002	AmEx	4	GMC: Siera Quadrasteer	17748	Mickeys World of Fun	70992
+4/9/2002	AmEx	4	GMC: Siera Quadrasteer	17748	Doe Enterprises	70992
+4/10/2002	Visa	5	GMC: Siera Quadrasteer	17748	Mathewson Design	88740
+4/12/2002	Visa	3	GMC: Siera Quadrasteer	17748	McAllister Systems	53244
+4/18/2002	Cash	2	GMC: Siera Quadrasteer	17748	Valentine Hearts	35496
+4/23/2002	Visa	2	GMC: Siera Quadrasteer	17748	Development House	35496
+4/25/2002	Cash	3	GMC: Siera Quadrasteer	17748	Jones & Assoc	53244
+5/3/2002	Cash	3	GMC: Siera Quadrasteer	17748	James Systems	53244
+5/15/2002	Master	4	GMC: Siera Quadrasteer	17748	Frankson Media	70992
+5/19/2002	Visa	4	GMC: Siera Quadrasteer	17748	Alessandro & Associates	70992
+5/24/2002	Visa	4	GMC: Siera Quadrasteer	17748	Mathewson Design	70992
+5/26/2002	Cash	3	GMC: Siera Quadrasteer	17748	McAllister Systems	53244
+5/27/2002	Master	3	GMC: Siera Quadrasteer	17748	Christies House of Design	53244
+6/5/2002	Master	4	GMC: Siera Quadrasteer	17748	Newman Systems	70992
+6/8/2002	Cash	2	GMC: Siera Quadrasteer	17748	Alessandro & Associates	35496
+6/8/2002	Visa	5	GMC: Siera Quadrasteer	17748	Newman Systems	88740
+6/12/2002	AmEx	1	GMC: Siera Quadrasteer	17748	Mildreds World	17748
+7/13/2002	AmEx	1	GMC: Siera Quadrasteer	17748	Holmes World	17748
+7/15/2002	Master	4	GMC: Siera Quadrasteer	17748	Development House	70992
+7/20/2002	AmEx	2	GMC: Siera Quadrasteer	17748	Jones & Assoc	35496
+7/21/2002	Master	1	GMC: Siera Quadrasteer	17748	Jones & Assoc	17748
+7/22/2002	Cash	4	GMC: Siera Quadrasteer	17748	Mildreds World	70992
+7/28/2002	Cash	2	GMC: Siera Quadrasteer	17748	Jeffers Clinic	35496
+8/3/2002	Cash	2	GMC: Siera Quadrasteer	17748	Frankson Media	35496
+8/4/2002	Master	3	GMC: Siera Quadrasteer	17748	Newman Systems	53244
+8/4/2002	Cash	2	GMC: Siera Quadrasteer	17748	Hill Corporation	35496
+8/7/2002	AmEx	5	GMC: Siera Quadrasteer	17748	Valentine Hearts	88740
+8/19/2002	Cash	5	GMC: Siera Quadrasteer	17748	Frankson Media	88740
+8/21/2002	Master	4	GMC: Siera Quadrasteer	17748	Ford Consulting	70992
+8/23/2002	AmEx	3	GMC: Siera Quadrasteer	17748	Hill Corporation	53244
+8/23/2002	Cash	5	GMC: Siera Quadrasteer	17748	Michelson Systems	88740
+9/14/2002	Visa	2	GMC: Siera Quadrasteer	17748	Michelson Systems	35496
+9/16/2002	Cash	5	GMC: Siera Quadrasteer	17748	Mildreds World	88740
+9/17/2002	Cash	3	GMC: Siera Quadrasteer	17748	Jeffers Clinic	53244
+9/22/2002	AmEx	1	GMC: Siera Quadrasteer	17748	Ford Consulting	17748
+9/26/2002	AmEx	2	GMC: Siera Quadrasteer	17748	Development House	35496
+9/27/2002	Master	5	GMC: Siera Quadrasteer	17748	Christies House of Design	88740
+10/5/2002	AmEx	2	GMC: Siera Quadrasteer	17748	Menedez Development	35496
+10/5/2002	Visa	1	GMC: Siera Quadrasteer	17748	Jones & Assoc	17748
+10/10/2002	Master	5	GMC: Siera Quadrasteer	17748	Jones & Assoc	88740
+10/11/2002	Master	1	GMC: Siera Quadrasteer	17748	Alessandro & Associates	17748
+10/14/2002	AmEx	3	GMC: Siera Quadrasteer	17748	Doe Enterprises	53244
+10/16/2002	Visa	1	GMC: Siera Quadrasteer	17748	Michelson Systems	17748
+10/23/2002	AmEx	4	GMC: Siera Quadrasteer	17748	Doe Enterprises	70992
+10/24/2002	Master	2	GMC: Siera Quadrasteer	17748	Holmes World	35496
+10/25/2002	Master	2	GMC: Siera Quadrasteer	17748	McAllister Systems	35496
+11/13/2002	Master	4	GMC: Siera Quadrasteer	17748	McAllister Systems	70992
+11/18/2002	Visa	3	GMC: Siera Quadrasteer	17748	Alessandro & Associates	53244
+11/27/2002	AmEx	1	GMC: Siera Quadrasteer	17748	Hill Corporation	17748
+12/2/2002	Master	1	GMC: Siera Quadrasteer	17748	Jones & Assoc	17748
+12/3/2002	Master	1	GMC: Siera Quadrasteer	17748	Michelson Systems	17748
+12/9/2002	Master	2	GMC: Siera Quadrasteer	17748	Development House	35496
+12/10/2002	AmEx	5	GMC: Siera Quadrasteer	17748	McAllister Systems	88740
+12/10/2002	Master	4	GMC: Siera Quadrasteer	17748	Mathewson Design	70992
+12/16/2002	Visa	2	GMC: Siera Quadrasteer	17748	Holmes World	35496
+12/16/2002	Cash	1	GMC: Siera Quadrasteer	17748	Mildreds World	17748
+12/16/2002	Cash	2	GMC: Siera Quadrasteer	17748	Jeffers Clinic	35496
+1/20/2002	Master	5	Nissan: Crew Cab SE	12800	Doe Enterprises	64000
+1/31/2002	Cash	5	Nissan: Crew Cab SE	12800	Michelson Systems	64000
+2/1/2002	Cash	2	Nissan: Crew Cab SE	12800	Hill Corporation	25600
+2/14/2002	AmEx	4	Nissan: Crew Cab SE	12800	Newman Systems	51200
+3/9/2002	Master	4	Nissan: Crew Cab SE	12800	James Systems	51200
+3/13/2002	AmEx	1	Nissan: Crew Cab SE	12800	Hill Corporation	12800
+3/15/2002	Cash	3	Nissan: Crew Cab SE	12800	Michelson Systems	38400
+3/24/2002	AmEx	2	Nissan: Crew Cab SE	12800	Valentine Hearts	25600
+3/29/2002	AmEx	1	Nissan: Crew Cab SE	12800	Holmes World	12800
+3/30/2002	Cash	3	Nissan: Crew Cab SE	12800	Jones & Assoc	38400
+4/11/2002	AmEx	4	Nissan: Crew Cab SE	12800	Doe Enterprises	51200
+4/17/2002	Visa	5	Nissan: Crew Cab SE	12800	Development House	64000
+4/17/2002	Master	2	Nissan: Crew Cab SE	12800	Valentine Hearts	25600
+4/19/2002	Visa	3	Nissan: Crew Cab SE	12800	Michelson Systems	38400
+4/22/2002	AmEx	5	Nissan: Crew Cab SE	12800	McAllister Systems	64000
+4/28/2002	Cash	3	Nissan: Crew Cab SE	12800	Newman Systems	38400
+5/7/2002	AmEx	3	Nissan: Crew Cab SE	12800	Frankson Media	38400
+5/8/2002	Master	3	Nissan: Crew Cab SE	12800	Jeffers Clinic	38400
+5/12/2002	Visa	4	Nissan: Crew Cab SE	12800	Jeffers Clinic	51200
+6/1/2002	AmEx	1	Nissan: Crew Cab SE	12800	Alessandro & Associates	12800
+6/6/2002	Visa	5	Nissan: Crew Cab SE	12800	Development House	64000
+6/12/2002	Cash	4	Nissan: Crew Cab SE	12800	Jeffers Clinic	51200
+6/23/2002	Cash	4	Nissan: Crew Cab SE	12800	Jeffers Clinic	51200
+6/28/2002	Visa	2	Nissan: Crew Cab SE	12800	Ford Consulting	25600
+7/7/2002	Cash	4	Nissan: Crew Cab SE	12800	Mildreds World	51200
+7/20/2002	Cash	5	Nissan: Crew Cab SE	12800	Hill Corporation	64000
+7/23/2002	Visa	2	Nissan: Crew Cab SE	12800	Jones & Assoc	25600
+7/30/2002	Cash	4	Nissan: Crew Cab SE	12800	Mickeys World of Fun	51200
+7/31/2002	Cash	1	Nissan: Crew Cab SE	12800	Doe Enterprises	12800
+8/6/2002	AmEx	3	Nissan: Crew Cab SE	12800	James Systems	38400
+8/12/2002	AmEx	2	Nissan: Crew Cab SE	12800	James Systems	25600
+8/13/2002	Visa	1	Nissan: Crew Cab SE	12800	James Systems	12800
+8/13/2002	Master	2	Nissan: Crew Cab SE	12800	Michelson Systems	25600
+8/16/2002	Master	5	Nissan: Crew Cab SE	12800	Frankson Media	64000
+8/19/2002	Cash	4	Nissan: Crew Cab SE	12800	Development House	51200
+8/22/2002	AmEx	5	Nissan: Crew Cab SE	12800	Jones & Assoc	64000
+9/1/2002	Visa	3	Nissan: Crew Cab SE	12800	Holmes World	38400
+9/7/2002	AmEx	1	Nissan: Crew Cab SE	12800	Frankson Media	12800
+9/11/2002	Cash	4	Nissan: Crew Cab SE	12800	Ford Consulting	51200
+9/18/2002	Visa	1	Nissan: Crew Cab SE	12800	Christies House of Design	12800
+9/19/2002	Cash	3	Nissan: Crew Cab SE	12800	Alessandro & Associates	38400
+9/30/2002	Visa	4	Nissan: Crew Cab SE	12800	Hill Corporation	51200
+10/7/2002	Cash	2	Nissan: Crew Cab SE	12800	Michelson Systems	25600
+10/9/2002	AmEx	1	Nissan: Crew Cab SE	12800	Mildreds World	12800
+10/15/2002	Visa	4	Nissan: Crew Cab SE	12800	Jones & Assoc	51200
+10/15/2002	Cash	2	Nissan: Crew Cab SE	12800	McAllister Systems	25600
+10/23/2002	AmEx	1	Nissan: Crew Cab SE	12800	McAllister Systems	12800
+11/13/2002	AmEx	4	Nissan: Crew Cab SE	12800	James Systems	51200
+11/14/2002	AmEx	2	Nissan: Crew Cab SE	12800	Holmes World	25600
+11/21/2002	Visa	4	Nissan: Crew Cab SE	12800	James Systems	51200
+11/22/2002	Cash	1	Nissan: Crew Cab SE	12800	Alessandro & Associates	12800
+12/1/2002	Cash	1	Nissan: Crew Cab SE	12800	Valentine Hearts	12800
+12/6/2002	Cash	4	Nissan: Crew Cab SE	12800	Holmes World	51200
+12/9/2002	Master	1	Nissan: Crew Cab SE	12800	McAllister Systems	12800
+12/15/2002	Visa	2	Nissan: Crew Cab SE	12800	Jones & Assoc	25600
+12/17/2002	Cash	4	Nissan: Crew Cab SE	12800	Mickeys World of Fun	51200
+12/18/2002	Cash	4	Nissan: Crew Cab SE	12800	Frankson Media	51200
+12/19/2002	Master	2	Nissan: Crew Cab SE	12800	Mickeys World of Fun	25600
+1/25/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Jones & Assoc	60000
+1/28/2002	Master	5	Toyota: Tacoma S-Runner	20000	Hill Corporation	100000
+1/30/2002	Cash	3	Toyota: Tacoma S-Runner	20000	Frankson Media	60000
+2/1/2002	AmEx	5	Toyota: Tacoma S-Runner	20000	Ford Consulting	100000
+2/2/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Mathewson Design	20000
+2/7/2002	AmEx	1	Toyota: Tacoma S-Runner	20000	Jeffers Clinic	20000
+2/13/2002	Cash	4	Toyota: Tacoma S-Runner	20000	Jeffers Clinic	80000
+2/13/2002	Cash	3	Toyota: Tacoma S-Runner	20000	Development House	60000
+2/16/2002	Master	4	Toyota: Tacoma S-Runner	20000	Ford Consulting	80000
+2/20/2002	Visa	4	Toyota: Tacoma S-Runner	20000	Mickeys World of Fun	80000
+2/23/2002	Master	1	Toyota: Tacoma S-Runner	20000	Valentine Hearts	20000
+2/28/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Hill Corporation	20000
+3/2/2002	Master	3	Toyota: Tacoma S-Runner	20000	Michelson Systems	60000
+3/4/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Frankson Media	20000
+3/9/2002	AmEx	5	Toyota: Tacoma S-Runner	20000	Jones & Assoc	100000
+3/18/2002	AmEx	5	Toyota: Tacoma S-Runner	20000	Frankson Media	100000
+3/19/2002	AmEx	2	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	40000
+3/28/2002	Master	2	Toyota: Tacoma S-Runner	20000	Development House	40000
+3/29/2002	Cash	1	Toyota: Tacoma S-Runner	20000	Ford Consulting	20000
+4/10/2002	AmEx	1	Toyota: Tacoma S-Runner	20000	Hill Corporation	20000
+4/12/2002	Visa	2	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	40000
+4/26/2002	AmEx	2	Toyota: Tacoma S-Runner	20000	Menedez Development	40000
+5/6/2002	AmEx	1	Toyota: Tacoma S-Runner	20000	Valentine Hearts	20000
+5/8/2002	Master	1	Toyota: Tacoma S-Runner	20000	Hill Corporation	20000
+5/8/2002	Visa	2	Toyota: Tacoma S-Runner	20000	Valentine Hearts	40000
+5/16/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Doe Enterprises	20000
+5/20/2002	Master	4	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	80000
+5/20/2002	Master	2	Toyota: Tacoma S-Runner	20000	Mildreds World	40000
+5/23/2002	AmEx	4	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	80000
+5/31/2002	Cash	4	Toyota: Tacoma S-Runner	20000	Michelson Systems	80000
+6/11/2002	Master	1	Toyota: Tacoma S-Runner	20000	Doe Enterprises	20000
+6/13/2002	Visa	2	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	40000
+6/13/2002	Cash	5	Toyota: Tacoma S-Runner	20000	Holmes World	100000
+6/20/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Doe Enterprises	20000
+6/21/2002	Master	5	Toyota: Tacoma S-Runner	20000	James Systems	100000
+7/4/2002	AmEx	2	Toyota: Tacoma S-Runner	20000	Frankson Media	40000
+7/12/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Mathewson Design	60000
+7/26/2002	Master	4	Toyota: Tacoma S-Runner	20000	Jeffers Clinic	80000
+7/28/2002	Visa	2	Toyota: Tacoma S-Runner	20000	Jones & Assoc	40000
+8/5/2002	Master	4	Toyota: Tacoma S-Runner	20000	McAllister Systems	80000
+8/10/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Hill Corporation	60000
+9/2/2002	AmEx	1	Toyota: Tacoma S-Runner	20000	Michelson Systems	20000
+9/5/2002	Visa	3	Toyota: Tacoma S-Runner	20000	Jones & Assoc	60000
+9/9/2002	Master	2	Toyota: Tacoma S-Runner	20000	Frankson Media	40000
+9/12/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	60000
+9/17/2002	AmEx	4	Toyota: Tacoma S-Runner	20000	Mickeys World of Fun	80000
+9/21/2002	Visa	5	Toyota: Tacoma S-Runner	20000	Holmes World	100000
+9/23/2002	Visa	3	Toyota: Tacoma S-Runner	20000	Hill Corporation	60000
+9/30/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Mathewson Design	60000
+10/1/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Christies House of Design	60000
+10/5/2002	Cash	4	Toyota: Tacoma S-Runner	20000	Newman Systems	80000
+10/5/2002	AmEx	4	Toyota: Tacoma S-Runner	20000	Alessandro & Associates	80000
+10/7/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Michelson Systems	20000
+10/9/2002	AmEx	4	Toyota: Tacoma S-Runner	20000	James Systems	80000
+10/10/2002	Cash	4	Toyota: Tacoma S-Runner	20000	Holmes World	80000
+10/17/2002	AmEx	5	Toyota: Tacoma S-Runner	20000	Development House	100000
+10/18/2002	Cash	3	Toyota: Tacoma S-Runner	20000	Menedez Development	60000
+10/29/2002	AmEx	3	Toyota: Tacoma S-Runner	20000	Ford Consulting	60000
+11/1/2002	Master	2	Toyota: Tacoma S-Runner	20000	Development House	40000
+11/1/2002	Cash	5	Toyota: Tacoma S-Runner	20000	Ford Consulting	100000
+11/6/2002	Visa	2	Toyota: Tacoma S-Runner	20000	Valentine Hearts	40000
+11/7/2002	Cash	3	Toyota: Tacoma S-Runner	20000	Christies House of Design	60000
+11/7/2002	Visa	5	Toyota: Tacoma S-Runner	20000	Mickeys World of Fun	100000
+11/16/2002	Visa	1	Toyota: Tacoma S-Runner	20000	Newman Systems	20000
+12/4/2002	Master	1	Toyota: Tacoma S-Runner	20000	Mickeys World of Fun	20000
+12/15/2002	Visa	2	Toyota: Tacoma S-Runner	20000	Newman Systems	40000

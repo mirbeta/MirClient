@@ -1,0 +1,564 @@
+object HttpsTstForm: THttpsTstForm
+  Left = 244
+  Top = 170
+  Caption = 'HTTPS TEST'
+  ClientHeight = 421
+  ClientWidth = 657
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 244
+  Top = 170
+  object Splitter1: TSplitter
+    Align = alBottom
+    Cursor = crVSplit
+    Position.Point = '(0,329)'
+    Width = 657.000000000000000000
+    Height = 3.000000000000000000
+    TabOrder = 0
+    MinSize = 20.000000000000000000
+    Top = 295
+  end
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,199)'
+    Width = 657.000000000000000000
+    Height = 130.000000000000000000
+    TabOrder = 1
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object DocumentMemo: TMemo
+    Align = alBottom
+    Position.Point = '(0,332)'
+    Width = 657.000000000000000000
+    Height = 89.000000000000000000
+    TabOrder = 2
+    Lines.Strings = (
+      'DocumentMemo')
+    KeyboardType = vktDefault
+  end
+  object ToolsPanel: TPanel
+    Align = alTop
+    Width = 657.000000000000000000
+    Height = 199.000000000000000000
+    TabOrder = 3
+    object Label1: TLabel
+      Position.Point = '(48,7)'
+      Width = 20.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'Url'
+      WordWrap = False
+    end
+    object Label8: TLabel
+      Position.Point = '(447,8)'
+      Width = 68.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 1
+      AutoSize = True
+      Text = 'Socks server'
+      WordWrap = False
+    end
+    object Label9: TLabel
+      Position.Point = '(457,32)'
+      Width = 59.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 2
+      AutoSize = True
+      Text = 'Socks Port'
+      WordWrap = False
+    end
+    object Label2: TLabel
+      Position.Point = '(9,31)'
+      Width = 58.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 3
+      AutoSize = True
+      Text = 'Document'
+      WordWrap = False
+    end
+    object Label3: TLabel
+      Position.Point = '(23,55)'
+      Width = 44.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 4
+      AutoSize = True
+      Text = 'CertFile'
+      WordWrap = False
+    end
+    object Label7: TLabel
+      Position.Point = '(238,56)'
+      Width = 40.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 5
+      AutoSize = True
+      Text = 'CA File'
+      WordWrap = False
+    end
+    object Label10: TLabel
+      Position.Point = '(454,56)'
+      Width = 62.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 6
+      AutoSize = True
+      Text = 'Socks Level'
+      WordWrap = False
+    end
+    object Label6: TLabel
+      Position.Point = '(11,79)'
+      Width = 57.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 7
+      AutoSize = True
+      Text = 'PrivateKey'
+      WordWrap = False
+    end
+    object Label4: TLabel
+      Position.Point = '(6,103)'
+      Width = 61.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 8
+      AutoSize = True
+      Text = 'PassPhrase'
+      WordWrap = False
+    end
+    object Label12: TLabel
+      Position.Point = '(6,120)'
+      Width = 62.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 9
+      AutoSize = True
+      Text = 'Acceptable'
+      WordWrap = False
+    end
+    object Label13: TLabel
+      Position.Point = '(34,132)'
+      Width = 33.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 10
+      AutoSize = True
+      Text = 'hosts'
+      WordWrap = False
+    end
+    object Label5: TLabel
+      Position.Point = '(482,103)'
+      Width = 33.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 11
+      AutoSize = True
+      Text = 'Proxy'
+      WordWrap = False
+    end
+    object Label11: TLabel
+      Position.Point = '(482,122)'
+      Width = 33.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 12
+      AutoSize = True
+      Text = 'Proxy'
+      WordWrap = False
+    end
+    object Label14: TLabel
+      Position.Point = '(488,134)'
+      Width = 27.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 13
+      AutoSize = True
+      Text = 'Port'
+      WordWrap = False
+    end
+    object Label15: TLabel
+      Position.Point = '(488,74)'
+      Width = 28.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 14
+      AutoSize = True
+      Text = 'Http'
+      WordWrap = False
+    end
+    object Label16: TLabel
+      Position.Point = '(472,86)'
+      Width = 44.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 15
+      AutoSize = True
+      Text = 'Version'
+      WordWrap = False
+    end
+    object Label17: TLabel
+      Position.Point = '(236,80)'
+      Width = 45.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 16
+      AutoSize = True
+      Text = 'CA Path'
+      WordWrap = False
+    end
+    object Label18: TLabel
+      Position.Point = '(7,151)'
+      Width = 137.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 17
+      AutoSize = True
+      Text = 'Modified Since Date/Time'
+      WordWrap = False
+    end
+    object UrlEdit: TEdit
+      Position.Point = '(68,4)'
+      Width = 373.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 18
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'UrlEdit'
+    end
+    object SocksServerEdit: TEdit
+      Position.Point = '(516,4)'
+      Width = 121.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 19
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'SocksServerEdit'
+    end
+    object SocksPortEdit: TEdit
+      Position.Point = '(516,28)'
+      Width = 121.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 20
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'SocksPortEdit'
+    end
+    object DocEdit: TEdit
+      Position.Point = '(68,28)'
+      Width = 373.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 21
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'DocEdit'
+    end
+    object CertFileEdit: TEdit
+      Position.Point = '(68,52)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 22
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'CertFileEdit'
+    end
+    object CAFileEdit: TEdit
+      Position.Point = '(276,52)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 23
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'CAFileEdit'
+    end
+    object VerifyPeerCheckBox: TCheckBox
+      Position.Point = '(240,104)'
+      Width = 89.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 24
+      Text = 'Verify Peer'
+      Left = 238
+      Top = 104
+    end
+    object CAPathEdit: TEdit
+      Position.Point = '(276,76)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 25
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'CAPathEdit'
+    end
+    object PrivKeyFileEdit: TEdit
+      Position.Point = '(68,76)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 26
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PrivKeyFileEdit'
+    end
+    object PassPhraseEdit: TEdit
+      Position.Point = '(68,100)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 27
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PassPhraseEdit'
+    end
+    object AcceptableHostsEdit: TEdit
+      Position.Point = '(68,124)'
+      Width = 373.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 28
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'AcceptableHostsEdit'
+    end
+    object SocksLevelComboBox: TComboBox
+      Position.Point = '(516,52)'
+      Width = 49.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 29
+      ItemIndex = 0
+      ItemHeight = 13.000000000000000000
+      ListBoxResource = 'transparentlistboxstyle'
+      Left = 516
+      Top = 52
+      object ListBoxItem1: TListBoxItem
+        Width = 49.000000000000000000
+        Height = 13.000000000000000000
+        HitTest = False
+        TabOrder = 0
+        IsSelected = True
+        Text = '5'
+      end
+      object ListBoxItem2: TListBoxItem
+        Position.Point = '(0,13)'
+        Width = 49.000000000000000000
+        Height = 13.000000000000000000
+        HitTest = False
+        TabOrder = 1
+        Text = '4A'
+      end
+      object ListBoxItem3: TListBoxItem
+        Position.Point = '(0,26)'
+        Width = 49.000000000000000000
+        Height = 13.000000000000000000
+        HitTest = False
+        TabOrder = 2
+        Text = '4'
+      end
+    end
+    object GetButton: TButton
+      Position.Point = '(20,172)'
+      Width = 69.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = GetButtonClick
+      TabOrder = 30
+      Text = 'Get'
+      Default = True
+    end
+    object ClearButton: TButton
+      Position.Point = '(164,172)'
+      Width = 69.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ClearButtonClick
+      TabOrder = 31
+      Text = 'Clear'
+    end
+    object CloseButton: TButton
+      Position.Point = '(308,172)'
+      Width = 69.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = CloseButtonClick
+      TabOrder = 32
+      Text = 'Close'
+    end
+    object ProxyHostEdit: TEdit
+      Position.Point = '(516,100)'
+      Width = 121.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 33
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'ProxyHostEdit'
+    end
+    object ProxyPortEdit: TEdit
+      Position.Point = '(516,124)'
+      Width = 121.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 34
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'ProxyPortEdit'
+    end
+    object SessCacheCheckBox: TCheckBox
+      Position.Point = '(328,104)'
+      Width = 121.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 35
+      Text = 'SSL session cache'
+      Left = 320
+      Top = 104
+    end
+    object ButtonOSSLVersion: TButton
+      Position.Point = '(236,172)'
+      Width = 69.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ButtonOSSLVersionClick
+      TabOrder = 36
+      Text = 'OpenSSL?'
+      Left = 236
+      Top = 172
+    end
+    object DateTimeEdit: TEdit
+      Position.Point = '(144,148)'
+      Width = 116.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 37
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'DateTimeEdit'
+      Left = 136
+      Top = 148
+    end
+    object HeadButton: TButton
+      Position.Point = '(92,172)'
+      Width = 69.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = HeadButtonClick
+      TabOrder = 38
+      Text = 'Head'
+      Left = 92
+      Top = 172
+    end
+    object AbortButton: TButton
+      Position.Point = '(380,172)'
+      Width = 69.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = AbortButtonClick
+      TabOrder = 39
+      Text = 'Abort'
+      Left = 380
+      Top = 172
+    end
+    object DebugOutputCheckBox: TCheckBox
+      Position.Point = '(512,144)'
+      Width = 120.000000000000000000
+      Height = 19.000000000000000000
+      TabOrder = 40
+      Text = 'loDebugOut'
+    end
+    object DebugEventCheckBox: TCheckBox
+      Position.Point = '(512,160)'
+      Width = 120.000000000000000000
+      Height = 19.000000000000000000
+      TabOrder = 41
+      Text = 'loDebugEvent'
+    end
+    object DebugFileCheckBox: TCheckBox
+      Position.Point = '(512,176)'
+      Width = 120.000000000000000000
+      Height = 19.000000000000000000
+      TabOrder = 42
+      Text = 'loDebugFile'
+    end
+    object HttpVersionComboBox: TComboBox
+      Position.Point = '(516,76)'
+      Width = 100.000000000000000000
+      Height = 22.000000000000000000
+      TabOrder = 43
+      ItemIndex = 0
+      ListBoxResource = 'transparentlistboxstyle'
+      object ListBoxItem7: TListBoxItem
+        Width = 100.000000000000000000
+        Height = 18.000000000000000000
+        HitTest = False
+        TabOrder = 0
+        IsSelected = True
+        Text = 'HTTP/1.0'
+      end
+      object ListBoxItem6: TListBoxItem
+        Position.Point = '(0,18)'
+        Width = 100.000000000000000000
+        Height = 19.000000000000000000
+        HitTest = False
+        TabOrder = 1
+        Text = 'HTTP/1.1'
+      end
+    end
+  end
+  object SslHttpCli1: TSslHttpCli
+    LocalAddr = '0.0.0.0'
+    ProxyPort = '80'
+    Agent = 'Mozilla/4.0 (compatible; ICS; MSIE 4.0)'
+    Accept = 'image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*'
+    ProxyConnection = 'Keep-Alive'
+    Username = 'test'
+    Password = 'digest'
+    NoCache = False
+    ContentTypePost = 'application/x-www-form-urlencoded'
+    MultiThreaded = False
+    RequestVer = '1.0'
+    FollowRelocation = True
+    LocationChangeMaxCount = 5
+    ServerAuth = httpAuthNone
+    ProxyAuth = httpAuthNone
+    BandwidthLimit = 0
+    BandwidthSampling = 1000
+    Options = []
+    IcsLogger = IcsLogger1
+    Timeout = 30
+    OnCommand = SslHttpCli1Command
+    OnDocBegin = SslHttpCli1DocBegin
+    OnDocData = SslHttpCli1DocData
+    OnDocEnd = SslHttpCli1DocEnd
+    OnRequestDone = SslHttpCli1RequestDone
+    OnLocationChange = SslHttpCli1LocationChange
+    OnCookie = SslHttpCli1Cookie
+    SocksLevel = '5'
+    SocksAuthentication = socksNoAuthentication
+    SocketFamily = sfAnyIPv4
+    SslContext = SslContext1
+    OnSslVerifyPeer = SslHttpCli1SslVerifyPeer
+    OnSslCliGetSession = SslHttpCli1SslCliGetSession
+    OnSslCliNewSession = SslHttpCli1SslCliNewSession
+    OnSslHandshakeDone = SslHttpCli1SslHandshakeDone
+    OnSslCliCertRequest = SslHttpCli1SslCliCertRequest
+    Left = 30
+    Top = 220
+  end
+  object SslContext1: TSslContext
+    IcsLogger = IcsLogger1
+    SslVerifyPeer = False
+    SslVerifyDepth = 9
+    SslVerifyFlags = []
+    SslOptions = [sslOpt_MICROSOFT_SESS_ID_BUG, sslOpt_NETSCAPE_CHALLENGE_BUG, sslOpt_NETSCAPE_REUSE_CIPHER_CHANGE_BUG, sslOpt_SSLREF2_REUSE_CERT_TYPE_BUG, sslOpt_MICROSOFT_BIG_SSLV3_BUFFER, sslOpt_MSIE_SSLV2_RSA_PADDING, sslOpt_SSLEAY_080_CLIENT_DH_BUG, sslOpt_TLS_D5_BUG, sslOpt_TLS_BLOCK_PADDING_BUG, sslOpt_TLS_ROLLBACK_BUG, sslOpt_NO_SSLv2, sslOpt_NETSCAPE_CA_DN_BUG, sslOpt_NETSCAPE_DEMO_CIPHER_CHANGE_BUG]
+    SslVerifyPeerModes = [SslVerifyMode_PEER]
+    SslSessionCacheModes = [sslSESS_CACHE_CLIENT, sslSESS_CACHE_NO_INTERNAL_LOOKUP, sslSESS_CACHE_NO_INTERNAL_STORE]
+    SslCipherList = 'ALL:!ADH:RC4+RSA:+SSLv2:@STRENGTH'
+    SslVersionMethod = sslV23_CLIENT
+    SslSessionTimeout = 300
+    SslSessionCacheSize = 20480
+    Left = 94
+    Top = 220
+  end
+  object IcsLogger1: TIcsLogger
+    TimeStampFormatString = 'hh:nn:ss:zzz'
+    TimeStampSeparator = ' '
+    LogFileOption = lfoOverwrite
+    LogFileEncoding = lfeUtf8
+    LogFileName = 'Debug_Out_HttpsTst.txt'
+    LogOptions = [loDestFile, loProtSpecErr, loProtSpecInfo, loProtSpecDump]
+    OnIcsLogEvent = IcsLogger1IcsLogEvent
+    Left = 164
+    Top = 220
+  end
+  object SslAvlSessionCache1: TSslAvlSessionCache
+    IcsLogger = IcsLogger1
+    IdleTimeout = 30
+    FlushInterval = 10000
+    MaxCacheSize = 1000
+    Left = 252
+    Top = 220
+  end
+  object IcsCookies: TIcsCookies
+    AutoSave = False
+    OnNewCookie = IcsCookiesNewCookie
+    Left = 360
+    Top = 216
+  end
+end

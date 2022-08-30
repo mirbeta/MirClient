@@ -1,0 +1,7 @@
+This demo shows how to illustrate data trends using an in-place Sparkline Lookup.
+
+In this demo, you can:
+- Choose between the available sparkline styles (the Sparkline Options | Series Style submenu).
+- Switch the visibility of Min, Max, and value markers in sparklines (the Sparkline Options | Series Style submenu).
+- Switch the visibility of the series that provides total sales by trademark for comparison (the Sparkline Options | Sales by Trademark menu item).
+- Apply different paint styles to a form (the Look&Feel menu item).

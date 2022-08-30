@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="GanttView">
+	<path class="Black" d="M0,3v24c0,0.6,0.4,1,1,1h28c0.6,0,1-0.4,1-1V3c0-0.6-0.4-1-1-1H1C0.4,2,0,2.4,0,3z M28,26H2V6h26V26z"/>
+	<path class="Blue" d="M14,12H4V8h10V12z M26,14H12v4h14V14z M20,20H8v4h12V20z"/>
+</g>
+</svg>

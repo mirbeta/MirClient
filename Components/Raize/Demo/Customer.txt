@@ -1,0 +1,6 @@
+Data-Aware Components
+This form uses some of the Raize Data-Aware Components with Custom Framing options to create a dialog box that mimics the appearance of a paper form. 
+
+A TRzFrameController component is used to control the framing options of all components from one location.
+
+The background texture is provided through the TRzBackground component.

@@ -1,0 +1,178 @@
+package dxRichEditDocumentModelRS19;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressRichEdit Control Document Model by Developer Express Inc.'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  vclie,
+  dbrtl,
+  dxCoreRS19,
+  cxLibraryRS19,
+  dxCloudServiceLibraryRS19,
+  dxGDIPlusRS19,
+  dxRichEditCoreRS19;
+
+contains
+  dxRichEdit.DocumentModel.PieceTable,
+  dxRichEdit.Commands.IDs,
+  dxRichEdit.DocumentModel.VisibleTextFilter,
+  dxRichEdit.DocumentModel.History.BookmarkHistory,
+  dxRichEdit.DocumentModel.History.Protection,
+  dxRichEdit.DocumentModel.CopyParagraphOperation,
+  dxRichEdit.DocumentModel.FieldDataService,
+  dxRichEdit.Commands.CopyAndPaste,
+  dxRichEdit.Commands.Keyboard,
+  dxRichEdit.Commands.FileOperations,
+  dxRichEdit.Commands.FloatingObject,
+  dxRichEdit.Commands.Bookmarks,
+  dxRichEdit.Commands.Hyperlink,
+  dxRichEdit.Commands.Columns,
+  dxRichEdit.Commands.SpellChecker,
+  dxRichEdit.Commands.Fields,
+  dxRichEdit.Commands.TableOfContents,
+  dxRichEdit.Export.DocumentExportHelper,
+  dxRichEdit.DocumentModel.FindAndReplace,
+  dxRichEdit.DocumentModel.History.FloatingObject,
+  dxRichEdit.DocumentModel.History.Paragraph,
+  dxRichEdit.Commands.Delete,
+  dxRichEdit.DocumentModel.FieldController,
+  dxRichEdit.DocumentModel.PieceTableRange,
+  dxRichEdit.DocumentModel.RichEditDocumentServer,
+  dxRichEdit.DocumentModel.Notes,
+  dxRichEdit.DocumentLayout.BottomTextIndentCalculator,
+  dxRichEdit.DocumentLayout.CommentPadding,
+  dxRichEdit.LayoutEngine.DocumentFormatter,
+  dxRichEdit.InnerControl.Mouse,
+  dxRichEdit.View.Simple,
+  dxRichEdit.View.Draft,
+  dxRichEdit.Printing,
+  dxRichEdit.Api.NativeDocumentBase,
+  dxRichEdit.LayoutEngine.BoxMeasurer,
+  dxRichEdit.InnerControl.DrawingStrategy,
+  dxRichEdit.InternalRichEditDocumentServer,
+  dxRichEdit.DocumentModel.Intervals,
+  dxRichEdit.Commands.Insert,
+  dxRichEdit.Commands.Images,
+  dxRichEdit.Commands.ChangeProperties,
+  dxRichEdit.DocumentModel.History.Table,
+  dxRichEdit.DocumentModel.Cache,
+  dxRichEdit.DocumentModel.MailMergeHelper,
+  dxRichEdit.DocumentLayout.Position,
+  dxRichEdit.Control.HitTest,
+  dxRichEdit.DocumentModel.ProtectionFormatting,
+  dxRichEdit.DocumentModel.FloatingObjectFormatting,
+  dxRichEdit.DocumentModel.PieceTableModifiers,
+  dxRichEdit.Commands,
+  dxRichEdit.DocumentModel.ShapeFormatting,
+  dxRichEdit.DataController,
+  dxRichEdit.Commands.Tables.Cells,
+  dxRichEdit.Commands.Numbering,
+  dxRichEdit.Commands.HeaderFooter,
+  dxRichEdit.DocumentModel.History.Run,
+  dxRichEdit.Import.DocumentImportHelper,
+  dxRichEdit.Commands.Tables,
+  dxRichEdit.Commands.Selection,
+  dxRichEdit.NumberConverters,
+  dxRichEdit.DocumentModel.NumericFieldFormatter,
+  dxRichEdit.Control.Hyphenations,
+  dxRichEdit.DocumentModel.MailMerge,
+  dxRichEdit.Utils.Properties,
+  dxRichEdit.View.PrintLayout,
+  dxRichEdit.DocumentModel.Selection,
+  dxRichEdit.DocumentModel.TableCalculator,
+  dxRichEdit.Control.HotZones,
+  dxRichEdit.View.ViewInfo,
+  dxRichEdit.View.PageViewInfoGenerator,
+  dxRichEdit.DocumentLayout,
+  dxRichEdit.Api.Layout.Painters,
+  dxRichEdit.Platform.Win.Painter,
+  dxRichEdit.DocumentLayout.NotPrintableExporters,
+  dxRichEdit.View.Core,
+  dxRichEdit.Commands.MultiCommand,
+  dxRichEdit.InnerControl,
+  dxRichEdit.DocumentModel.Commands,
+  dxRichEdit.Types,
+  dxRichEdit.DocumentModel.CopyManager,
+  dxRichEdit.DocumentModel.Section,
+  dxRichEdit.DocumentModel.Tables,
+  dxRichEdit.DocumentModel.TableCellsManager,
+  dxRichEdit.DocumentFormats.DocumentFormatUtils,
+  dxRichEdit.DocumentModel.Exporter,
+  dxRichEdit.Export.Core,
+  dxRichEdit.DocumentModel.PieceTable.InternalAPI,
+  dxRichEdit.DocumentModel.SectionFormatting,
+  dxRichEdit.DocumentModel.FloatingObjectRange,
+  dxRichEdit.DocumentModel.TableStyles,
+  dxRichEdit.LayoutEngine.Formatter,
+  dxRichEdit.DocumentModel.Fields,
+  dxRichEdit.DocumentModel.Fields.CharactersGroupIterator,
+  dxRichEdit.DocumentModel.Fields.PageRefField,
+  dxRichEdit.DocumentModel.Fields.TocField,
+  dxRichEdit.DocumentModel.Fields.SequenceField,
+  dxRichEdit.DocumentModel.FieldCalculatorService,
+  dxRichEdit.DocumentModel.Fields.MergefieldField,
+  dxRichEdit.DocumentModel.Fields.HyperlinkField,
+  dxRichEdit.DocumentModel.Fields.SymbolField,
+  dxRichEdit.DocumentModel.Fields.PictureFields,
+  dxRichEdit.DocumentModel.Fields.DocVariableField,
+  dxRichEdit.DocumentModel.Fields.IfField,
+  dxRichEdit.DocumentModel.Fields.DateTimeFields,
+  dxRichEdit.DocumentModel.Fields.PageField,
+  dxRichEdit.DocumentModel.Fields.NumPagesField,
+  dxRichEdit.DocumentModel.Fields.TocEntryField,
+  dxRichEdit.Commands.Strs,
+  dxRichEdit.Control.AutoCorrect,
+  dxRichEdit.DocumentModel.NotesRange,
+  dxRichEdit.Import,
+  dxRichEdit.DocumentModel.TextManipulatorHelper,
+  dxRichEdit.DocumentLayout.Painters,
+  dxRichEdit.InnerControl.SpellCheckerController,
+  dxRichEdit.Platform.PatternLinePainter,
+  dxRichEdit.DocumentModel.DateTimeFieldFormatter,
+  dxRichEdit.DocumentModel.FieldFormatter,
+  dxRichEdit.DocumentModel.Fields.InfixNotationParser,
+  dxRichEdit.DocumentModel.PieceTableIterators,
+  dxRichEdit.NumberConverters.EnglishUS,
+  dxRichEdit.DocumentModel.Numbering,
+  dxRichEdit.DocumentModel.Bookmarks,
+  dxRichEdit.DocumentModel.Boxes,
+  dxRichEdit.DocumentModel.TableFormatting,
+  dxRichEdit.DocumentModel.NumberingFormatting,
+  dxRichEdit.Options,
+  dxRichEdit.Import.Core,
+  dxRichEdit.Import.Formats,
+  dxRichEdit.Export.Formats;
+
+end.

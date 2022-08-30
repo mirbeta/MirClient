@@ -1,0 +1,29 @@
+In this demo you can:
+
+(1) add films within categories:
+
+   (a) If you wish to select a specific category, click one of the tabs on the left of the main form.
+
+   (b) ensure Films tab is current on the Dictionaries form.
+
+   (c) drag a grid row in Dictionaries form and drop it on the main form.
+
+NOTE: If the film is already assigned to the category displayed, you will receive the following message: "This film already exists in this category".
+
+(2) assign a person to a film as an actor or a director etc:
+
+   (a) expand the required film entry on the main form so that the People tab is visible.
+
+   (b) switch to the Persons tab on the Dictionaries form.
+
+   (c) select any row of a Person on the Dictionaries form and drop it on the main form.
+
+   (d) adjust the occupation field as required.
+
+(3) assign companies to films:
+
+   (a) expand the required film entry on the main form and switch to the Companies tab.
+
+   (b) switch to the Companies tab on the Dictionaries form.
+
+   (c) select a Company on the Dictionaries form and drop it on the main form.

@@ -1,0 +1,136 @@
+object MainForm: TMainForm
+  Left = 158
+  Top = 169
+  Caption = 'UdpListener'
+  ClientHeight = 115
+  ClientWidth = 318
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 158
+  Top = 169
+  object DataAvailableLabel: TLabel
+    Position.Point = '(16,72)'
+    Width = 98.815910339355470000
+    Height = 18.630859375000000000
+    TabOrder = 0
+    AutoSize = True
+    Text = 'DataAvailableLabel'
+    WordWrap = False
+    Left = 16
+    Top = 72
+  end
+  object InfoLabel: TLabel
+    Position.Point = '(16,48)'
+    Width = 50.035640716552730000
+    Height = 18.630859375000000000
+    TabOrder = 1
+    AutoSize = True
+    Text = 'InfoLabel'
+    WordWrap = False
+    Left = 16
+    Top = 48
+  end
+  object Label1: TLabel
+    Position.Point = '(176,11)'
+    Width = 50.250484466552730000
+    Height = 18.630859375000000000
+    TabOrder = 2
+    AutoSize = True
+    Text = 'UDP port'
+    WordWrap = False
+    Left = 176
+    Top = 11
+  end
+  object Label2: TLabel
+    Position.Point = '(173,35)'
+    Width = 51.351558685302730000
+    Height = 18.630859375000000000
+    TabOrder = 3
+    AutoSize = True
+    Text = 'Sender IP'
+    WordWrap = False
+    Left = 173
+    Top = 35
+  end
+  object StartButton: TButton
+    Position.Point = '(8,8)'
+    Width = 75.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = StartButtonClick
+    TabOrder = 4
+    Text = 'Start'
+    Default = True
+    Left = 8
+    Top = 8
+  end
+  object StopButton: TButton
+    Position.Point = '(88,8)'
+    Width = 75.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = StopButtonClick
+    TabOrder = 5
+    Text = 'Stop'
+    Left = 88
+    Top = 8
+  end
+  object PortEdit: TEdit
+    Position.Point = '(228,8)'
+    Width = 57.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 6
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'PortEdit'
+    Left = 228
+    Top = 8
+  end
+  object SenderEdit: TEdit
+    Position.Point = '(228,32)'
+    Width = 57.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 7
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'SenderEdit'
+    Left = 228
+    Top = 32
+  end
+  object WSocket: TWSocket
+    LineMode = False
+    LineLimit = 65536
+    LineEnd = #13#10
+    LineEcho = False
+    LineEdit = False
+    Addr = '0.0.0.0'
+    SocketFamily = sfIPv4
+    Port = '600'
+    Proto = 'udp'
+    LocalAddr = '0.0.0.0'
+    LocalPort = '0'
+    MultiThreaded = False
+    MultiCast = False
+    MultiCastIpTTL = 1
+    FlushTimeout = 60
+    SendFlags = wsSendNormal
+    LingerOnOff = wsLingerOn
+    LingerTimeout = 0
+    KeepAliveOnOff = wsKeepAliveOnSystem
+    KeepAliveTime = 30000
+    KeepAliveInterval = 1000
+    SocksLevel = '5'
+    SocksAuthentication = socksNoAuthentication
+    LastError = 0
+    ReuseAddr = False
+    ComponentOptions = []
+    ListenBacklog = 5
+    ReqVerLow = 2
+    ReqVerHigh = 2
+    OnDataAvailable = WSocketDataAvailable
+    OnSessionClosed = WSocketSessionClosed
+    OnSessionConnected = WSocketSessionConnected
+    Left = 227
+    Top = 60
+  end
+end

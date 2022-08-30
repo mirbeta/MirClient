@@ -1,0 +1,62 @@
+package dclcxSchedulerWebServiceStorageRS14;
+
+{$R *.res}
+{$R cxSchedulerWebServiceStorageReg.dcr}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressScheduler Web Service Storage by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  designide,
+  vcldesigner,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dbexpress,
+  dxCoreRS14,
+  dxGDIPlusRS14,
+  cxLibraryRS14,
+  dxCloudServiceLibraryRS14,
+  cxExportRS14,
+  cxSchedulerRS14,
+  cxSchedulerWebServiceStorageRS14,
+  dcldb,
+  dcldxCoreRS14,
+  dclcxLibraryRS14,
+  dclcxSchedulerRS14;
+
+contains
+  cxSchedulerWebServiceStorageReg;
+
+end.

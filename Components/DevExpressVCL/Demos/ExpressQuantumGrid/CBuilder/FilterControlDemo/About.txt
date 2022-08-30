@@ -1,0 +1,9 @@
+In this demo you can:
+
+- compare the filter facilities provided to EQGrid and the standard DBGrid.
+
+- change the alignment of the filter dialog to the left or to the top of the main form or show it modally (see Options/Filter Dialog). Note: setting to 'none' removes filter modifying facilities for DBGrid.
+
+- filter data via the filter dialog (just create a filter and click the Apply button).
+
+- load/save filter values from/to a file (just click the Load/Save button).

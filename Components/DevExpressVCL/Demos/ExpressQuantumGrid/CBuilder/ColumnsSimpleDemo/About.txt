@@ -1,0 +1,36 @@
+This application demonstrates the capabilities of a select number of inplace editors found in the ExpressQuantumGrid Suite.
+It also demonstrates how custom hints can be provided for data cells - see the hint for the Company column cells: it shows contact information (in order to show the hint main window has to be active).
+In both views, on the intersection of the header and indicator, there is a Quick Customization button (<View>.OptionsCustomize.ColumnsQuickCustomization). Clicking it will display a drop down list of columns. You can show/hide/move those columns using this list.
+Notice that captions of the columns in the Quick Customization popup and filter dialogs are different from the captions in the column headers. This is done using the <Column>.AlternateCaption property.
+
+In this demo you can:
+
+CUSTOMERS (Master)
+
+- choose a State via the drop down list (MRUEdit - its dropdown is maintained in the most recently used order)
+
+- select a City via the dropdown (the additional button invokes a webpage with U.S city information)
+
+- set a Prefix via its dropdown list
+
+- toggle Customer status by clicking in the checkbox
+
+- edit ZipCode or FaxPhone using the MaskEdit editor
+
+ORDERS (Detail)
+
+- focus on the Car entry and type the first character of its name to see a filtered dropdown list
+
+- focus on the CarInfo column and click on its button to display details and:
+ (1) display a resizable image by focusing & clicking the icon below the fixed image
+ (2) visit the manufacturer's website by clicking the URL
+
+- display a calendar to edit the PurchaseDate
+
+- edit a Time via the time spin edit
+
+- change the PaymentType via a drop down image list
+
+- edit the Quantity via a spin edit
+
+- display a calculator to edit the PaymentAmount

@@ -1,0 +1,8 @@
+BASSDLL RCDATA "bass.dll"
+PngImage0 RCDATA "Light\\lig0a.png"
+PngImage1 RCDATA "Light\\lig0b.png"
+PngImage2 RCDATA "Light\\lig0c.png"
+PngImage3 RCDATA "Light\\lig0d.png"
+PngImage4 RCDATA "Light\\lig0e.png"
+PngImage5 RCDATA "Light\\lig0f.png"
+LOGO RCDATA "logo.png"

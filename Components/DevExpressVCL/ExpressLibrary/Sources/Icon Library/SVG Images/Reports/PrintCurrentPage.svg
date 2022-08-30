@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="PrintCurrentPage">
+	<path class="Black" d="M29,0H13c-0.5,0-1,0.5-1,1v3H9C8.5,4,8,4.5,8,5v3H5C4.5,8,4,8.5,4,9v3h2v-2h14v16h-2v2h3c0.5,0,1-0.5,1-1v-3
+		h3c0.5,0,1-0.5,1-1v-3h3c0.5,0,1-0.5,1-1V1C30,0.5,29.5,0,29,0z M24,22h-2V9c0-0.5-0.5-1-1-1H10V6h14V22z M28,18h-2V5
+		c0-0.5-0.5-1-1-1H14V2h14V18z"/>
+	<path class="Blue" d="M17,12H1c-0.5,0-1,0.5-1,1v18c0,0.5,0.5,1,1,1h16c0.5,0,1-0.5,1-1V13C18,12.5,17.5,12,17,12z M16,30H2V14h14
+		V30z"/>
+</g>
+</svg>

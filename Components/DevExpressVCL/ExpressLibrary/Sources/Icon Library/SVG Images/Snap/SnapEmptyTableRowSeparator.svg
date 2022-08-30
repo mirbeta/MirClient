@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+</style>
+<g id="SnapEmptyTableRowSeparator">
+	<path class="Black" d="M29,2H9C8.5,2,8,2.5,8,3v6c0,0.5,0.5,1,1,1h20c0.5,0,1-0.5,1-1V3C30,2.5,29.5,2,29,2z M28,8H10V4h18V8z
+		 M29,22H9c-0.5,0-1,0.5-1,1v6c0,0.5,0.5,1,1,1h20c0.5,0,1-0.5,1-1v-6C30,22.5,29.5,22,29,22z M28,28H10v-4h18V28z"/>
+	<path class="Blue" d="M0,12l6,4l-6,4 M14,14v-2h4v2H14z M24,14v-2h-4v2H24z M10,18v-4h2v-2H9c-0.5,0-1,0.5-1,1v6c0,0.5,0.5,1,1,1h3
+		v-2H10z M29,12h-3v2h2v4h-2v2h3c0.5,0,1-0.5,1-1v-6C30,12.5,29.5,12,29,12z M14,18v2h4v-2H14z M20,18v2h4v-2H20z"/>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.White{fill:#FFFFFF;}
+	.Black{fill:#727272;}
+</style>
+<g id="Copy">
+	<rect x="8" y="2" class="Black" width="20" height="24"/>
+	<rect x="10" y="4" class="White" width="16" height="20"/>
+	<path class="Black" d="M4,6v24h20V10h-4V6H4z"/>
+	<polygon class="White" points="6,8 6,28 22,28 22,12 18,12 18,8 	"/>
+</g>
+</svg>

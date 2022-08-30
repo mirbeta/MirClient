@@ -1,0 +1,10 @@
+In this demo you can:
+
+- try unbound columns within a bound GridView
+
+- insert/delete records (via the Ins/Del keys)
+
+- filter/sort data by unbound columns (click the column filter's drop down button or header, respectively)
+
+- see how little code was required 
+

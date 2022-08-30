@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Chart_Title_None" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<rect x="6" y="2" class="Blue" width="22" height="6"/>
+	<path class="Black" d="M12,24.7V26H6V16h5.3l0.7,0.7V17l-3.8,3.8L12,24.7z M24.7,14L22,16.7V17l3.8,3.8L22,24.7V26h6V14H24.7z
+		 M17,21.7l-3,3V26h6v-1.3L17,21.7z"/>
+	<polygon class="Black" points="4,28 4,2 2,2 2,30 30,30 30,28 	"/>
+</g>
+<polygon class="Red" points="23,12.8 21,10.8 17,14.8 13,10.8 11,12.8 15,16.8 11,20.8 13,22.8 17,18.8 21,22.8 23,20.8 19,16.8 "/>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{display:none;}
+	.st3{display:inline;fill:#FFB115;}
+	.st4{display:inline;}
+	.st5{display:inline;opacity:0.75;}
+	.st6{display:inline;opacity:0.5;}
+	.st7{display:inline;fill:#039C23;}
+	.st8{display:inline;fill:#D11C1C;}
+	.st9{display:inline;fill:#1177D7;}
+	.st10{display:inline;fill:#FFFFFF;}
+</style>
+<g id="Appearance">
+	<rect x="12" y="4" class="Yellow" width="8" height="6"/>
+	<rect x="2" y="12" class="Red" width="8" height="6"/>
+	<rect x="22" y="20" class="Green" width="8" height="6"/>
+	<g class="st0">
+		<path class="Black" d="M12,12h8v6h-8V12z M10,10V4H2v6H10z M22,10h8V4h-8V10z M22,18h8v-6h-8V18z M12,20v6h8v-6H12z M10,26v-6H2v6
+			H10z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,210 @@
+// ---------------------------------------------------------------------------
+#ifndef RichEditSimpleMailMergeH
+#define RichEditSimpleMailMergeH
+// ---------------------------------------------------------------------------
+  #include "Forms.hpp"
+  #include "RichEditControlBase.h"
+  #include "SysUtils.hpp"
+  #include "cxGraphics.hpp"
+  #include "cxControls.hpp"
+  #include "cxLookAndFeels.hpp"
+  #include "cxLookAndFeelPainters.hpp"
+  #include "dxRibbonCustomizationForm.hpp"
+  #include "dxRibbonSkins.hpp"
+  #include "dxCore.hpp"
+  #include "dxCoreClasses.hpp"
+  #include "dxGDIPlusAPI.hpp"
+  #include "dxGDIPlusClasses.hpp"
+  #include "dxRichEdit.Types.hpp"
+  #include "dxRichEdit.Options.hpp"
+  #include "dxRichEdit.Control.hpp"
+  #include "dxRichEdit.OpenXML.hpp"
+  #include "dxRichEdit.HTML.hpp"
+  #include "dxBarBuiltInMenu.hpp"
+  #include "dxBar.hpp"
+  #include "dxBarApplicationMenu.hpp"
+  #include "dxRibbon.hpp"
+  #include "dxScreenTip.hpp"
+  #include "DB.hpp"
+  #include "DBClient.hpp"
+  #include "ImgList.hpp"
+  #include "Controls.hpp"
+  #include "dxRichEdit.Actions.hpp"
+  #include "Classes.hpp"
+  #include "ActnList.hpp"
+  #include "dxActions.hpp"
+  #include "dxBarExtItems.hpp"
+  #include "dxRibbonGallery.hpp"
+  #include "dxSkinChooserGallery.hpp"
+  #include "cxNavigator.hpp"
+  #include "cxDBNavigator.hpp"
+  #include "dxStatusBar.hpp"
+  #include "dxRibbonStatusBar.hpp"
+  #include "dxRichEdit.Platform.Win.Control.hpp"
+  #include "cxClasses.hpp"
+  #include "cxStyles.hpp"
+  #include "cxCustomData.hpp"
+  #include "cxFilter.hpp"
+  #include "cxData.hpp"
+  #include "cxDataStorage.hpp"
+  #include "cxEdit.hpp"
+  #include "cxDBData.hpp"
+  #include "cxGridCustomTableView.hpp"
+  #include "cxGridTableView.hpp"
+  #include "cxGridDBTableView.hpp"
+  #include "cxGridLevel.hpp"
+  #include "cxGridCustomView.hpp"
+  #include "cxGrid.hpp"
+  #include "cxSplitter.hpp"
+  #include "dxHttpIndyRequest.hpp"
+  #include "..\Common\DBUriStreamProvider.h"
+  #include "dxRichEdit.Utils.UriStreamService.hpp"
+  #include "cxFontNameComboBox.hpp"
+  #include "cxDropDownEdit.hpp"
+  #include "dxRibbonColorGallery.hpp"
+  #include "cxBarEditItem.hpp"
+  #include "dxRichEdit.Control.SpellChecker.hpp"
+  #include "dxRichEdit.Dialogs.EventArgs.hpp"
+  #include "dxRichEdit.NativeApi.hpp"
+  #include "RibbonRichEditMainForm.h"
+
+class TfrmRichEditSimpleMailMerge : public TfrmRichEditControlBase
+{
+__published: // IDE-managed Components
+	TdxRibbonTab* rtMailMerge;
+	TDataSource* dsMails;
+	TdxBar* bmbMailMerge;
+	TdxRichEditControlShowInsertMergeFieldForm* acShowInsertMergeFieldForm;
+	TdxRichEditControlShowAllFieldResults* acShowAllFieldResults;
+	TdxRichEditControlShowAllFieldCodes* ShowAllFieldCodes;
+	TdxBarLargeButton* bbInsertMergeField;
+	TdxBarLargeButton* bbShowAllFieldCodes;
+	TdxBarLargeButton* bbShowAllFieldResults;
+	TClientDataSet* cdsMail;
+	TdxRichEditControlToggleViewMergedData* acViewMergedData;
+	TdxBarLargeButton* bbViewMergedData;
+	TdxBarLargeButton* bbExit;
+	TdxScreenTip* stInsertMergeField;
+	TdxScreenTip* stShowAllFieldCodes;
+	TdxScreenTip* stShowAllFieldResults;
+	TdxScreenTip* stViewMergedData;
+	TcxGridDBTableView* tvEmployees;
+	TcxGridLevel* GridLevel;
+	TcxGrid* Grid;
+	TcxGridDBColumn* tvEmployeesLastName;
+	TcxGridDBColumn* tvEmployeesContactName;
+	TcxSplitter* GridAndRichSplitter;
+	TdxRichEditControl* RichEditControl;
+	TdxRichEditControlShowMergeDatabaseRecordsForm* acShowMergeDatabaseRecordsForm;
+	TdxBar* bmbMergeTo;
+	TdxBarLargeButton* bMergeTo;
+	TdxRichEditControlNewDocument* dxRichEditControlNewDocument;
+	TdxRibbonTab* dxRibbonTabFile;
+	TdxBar* dxBarCommon;
+	TdxBarLargeButton* dxBarLargeButtonNew;
+	TdxRichEditControlLoadDocument* dxRichEditControlLoadDocument;
+	TdxBarLargeButton* dxBarLargeButtonOpen;
+	TdxRichEditControlSaveDocument* dxRichEditControlSaveDocument;
+	TdxBarLargeButton* dxBarLargeButtonSave;
+	TdxRichEditControlSaveDocumentAs* dxRichEditControlSaveDocumentAs;
+	TdxBarLargeButton* dxBarLargeButtonSaveAs;
+	TdxRichEditControlPasteSelection* dxRichEditControlPasteSelection;
+	TdxRibbonTab* dxRibbonTabHome;
+	TdxBar* dxBarClipboard;
+	TdxBarLargeButton* dxBarLargeButtonPaste;
+	TdxRichEditControlCutSelection* dxRichEditControlCutSelection;
+	TdxBarButton* dxBarButtonCut;
+	TdxRichEditControlCopySelection* dxRichEditControlCopySelection;
+	TdxBarButton* dxBarButtonCopy;
+	TdxRichEditControlSelectAll* dxRichEditControlSelectAll;
+	TdxBarButton* dxBarButtonSelectAll;
+	TdxRichEditControlChangeFontName* dxRichEditControlChangeFontName;
+	TdxBar* dxBarFont;
+	TcxBarEditItem* cxBarEditItemFont;
+	TdxRichEditControlChangeFontSize* dxRichEditControlChangeFontSize;
+	TcxBarEditItem* cxBarEditItemFontSize;
+	TdxRichEditControlIncreaseFontSize* dxRichEditControlIncreaseFontSize;
+	TdxBarButton* dxBarButtonGrowFont;
+	TdxRichEditControlDecreaseFontSize* dxRichEditControlDecreaseFontSize;
+	TdxBarButton* dxBarButtonShrinkFont;
+	TdxBarSubItem* dxBarSubItem1;
+	TdxRichEditControlTextUpperCase* dxRichEditControlTextUpperCase;
+	TdxBarLargeButton* dxBarLargeButtonUPPERCASE;
+	TdxRichEditControlTextLowerCase* dxRichEditControlTextLowerCase;
+	TdxBarLargeButton* dxBarLargeButtonlowercase;
+	TdxRichEditControlToggleTextCase* dxRichEditControlToggleTextCase;
+	TdxBarLargeButton* dxBarLargeButtontOGGLEcASE;
+	TdxRichEditControlToggleFontBold* dxRichEditControlToggleFontBold;
+	TdxBarButton* dxBarButtonBold;
+	TdxRichEditControlToggleFontItalic* dxRichEditControlToggleFontItalic;
+	TdxBarButton* dxBarButtonItalic;
+	TdxRichEditControlToggleFontUnderline* dxRichEditControlToggleFontUnderline;
+	TdxBarButton* dxBarButtonUnderline;
+	TdxRichEditControlToggleFontDoubleUnderline* dxRichEditControlToggleFontDoubleUnderline;
+	TdxBarButton* dxBarButtonDoubleUnderline;
+	TdxRichEditControlToggleFontStrikeout* dxRichEditControlToggleFontStrikeout;
+	TdxBarButton* dxBarButtonStrikethrough;
+	TdxRichEditControlToggleFontDoubleStrikeout* dxRichEditControlToggleFontDoubleStrikeout;
+	TdxBarButton* dxBarButtonDoubleStrikethrough;
+	TdxRichEditControlToggleFontSubscript* dxRichEditControlToggleFontSubscript;
+	TdxBarButton* dxBarButtonSubscript;
+	TdxRichEditControlToggleFontSuperscript* dxRichEditControlToggleFontSuperscript;
+	TdxBarButton* dxBarButtonSuperscript;
+	TdxRichEditControlTextHighlight* dxRichEditControlTextHighlight;
+	TdxRibbonColorGalleryItem* dxRibbonColorGalleryItemTextHighlightColor;
+	TdxRichEditControlChangeFontColor* dxRichEditControlChangeFontColor;
+	TdxRibbonColorGalleryItem* dxRibbonColorGalleryItemFontColor;
+	TdxRichEditControlToggleBulletedList* dxRichEditControlToggleBulletedList;
+	TdxBar* dxBarParagraph;
+	TdxBarButton* dxBarButtonBullets;
+	TdxRichEditControlToggleSimpleNumberingList* dxRichEditControlToggleSimpleNumberingList;
+	TdxBarButton* dxBarButtonNumbering;
+	TdxRichEditControlToggleMultiLevelList* dxRichEditControlToggleMultiLevelList;
+	TdxBarButton* dxBarButtonMultilevellist;
+	TdxRichEditControlDecrementIndent* dxRichEditControlDecrementIndent;
+	TdxBarButton* dxBarButtonDecreaseIndent;
+	TdxRichEditControlIncrementIndent* dxRichEditControlIncrementIndent;
+	TdxBarButton* dxBarButtonIncreaseIndent;
+	TdxRichEditControlToggleShowWhitespace* dxRichEditControlToggleShowWhitespace;
+	TdxBarButton* dxBarButtonShowHide;
+	TdxRichEditControlToggleParagraphAlignmentLeft* dxRichEditControlToggleParagraphAlignmentLeft;
+	TdxBarButton* dxBarButtonAlignTextLeft;
+	TdxRichEditControlToggleParagraphAlignmentCenter* dxRichEditControlToggleParagraphAlignmentCenter;
+	TdxBarButton* dxBarButtonCenter;
+	TdxRichEditControlToggleParagraphAlignmentRight* dxRichEditControlToggleParagraphAlignmentRight;
+	TdxBarButton* dxBarButtonAlignTextRight;
+	TdxRichEditControlToggleParagraphAlignmentJustify* dxRichEditControlToggleParagraphAlignmentJustify;
+	TdxBarButton* dxBarButtonJustify;
+	TdxBarSubItem* dxBarSubItem2;
+	TdxRichEditControlSetSingleParagraphSpacing* dxRichEditControlSetSingleParagraphSpacing;
+	TdxBarLargeButton* dxBarLargeButton1;
+	TdxRichEditControlSetSesquialteralParagraphSpacing* dxRichEditControlSetSesquialteralParagraphSpacing;
+	TdxBarLargeButton* dxBarLargeButton2;
+	TdxRichEditControlSetDoubleParagraphSpacing* dxRichEditControlSetDoubleParagraphSpacing;
+	TdxBarLargeButton* dxBarLargeButton3;
+	TdxRichEditControlShowParagraphForm* dxRichEditControlShowParagraphForm;
+	TdxBarLargeButton* dxBarLargeButtonParagraph;
+	TdxRichEditControlSearchFind* dxRichEditControlSearchFind;
+	TdxBar* dxBarEditing;
+	TdxBarButton* dxBarButtonFind;
+	TdxRichEditControlSearchReplace* dxRichEditControlSearchReplace;
+	TdxBarButton* dxBarButtonReplace;
+	TdxRichEditControlUndo* dxRichEditControlUndo;
+	TdxBarLargeButton* dxBarLargeButtonUndo;
+	TdxRichEditControlRedo* dxRichEditControlRedo;
+	TdxBarLargeButton* dxBarLargeButtonRedo;
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall bbExitClick(TObject *Sender);
+	void __fastcall RichEditControlMailMergeGetTargetDocument(TObject *Sender,
+		const TdxMailMergeGetTargetDocumentEventArgs *Args);
+protected:
+	void InitDataBase();
+	void InitDocument();
+	void InitUriService();
+public: // User declarations
+	__fastcall TfrmRichEditSimpleMailMerge(TComponent* Owner);
+};
+// ---------------------------------------------------------------------------
+extern PACKAGE TfrmRichEditSimpleMailMerge *frmRichEditSimpleMailMerge;
+// ---------------------------------------------------------------------------
+#endif

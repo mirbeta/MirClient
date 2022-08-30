@@ -1,0 +1,57 @@
+package dcldxDBXServerModeRS19;
+
+{$R *.res}
+{$R 'dxServerModeDBXDataSourceReg.dcr'}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'dbExpress Data Source for ExpressDataController Server Mode by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  dbexpress,
+  designide,
+  vcldesigner,
+  dcldb,
+  dxCoreRS19,
+  dxGDIPlusRS19,
+  cxLibraryRS19,
+  dxServerModeRS19,
+  dxDBXServerModeRS19,
+  dcldxCoreRS19,
+  dclcxLibraryRS19,
+  dcldxServerModeRS19;
+
+contains
+  dxServerModeDBXDataSourceReg;
+
+end.

@@ -1,0 +1,11 @@
+In this demo you can:
+
+- click on column header buttons to filter the data
+
+- click on columns to sort (hold down the shift key for sorting multiple columns)
+
+- drag the Project button to the header line to remove grouping and add it to one of the three bands
+
+- right-click on a summary row to modify the data displayed
+
+- check how little source code is required

@@ -1,0 +1,76 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = AppClient.exe AppServer.exe File_Client.exe FileISAPI.dll \
+  FileServer.exe MSG_Client.exe MSG_ISAPI.dll MSG_Server.exe AppISAPI.dll \
+  RTCWebServer.exe RTCWebForum.exe WebForum_ISAPI.dll RTCWebServer2.exe \
+  RTCWebPackManager.exe RTCRouter.exe RTCRouter2.exe RTCLoadBalancer.exe \
+  RTCLoadBalancer2.exe RTCLoadBalancer3.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+AppClient.exe: Demos\App_Client\AppClient.dpr
+  $(DCC)
+
+AppServer.exe: Demos\App_Server\AppServer.dpr
+  $(DCC)
+
+File_Client.exe: Demos\File_Client\File_Client.dpr
+  $(DCC)
+
+FileISAPI.dll: Demos\File_Server\FileISAPI.dpr
+  $(DCC)
+
+FileServer.exe: Demos\File_Server\FileServer.dpr
+  $(DCC)
+
+MSG_Client.exe: Demos\RTC_Messenger\MSG_Client.dpr
+  $(DCC)
+
+MSG_ISAPI.dll: Demos\RTC_Messenger\MSG_ISAPI.dpr
+  $(DCC)
+
+MSG_Server.exe: Demos\RTC_Messenger\MSG_Server.dpr
+  $(DCC)
+
+AppISAPI.dll: Demos\App_Server\AppISAPI.dpr
+  $(DCC)
+
+RTCWebServer.exe: Demos\RTC_WebServer\RTCWebServer.dpr
+  $(DCC)
+
+RTCWebForum.exe: Demos\RTC_WebForum\deploy\RTCWebForum.dpr
+  $(DCC)
+
+WebForum_ISAPI.dll: Demos\RTC_WebForum\deploy\WebForum_ISAPI.dpr
+  $(DCC)
+
+RTCWebServer2.exe: Demos\RTC_WebForum\deploy\RTCWebServer2.dpr
+  $(DCC)
+
+RTCWebPackManager.exe: Demos\RTC_WebPackageManager\deploy\RTCWebPackManager.dpr
+  $(DCC)
+
+RTCRouter.exe: Demos\Router\RTCRouter.dpr
+  $(DCC)
+
+RTCRouter2.exe: Demos\Router2\RTCRouter2.dpr
+  $(DCC)
+
+RTCLoadBalancer.exe: Demos\LoadBalancer\RTCLoadBalancer.dpr
+  $(DCC)
+
+RTCLoadBalancer2.exe: Demos\LoadBalancer2\RTCLoadBalancer2.dpr
+  $(DCC)
+
+RTCLoadBalancer3.exe: Demos\LoadBalancer3\RTCLoadBalancer3.dpr
+  $(DCC)

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+</style>
+<g id="SnapConvertToParagraphs">
+	<g class="st1">
+		<path class="Black" d="M20,4h8v6h-8V4z M10,4v6h8V4H10z M8,10V4H0v6H8z M8,18v-6H0v6H8z M8,26v-6H0v6H8z"/>
+	</g>
+	<path class="Black" d="M31,12H11c-0.5,0-1,0.5-1,1v16c0,0.5,0.5,1,1,1h20c0.5,0,1-0.5,1-1V13C32,12.5,31.5,12,31,12z M30,28H12V14
+		h18V28z"/>
+	<path class="Blue" d="M28,26H14v-2h14V26z M28,16h-8v2h8V16z M28,20H14v2h14V20z"/>
+</g>
+</svg>

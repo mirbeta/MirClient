@@ -1,0 +1,11 @@
+In this demo you can:
+
+- drag/drop columns between bands (or to the grouping panel)
+
+- move and size bands (thus moving several columns at once)
+
+- see how to create/delete bands at runtime
+
+- temporarily hide bands and/or columns by dragging to the Customization dialog (see Options/Column Customization).
+
+- see how removing a band puts its columns into the Columns page of the dialog, ready for re-use in a different band.

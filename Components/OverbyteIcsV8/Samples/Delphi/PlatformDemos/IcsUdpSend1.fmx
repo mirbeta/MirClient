@@ -1,0 +1,131 @@
+object MainForm: TMainForm
+  Left = 156
+  Top = 209
+  Caption = 'Udp Sender (Broadcast)'
+  ClientHeight = 120
+  ClientWidth = 345
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 156
+  Top = 209
+  object Label1: TLabel
+    Position.Point = '(20,55)'
+    Width = 85.253898620605470000
+    Height = 18.630859375000000000
+    TabOrder = 0
+    AutoSize = True
+    Text = 'Destination port'
+    WordWrap = False
+    Left = 20
+    Top = 55
+  end
+  object Label2: TLabel
+    Position.Point = '(191,56)'
+    Width = 53.575191497802730000
+    Height = 18.630859375000000000
+    TabOrder = 1
+    AutoSize = True
+    Text = 'Local Port'
+    WordWrap = False
+    Left = 200
+    Top = 56
+  end
+  object SendButton: TButton
+    Position.Point = '(240,16)'
+    Width = 75.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = SendButtonClick
+    TabOrder = 2
+    Text = 'Send'
+    Default = True
+    Left = 240
+    Top = 16
+  end
+  object MessageEdit: TEdit
+    Position.Point = '(16,16)'
+    Width = 217.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 3
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'MessageEdit'
+    Left = 16
+    Top = 16
+  end
+  object PortEdit: TEdit
+    Position.Point = '(120,52)'
+    Width = 41.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 4
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'PortEdit'
+    Left = 120
+    Top = 52
+  end
+  object LocalPortEdit: TEdit
+    Position.Point = '(272,52)'
+    Width = 41.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 5
+    KeyboardType = vktDefault
+    OnChange = LocalPortEditChange
+    Password = False
+    Text = 'LocalPortEdit'
+    Left = 272
+    Top = 52
+  end
+  object AnyPortCheckBox: TCheckBox
+    Position.Point = '(190,76)'
+    Width = 128.000000000000000000
+    Height = 17.000000000000000000
+    OnClick = AnyPortCheckBoxClick
+    TabOrder = 6
+    Text = 'System choose port'
+    Left = 200
+    Top = 80
+  end
+  object IPv6CheckBox: TCheckBox
+    Position.Point = '(190,94)'
+    Width = 57.000000000000000000
+    Height = 17.000000000000000000
+    TabOrder = 7
+    Text = 'IPv6'
+    Left = 256
+    Top = 100
+  end
+  object WSocket: TWSocket
+    LineMode = False
+    LineLimit = 65536
+    LineEnd = #13#10
+    LineEcho = False
+    LineEdit = False
+    SocketFamily = sfAny
+    Proto = 'tcp'
+    LocalAddr = '0.0.0.0'
+    LocalPort = '0'
+    MultiThreaded = False
+    MultiCast = False
+    MultiCastIpTTL = 1
+    FlushTimeout = 60
+    SendFlags = wsSendNormal
+    LingerOnOff = wsLingerOn
+    LingerTimeout = 0
+    KeepAliveOnOff = wsKeepAliveOnSystem
+    KeepAliveTime = 30000
+    KeepAliveInterval = 1000
+    SocksLevel = '5'
+    SocksAuthentication = socksNoAuthentication
+    LastError = 0
+    ReuseAddr = False
+    ComponentOptions = []
+    ListenBacklog = 5
+    ReqVerLow = 2
+    ReqVerHigh = 2
+    OnDataSent = WSocketDataSent
+    Left = 21
+    Top = 76
+  end
+end

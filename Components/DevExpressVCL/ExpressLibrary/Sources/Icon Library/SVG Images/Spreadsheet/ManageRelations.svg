@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<g id="Manage_Relations">
+	<g class="st0">
+		<path class="Black" d="M31,32h-8c-0.5,0-1-0.5-1-1v-8c0-0.5,0.5-1,1-1h8c0.5,0,1,0.5,1,1v8C32,31.5,31.5,32,31,32z M32,9V1
+			c0-0.6-0.5-1-1-1h-8c-0.5,0-1,0.4-1,1v8c0,0.6,0.5,1,1,1h8C31.5,10,32,9.6,32,9z"/>
+	</g>
+	<path class="Blue" d="M11,22H1c-0.6,0-1-0.5-1-1V11c0-0.6,0.4-1,1-1h10c0.6,0,1,0.4,1,1v10C12,21.5,11.6,22,11,22z"/>
+	<path class="Black" d="M20,2v6l-2.3-2.3l-4,4l-1.4-1.4l4-4L14,2H20z M17.7,26.3l-4-4l-1.4,1.4l4,4L14,30h6v-6L17.7,26.3z"/>
+</g>
+</svg>

@@ -1,0 +1,90 @@
+package dxMapControlRS26;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressMapControl by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  IndyCore,
+  IndySystem,
+  IndyProtocols,
+  dxHttpIndyRequestRS26,
+  dxCoreRS26,
+  dxGDIPlusRS26,
+  cxLibraryRS26;
+
+contains
+  dxBingMapImageryDataService,
+  dxBingMapLocationDataService,
+  dxBingMapRESTService,
+  dxBingMapRESTServiceStrs,
+  dxBingMapRouteDataService,
+  dxCustomMapItemLayer,
+  dxDbfFileInfo,
+  dxKmlElements,
+  dxKmlTokens,
+  dxMapControl,
+  dxMapControlBingImageryServiceInfo,
+  dxMapControlBingMapImageryDataProvider,
+  dxMapControlBingMapInformationProviders,
+  dxMapControlCacheOptions,
+  dxMapControlDiskCache,
+  dxMapControlElementViewInfo,
+  dxMapControlGeometry,
+  dxMapControlHttpRequest,
+  dxMapControlImageTileProvider,
+  dxMapControlInformationProvider,
+  dxMapControlKmlFileLoader,
+  dxMapControlMultiScaleTile,
+  dxMapControlOpenStreetMapImageryDataProvider,
+  dxMapControlProjections,
+  dxMapControlShapeFileLoader,
+  dxMapControlStrs,
+  dxMapControlTypes,
+  dxMapControlViewInfo,
+  dxMapImageTileLayer,
+  dxMapItem,
+  dxMapItemFileLayer,
+  dxMapItemLayer,
+  dxMapItemStyle,
+  dxMapLayer,
+  dxMapUnitConverter,
+  dxRESTService,
+  dxShapeFileInfo;
+
+end.

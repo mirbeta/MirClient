@@ -1,0 +1,67 @@
+package dcldxPSCoreRS15;
+
+{$R *.res}
+{$R dxPS.dcr}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressPrinting System by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  designide,
+  vcldesigner,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxComnRS15,
+  dxCoreRS15,
+  dxGDIPlusRS15,
+  cxLibraryRS15,
+  dxPSCoreRS15,
+  dcldb,
+  dclstd,
+  dclcxLibraryRS15,
+  dcldxCoreRS15;
+
+contains
+  dxPSDsgProxies,
+  dxPSDsgUtils,
+  dxPSPrVwDsg,
+  dxPSfmLnkDsg,
+  dxPSfmLnkAdde,
+  dxPSfmStlAdd,
+  dxPSfmStlDsg,
+  dxPSReg,
+  dxPSDBBasedXplorerReg;
+
+end.

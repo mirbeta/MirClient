@@ -1,0 +1,26 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="DataProvidersD103Rio">
+    <MSBuild Projects="DataProviders\DataProvidersD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="WorldWeatherD103Rio">
+    <MSBuild Projects="WorldWeather\WorldWeatherD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="BingServicesD103Rio">
+    <MSBuild Projects="BingServices\BingServicesD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="ShapefileSupportD103Rio">
+    <MSBuild Projects="ShapefileSupport\ShapefileSupportD103Rio.dproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="DataProvidersD103Rio;WorldWeatherD103Rio;BingServicesD103Rio;ShapefileSupportD103Rio" />
+  </Target>
+</Project>

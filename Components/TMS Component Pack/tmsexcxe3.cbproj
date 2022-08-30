@@ -1,0 +1,1313 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{b86892e5-2484-4650-85c3-fdba197982d6}</ProjectGuid>
+        <MainSource>tmsexcxe3.cpp</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <ProjectVersion>14.3</ProjectVersion>
+        <FrameworkType>None</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Package</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
+        <OutputExt>bpl</OutputExt>
+        <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+        <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+        <Defines>NO_STRICT;$(Defines)</Defines>
+        <DynamicRTL>true</DynamicRTL>
+        <ILINK_GenerateLibFile>true</ILINK_GenerateLibFile>
+        <OptPCH>&quot;vcl.h&quot;=&quot;vcl3.h&quot;</OptPCH>
+        <ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
+        <ILINK_ObjectSearchPath>C:\Builder2007\Pack;$(ILINK_ObjectSearchPath)</ILINK_ObjectSearchPath>
+        <UsePackages>true</UsePackages>
+        <ProjectType>CppPackage</ProjectType>
+        <ILINK_Description>TMS Component Pack Extra</ILINK_Description>
+        <BCC_wpar>false</BCC_wpar>
+        <IncludePath>$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;C:\Builder2007\Pack;$(IncludePath)</IncludePath>
+        <ILINK_LibraryPath>$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;C:\Builder2007\Pack;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <Multithreaded>true</Multithreaded>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+        <Defines>_DEBUG;$(Defines)</Defines>
+        <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+        <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+        <ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+        <BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+        <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+        <IntermediateOutputDir>Debug</IntermediateOutputDir>
+        <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+        <BCC_StackFrames>true</BCC_StackFrames>
+        <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+        <ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <TASM_Debugging>Full</TASM_Debugging>
+        <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Samples;$(DCC_Namespace)</DCC_Namespace>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <Defines>NDEBUG;$(Defines)</Defines>
+        <IntermediateOutputDir>Release</IntermediateOutputDir>
+        <ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <TASM_Debugging>None</TASM_Debugging>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageImport Include="adortl.bpi">
+            <BuildOrder>90</BuildOrder>
+        </PackageImport>
+        <DelphiCompile Include="AdvExplorerTreeview.pas">
+            <BuildOrder>87</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvExplorerTreeviewReg.pas">
+            <BuildOrder>88</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvFocusHelper.pas">
+            <BuildOrder>3</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvFocusHelperReg.dcr">
+            <BuildOrder>4</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvFocusHelperReg.pas">
+            <BuildOrder>5</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvHorizontalPolyList.pas">
+            <BuildOrder>178</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvHorizontalPolyListReg.dcr">
+            <BuildOrder>180</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvHorizontalPolyListReg.pas">
+            <BuildOrder>179</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvLockApp.pas">
+            <BuildOrder>237</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvLockAppDlg.pas">
+            <BuildOrder>238</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvLockAppReg.pas">
+            <BuildOrder>236</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroButton.pas">
+            <BuildOrder>286</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroButtonReg.pas">
+            <BuildOrder>280</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroDlgs.pas">
+            <BuildOrder>277</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroFindDialog.pas">
+            <BuildOrder>292</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroFindDialogReg.pas">
+            <BuildOrder>295</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroForm.pas">
+            <BuildOrder>275</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroHint.pas">
+            <BuildOrder>278</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroHintReg.pas">
+            <BuildOrder>281</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroProgressBar.pas">
+            <BuildOrder>282</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroProgressBarReg.pas">
+            <BuildOrder>283</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroReplaceDialog.pas">
+            <BuildOrder>293</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroReplaceDialogReg.pas">
+            <BuildOrder>294</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroRes.pas">
+            <BuildOrder>279</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroScrollBox.pas">
+            <BuildOrder>284</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroScrollBoxReg.pas">
+            <BuildOrder>285</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroTaskDialog.pas">
+            <BuildOrder>276</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroTaskDialogReg.pas">
+            <BuildOrder>287</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvMetroTile.pas">
+            <BuildOrder>288</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvPolyBox.pas">
+            <BuildOrder>181</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvPolyBoxReg.dcr">
+            <BuildOrder>183</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvPolyBoxReg.pas">
+            <BuildOrder>182</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvPolyList.pas">
+            <BuildOrder>184</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvPolyListReg.dcr">
+            <BuildOrder>186</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvPolyListReg.pas">
+            <BuildOrder>185</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvPolyPager.pas">
+            <BuildOrder>187</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvPolyPagerReg.dcr">
+            <BuildOrder>189</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvPolyPagerReg.pas">
+            <BuildOrder>188</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothButton.pas">
+            <BuildOrder>6</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothButtonReg.dcr">
+            <BuildOrder>7</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothButtonReg.pas">
+            <BuildOrder>8</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="advsmoothcalculator.pas">
+            <BuildOrder>164</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="advsmoothcalculatordropdown.pas">
+            <BuildOrder>165</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="advsmoothcalculatorReg.dcr">
+            <BuildOrder>163</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="advsmoothcalculatorReg.pas">
+            <BuildOrder>162</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothCalendar.pas">
+            <BuildOrder>9</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothCalendarReg.dcr">
+            <BuildOrder>10</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothCalendarReg.pas">
+            <BuildOrder>11</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothCapacityBar.pas">
+            <BuildOrder>224</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothCapacityBarReg.dcr">
+            <BuildOrder>226</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothCapacityBarReg.pas">
+            <BuildOrder>225</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothComboBox.pas">
+            <BuildOrder>124</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothComboBoxReg.dcr">
+            <BuildOrder>124</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothComboBoxReg.pas">
+            <BuildOrder>123</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothDatePicker.pas">
+            <BuildOrder>12</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothDatePickerReg.dcr">
+            <BuildOrder>13</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothDatePickerReg.pas">
+            <BuildOrder>14</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothDock.pas">
+            <BuildOrder>129</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothDockDragDrop.pas">
+            <BuildOrder>130</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothDockReg.dcr">
+            <BuildOrder>132</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothDockReg.pas">
+            <BuildOrder>131</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothDropDownList.pas">
+            <BuildOrder>157</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothEddd.pas">
+            <BuildOrder>15</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothEdit.pas">
+            <BuildOrder>16</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothEditButton.pas">
+            <BuildOrder>17</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothExpanderButtonPanel.pas">
+            <BuildOrder>133</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothExpanderButtonPanelReg.pas">
+            <BuildOrder>134</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothExpanderGroup.pas">
+            <BuildOrder>135</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothExpanderGroupReg.dcr">
+            <BuildOrder>137</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothExpanderGroupReg.pas">
+            <BuildOrder>136</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothExpanderPanel.pas">
+            <BuildOrder>138</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothExpanderPanelReg.pas">
+            <BuildOrder>139</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothFillEditor.pas">
+            <BuildOrder>18</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothFillPreview.pas">
+            <BuildOrder>19</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothFillPreviewReg.pas">
+            <BuildOrder>20</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothGauge.pas">
+            <BuildOrder>101</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothGaugeReg.dcr">
+            <BuildOrder>95</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothGaugeReg.pas">
+            <BuildOrder>101</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothHTMLEditor.pas">
+            <BuildOrder>22</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothImageListBox.pas">
+            <BuildOrder>79</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothImageListBoxDragDrop.pas">
+            <BuildOrder>166</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothImageListBoxPicker.pas">
+            <BuildOrder>81</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothImageListBoxPickerReg.dcr">
+            <BuildOrder>79</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothImageListBoxPickerReg.pas">
+            <BuildOrder>82</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothImageListBoxReg.dcr">
+            <BuildOrder>78</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothImageListBoxReg.pas">
+            <BuildOrder>80</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothJogWheel.pas">
+            <BuildOrder>91</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothJogWheelReg.dcr">
+            <BuildOrder>89</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothJogWheelReg.pas">
+            <BuildOrder>92</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothLabel.pas">
+            <BuildOrder>23</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothLabelReg.dcr">
+            <BuildOrder>24</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothLabelReg.pas">
+            <BuildOrder>25</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothLEDLabel.pas">
+            <BuildOrder>93</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothLEDLabelReg.dcr">
+            <BuildOrder>90</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothLEDLabelReg.pas">
+            <BuildOrder>94</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothListBox.pas">
+            <BuildOrder>26</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothListBoxDragDrop.pas">
+            <BuildOrder>159</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothListBoxReg.dcr">
+            <BuildOrder>27</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothListBoxReg.pas">
+            <BuildOrder>28</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="advsmoothmegamenu.pas">
+            <BuildOrder>161</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="advsmoothmegamenuReg.dcr">
+            <BuildOrder>161</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="advsmoothmegamenuReg.pas">
+            <BuildOrder>160</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothMenu.pas">
+            <BuildOrder>29</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothMenuReg.dcr">
+            <BuildOrder>30</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothMenuReg.pas">
+            <BuildOrder>31</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothMessageDialog.pas">
+            <BuildOrder>140</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothMessageDialogReg.dcr">
+            <BuildOrder>142</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothMessageDialogReg.pas">
+            <BuildOrder>141</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothPageSlider.pas">
+            <BuildOrder>289</BuildOrder>
+        </DelphiCompile>
+        <None Include="AdvSmoothPageSliderReg.dcr">
+            <BuildOrder>291</BuildOrder>
+        </None>
+        <DelphiCompile Include="AdvSmoothPageSliderReg.pas">
+            <BuildOrder>290</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothPanel.pas">
+            <BuildOrder>32</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothPanelReg.dcr">
+            <BuildOrder>33</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothPanelReg.pas">
+            <BuildOrder>34</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="advsmoothpopup.pas">
+            <BuildOrder>222</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="advsmoothpopupreg.dcr">
+            <BuildOrder>221</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="advsmoothpopupreg.pas">
+            <BuildOrder>220</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothProgressBar.pas">
+            <BuildOrder>97</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothProgressBarReg.dcr">
+            <BuildOrder>92</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothProgressBarReg.pas">
+            <BuildOrder>98</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothScrollBar.pas">
+            <BuildOrder>143</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothScrollBarReg.dcr">
+            <BuildOrder>145</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothScrollBarReg.pas">
+            <BuildOrder>144</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSelectors.pas">
+            <BuildOrder>35</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSelectorsReg.pas">
+            <BuildOrder>36</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSlider.pas">
+            <BuildOrder>146</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothSliderReg.dcr">
+            <BuildOrder>148</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothSliderReg.pas">
+            <BuildOrder>147</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="advsmoothslideshow.pas">
+            <BuildOrder>222</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="advsmoothslideshowreg.dcr">
+            <BuildOrder>221</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="advsmoothslideshowreg.pas">
+            <BuildOrder>220</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSpin.pas">
+            <BuildOrder>37</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSpinner.pas">
+            <BuildOrder>99</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothSpinnerReg.dcr">
+            <BuildOrder>101</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothSpinnerReg.pas">
+            <BuildOrder>100</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSpinReg.pas">
+            <BuildOrder>38</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothSplashScreen.pas">
+            <BuildOrder>149</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothSplashScreenReg.dcr">
+            <BuildOrder>151</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothSplashScreenReg.pas">
+            <BuildOrder>150</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="advsmoothstepcontrol.pas">
+            <BuildOrder>222</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="advsmoothstepcontrolreg.dcr">
+            <BuildOrder>221</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="advsmoothstepcontrolreg.pas">
+            <BuildOrder>220</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothStyles.pas">
+            <BuildOrder>39</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTabPager.pas">
+            <BuildOrder>102</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothTabPagerReg.dcr">
+            <BuildOrder>93</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothTabPagerReg.pas">
+            <BuildOrder>103</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTheme.pas">
+            <BuildOrder>40</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTileList.pas">
+            <BuildOrder>259</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTileListEx.pas">
+            <BuildOrder>260</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTileListHTMLVisualizer.pas">
+            <BuildOrder>261</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTileListImageVisualizer.pas">
+            <BuildOrder>262</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothTileListReg.dcr">
+            <BuildOrder>261</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothTileListReg.pas">
+            <BuildOrder>263</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTimeLine.pas">
+            <BuildOrder>152</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothTimeLineReg.dcr">
+            <BuildOrder>128</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothTimeLineReg.pas">
+            <BuildOrder>127</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothToggleButton.pas">
+            <BuildOrder>99</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothToggleButtonReg.dcr">
+            <BuildOrder>94</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothToggleButtonReg.pas">
+            <BuildOrder>100</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTouchKeyBoard.pas">
+            <BuildOrder>155</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTouchKeyBoardReg.pas">
+            <BuildOrder>156</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothTrackBar.pas">
+            <BuildOrder>95</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSmoothTrackBarReg.dcr">
+            <BuildOrder>91</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSmoothTrackBarReg.pas">
+            <BuildOrder>96</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSmoothXPVS.pas">
+            <BuildOrder>41</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvSyskeyboardHook.pas">
+            <BuildOrder>42</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvSyskeyboardHookReg.dcr">
+            <BuildOrder>43</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvSyskeyboardHookReg.pas">
+            <BuildOrder>44</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvTouchkeyboard.pas">
+            <BuildOrder>45</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvTouchkeyboardReg.pas">
+            <BuildOrder>46</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AdvVerticalPolyList.pas">
+            <BuildOrder>190</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="AdvVerticalPolyListReg.dcr">
+            <BuildOrder>192</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="AdvVerticalPolyListReg.pas">
+            <BuildOrder>191</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroButtons.pas">
+            <BuildOrder>227</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroButtonsReg.pas">
+            <BuildOrder>228</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroLabel.pas">
+            <BuildOrder>229</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroLabelReg.pas">
+            <BuildOrder>230</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroRes.pas">
+            <BuildOrder>231</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroWizardButton.pas">
+            <BuildOrder>232</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="AeroWizardButtonReg.pas">
+            <BuildOrder>233</BuildOrder>
+        </DelphiCompile>
+        <PackageImport Include="bdertl.bpi">
+            <BuildOrder>92</BuildOrder>
+        </PackageImport>
+        <DelphiCompile Include="calcomp.pas">
+            <BuildOrder>47</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="calcreg.dcr">
+            <BuildOrder>48</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="calcreg.pas">
+            <BuildOrder>49</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="calpanel.pas">
+            <BuildOrder>50</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="calpreg.dcr">
+            <BuildOrder>51</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="calpreg.pas">
+            <BuildOrder>52</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="CurvyControls.pas">
+            <BuildOrder>234</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="CurvyControlsReg.pas">
+            <BuildOrder>235</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="CustomItemsContainer.pas">
+            <BuildOrder>193</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothComboBox.pas">
+            <BuildOrder>168</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothComboBoxReg.pas">
+            <BuildOrder>169</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothDatePicker.pas">
+            <BuildOrder>176</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothDatePickerReg.pas">
+            <BuildOrder>175</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothImageListBox.pas">
+            <BuildOrder>170</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothImageListBoxReg.pas">
+            <BuildOrder>171</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothLabel.pas">
+            <BuildOrder>23</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothLabelReg.pas">
+            <BuildOrder>25</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothLEDLabel.pas">
+            <BuildOrder>93</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothLEDLabelReg.pas">
+            <BuildOrder>94</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothListBox.pas">
+            <BuildOrder>172</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothListBoxReg.pas">
+            <BuildOrder>173</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothTimeLine.pas">
+            <BuildOrder>174</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="DBAdvSmoothTimeLineReg.pas">
+            <BuildOrder>167</BuildOrder>
+        </DelphiCompile>
+        <PackageImport Include="dbrtl.bpi">
+            <BuildOrder>91</BuildOrder>
+        </PackageImport>
+        <DelphiCompile Include="ellipslabel.pas">
+            <BuildOrder>53</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="ellipslblreg.dcr">
+            <BuildOrder>54</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="ellipslblreg.pas">
+            <BuildOrder>55</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="exeinfo.pas">
+            <BuildOrder>56</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="exeinforeg.dcr">
+            <BuildOrder>57</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="exeinforeg.pas">
+            <BuildOrder>58</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="formsize.pas">
+            <BuildOrder>59</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="frmshape.pas">
+            <BuildOrder>60</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="frmsreg.dcr">
+            <BuildOrder>61</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="frmsreg.pas">
+            <BuildOrder>62</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="fsreg.dcr">
+            <BuildOrder>63</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="fsreg.pas">
+            <BuildOrder>64</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPBase.pas">
+            <BuildOrder>194</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPButtonBarItem.pas">
+            <BuildOrder>195</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPButtonItem.pas">
+            <BuildOrder>196</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPCheckItem.pas">
+            <BuildOrder>197</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPCustomItem.pas">
+            <BuildOrder>198</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPDropDownItem.pas">
+            <BuildOrder>199</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPExpandableImageSectionItem.pas">
+            <BuildOrder>200</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPFill.pas">
+            <BuildOrder>160</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPFullDropDownItem.pas">
+            <BuildOrder>201</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPGraphicItem.pas">
+            <BuildOrder>202</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPGroupItem.pas">
+            <BuildOrder>203</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPHeaderItem.pas">
+            <BuildOrder>204</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPHTMLItem.pas">
+            <BuildOrder>205</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPHTMLSectionItem.pas">
+            <BuildOrder>206</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPImageItem.pas">
+            <BuildOrder>207</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPImageSectionItem.pas">
+            <BuildOrder>208</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPImageTextButtonItem.pas">
+            <BuildOrder>209</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPImageTextButtonSectionItem.pas">
+            <BuildOrder>210</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPImageTextItem.pas">
+            <BuildOrder>211</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPLargeButtonedHTMLItem.pas">
+            <BuildOrder>212</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPLargeButtonedItem.pas">
+            <BuildOrder>213</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPMenu.pas">
+            <BuildOrder>159</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPProgressItem.pas">
+            <BuildOrder>223</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPRadioItem.pas">
+            <BuildOrder>215</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPSectionItem.pas">
+            <BuildOrder>216</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPSplitterItem.pas">
+            <BuildOrder>217</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPTextItem.pas">
+            <BuildOrder>218</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="GDIPWedgeItem.pas">
+            <BuildOrder>177</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="hotspoteditor.pas">
+            <Form>frmHSIEditor</Form>
+            <BuildOrder>125</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="HotSpotEditorComp.pas">
+            <BuildOrder>126</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="hotspotimage.pas">
+            <BuildOrder>65</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="hotspotimagereg.dcr">
+            <BuildOrder>66</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="hotspotimagereg.pas">
+            <BuildOrder>67</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="layeredform.pas">
+            <BuildOrder>68</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="lfreg.dcr">
+            <BuildOrder>69</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="lfreg.pas">
+            <BuildOrder>70</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="linelibrary.pas">
+            <BuildOrder>71</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="macrorecorder.pas">
+            <BuildOrder>72</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="macrorecorderreg.dcr">
+            <BuildOrder>73</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="macrorecorderreg.pas">
+            <BuildOrder>74</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="moneycal.pas">
+            <BuildOrder>75</BuildOrder>
+        </DelphiCompile>
+        <PackageImport Include="rtl.bpi">
+            <BuildOrder>0</BuildOrder>
+        </PackageImport>
+        <DelphiCompile Include="spbepc.pas">
+            <BuildOrder>225</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="spbepcreg.dcr">
+            <BuildOrder>224</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="spbepcreg.pas">
+            <BuildOrder>223</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="sysmon.pas">
+            <BuildOrder>76</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="sysmreg.dcr">
+            <BuildOrder>77</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="sysmreg.pas">
+            <BuildOrder>78</BuildOrder>
+        </DelphiCompile>
+        <PackageImport Include="tmscxe3.bpi">
+            <BuildOrder>86</BuildOrder>
+        </PackageImport>
+        <CppCompile Include="tmsexcxe3.cpp">
+            <BuildOrder>80</BuildOrder>
+        </CppCompile>
+        <ResFiles Include="tmsexcxe3.res">
+            <ModuleName>tmsexcxe3.res</ModuleName>
+            <BuildOrder>81</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="TMSW7Reg.pas">
+            <BuildOrder>248</BuildOrder>
+        </DelphiCompile>
+        <PackageImport Include="vcl.bpi">
+            <BuildOrder>2</BuildOrder>
+        </PackageImport>
+        <PackageImport Include="vclactnband.bpi">
+            <BuildOrder>95</BuildOrder>
+        </PackageImport>
+        <PackageImport Include="vcldb.bpi">
+            <BuildOrder>97</BuildOrder>
+        </PackageImport>
+        <PackageImport Include="vclimg.bpi">
+            <BuildOrder>96</BuildOrder>
+        </PackageImport>
+        <PackageImport Include="VclSmp.bpi">
+            <BuildOrder>98</BuildOrder>
+        </PackageImport>
+        <PackageImport Include="vclx.bpi">
+            <BuildOrder>93</BuildOrder>
+        </PackageImport>
+        <ResFiles Include="W7Bars.dcr">
+            <BuildOrder>251</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7Bars.pas">
+            <BuildOrder>249</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7Buttons.dcr">
+            <BuildOrder>252</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7Buttons.pas">
+            <BuildOrder>250</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="W7Classes.pas">
+            <BuildOrder>239</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="W7Common.pas">
+            <BuildOrder>240</BuildOrder>
+        </DelphiCompile>
+        <DelphiCompile Include="W7Graphics.pas">
+            <BuildOrder>241</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7Images.dcr">
+            <BuildOrder>253</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7Images.pas">
+            <BuildOrder>242</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7Labels.dcr">
+            <BuildOrder>254</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7Labels.pas">
+            <BuildOrder>243</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7ListViewItems.dcr">
+            <BuildOrder>255</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7ListViewItems.pas">
+            <BuildOrder>244</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7NaviButtons.dcr">
+            <BuildOrder>256</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7NaviButtons.pas">
+            <BuildOrder>245</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7Panels.dcr">
+            <BuildOrder>257</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7Panels.pas">
+            <BuildOrder>246</BuildOrder>
+        </DelphiCompile>
+        <ResFiles Include="W7ProgressBars.dcr">
+            <BuildOrder>258</BuildOrder>
+        </ResFiles>
+        <DelphiCompile Include="W7ProgressBars.pas">
+            <BuildOrder>247</BuildOrder>
+        </DelphiCompile>
+	    <DelphiCompile Include="AdvSmoothCalendarGroup.pas">
+      <BuildOrder>296</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvSmoothCalendarGroupReg.pas">
+      <BuildOrder>297</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvListEditor.pas">
+      <BuildOrder>298</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvListEditorReg.pas">
+      <BuildOrder>299</BuildOrder>
+    </DelphiCompile>
+  <ResFiles Include="AdvListEditor.res">
+      <BuildOrder>300</BuildOrder>
+    </ResFiles>
+            <DelphiCompile Include="AdvDataLabel.pas">
+      <BuildOrder>301</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvDataLabelReg.pas">
+      <BuildOrder>302</BuildOrder>
+    </DelphiCompile>
+     <None Include="AdvDataLabelReg.dcr">
+      <BuildOrder>303</BuildOrder>
+    </None>
+    <DelphiCompile Include="advduallistbox.pas">
+      <BuildOrder>304</BuildOrder>
+    </DelphiCompile>
+         <DelphiCompile Include="advduallistboxreg.pas">
+      <BuildOrder>305</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="advwordcloud.pas">
+     <BuildOrder>307</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="advwordcloudreg.pas">
+      <BuildOrder>308</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvWordCloudDropDownReg.pas">
+      <BuildOrder>309</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvWordCloudDropDown.pas">
+      <BuildOrder>310</BuildOrder>
+    </DelphiCompile>
+     <None Include="AdvWordCloudReg.dcr">
+      <BuildOrder>311</BuildOrder>
+   </None>
+			     <DelphiCompile Include="AdvSmoothCircularProgress.pas">
+			      <BuildOrder>312</BuildOrder>
+			    </DelphiCompile>
+			     <DelphiCompile Include="AdvSmoothCircularProgressReg.pas">
+			      <BuildOrder>313</BuildOrder>
+			    </DelphiCompile>
+			 <None Include="AdvSmoothCircularProgressReg.dcr">
+			      <BuildOrder>314</BuildOrder>
+			    </None>
+			             <DelphiCompile Include="AdvFancyLabel.pas">
+      <BuildOrder>315</BuildOrder>
+    </DelphiCompile>
+             <DelphiCompile Include="AdvFancyLabelReg.pas">
+      <BuildOrder>316</BuildOrder>
+    </DelphiCompile>
+             <DelphiCompile Include="AdvCurve.pas">
+      <BuildOrder>317</BuildOrder>
+    </DelphiCompile>
+         <DelphiCompile Include="AdvCurveReg.pas">
+      <BuildOrder>318</BuildOrder>
+    </DelphiCompile>
+ <None Include="AdvCurveReg.dcr">
+      <BuildOrder>319</BuildOrder>
+    </None>
+          <None Include="AdvSmoothRotaryMenuReg.dcr">
+      <BuildOrder>320</BuildOrder>
+    </None>
+	 <DelphiCompile Include="AdvSmoothRotaryMenu.pas">
+      <BuildOrder>321</BuildOrder>
+    </DelphiCompile>
+	 <DelphiCompile Include="AdvSmoothRotaryMenuReg.pas">
+      <BuildOrder>322</BuildOrder>
+    </DelphiCompile>
+		    </DelphiCompile>
+		           <DelphiCompile Include="AdvCheckTreeView.pas">
+		      <BuildOrder>323</BuildOrder>
+		    </DelphiCompile>
+		   <DelphiCompile Include="AdvCheckTreeViewReg.pas">
+		      <BuildOrder>324</BuildOrder>
+		    </DelphiCompile>
+		     <None Include="AdvCheckTreeViewReg.dcr">
+		      <BuildOrder>325</BuildOrder>
+		    </None>
+		             <None Include="AdvSmoothWin8MarqueeReg.dcr">
+      <BuildOrder>326</BuildOrder>
+    </None>
+   <DelphiCompile Include="AdvSmoothWin8Marquee.pas">
+      <BuildOrder>327</BuildOrder>
+    </DelphiCompile>
+       <DelphiCompile Include="AdvSmoothWin8MarqueeReg.pas">
+      <BuildOrder>328</BuildOrder>
+    </DelphiCompile>
+         <DelphiCompile Include="AdvLabel.pas">
+      <BuildOrder>329</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="AdvLabelReg.pas">
+      <BuildOrder>330</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="DBAdvLabel.pas">
+      <BuildOrder>331</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="DBAdvLabelReg.pas">
+      <BuildOrder>332</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="AdvDBFormPanel.pas">
+      <BuildOrder>333</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="AdvDBFormPanelReg.pas">
+      <BuildOrder>334</BuildOrder>
+    </DelphiCompile>
+     <DelphiCompile Include="AdvDBFormLayouter.pas">
+      <BuildOrder>335</BuildOrder>
+    </DelphiCompile>
+      <DelphiCompile Include="AdvGraphicCheckLabel.pas">
+      <BuildOrder>336</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="AdvGraphicCheckLabelReg.pas">
+      <BuildOrder>337</BuildOrder>
+    </DelphiCompile>
+           <DelphiCompile Include="DBAdvGraphicCheckLabel.pas">
+      <BuildOrder>338</BuildOrder>
+    </DelphiCompile>
+           <DelphiCompile Include="DBAdvGraphicCheckLabelReg.pas">
+      <BuildOrder>339</BuildOrder>
+    </DelphiCompile>
+           <DelphiCompile Include="WebPictureContainer.pas">
+      <BuildOrder>340</BuildOrder>
+    </DelphiCompile>
+           <DelphiCompile Include="WebPictureContainerReg.pas">
+      <BuildOrder>341</BuildOrder>
+    </DelphiCompile>
+           <DelphiCompile Include="DBAdvSmoothSlider.pas">
+      <BuildOrder>342</BuildOrder>
+    </DelphiCompile>
+           <DelphiCompile Include="DBAdvSmoothSliderReg.pas">
+      <BuildOrder>343</BuildOrder>
+    </DelphiCompile>
+       <None Include="WebPictureContainerreg.dcr">
+      <BuildOrder>244</BuildOrder>
+    </None>
+       <None Include="AdvGraphicCheckLabelReg.dcr">
+      <BuildOrder>245</BuildOrder>
+    </None>
+         <None Include="AdvSignatureCaptureReg.dcr">
+      <BuildOrder>246</BuildOrder>
+    </None>
+    </DelphiCompile>
+           <DelphiCompile Include="AdvSignatureCapture.pas">
+      <BuildOrder>347</BuildOrder>
+    </DelphiCompile>
+</DelphiCompile>
+           <DelphiCompile Include="AdvSignatureCaptureReg.pas">
+      <BuildOrder>348</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="ADVGAUGE.pas">
+      <BuildOrder>349</BuildOrder>
+    </DelphiCompile>
+    <DelphiCompile Include="ADVGAUGEREG.pas">
+      <BuildOrder>350</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVGAUGECIRCLE.pas">
+      <BuildOrder>351</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVGAUGECIRCLEREG.pas">
+      <BuildOrder>352</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVGAUGECONTROL.pas">
+      <BuildOrder>353</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVHTMLPICTUREBROWSER.pas">
+      <BuildOrder>354</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVHTMLPICTUREBROWSERREG.pas">
+      <BuildOrder>355</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVPICTUREPANE.pas">
+      <BuildOrder>356</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVPICTUREPANEREG.pas">
+      <BuildOrder>357</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVRANGECIRCLES.pas">
+      <BuildOrder>358</BuildOrder>
+    </DelphiCompile>
+        <DelphiCompile Include="ADVRANGECIRCLESREG.pas">
+      <BuildOrder>359</BuildOrder>
+    </DelphiCompile>
+     <None Include="ADVGAUGEREG.dcr">
+	     <BuildOrder>360</BuildOrder>
+	   </None>
+	       <None Include="ADVHTMLPICTUREBROWSERREG.dcr">
+	     <BuildOrder>361</BuildOrder>
+	   </None>
+	       <None Include="ADVPICTUREPANEREG.dcr">
+	     <BuildOrder>362</BuildOrder>
+	   </None>
+	       <None Include="ADVRANGECIRCLESREG.dcr">
+	     <BuildOrder>363</BuildOrder>
+	   </None>
+	       <None Include="ADVGAUGECIRCLEREG.dcr">
+	     <BuildOrder>364</BuildOrder>
+	   </None>
+ <None Include="advduallistboxreg.dcr">
+      <BuildOrder>306</BuildOrder>
+    </None>
+        <PackageImport Include="xmlrtl.bpi">
+            <BuildOrder>94</BuildOrder>
+        </PackageImport>
+        <FormResources Include="hotspoteditor.dfm"/>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')" Project="$(BDS)\Bin\CodeGear.Cpp.Targets"/>
+    <ProjectExtensions>
+        <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+        <Borland.ProjectType>CppPackage</Borland.ProjectType>
+        <BorlandProject>
+            <CPlusPlusBuilder.Personality>
+                <Source>
+                    <Source Name="MainSource">tmsexcxe3.cpp</Source>
+                </Source>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1033</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                    <VersionInfoKeys Name="CFBundleName"/>
+                    <VersionInfoKeys Name="CFBundleDisplayName"/>
+                    <VersionInfoKeys Name="CFBundleIdentifier"/>
+                    <VersionInfoKeys Name="CFBundleVersion"/>
+                    <VersionInfoKeys Name="CFBundlePackageType"/>
+                    <VersionInfoKeys Name="CFBundleSignature"/>
+                    <VersionInfoKeys Name="CFBundleAllowMixedLocalizations"/>
+                    <VersionInfoKeys Name="CFBundleExecutable"/>
+                </VersionInfoKeys>
+                <Debugging>
+                    <Debugging Name="DebugSourceDirs"/>
+                </Debugging>
+                <Parameters>
+                    <Parameters Name="RunParams"/>
+                    <Parameters Name="Launcher"/>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="DebugCWD"/>
+                    <Parameters Name="HostApplication"/>
+                    <Parameters Name="RemoteHost"/>
+                    <Parameters Name="RemotePath"/>
+                    <Parameters Name="RemoteParams"/>
+                    <Parameters Name="RemoteLauncher"/>
+                    <Parameters Name="UseRemoteLauncher">False</Parameters>
+                    <Parameters Name="RemoteCWD"/>
+                    <Parameters Name="RemoteDebug">False</Parameters>
+                    <Parameters Name="Debug Symbols Search Path"/>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                </Parameters>
+                <Linker>
+                    <Linker Name="LibPrefix"/>
+                    <Linker Name="LibSuffix"/>
+                    <Linker Name="LibVersion"/>
+                </Linker>
+                <ProjectProperties>
+                    <ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+                    <ProjectProperties Name="ManagePaths">True</ProjectProperties>
+                    <ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+                </ProjectProperties>
+                <HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Count">1</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item0">$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;C:\Builder2007\Pack</HistoryLists_hlIncludePath>
+                </HistoryLists_hlIncludePath>
+                <HistoryLists_hlILINK_LibraryPath>
+                    <HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath>
+                    <HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;C:\Builder2007\Pack</HistoryLists_hlILINK_LibraryPath>
+                </HistoryLists_hlILINK_LibraryPath>
+                <HistoryLists_hlDefines>
+                    <HistoryLists_hlDefines Name="Count">1</HistoryLists_hlDefines>
+                    <HistoryLists_hlDefines Name="Item0">_DEBUG;NO_STRICT</HistoryLists_hlDefines>
+                </HistoryLists_hlDefines>
+                <HistoryLists_hlIntermediateOutputDir>
+                    <HistoryLists_hlIntermediateOutputDir Name="Count">1</HistoryLists_hlIntermediateOutputDir>
+                    <HistoryLists_hlIntermediateOutputDir Name="Item0">Debug</HistoryLists_hlIntermediateOutputDir>
+                </HistoryLists_hlIntermediateOutputDir>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcboffice2k170.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp170.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k170.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp170.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </CPlusPlusBuilder.Personality>
+            <Platforms>
+                <Platform value="OSX32">False</Platform>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+</Project>

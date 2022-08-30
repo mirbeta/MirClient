@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Red_x0020_2{fill:#D11C1C;}
+</style>
+<rect x="12" y="4" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 30 12)" class="Black" width="6" height="4"/>
+<rect x="4" y="4" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 14 12)" class="Red_x0020_2" width="6" height="4"/>
+<path class="Black" d="M2,16V2h18v10h2V1c0-0.6-0.4-1-1-1H1C0.4,0,0,0.4,0,1v16c0,0.6,0.4,1,1,1h7v-2H2z"/>
+<rect x="12" y="10" class="Black" width="6" height="2"/>
+<polygon class="Black" points="10,12 10,10 4,10 4,14 8,14 8,12 "/>
+<path class="Black" d="M10,15v16c0,0.6,0.4,1,1,1h20c0.6,0,1-0.4,1-1V15c0-0.6-0.4-1-1-1H11C10.4,14,10,14.4,10,15z M12,16h18v14H12
+	V16z"/>
+<rect x="22" y="18" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 50 40)" class="Black" width="6" height="4"/>
+<rect x="14" y="18" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 34 40)" class="Red_x0020_2" width="6" height="4"/>
+<rect x="22" y="24" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 50 52)" class="Black" width="6" height="4"/>
+<rect x="14" y="24" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 34 52)" class="Black" width="6" height="4"/>
+</svg>

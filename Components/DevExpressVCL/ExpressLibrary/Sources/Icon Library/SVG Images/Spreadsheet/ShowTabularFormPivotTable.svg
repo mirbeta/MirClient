@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Show_Tabular_Form_Pivot_Table"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.75;}
+</style>
+<path class="Black" d="M27,2H5C4.4,2,4,2.4,4,3v26c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3C28,2.4,27.6,2,27,2z M26,28H6V4h20V28z"/>
+<g class="st0">
+	<path class="Black" d="M18,10h-4V8h4V10z M24,8h-4v2h4V8z M24,12h-4v2h4V12z M24,22h-4v2h4V22z M18,12h-4v2h4V12z M24,18h-4v2h4V18
+		z M18,18h-4v2h4V18z M18,22h-4v2h4V22z"/>
+</g>
+<path class="Blue" d="M12,10H8V8h4V10z M12,18H8v2h4V18z"/>
+</svg>

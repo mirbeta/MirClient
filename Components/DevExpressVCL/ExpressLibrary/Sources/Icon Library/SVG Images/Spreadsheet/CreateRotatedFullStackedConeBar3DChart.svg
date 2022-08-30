@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Rotated_Full_Stacked_Cone_Bar_3D_Chart"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+</style>
+<path class="Yellow" d="M18,8L6,10c-1.1,0-2-1.8-2-4s0.9-4,2-4l12,2V8z M20,14.3L6,12c-1.1,0-2,1.8-2,4s0.9,4,2,4l14-2.3V14.3z
+	 M16,23.7L6,22c-1.1,0-2,1.8-2,4s0.9,4,2,4l10-1.7V23.7z"/>
+<path class="Red" d="M18,8c-0.6,0-1-0.9-1-2s0.4-2,1-2l11,2L18,8z M20,17.7l9-1.7l-9-1.7v0c0,0,0,0,0,0c-0.5,0-0.8,0.7-0.8,1.7
+	C19.2,16.9,19.5,17.7,20,17.7C20,17.7,20,17.7,20,17.7L20,17.7z M29,26l-13-2.3v0c-0.6,0-1.2,1-1.2,2.3s0.5,2.3,1.2,2.3v0L29,26z"/>
+</svg>

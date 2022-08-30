@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#039C23;}
+	.st3{display:inline;fill:#D11C1C;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="Navigation">
+	<path class="Blue" d="M16,2C8.3,2,2,8.3,2,16s6.3,14,14,14s14-6.3,14-14S23.7,2,16,2z M16,28C9.4,28,4,22.6,4,16C4,9.4,9.4,4,16,4
+		s12,5.4,12,12C28,22.6,22.6,28,16,28z M17.4,17.4L20,20L8,24l4-12l2.6,2.6C14.2,14.9,14,15.4,14,16c0,1.1,0.9,2,2,2
+		C16.6,18,17.1,17.8,17.4,17.4z"/>
+	<path class="Red" d="M12,12l2.6,2.6c0.4-0.4,0.9-0.6,1.4-0.6c1.1,0,2,0.9,2,2c0,0.6-0.2,1.1-0.6,1.4L20,20l4-12L12,12z"/>
+</g>
+</svg>

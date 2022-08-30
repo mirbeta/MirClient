@@ -1,0 +1,7 @@
+In this demo you can:
+
+- click node check boxes and radio buttons. Note that the Products node is disabled, so it has no behavior when clicked
+
+- see how changing the check state of child nodes automatically updates the check state of their parents
+
+- browse the source code to see that no additional code is required to achieve this functionality.

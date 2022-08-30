@@ -1,0 +1,14 @@
+In this demo you can:
+
+  - Play with OLAP support by selecting the data provider (the File | Provider menu) and setting up the connection (the File | New Connection menu item). Use the following options to connect to a sample cube file shipped with the ExpressPivotGrid Suite:
+      Connect using: Cube file
+      Cube file: <VCL Products Installation Folder>\ExpressPivotGrid\Demos\Data\Northwind.cub
+    After this, you can drag and drop fields from the Customization Form to change the layout of data fields (cube measures) and column, row, and filter fields (cube dimensions).
+  - Filter source data
+  - Organize the layout by dragging fields into different drop areas
+  - Export data in either Excel format, as text, html or xml (the File | Export menu)
+  - Change the location of totals (the Options | Totals Location menu)
+  - Hide subtotals and grand totals (the Options | Totals Visibility menu)
+  - Specify the visibility of fields and filter separator (the Options | Elements Visibility menu)
+  - Customize selection options (the Options | Selection menu)
+  - Select a particular look and feel from the five look and feel options available (the Look&Feel menu)

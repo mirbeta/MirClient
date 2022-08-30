@@ -1,0 +1,6 @@
+E:\BlueCodePXL\Components\uFormDesinger	 uFormDesigner.dpk
+E:\BlueCodePXL\Components\Raize		一键安装.groupproj
+E:\BlueCodePXL\Components\OverbyteIcsV8	OverbyteIcsV8.groupproj
+E:\BlueCodePXL\Components\EmbeddedWB\Source     EmbeddedWebBrowser.dpk
+E:\BlueCodePXL\Components\DevExpressVCL	DxAutoInstaller.exe
+E:\BlueCodePXL\Source\SceneUI 		DXSceneUIComponents.dpk

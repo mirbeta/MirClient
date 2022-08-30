@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="DeleteTable" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+</style>
+<path class="Blue" d="M8,8H0V2h8V8z M18,2h-8v6h8V2z M28,2h-8v6h8V2z"/>
+<g class="st0">
+	<path class="Black" d="M8,16H0v-6h8V16z M18,10h-8v6h8V10z M28,10h-8v6h8V10z M8,18H0v6h8V18z M18,18h-8v6h8V18z"/>
+</g>
+<polygon class="Red" points="32,20 30,18 26,22 22,18 20,20 24,24 20,28 22,30 26,26 30,30 32,28 28,24 "/>
+</svg>

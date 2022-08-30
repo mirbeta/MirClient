@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Wrap_Text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+</style>
+<path class="Black" d="M19,16H1c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1h18c0.6,0,1-0.4,1-1V17C20,16.4,19.6,16,19,16z M18,28H2V18h16
+	V28z M19,2H1C0.4,2,0,2.4,0,3v8c0,0.6,0.4,1,1,1h18c0.6,0,1-0.4,1-1V3C20,2.4,19.6,2,19,2z M18,10H2V4h16V10z M16,8H4V6h12V8z
+	 M16,22H4v-2h12V22z M16,26H4v-2h12V26z"/>
+<path class="Blue" d="M31,6h-9v2h8v14h-2v-3l-6,4l6,4v-3h3c0.6,0,1-0.4,1-1V7C32,6.4,31.6,6,31,6z"/>
+</svg>

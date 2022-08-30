@@ -1,0 +1,17 @@
+This demo is based on the Agents module shipped as part of the Realtor World compiled demo available at https://go.devexpress.com/DevExpressDownload_VCLDemos.aspx.
+
+The demo does the following:
+
+ - Calls the entity manager's RegisterEntity function in the initialization section to register the TAgents, THomes, and TCharts classes as entity classes;
+
+ - Provides column mapping information for the properties in these classes via calls to functions made from the RegisterEntity function call's result;
+
+ - Loads data from a Microsoft Access database to TAgents and THomes entity objects;
+
+ - Populates TCharts objects with random data including the number of houses sold by agents in specific areas;
+
+ - Uses parameterized criteria and a predicate to obtain data for the selected agent;
+
+ - Populates the TdxEMFDataSet components with this data and binds them to the Table and Chart grid Views;
+
+ - Unregisters the entity classes in the finalization section.

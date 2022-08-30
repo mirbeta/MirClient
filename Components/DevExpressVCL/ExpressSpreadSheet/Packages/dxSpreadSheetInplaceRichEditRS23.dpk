@@ -1,0 +1,57 @@
+package dxSpreadSheetInplaceRichEditRS23;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressSpreadSheet In-place RichEdit Support by Developer Express Inc.'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dbrtl,
+  vcl,
+  vclx,
+  vclie,
+  vcldb,
+  vclimg,
+  dxComnRS23,
+  dxCoreRS23,
+  cxLibraryRS23,
+  dxCloudServiceLibraryRS23,
+  dxGDIPlusRS23,
+  dxRichEditCoreRS23,
+  dxRichEditDocumentModelRS23,
+  dxRichEditControlCoreRS23,
+  dxRichEditInplaceRS23,
+  dxSpreadSheetRS23;
+
+contains
+  dxSpreadSheetFormattedTextUtils;
+
+end.

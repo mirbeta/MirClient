@@ -1,0 +1,114 @@
+package dxRichEditControlCoreRS19;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressRichEdit Control Library by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dbrtl,
+  vcl,
+  vclx,
+  vclie,
+  vcldb,
+  vclimg,
+  dxComnRS19,
+  dxCoreRS19,
+  cxLibraryRS19,
+  dxCloudServiceLibraryRS19,
+  dxGDIPlusRS19,
+  dxRichEditCoreRS19,
+  dxRichEditDocumentModelRS19;
+
+contains
+  dxRichEdit.Api.Fields,
+  dxRichEdit.Api.FindAndReplace,
+  dxRichEdit.Api.Formatting,
+  dxRichEdit.Api.Hyperlinks,
+  dxRichEdit.Api.Images,
+  dxRichEdit.Api.MailMerge,
+  dxRichEdit.Api.NativeDocument,
+  dxRichEdit.Api.Paragraphs,
+  dxRichEdit.Api.Protection,
+  dxRichEdit.Api.Sections,
+  dxRichEdit.Api.Shapes,
+  dxRichEdit.Api.Tables,
+  dxRichEdit.Commands.DragAndDrop,
+  dxRichEdit.Commands.Tab,
+  dxRichEdit.Control.Core,
+  dxRichEdit.Control.Keyboard,
+  dxRichEdit.Control.MenuBuilder,
+  dxRichEdit.Control.Mouse,
+  dxRichEdit.Control.Mouse.AutoScroller,
+  dxRichEdit.Control.Mouse.DragAndDrop,
+  dxRichEdit.Control.Mouse.Resize,
+  dxRichEdit.Export.PlainText,
+  dxRichEdit.Export.PlainText.DocumentExporter,
+  dxRichEdit.Export.Rtf,
+  dxRichEdit.Export.Rtf.DocumentExporter,
+  dxRichEdit.Export.Rtf.Keywords,
+  dxRichEdit.Export.Rtf.TableExporter,
+  dxRichEdit.Import.FloatingObject,
+  dxRichEdit.Import.PlainText,
+  dxRichEdit.Import.PlainText.DocumentImporter,
+  dxRichEdit.Import.Rtf,
+  dxRichEdit.Import.Rtf.DestinationColorTable,
+  dxRichEdit.Import.Rtf.DestinationDefault,
+  dxRichEdit.Import.Rtf.DestinationDocumentVariable,
+  dxRichEdit.Import.Rtf.DestinationField,
+  dxRichEdit.Import.Rtf.DestinationFontTable,
+  dxRichEdit.Import.Rtf.DestinationFootNote,
+  dxRichEdit.Import.Rtf.DestinationHeaderFooter,
+  dxRichEdit.Import.Rtf.DestinationHexContent,
+  dxRichEdit.Import.Rtf.DestinationInfo,
+  dxRichEdit.Import.Rtf.DestinationListLevel,
+  dxRichEdit.Import.Rtf.DestinationListTable,
+  dxRichEdit.Import.Rtf.DestinationMailMerge,
+  dxRichEdit.Import.Rtf.DestinationOldParagraphNumbering,
+  dxRichEdit.Import.Rtf.DestinationPageBackground,
+  dxRichEdit.Import.Rtf.DestinationPicture,
+  dxRichEdit.Import.Rtf.DestinationPieceTable,
+  dxRichEdit.Import.Rtf.DestinationsDefaultPropertes,
+  dxRichEdit.Import.Rtf.DestinationShape,
+  dxRichEdit.Import.Rtf.DestinationSkip,
+  dxRichEdit.Import.Rtf.DestinationStyleSheet,
+  dxRichEdit.Import.Rtf.DestinationTableStyle,
+  dxRichEdit.Import.Rtf.DocumentImporter,
+  dxRichEdit.Import.Rtf.ListConverter,
+  dxRichEdit.Import.Rtf.ParagraphFormatting,
+  dxRichEdit.Import.Rtf.TableReader,
+  dxRichEdit.PlainText,
+  dxRichEdit.Platform.Win.Scroll,
+  dxRichEdit.Platform.Win.Strategies,
+  dxRichEdit.Rtf;
+
+end.

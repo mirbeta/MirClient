@@ -1,0 +1,4 @@
+In this demo you can perform the following operations:
+
+- Navigate within a dataset using either the breadcrumb edit or the data-aware navigator, and see how changes are automatically reflected in controls that share the dataset.
+- Change the breadcrumb edit’s appearance (Menu Look&Feel).

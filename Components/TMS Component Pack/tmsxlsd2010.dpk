@@ -1,0 +1,87 @@
+package tmsxlsd2010;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TMS TAdvStringGrid Excel support'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vclimg,
+  tmsd2010,
+  rtl;
+
+contains
+  tmsXlsMessages in 'xlsadapter\tmsXlsMessages.pas',
+  tmsAdvExcelIOReg in 'xlsadapter\tmsAdvExcelIOReg.pas',
+  tmsAdvGridExcel in 'xlsadapter\tmsAdvGridExcel.pas',
+  tmsUBreakList in 'xlsadapter\tmsUBreakList.pas',
+  tmsUEscherGraphToBSE in 'xlsadapter\tmsUEscherGraphToBSE.pas',
+  tmsUEscherOtherRecords in 'xlsadapter\tmsUEscherOtherRecords.pas',
+  tmsUEscherRecords in 'xlsadapter\tmsUEscherRecords.pas',
+  tmsUExcelAdapter in 'xlsadapter\tmsUExcelAdapter.pas',
+  tmsUExcelRecords in 'xlsadapter\tmsUExcelRecords.pas',
+  tmsUFlxFormats in 'xlsadapter\tmsUFlxFormats.pas',
+  tmsUFlxMessages in 'xlsadapter\tmsUFlxMessages.pas',
+  tmsUFlxNumberFormat in 'xlsadapter\tmsUFlxNumberFormat.pas',
+  tmsUFlxRowComments in 'xlsadapter\tmsUFlxRowComments.pas',
+  tmsUFlxStack in 'xlsadapter\tmsUFlxStack.pas',
+  tmsUFlxUtils in 'xlsadapter\tmsUFlxUtils.pas',
+  tmsUOle2Impl in 'xlsadapter\tmsUOle2Impl.pas',
+  tmsUSheetNameList in 'xlsadapter\tmsUSheetNameList.pas',
+  tmsUXlsBaseClientData in 'xlsadapter\tmsUXlsBaseClientData.pas',
+  tmsUXlsBaseList in 'xlsadapter\tmsUXlsBaseList.pas',
+  tmsUXlsBaseRecordLists in 'xlsadapter\tmsUXlsBaseRecordLists.pas',
+  tmsUXlsBaseRecords in 'xlsadapter\tmsUXlsBaseRecords.pas',
+  tmsUXlsCellRecords in 'xlsadapter\tmsUXlsCellRecords.pas',
+  tmsUXlsChart in 'xlsadapter\tmsUXlsChart.pas',
+  tmsUXlsClientData in 'xlsadapter\tmsUXlsClientData.pas',
+  tmsUXlsColInfo in 'xlsadapter\tmsUXlsColInfo.pas',
+  tmsUXlsCondFmt in 'xlsadapter\tmsUXlsCondFmt.pas',
+  tmsUXlsEncodeFormula in 'xlsadapter\tmsUXlsEncodeFormula.pas',
+  tmsUXlsEscher in 'xlsadapter\tmsUXlsEscher.pas',
+  tmsUXlsFormula in 'xlsadapter\tmsUXlsFormula.pas',
+  tmsUXlsFormulaParser in 'xlsadapter\tmsUXlsFormulaParser.pas',
+  tmsUXlsHyperLink in 'xlsadapter\tmsUXlsHyperLink.pas',
+  tmsUXlsMD5 in 'xlsadapter\tmsUXlsMD5.pas',
+  tmsUXlsNotes in 'xlsadapter\tmsUXlsNotes.pas',
+  tmsUXlsOtherRecords in 'xlsadapter\tmsUXlsOtherRecords.pas',
+  tmsUXlsPageBreaks in 'xlsadapter\tmsUXlsPageBreaks.pas',
+  tmsUXlsPalette in 'xlsadapter\tmsUXlsPalette.pas',
+  tmsUXlsPictures in 'xlsadapter\tmsUXlsPictures.pas',
+  tmsUXlsProtect in 'xlsadapter\tmsUXlsProtect.pas',
+  tmsUXlsRangeRecords in 'xlsadapter\tmsUXlsRangeRecords.pas',
+  tmsUXlsReferences in 'xlsadapter\tmsUXlsReferences.pas',
+  tmsUXlsRowColEntries in 'xlsadapter\tmsUXlsRowColEntries.pas',
+  tmsUXlsSections in 'xlsadapter\tmsUXlsSections.pas',
+  tmsUXlsSheet in 'xlsadapter\tmsUXlsSheet.pas',
+  tmsUXlsSST in 'xlsadapter\tmsUXlsSST.pas',
+  tmsUXlsStrings in 'xlsadapter\tmsUXlsStrings.pas',
+  tmsUXlsTokenArray in 'xlsadapter\tmsUXlsTokenArray.pas',
+  tmsUXlsWorkbookGlobals in 'xlsadapter\tmsUXlsWorkbookGlobals.pas',
+  tmsUXlsXF in 'xlsadapter\tmsUXlsXF.pas',
+  tmsXLSAdapter in 'xlsadapter\tmsXLSAdapter.pas',
+  tmsXlsBaseTemplateStore in 'xlsadapter\tmsXlsBaseTemplateStore.pas',
+  tmsXlsFormulaMessages in 'xlsadapter\tmsXlsFormulaMessages.pas';
+
+end.

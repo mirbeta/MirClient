@@ -1,0 +1,7 @@
+In this demo you can perform the following operations:
+
+- Navigate within a tree using either the breadcrumb edit or the tree view, and see how the changes are reflected in the synchronized control.
+- Experiment with different types of progress bar animation that visualizes the cancel operation (ProgressBar Options group box).
+- Change the breadcrumb edit's settings (PathEditor Options group box).
+- Enable the auto-populate feature of the breadcrumb edit’s recent paths dropdown, or manually add recent paths to the dropdown list (Recent Paths group box).
+- Change the breadcrumb edit’s appearance (Menu Look&Feel).

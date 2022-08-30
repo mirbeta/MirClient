@@ -1,0 +1,8 @@
+This demo shows how to create a simple invoice using the built-in spreadsheet capabilities.
+
+In this demo, you can:
+- Change the product quantity, price and discount values. All invoice values are recalculated automatically.
+- See the formulas used for calculation (the Options | Show Formulas menu item).
+- Manage the product list by adding/removing spreadsheet rows.
+- Scroll the product list and see how the Frozen panes feature works.
+- Apply different paint styles to a form (the Look&Feel menu item).

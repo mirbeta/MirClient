@@ -1,0 +1,83 @@
+package MSICS_RAD9_Rtl;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'MiTeC System Information Component Suite - Runtime'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  rtl,
+  MiTeC_Common_RAD9;
+
+contains
+  MSI_Defs in 'MSI_Defs.pas',
+  MSI_APM in 'MSI_APM.pas',
+  MSI_Common in 'MSI_Common.pas',
+  MSI_CPU in 'MSI_CPU.pas',
+  MSI_Devices in 'MSI_Devices.pas',
+  MSI_Disk in 'MSI_Disk.pas',
+  MSI_Display in 'MSI_Display.pas',
+  MSI_DMA in 'MSI_DMA.pas',
+  MSI_Engines in 'MSI_Engines.pas',
+  MSI_Machine in 'MSI_Machine.pas',
+  MSI_Media in 'MSI_Media.pas',
+  MSI_Memory in 'MSI_Memory.pas',
+  MSI_Network in 'MSI_Network.pas',
+  MSI_OS in 'MSI_OS.pas',
+  MSI_Printers in 'MSI_Printers.pas',
+  MSI_SMBIOS in 'MSI_SMBIOS.pas',
+  MSI_Software in 'MSI_Software.pas',
+  MSI_Startup in 'MSI_Startup.pas',
+  MSI_SysMon in 'MSI_SysMon.pas',
+  MSI_ProcMon in 'MSI_ProcMon.pas',
+  MSI_USB in 'MSI_USB.pas',
+  MSI_Storage in 'MSI_Storage.pas',
+  MSI_Processes in 'MSI_Processes.pas',
+  MSI_Monitor in 'MSI_Monitor.pas',
+  MSI_XML_Reports in 'MSI_XML_Reports.pas',
+  MSI_DeviceMonitor in 'MSI_DeviceMonitor.pas',
+  MSI_DriveContent in 'MSI_DriveContent.pas',
+  MSI_DiskMonitor in 'MSI_DiskMonitor.pas',
+  MSI_MSProduct in 'MSI_MSProduct.pas',
+  MSI_BT in 'MSI_BT.pas',
+  MSI_AD in 'MSI_AD.pas',
+  MSI_EventLog in 'MSI_EventLog.pas',
+  MSI_Security in 'MSI_Security.pas',
+  MSI_WIFI in 'MSI_WIFI.pas',
+  MSI_SystemInfo in 'MSI_SystemInfo.pas',
+  MSI_SysModListMon in 'MSI_SysModListMon.pas',
+  MSI_SvcListMon in 'MSI_SvcListMon.pas',
+  MSI_ProcListMon in 'MSI_ProcListMon.pas',
+  MSI_NetConMon in 'MSI_NetConMon.pas',
+  MSI_PerfMon in 'MSI_PerfMon.pas',
+  MSI_HndListMon in 'MSI_HndListMon.pas',
+  MSI_NetCreds in 'MSI_NetCreds.pas',
+  MSI_USBHistory in 'MSI_USBHistory.pas',
+  MSI_WLANC in 'MSI_WLANC.pas',
+  MSI_FW in 'MSI_FW.pas';
+end.

@@ -1,0 +1,7 @@
+In this demo you can:
+
+- select multiple cells by dragging the mouse cursor over them whilst holding down the left mouse button. 
+
+- select entire columns/rows by clicking their related column headers/row indicators whilst holding down the shift or ctrl keys
+
+- copy the selected data to the clipboard and paste it to an MSExcel/SpreadSheet or any other text editor

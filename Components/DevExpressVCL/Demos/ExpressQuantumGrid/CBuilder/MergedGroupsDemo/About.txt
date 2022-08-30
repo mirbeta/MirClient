@@ -1,0 +1,9 @@
+In this demo, you can:
+
+ - Press and hold the Ctrl key while dropping a column header adjacent to another one located in the Group By box to merge the two columns.
+
+ - Rearrange column headers within the Group By box or add new ones from the grid in two grouping modes (with and without holding the Ctrl key).
+
+ - Drag column headers from the Group By box to remove them in any mode.
+
+ - Apply different paint styles to a form (the Look&Feel menu item).

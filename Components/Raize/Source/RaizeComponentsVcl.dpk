@@ -1,0 +1,94 @@
+{$I RzComps.inc}
+
+package RaizeComponentsVcl;
+
+{$R *.res}
+{$R *.otares}
+{$R 'RaizeComponentsVcl.res'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $50000000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  Vcl,
+  VclX;
+
+contains
+  RzAnimtr in 'RzAnimtr.pas',
+  RzBckgnd in 'RzBckgnd.pas',
+  RzBHints in 'RzBHints.pas',
+  RzBorder in 'RzBorder.pas',
+  RzBmpBtn in 'RzBmpBtn.pas',
+  RzBtnEdt in 'RzBtnEdt.pas',
+  RzButton in 'RzButton.pas',
+  RzChkLst in 'RzChkLst.pas',
+  RzCmboBx in 'RzCmboBx.pas',
+  RzCommon in 'RzCommon.pas',
+  RzCommonBitmaps in 'RzCommonBitmaps.pas',
+  RzCommonCursors in 'RzCommonCursors.pas',
+  RzDlgBtn in 'RzDlgBtn.pas',
+  RzDTP in 'RzDTP.pas',
+  RzEdit in 'RzEdit.pas',
+  RzFilSys in 'RzFilSys.pas',
+  RzGrids in 'RzGrids.pas',
+  RzForms in 'RzForms.pas',
+  RzGrafx in 'RzGrafx.pas',
+  RzGroupBar in 'RzGroupBar.pas',
+  RzIntLst in 'RzIntLst.pas',
+  RzLabel in 'RzLabel.pas',
+  RzLaunch in 'RzLaunch.pas',
+  RzLine in 'RzLine.pas',
+  RzListVw in 'RzListVw.pas',
+  RzLookup in 'RzLookup.pas',
+  RzLookupForm in 'RzLookupForm.pas',
+  RzLstBox in 'RzLstBox.pas',
+  RzPanel in 'RzPanel.pas',
+  RzPathBar in 'RzPathBar.pas',
+  RzPopups in 'RzPopups.pas',
+  RzPrgres in 'RzPrgres.pas',
+  RzRadChk in 'RzRadChk.pas',
+  RzRadGrp in 'RzRadGrp.pas',
+  RzSelDir in 'RzSelDir.pas',
+  RzSelDirForm in 'RzSelDirForm.pas',
+  RzShellIntf in 'RzShellIntf.pas',
+  RzShellConsts in 'RzShellConsts.pas',
+  RzShellCtrls in 'RzShellCtrls.pas',
+  RzShellDialogs in 'RzShellDialogs.pas',
+  RzShellFolderForm in 'RzShellFolderForm.pas',
+  RzShellOpenForm in 'RzShellOpenForm.pas',
+  RzShellUtils in 'RzShellUtils.pas',
+  RzSndMsg in 'RzSndMsg.pas',
+  RzSplit in 'RzSplit.pas',
+  RzSpnEdt in 'RzSpnEdt.pas',
+  RzStatus in 'RzStatus.pas',
+  RzSysRes in 'RzSysRes.pas',
+  RzTabs in 'RzTabs.pas',
+  RzToolbarForm in 'RzToolbarForm.pas',
+  RzTray in 'RzTray.pas',
+  RzTreeVw in 'RzTreeVw.pas',
+  RzTrkBar in 'RzTrkBar.pas';
+
+end.

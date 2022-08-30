@@ -1,0 +1,17 @@
+TRzDateTimeEdit
+Raize Components provides a custom date/time edit control. Use the EditType property to specify whether the control will edit dates or times. Clicking on the drop-down arrow will display a TRzCalendar or a TRzTimePicker depending on the value of EditType. Date and Time properties let you access the selected date or time.
+
+TRzColorEdit
+The TRzColorEdit displays a TRzColorPicker from which a user can select a color from a standard palette of colors. The component also supports picking colors from the set of System colors (e.g. clHighlight) as well as custom colors.
+
+TRzNumericEdit
+The TRzNumericEdit provides a custom edit control for entering numeric values. Input into the control is restricted to numeric digits and other symbols required for entering a number (e.g. a decimal point). To restrict the input to just integers, set the IntegersOnly property to True. The DisplayFormat property allows you to customize the appearance of the numeric value after focus leaves the control.  Optionally, a drop down calculator can be displayed to help perform simple calculations.
+
+TRzSpinEdit
+Our spin edit component supports floating-point numbers in addition to integers. Plus, there are several ways in which the appearance of the spin edit can be altered.
+
+TRzButtonEdit
+This edit component embeds a primary and an alternate button. Use this component when you need to invoke some action that is closely related to the edit control. For example, opening lookup dialog boxes.
+
+TRzEdit and TRzMaskEdit
+Our base edit components descend from the standard VCL versions, and include support for displaying text in right-justified format and custom framing.

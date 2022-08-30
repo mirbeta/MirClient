@@ -1,0 +1,7 @@
+In this demo, you can:
+
+ - Adjust the card size (record width and/or height) using the corresponding spin editors.
+
+ - Use scrollbars that appear within cards and individual layout groups to scroll their content.
+
+ - Apply different paint styles to a form (the Look&Feel menu item).

@@ -1,0 +1,21 @@
+
+
+
+
+第一次安装打开以下目录
+
+
+Source
+
+	0.打开后,任何报错全部或略!
+
+	1.RaizeComponentsVcl 编译
+	2.RaizeComponentsVcl_Design 编译 安装
+	3.RaizeComponentsVclDb 编译
+	4.RaizeComponentsVclDb_Design 编译 安装
+
+
+
+									稻草人 2020.1.1
+
+

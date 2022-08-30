@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{opacity:0.35;}
+	.st3{opacity:0.65;}
+</style>
+<g id="Bar3DStacked100_x25_">
+	<g class="st1">
+		<path class="Blue" d="M8,14H2V6h6V14z M18,6h-6v6h6V6z M28,6h-6v10h6V6z"/>
+	</g>
+	<g class="st1">
+		<path class="Yellow" d="M8,20H2v-6h6V20z M18,12h-6v12h6V12z M28,16h-6v6h6V16z"/>
+	</g>
+	<g class="st1">
+		<path class="Red" d="M8,28H2v-8h6V28z M18,24h-6v4h6V24z M28,22h-6v6h6V22z"/>
+	</g>
+	<g class="st0">
+		<path class="Blue" d="M10,4L8,6H2l2-2H10z M14,4l-2,2h6l2-2H14z M24,4l-2,2h6l2-2H24z"/>
+	</g>
+	<path class="Red" d="M10,26l-2,2v-8l2-2V26z M20,22l-2,2v4l2-2V22z M30,20l-2,2v6l2-2V20z"/>
+	<path class="Yellow" d="M10,18l-2,2v-6l2-2V18z M20,10l-2,2v12l2-2V10z M30,14l-2,2v6l2-2V14z"/>
+	<path class="Blue" d="M10,12l-2,2V6l2-2V12z M20,4l-2,2v6l2-2V4z M30,4l-2,2v10l2-2V4z"/>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="RulerVertical" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+</style>
+<path class="Yellow" d="M21,30H9c-0.6,0-1-0.5-1-1V1c0-0.6,0.4-1,1-1h12c0.5,0,1,0.4,1,1v28C22,29.5,21.5,30,21,30z"/>
+<path class="Black" d="M22,4h-6V2h6V4z M18,8h4V6h-4V8z M16,12h6v-2h-6V12z M18,16h4v-2h-4V16z M16,20h6v-2h-6V20z M18,24h4v-2h-4
+	V24z M16,28h6v-2h-6V28z"/>
+</svg>

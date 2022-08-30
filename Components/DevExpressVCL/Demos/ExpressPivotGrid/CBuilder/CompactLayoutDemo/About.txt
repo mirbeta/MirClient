@@ -1,0 +1,12 @@
+This demo demonstrates a new View option - Compact Layout. In this View, all fields in the Row Area are stacked in one column.
+
+In this demo you can:
+
+  - Filter source data
+  - Organize the layout by using the Customization Form in advanced mode (the Options/Customization menu or the F2 key)
+  - Change the location of grand totals (the Options/Totals Location menu)
+  - Hide subtotals and grand totals (the Options/Totals Visibility menu)
+  - Specify the visibility of fields and filter separator (the Options/Elements Visibility menu)
+  - Customize selection options (the Options/Selection menu)
+  - Export data in either Excel format, as text, html or xml (the File/Export menu)
+  - Apply skins or traditional painting styles (the Look&Feel menu)

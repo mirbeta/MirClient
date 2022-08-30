@@ -1,0 +1,44 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="EQGridReportLinkRSC103Rio">
+    <MSBuild Projects="EQGridRL\EQGridReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="FlowChartReportLinkRSC103Rio">
+    <MSBuild Projects="FlowChartRL\FlowChartReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="LayoutControlReportLinkRSC103Rio">
+    <MSBuild Projects="LayoutControlRL\LayoutControlReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="OrgChartReportLinkRSC103Rio">
+    <MSBuild Projects="OrgChartRL\OrgChartReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ReportExplorerRSC103Rio">
+    <MSBuild Projects="ReportExplorer\ReportExplorerRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SchedulerLinkRSC103Rio">
+    <MSBuild Projects="SchedulerRL\SchedulerLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SpreadSheetRLRSC103Rio">
+    <MSBuild Projects="SpreadSheetRL\SpreadSheetRLRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StandardReportLinkRSC103Rio">
+    <MSBuild Projects="StandardRL\StandardReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="PivotGridReportLinkRSC103Rio">
+    <MSBuild Projects="PivotGridRL\PivotGridReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="cxTreeListReportLinkRSC103Rio">
+    <MSBuild Projects="cxTreeListRL\cxTreeListReportLinkRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="EQGridReportLinkRSC103Rio;FlowChartReportLinkRSC103Rio;LayoutControlReportLinkRSC103Rio;OrgChartReportLinkRSC103Rio;ReportExplorerRSC103Rio;SchedulerLinkRSC103Rio;SpreadSheetRLRSC103Rio;StandardReportLinkRSC103Rio;PivotGridReportLinkRSC103Rio;cxTreeListReportLinkRSC103Rio" />
+  </Target>
+</Project>

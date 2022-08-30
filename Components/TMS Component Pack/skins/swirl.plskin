@@ -1,0 +1,15 @@
+[NORMAL]
+TOP=swirlh.bmp
+CENTER=swirlc.bmp
+BOTTOM=swirlb.bmp
+
+[SELECTED]
+TOP=swirlhs.bmp
+CENTER=swirlc.bmp
+BOTTOM=swirlb.bmp
+
+[MARGIN]
+X=4
+Y=8
+CAPTIONX=4
+CAPTIONY=0

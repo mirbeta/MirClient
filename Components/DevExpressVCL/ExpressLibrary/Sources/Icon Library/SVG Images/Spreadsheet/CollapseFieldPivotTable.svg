@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Collapse_Field" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.75;}
+</style>
+<rect x="2" y="6" class="Red" width="12" height="4"/>
+<g class="st0">
+	<path class="Black" d="M22,6h10v2H22V6z M22,12h10v-2H22V12z M22,20h10v-2H22V20z M22,24h10v-2H22V24z"/>
+</g>
+<path class="Black" d="M18,2h14v2H18V2z M18,16h14v-2H18V16z M18,28h14v-2H18V28z"/>
+</svg>

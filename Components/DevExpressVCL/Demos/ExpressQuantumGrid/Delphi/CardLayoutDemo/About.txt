@@ -1,0 +1,11 @@
+This example demonstrates the following layout features of the CardView:
+
+- Categories - they can be expanded/collapsed and their state affects all cards (<Row>.Kind = rkCategory)
+
+- Horizontal/Vertical row layout inside a card (<CardView>.RowLayout, <Row>.Position, <CardView>.OptionsCustomize.LayeredRows). You can customize row layout via drag & drop
+
+- Horizontal/Vertical card layout inside a CardView (<CardView>.LayoutDirection)
+
+- Card auto width - card widths are automatically modified from their original value (<CardView>.OptionsView.CardWidth) to use all available horizontal space (<CardView>.OptionsView.CardAutoWidth). Use the "View | Card auto width" menu item to modify it
+
+Additionally, this demo shows a new highlighting behavior: focused row caption and selected card borders are drawn using selection style (<CardView>.Styles.Selection)

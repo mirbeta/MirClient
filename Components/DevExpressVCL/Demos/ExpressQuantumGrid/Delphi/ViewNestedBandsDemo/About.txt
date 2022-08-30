@@ -1,0 +1,11 @@
+In this demo you can:
+
+- use nested bands to display data (see Options/Nested Bands)
+
+- quickly customize the visibility of bands by clicking on the indicator located to the left of band headers (see Options/Bands quick customization)
+
+- quickly customize the visibility of columns by clicking on the indicator located to the left of column headers  (see Options/Columns quick customization)
+
+- use drag&drop to move a column or band
+
+- merge cells that contain the same data (see Options/Cell merging)

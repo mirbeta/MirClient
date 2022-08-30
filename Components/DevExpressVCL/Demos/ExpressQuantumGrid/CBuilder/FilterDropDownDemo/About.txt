@@ -1,0 +1,10 @@
+In this demo, you can:
+- Hover the mouse pointer over a column header and click its filter button to display the column's filter dropdown.
+- Use the filter dropdown's UI to create/modify filter conditions and apply them to the grid.
+- Choose between Excel-inspired and Classic filter dropdowns (the Filter Options | Mode menu item).
+- Specify how the grid updates its filter in response to changes made in a filter dropdown (the Filter Options | Apply Changes menu item).
+- Specify how the Values page in Excel-inspired filter dropdowns display:
+  - Numeric values (the Filter Options | Numeric Values Page Style menu item).
+  - Date-time values (the Filter Options | Date Time Values Page Style menu item).
+
+- Apply different paint styles to a form (the Look&Feel menu item).

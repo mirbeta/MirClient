@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#039C23;}
+	.st3{display:inline;fill:#D11C1C;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="PanelRight">
+	<path class="Blue" d="M28,12h-6v-2h6V12z M28,14h-6v2h6V14z M28,18h-6v2h6V18z M28,22h-6v2h6V22z"/>
+	<g class="st0">
+		<path class="Black" d="M16,12h-6v-2h6V12z M16,14h-6v2h6V14z M16,18h-6v2h6V18z M16,22h-6v2h6V22z"/>
+	</g>
+	<path class="Black" d="M31,0H1C0.5,0,0,0.5,0,1v28c0,0.5,0.5,1,1,1h5h2h23c0.5,0,1-0.5,1-1V1C32,0.5,31.5,0,31,0z M2,28V6h4v22H2z
+		 M18,28H8V6h10V28z M30,28H20V6h10V28z"/>
+</g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Rotated_Pyramid_Bar_3D_Chart"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.75;}
+</style>
+<path class="Yellow" d="M4,26l14,3L4,32V26z M4,14l24-3L4,8V14z"/>
+<path class="Blue" d="M4,20l20,3L4,26V20z M4,8l16-3L4,2V8z"/>
+<g class="st0">
+	<path class="Yellow" d="M18,29L4,26l5-0.8L18,29z M9.9,6.9L4,8l24,3L9.9,6.9z"/>
+	<path class="Blue" d="M6,18l18,5L4,20L6,18z M4,2l16,3L6,0L4,2z"/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+In this demo you can:
+
+- try the Card View options
+
+- insert/delete cards (via Ins/Del keys)
+
+- edit card data using mask edit editors
+
+- resize cards by dragging column separators
+
+- check how little source code required

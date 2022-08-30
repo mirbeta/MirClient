@@ -1,0 +1,20 @@
+TRzToolButton
+The first button on the toolbar is a TRzToolButton with its ToolStyle property set to tsDropDown. Clicking on the arrow displays the associated menu (i.e. a TPopupMenu instance). Clicking on the image invokes the action associated with the button''s OnClick event.
+
+TRzButton & TRzBitBtn
+The TRzButton component is functionally equivalent to TButton. However, as a custom VCL control TRzButton also supports multi-line captions, 3D text styles, and custom colors for the button face. The TRzBitBtn descendant adds support for displaying images from bitmap glyphs or image lists. In addition, RC uses a new and improved drawing method to give the buttons a crisp and professional appearance.
+
+TRzCheckBox and TRzRadioButton
+Our check boxes and radio buttons support multi-line hints, 3D text styles, and custom glyphs. These components also support a new flat style and Hot Tracking.
+
+TRzMenuButton
+As a TRzBtiBtn descendant, a TRzMenuButton provides an easy and concise way to display a popup menu to the user.
+
+Repeating Buttons
+This group box contains three components (TRzRapidFireButton, TRzSpinButtons, and TRzSpinner) that repeat their actions as long as the button is held down.
+
+TRzShapeButton
+This component creates a button from a specified bitmap image. By specifying transparent regions in the image, nonstandard buttons can easily be created.
+
+TRzDialogButtons
+This compound component embeds 3 buttons (Ok, Cancel, and Help), making it extremely easy to create the standard dialog buttons

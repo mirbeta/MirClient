@@ -1,0 +1,11 @@
+In this demo you can:
+- Invoke the context menu for an innermost column/row grouping value and select a sort condition to sort values in this column/row by the summaries/grand total summaries of another field
+- Invoke the context menu while holding down the Shift key and select more than one sort condition
+- Sort values of the field selected in the first combo box by the grand total summaries of another field selected in the second combo box
+- Specify the default sort order applied to fields whose values are sorted by summaries of another field.
+- Limit the number of the visible outermost row grouping values (by using the Show top spin edit)
+- Change the visibility of the 'Others' item (by using the TopValuesShowOthers check box)
+- Export data in Excel format, or as text, html or xml (by using the File/Export menu)
+- Change the location of grand totals (by using the Options/Totals Location menu)
+- Hide subtotals and grand totals (by using the Options/Totals Visibility menu)
+- Apply a particular skin or look-and-feel using the options available via the Look&Feel menu.

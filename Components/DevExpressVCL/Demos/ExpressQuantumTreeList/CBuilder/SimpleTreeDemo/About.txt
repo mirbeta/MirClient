@@ -1,0 +1,11 @@
+In this demo you can:
+
+- try the Options menu
+
+- insert/delete records (via the Ins/Ctrl+Del keys)
+
+- click on column headers to sort (hold down the shift key for sorting multiple columns)
+
+- right mouse click some node indicator and try the popup menu items
+
+- check how little source code is required

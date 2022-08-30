@@ -1,0 +1,73 @@
+package dxSpellCheckerRS27;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressSpellChecker by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxCoreRS27,
+  dxGDIPlusRS27,
+  cxLibraryRS27;
+
+contains
+  dxCustomDictionaryDialog,
+  dxISpellDecompressor,
+  dxSpellChecker,
+  dxSpellCheckerTextParsers,
+  dxSpellCheckerAdapters,
+  dxSpellCheckerAutoCorrect,
+  dxSpellCheckerAlgorithms,
+  dxSpellCheckerBaseForm,
+  dxSpellCheckerDialogs,
+  dxSpellCheckerOutlookDialog,
+  dxSpellCheckerRules,
+  dxSpellCheckerStrs,
+  dxSpellCheckerUtils,
+  dxSpellCheckerWordDialog,
+  dxSpellCheckerCheckAsYouType,
+  dxSpellCheckerSpellingOptionsDialog,
+  dxSpellCheckerAutoCorrectExceptionDialog,
+  dxSpellCheckerAutoCorrectOptionsDialog,
+  dxSpellCheckerExceptionsFrame,
+  dxHunspellAffixes,
+  dxHunspellDictionary,
+  dxHunspellTypes,
+  dxHunspellUtils,
+  dxHunspellWords;
+
+end.

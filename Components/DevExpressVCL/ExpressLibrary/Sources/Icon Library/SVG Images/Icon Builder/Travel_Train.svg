@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+</style>
+<g id="Train">
+	<path class="Blue" d="M24,2H8C5.8,2,4,3.8,4,6v18c0,1.1,0.9,2,2,2h4l-4,4h2h2l4-4h4l4,4h2h2l-4-4h4c1.1,0,2-0.9,2-2V6
+		C28,3.8,26.2,2,24,2z M10,22c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2s2,0.9,2,2C12,21.1,11.1,22,10,22z M24,14H8V6h16V14z M22,22
+		c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2s2,0.9,2,2C24,21.1,23.1,22,22,22z"/>
+</g>
+</svg>

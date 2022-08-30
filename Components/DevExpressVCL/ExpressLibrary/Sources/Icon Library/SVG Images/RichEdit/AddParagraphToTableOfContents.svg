@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="AddParagraphToTableOfContents"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+</style>
+<path class="Red" d="M16,16H6v-2h10V16z M16,18H6v2h10V18z"/>
+<path class="Black" d="M26,26v3c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1V1c0-0.6,0.4-1,1-1h24c0.6,0,1,0.4,1,1v7h-2V2H2v26h22v-2H26z
+	 M20,6H6v2h14V6z M16,10H6v2h10V10z M16,22H6v2h10V22z"/>
+<path class="Green" d="M31,10H19c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1V11C32,10.4,31.6,10,31,10z M30,18h-4v4h-2
+	v-4h-4v-2h4v-4h2v4h4V18z"/>
+</svg>

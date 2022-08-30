@@ -1,0 +1,217 @@
+object wndMain: TwndMain
+  Left = 596
+  Height = 406
+  Top = 333
+  Width = 885
+  Caption = 'Process Monitor and CPU Usage Test'
+  ClientHeight = 406
+  ClientWidth = 885
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object Memo: TMemo
+    Left = 8
+    Height = 255
+    Top = 40
+    Width = 357
+    Anchors = [akTop, akLeft, akBottom]
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 0
+    WordWrap = False
+  end
+  object bStart: TButton
+    Cursor = crHandPoint
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Start'
+    OnClick = bStartClick
+    TabOrder = 1
+  end
+  object sb: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 383
+    Width = 885
+    Panels = <    
+      item
+        Alignment = taCenter
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        Width = 120
+      end    
+      item
+        Alignment = taCenter
+        Width = 100
+      end    
+      item
+        Width = 100
+      end>
+    SimplePanel = False
+  end
+  object List: TListView
+    Left = 374
+    Height = 336
+    Top = 40
+    Width = 497
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderStyle = bsNone
+    Columns = <    
+      item
+        Caption = 'Thread'
+      end    
+      item
+        Caption = 'Created'
+        Width = 120
+      end    
+      item
+        Caption = 'State'
+        Width = 150
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'CPU'
+      end    
+      item
+        Alignment = taCenter
+        Caption = 'Priority'
+      end    
+      item
+        Caption = 'Start address'
+        Width = 150
+      end    
+      item
+        Caption = 'Debug info'
+        Width = 500
+      end>
+    ColumnClick = False
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 3
+    ViewStyle = vsReport
+  end
+  object CPUPanel: TPanel
+    Left = 8
+    Height = 75
+    Top = 301
+    Width = 50
+    Anchors = [akLeft, akBottom]
+    BevelOuter = bvNone
+    ClientHeight = 75
+    ClientWidth = 50
+    TabOrder = 4
+    object CPUGauge: TProgressBar
+      Left = 0
+      Height = 63
+      Top = 0
+      Width = 50
+      Align = alClient
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Orientation = pbVertical
+      ParentFont = False
+      TabOrder = 1
+    end
+    object CPUPanelTitle: TPanel
+      Left = 0
+      Height = 12
+      Top = 63
+      Width = 50
+      Align = alBottom
+      BevelOuter = bvNone
+      Caption = 'CPU Usage'
+      Font.Color = clWindowText
+      Font.Height = -8
+      Font.Name = 'Small Fonts'
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object Panel3: TPanel
+    Left = 64
+    Height = 75
+    Top = 301
+    Width = 50
+    Anchors = [akLeft, akBottom]
+    BevelOuter = bvNone
+    ClientHeight = 75
+    ClientWidth = 50
+    TabOrder = 5
+    object MemGauge: TProgressBar
+      Left = 0
+      Height = 63
+      Top = 0
+      Width = 50
+      Align = alClient
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Orientation = pbVertical
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Panel4: TPanel
+      Left = 0
+      Height = 12
+      Top = 63
+      Width = 50
+      Align = alBottom
+      BevelOuter = bvNone
+      Caption = 'Mem Load'
+      Font.Color = clWindowText
+      Font.Height = -8
+      Font.Name = 'Small Fonts'
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object CoreList: TListView
+    Left = 120
+    Height = 74
+    Top = 302
+    Width = 245
+    Anchors = [akLeft, akBottom]
+    BorderStyle = bsNone
+    Columns = <    
+      item
+        Caption = 'Core'
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Max Freq'
+        Width = 80
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Current Freq'
+        Width = 80
+      end>
+    ColumnClick = False
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 6
+    ViewStyle = vsReport
+  end
+end

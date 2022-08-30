@@ -1,0 +1,18 @@
+This sample application demonstrates how to create an RTF editor with a Ribbon interface using the TdxRichEditControl component and ExpressBars components. The TdxRichEditControl component provides rich text editing capabilities and actions to link to Ribbon UI elements shipped with the ExpressBars Suite.
+
+In the demo you can:
+
+1)  Manage documents, format and manipulate text using Ribbon and context menu commands.
+
+2)  Use the Options dialog (via the Options item) to customize the appearance and behavior of the Ribbon.
+
+    • Pick between four different Ribbon-based styles: Office 2007 Ribbon, Office 2010 Ribbon, Office 2013 Ribbon, and the Windows Scenic Ribbon.
+    • Select a color scheme (a theme or skin) to apply to the Ribbon form.
+    • Select a color accent for the Office 2010, Office 2013, or Windows Scenic style Ribbon.
+    • Choose the manner in which hint information is displayed on-screen.
+
+3)  Switch the Touch Mode option located in the Quick Access Toolbar to make the size of tappable Ribbon UI elements fit the average size of a fingertip, and revert back to the default size.
+
+4)  Invoke the document's context menu to quickly access some popular content management commands.
+
+5)  Invoke the Ribbon control's context menu and select 'Customize the Ribbon...' or 'Customize Quick Access Toolbar...' to try the runtime customization capabilities.

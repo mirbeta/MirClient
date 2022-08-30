@@ -1,0 +1,123 @@
+package dxPSCoreRS21;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressPrinting System by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxComnRS21,
+  dxCoreRS21,
+  dxGDIPlusRS21,
+  cxLibraryRS21;
+
+contains
+  dxWrap,
+  dxBkGnd,
+  dxBrhDlg,
+  dxExtCtrls,
+  dxExtCtrlsStrs,
+  dxFEFDlg,
+  dxfmChFN,
+  dxfmClr,
+  dxfmDfnStl,
+  dxfmDTFmt,
+  dxfmMnPg,
+  dxfmPNFmt,
+  dxfmZoom,
+  dxPcPrVw,
+  dxPgsDlg,
+  dxPSHFLibrary,
+  dxPpAttr,
+  dxPreVw,
+  dxPrnDev,
+  dxPrnDlg,
+  dxPrnPg,
+  dxPSfmFootnotes,
+  dxPSActions,
+  dxPSAutoHFTextMnuBld,
+  dxPSCompsProvider,
+  dxPSCore,
+  dxPSCPDsg,
+  dxPSEdgePatterns,
+  dxPSEngn,
+  dxPSESys,
+  dxPSEvnt,
+  dxPSExcelEdgePatterns,
+  dxPSExcelFillPatterns,
+  dxPSFillPatterns,
+  dxPSfmAutoHFTextFmt,
+  dxPSfmCompositionAdd,
+  dxPSfmCompositionDsg,
+  dxPSfmEditDesc,
+  dxPSfmLnkAdd,
+  dxPSfmTtl,
+  dxPSForm,
+  dxPSGlbl,
+  dxPSGraphicLnk,
+  dxPSHFToolBarBld,
+  dxPSImgs,
+  dxPSPgsMnuBld,
+  dxPSPopupMan,
+  dxPSPrVw,
+  dxPSPrVwOpt,
+  dxPSPrVwStd,
+  dxPSRes,
+  dxPSSngltn,
+  dxPSUtl,
+  dxBase,
+  dxPSBaseGridLnk,
+  dxPSReportLinkDesignWindow,
+  dxPSContainerLnk,
+  dxPSDBBasedXplorer,
+  dxPSExtDlgs,
+  dxPSFileBasedXplorer,
+  dxPSfmReportProperties,
+  dxPSShapes,
+  dxPSTextLnk,
+  dxPSStandardFillPatterns,
+  dxPSXplorerTreeView,
+  dxPSPDFStrings,
+  dxPSPDFExport,
+  dxPSReportRenderCanvas,
+  dxPSPDFExportCore,
+  dxPSPDFFonts,
+  dxPSTrueTypeFont,
+  dxPSPDFMetaFileParser,
+  dxPSPDFExportDialog;
+
+end.

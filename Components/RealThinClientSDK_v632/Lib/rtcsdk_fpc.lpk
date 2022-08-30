@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="rtcSDK_FPC"/>
+    <Author Value="Danijel Tkalcec - www.realthinclient.com"/>
+    <AutoUpdate Value="Manually"/>
+    <CompilerOptions>
+      <Version Value="9"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="."/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+          <CStyleOperator Value="False"/>
+          <AllowLabel Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <Checks>
+          <RangeChecks Value="True"/>
+          <OverflowChecks Value="True"/>
+          <StackChecks Value="True"/>
+        </Checks>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <UseLineInfoUnit Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="RealThinClient SDK"/>
+    <License Value="Commercial"/>
+    <Version Major="6"/>
+    <Files Count="23">
+      <Item1>
+        <Filename Value="rtcConn.pas"/>
+        <UnitName Value="rtcConn"/>
+      </Item1>
+      <Item2>
+        <Filename Value="rtcCliModule.pas"/>
+        <UnitName Value="rtcCliModule"/>
+      </Item2>
+      <Item3>
+        <Filename Value="rtcDataCli.pas"/>
+        <UnitName Value="rtcDataCli"/>
+      </Item3>
+      <Item4>
+        <Filename Value="rtcDataSrv.pas"/>
+        <UnitName Value="rtcDataSrv"/>
+      </Item4>
+      <Item5>
+        <Filename Value="rtcFunction.pas"/>
+        <UnitName Value="rtcFunction"/>
+      </Item5>
+      <Item6>
+        <Filename Value="rtcHttpCli.pas"/>
+        <UnitName Value="rtcHttpCli"/>
+      </Item6>
+      <Item7>
+        <Filename Value="rtcHttpSrv.pas"/>
+        <UnitName Value="rtcHttpSrv"/>
+      </Item7>
+      <Item8>
+        <Filename Value="rtcInfo.pas"/>
+        <UnitName Value="rtcInfo"/>
+      </Item8>
+      <Item9>
+        <Filename Value="rtcRegister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="rtcRegister"/>
+      </Item9>
+      <Item10>
+        <Filename Value="rtcSrvModule.pas"/>
+        <UnitName Value="rtcSrvModule"/>
+      </Item10>
+      <Item11>
+        <Filename Value="rtcCliModule.dcr"/>
+        <Type Value="Binary"/>
+      </Item11>
+      <Item12>
+        <Filename Value="rtcConn.dcr"/>
+        <Type Value="Binary"/>
+      </Item12>
+      <Item13>
+        <Filename Value="rtcDataCli.dcr"/>
+        <Type Value="Binary"/>
+      </Item13>
+      <Item14>
+        <Filename Value="rtcDataSrv.dcr"/>
+        <Type Value="Binary"/>
+      </Item14>
+      <Item15>
+        <Filename Value="rtcFunction.dcr"/>
+        <Type Value="Binary"/>
+      </Item15>
+      <Item16>
+        <Filename Value="rtcHttpCli.dcr"/>
+        <Type Value="Binary"/>
+      </Item16>
+      <Item17>
+        <Filename Value="rtcHttpSrv.dcr"/>
+        <Type Value="Binary"/>
+      </Item17>
+      <Item18>
+        <Filename Value="rtcSrvModule.dcr"/>
+        <Type Value="Binary"/>
+      </Item18>
+      <Item19>
+        <Filename Value="rtcDB.dcr"/>
+        <Type Value="Binary"/>
+      </Item19>
+      <Item20>
+        <Filename Value="rtcLink.dcr"/>
+        <Type Value="Binary"/>
+      </Item20>
+      <Item21>
+        <Filename Value="rtcLoadBalance.dcr"/>
+        <Type Value="Binary"/>
+      </Item21>
+      <Item22>
+        <Filename Value="rtcScript.dcr"/>
+        <Type Value="Binary"/>
+      </Item22>
+      <Item23>
+        <Filename Value="rtcThrPool.dcr"/>
+        <Type Value="Binary"/>
+      </Item23>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <CustomOptions Value="-dUseCThreads"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

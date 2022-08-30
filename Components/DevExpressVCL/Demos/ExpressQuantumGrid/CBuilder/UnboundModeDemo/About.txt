@@ -1,0 +1,7 @@
+In this demo you can:
+
+- see an example of using unbound mode
+
+- Play the MineSweeper game!
+
+- use Options to change its color scheme

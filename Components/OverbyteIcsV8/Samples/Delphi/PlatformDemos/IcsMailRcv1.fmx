@@ -1,0 +1,538 @@
+object POP3ExcercizerForm: TPOP3ExcercizerForm
+  Left = 42
+  Top = 43
+  Caption = 'POP3 Excercizer - http://www.overbyte.be'
+  ClientHeight = 348
+  ClientWidth = 525
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 42
+  Top = 43
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,233)'
+    Width = 525.000000000000000000
+    Height = 115.000000000000000000
+    TabOrder = 0
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object Panel1: TPanel
+    Align = alTop
+    Width = 525.000000000000000000
+    Height = 233.000000000000000000
+    TabOrder = 1
+    object InfoLabel: TLabel
+      Position.Point = '(32,156)'
+      Width = 50.035640716552730000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'InfoLabel'
+      WordWrap = False
+      Left = 32
+      Top = 156
+    end
+    object Label1: TLabel
+      Position.Point = '(20,11)'
+      Width = 57.770015716552730000
+      Height = 18.630859375000000000
+      TabOrder = 1
+      AutoSize = True
+      Text = 'POP3 Host'
+      WordWrap = False
+      Left = 20
+      Top = 11
+    end
+    object Label2: TLabel
+      Position.Point = '(184,11)'
+      Width = 56.373531341552730000
+      Height = 18.630859375000000000
+      TabOrder = 2
+      AutoSize = True
+      Text = 'UserName'
+      WordWrap = False
+      Left = 184
+      Top = 11
+    end
+    object Label3: TLabel
+      Position.Point = '(188,35)'
+      Width = 51.152828216552730000
+      Height = 18.630859375000000000
+      TabOrder = 3
+      AutoSize = True
+      Text = 'Password'
+      WordWrap = False
+      Left = 188
+      Top = 35
+    end
+    object Label4: TLabel
+      Position.Point = '(416,11)'
+      Width = 50.298824310302730000
+      Height = 18.630859375000000000
+      TabOrder = 4
+      AutoSize = True
+      Text = 'MsgNum'
+      WordWrap = False
+      Left = 416
+      Top = 11
+    end
+    object Label5: TLabel
+      Position.Point = '(432,35)'
+      Width = 29.222654342651370000
+      Height = 18.630859375000000000
+      TabOrder = 5
+      AutoSize = True
+      Text = 'Lines'
+      WordWrap = False
+      Left = 432
+      Top = 35
+    end
+    object Label6: TLabel
+      Position.Point = '(23,35)'
+      Width = 55.197261810302730000
+      Height = 18.630859375000000000
+      TabOrder = 6
+      AutoSize = True
+      Text = 'POP3 Port'
+      WordWrap = False
+      Left = 23
+      Top = 35
+    end
+    object Label7: TLabel
+      Position.Point = '(8,183)'
+      Width = 43.289546966552730000
+      Height = 18.630859375000000000
+      TabOrder = 7
+      AutoSize = True
+      Text = 'Subject:'
+      WordWrap = False
+      Left = 8
+      Top = 183
+    end
+    object Label8: TLabel
+      Position.Point = '(8,207)'
+      Width = 35.426265716552730000
+      Height = 18.630859375000000000
+      TabOrder = 8
+      AutoSize = True
+      Text = 'From :'
+      WordWrap = False
+      Left = 8
+      Top = 207
+    end
+    object Label9: TLabel
+      Position.Point = '(288,207)'
+      Width = 19.028318405151370000
+      Height = 18.630859375000000000
+      TabOrder = 9
+      AutoSize = True
+      Text = 'To:'
+      WordWrap = False
+      Left = 288
+      Top = 207
+    end
+    object Label11: TLabel
+      Position.Point = '(5,60)'
+      Width = 77.530265808105470000
+      Height = 18.630859375000000000
+      TabOrder = 10
+      AutoSize = True
+      Text = 'Authentication'
+      WordWrap = False
+      Left = 5
+      Top = 60
+    end
+    object ConnectButton: TButton
+      Position.Point = '(8,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ConnectButtonClick
+      TabOrder = 11
+      Text = 'Connect'
+      Left = 8
+      Top = 80
+    end
+    object QuittButton: TButton
+      Position.Point = '(264,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = QuittButtonClick
+      TabOrder = 12
+      Text = 'Quit'
+      Left = 264
+      Top = 80
+    end
+    object UserButton: TButton
+      Position.Point = '(72,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = UserButtonClick
+      TabOrder = 13
+      Text = 'User'
+      Left = 72
+      Top = 80
+    end
+    object HostEdit: TEdit
+      Position.Point = '(80,8)'
+      Width = 97.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 14
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'HostEdit'
+      Left = 80
+      Top = 8
+    end
+    object UserNameEdit: TEdit
+      Position.Point = '(244,8)'
+      Width = 89.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 15
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'UserNameEdit'
+      Left = 244
+      Top = 8
+    end
+    object PassWordEdit: TEdit
+      Position.Point = '(244,32)'
+      Width = 89.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 16
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PassWordEdit'
+      Left = 244
+      Top = 32
+    end
+    object PassButton: TButton
+      Position.Point = '(136,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = PassButtonClick
+      TabOrder = 17
+      Text = 'Pass'
+      Left = 136
+      Top = 80
+    end
+    object MsgNumEdit: TEdit
+      Position.Point = '(464,8)'
+      Width = 33.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 18
+      KeyboardType = vktDefault
+      Password = False
+      Text = '1'
+      Left = 464
+      Top = 8
+    end
+    object RetrButton: TButton
+      Position.Point = '(200,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = RetrButtonClick
+      TabOrder = 19
+      Text = 'Retr'
+      Left = 200
+      Top = 80
+    end
+    object StatButton: TButton
+      Position.Point = '(8,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = StatButtonClick
+      TabOrder = 20
+      Text = 'Stat'
+      Left = 8
+      Top = 104
+    end
+    object ListAllButton: TButton
+      Position.Point = '(72,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ListAllButtonClick
+      TabOrder = 21
+      Text = 'List All'
+      Left = 72
+      Top = 104
+    end
+    object ListButton: TButton
+      Position.Point = '(136,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ListButtonClick
+      TabOrder = 22
+      Text = 'List'
+      Left = 136
+      Top = 104
+    end
+    object DeleteButton: TButton
+      Position.Point = '(200,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = DeleteButtonClick
+      TabOrder = 23
+      Text = 'Delete'
+      Left = 200
+      Top = 104
+    end
+    object NoopButton: TButton
+      Position.Point = '(264,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = NoopButtonClick
+      TabOrder = 24
+      Text = 'Noop'
+      Left = 264
+      Top = 104
+    end
+    object LastButton: TButton
+      Position.Point = '(328,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = LastButtonClick
+      TabOrder = 25
+      Text = 'Last'
+      Left = 328
+      Top = 104
+    end
+    object ResetButton: TButton
+      Position.Point = '(392,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ResetButtonClick
+      TabOrder = 26
+      Text = 'Reset'
+      Left = 392
+      Top = 104
+    end
+    object TopButton: TButton
+      Position.Point = '(328,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = TopButtonClick
+      TabOrder = 27
+      Text = 'Top'
+      Left = 328
+      Top = 80
+    end
+    object MsgLinesEdit: TEdit
+      Position.Point = '(464,32)'
+      Width = 33.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 28
+      KeyboardType = vktDefault
+      Password = False
+      Text = '0'
+      Left = 464
+      Top = 32
+    end
+    object RpopButton: TButton
+      Position.Point = '(392,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = RpopButtonClick
+      TabOrder = 29
+      Text = 'Rpop'
+      Left = 392
+      Top = 80
+    end
+    object UidlButton: TButton
+      Position.Point = '(328,128)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = UidlButtonClick
+      TabOrder = 30
+      Text = 'Uidl'
+      Left = 328
+      Top = 128
+    end
+    object ApopButton: TButton
+      Position.Point = '(392,128)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ApopButtonClick
+      TabOrder = 31
+      Text = 'Apop'
+      Left = 392
+      Top = 128
+    end
+    object NextButton: TButton
+      Position.Point = '(456,128)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = NextButtonClick
+      TabOrder = 32
+      Text = 'Next'
+      Default = True
+      Left = 456
+      Top = 128
+    end
+    object GetAllButton: TButton
+      Position.Point = '(456,80)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = GetAllButtonClick
+      TabOrder = 33
+      Text = 'Get All'
+      Left = 456
+      Top = 80
+    end
+    object PortEdit: TEdit
+      Position.Point = '(80,32)'
+      Width = 97.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 34
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PortEdit'
+      Left = 80
+      Top = 32
+    end
+    object OpenButton: TButton
+      Position.Point = '(456,104)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = OpenButtonClick
+      TabOrder = 35
+      Text = 'Open'
+      Left = 456
+      Top = 104
+    end
+    object AbortButton: TButton
+      Position.Point = '(264,128)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = AbortButtonClick
+      TabOrder = 36
+      Text = 'Abort'
+      Left = 264
+      Top = 128
+    end
+    object SubjectEdit: TEdit
+      Position.Point = '(56,180)'
+      Width = 457.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 37
+      ReadOnly = True
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'SubjectEdit'
+      Left = 56
+      Top = 180
+    end
+    object FromEdit: TEdit
+      Position.Point = '(56,204)'
+      Width = 225.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 38
+      ReadOnly = True
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'FromEdit'
+      Left = 56
+      Top = 204
+    end
+    object ToEdit: TEdit
+      Position.Point = '(312,204)'
+      Width = 201.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 39
+      ReadOnly = True
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'ToEdit'
+      Left = 312
+      Top = 204
+    end
+    object AuthComboBox: TComboBox
+      Position.Point = '(80,56)'
+      Width = 97.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 40
+      ItemIndex = -1
+      Left = 80
+      Top = 56
+      object ListBoxItem1: TListBoxItem
+        Position.Point = '(5000,5000)'
+        Width = 19.000000000000000000
+        Height = 19.000000000000000000
+        HitTest = False
+        TabOrder = 0
+        Text = 'None'
+      end
+      object ListBoxItem2: TListBoxItem
+        Position.Point = '(5000,5000)'
+        Width = 19.000000000000000000
+        Height = 19.000000000000000000
+        HitTest = False
+        TabOrder = 1
+        Text = 'Login'
+      end
+      object ListBoxItem3: TListBoxItem
+        Position.Point = '(5000,5000)'
+        Width = 19.000000000000000000
+        Height = 19.000000000000000000
+        HitTest = False
+        TabOrder = 2
+        Text = 'CramMD5'
+      end
+      object ListBoxItem4: TListBoxItem
+        Position.Point = '(5000,5000)'
+        Width = 19.000000000000000000
+        Height = 19.000000000000000000
+        HitTest = False
+        TabOrder = 3
+        Text = 'CramSHA1'
+      end
+      object ListBoxItem5: TListBoxItem
+        Position.Point = '(5000,5000)'
+        Width = 19.000000000000000000
+        Height = 19.000000000000000000
+        HitTest = False
+        TabOrder = 4
+        Text = 'NTLM'
+      end
+    end
+    object AuthButton: TButton
+      Position.Point = '(200,128)'
+      Width = 60.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = AuthButtonClick
+      TabOrder = 41
+      Text = 'Auth'
+      Left = 200
+      Top = 128
+    end
+  end
+  object Pop3Client: TPop3Cli
+    Tag = 0
+    Host = 'localhost'
+    SocketFamily = sfIPv4
+    LocalAddr = '0.0.0.0'
+    Port = 'pop3'
+    UserName = 'fpiette'
+    PassWord = 'fp'
+    AuthType = popAuthNone
+    MsgLines = 0
+    MsgNum = 0
+    OnDisplay = Pop3ClientDisplay
+    OnMessageBegin = Pop3ClientMessageBegin
+    OnMessageEnd = Pop3ClientMessageEnd
+    OnMessageLine = Pop3ClientMessageLine
+    OnListBegin = Pop3ClientListBegin
+    OnListEnd = Pop3ClientListEnd
+    OnListLine = Pop3ClientListLine
+    OnUidlBegin = Pop3ClientUidlBegin
+    OnUidlEnd = Pop3ClientUidlEnd
+    OnUidlLine = Pop3ClientUidlLine
+    OnHeaderEnd = Pop3ClientHeaderEnd
+    OnRequestDone = Pop3ClientRequestDone
+    Left = 332
+    Top = 256
+  end
+end

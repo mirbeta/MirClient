@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{fill:#727272;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.75;}
+</style>
+<g id="SalesAnalysis_1_">
+	<path class="Blue" d="M12,4.1c3.1,0.4,5.5,2.9,5.9,5.9H12V4.1z M12,12h-2v-2V4.1C6.6,4.6,4,7.5,4,11c0,3.9,3.1,7,7,7
+		c3.5,0,6.4-2.6,6.9-6H12z"/>
+	<path class="Black" d="M16,26H1c-0.5,0-1-0.5-1-1V1c0-0.5,0.5-1,1-1h20c0.5,0,1,0.5,1,1v13h-2V2H2v22h14V26z M22,28
+		c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C24,28.9,23.1,28,22,28z M30,30c0,1.1-0.9,2-2,2c-1.1,0-2-0.9-2-2
+		c0-1.1,0.9-2,2-2C29.1,28,30,28.9,30,30z M32,24v2H18v-6h-2v-2h4v6H32z M22,21v-4c0-0.5,0.5-1,1-1h6c0.5,0,1,0.5,1,1v4
+		c0,0.5-0.5,1-1,1h-6C22.5,22,22,21.5,22,21z"/>
+</g>
+</svg>

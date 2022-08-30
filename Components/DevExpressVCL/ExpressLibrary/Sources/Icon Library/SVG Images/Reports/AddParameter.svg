@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{display:none;}
+	.st3{display:inline;fill:#1177D7;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="AddParameter">
+	<path class="Yellow" d="M16,28H5c-0.6,0-1-0.4-1-1V3c0-0.6,0.4-1,1-1h3v22h8V28z M26,18V3c0-0.6-0.4-1-1-1h-3v16H26z"/>
+	<polygon class="Green" points="30,24 26,24 26,20 22,20 22,24 18,24 18,28 22,28 22,32 26,32 26,28 30,28 	"/>
+	<path class="Black" d="M18,2V1c0-0.6-0.4-1-1-1h-4c-0.6,0-1,0.4-1,1v1h-2v4h1h6h3V2H18z M16,20h-2v-2h2V20z M17.8,11.8
+		c-0.1-0.3-0.3-0.6-0.5-0.8c-0.2-0.3-0.5-0.5-0.9-0.7C16,10.1,15.5,10,14.9,10c-0.4,0-0.9,0.1-1.2,0.3c-0.4,0.2-0.7,0.4-0.9,0.7
+		c-0.3,0.3-0.5,0.6-0.6,1.1c-0.1,0.3-0.2,0.6-0.2,1h1.8c0-0.1,0-0.2,0-0.3c0-0.2,0.1-0.4,0.2-0.6c0.1-0.2,0.2-0.3,0.4-0.4
+		c0.2-0.1,0.3-0.1,0.6-0.1c0.3,0,0.6,0.1,0.8,0.3c0.2,0.2,0.3,0.5,0.3,0.9c0,0.2,0,0.4-0.1,0.6c-0.1,0.2-0.2,0.3-0.3,0.4
+		c-0.1,0.1-0.3,0.3-0.5,0.4c-0.2,0.1-0.3,0.3-0.5,0.5c-0.1,0.2-0.3,0.4-0.4,0.7c-0.1,0.3-0.2,0.6-0.2,1V17h1.7v-0.5
+		c0-0.3,0.1-0.5,0.2-0.7c0.1-0.2,0.3-0.3,0.4-0.5c0.2-0.1,0.3-0.3,0.5-0.4c0.2-0.1,0.4-0.3,0.5-0.5c0.2-0.2,0.3-0.4,0.4-0.7
+		c0.1-0.3,0.2-0.6,0.2-1.1C18,12.4,17.9,12.1,17.8,11.8z"/>
+</g>
+</svg>

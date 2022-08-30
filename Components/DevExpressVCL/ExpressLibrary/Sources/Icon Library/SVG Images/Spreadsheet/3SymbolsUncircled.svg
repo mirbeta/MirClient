@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_x33__Symbols_Uncircled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+</style>
+<polygon class="Green" points="4,10 6,8 10,12 18,4 20,6 10,16 "/>
+<polygon class="Red" points="16,20 14,18 10,22 6,18 4,20 8,24 4,28 6,30 10,26 14,30 16,28 12,24 "/>
+<path class="Yellow" d="M26,16c-1.1,0-2-0.9-2-2s0.9-2,2-2c1.1,0,2,0.9,2,2S27.1,16,26,16z M28,6c0-1.1-0.9-2-2-2c-1.1,0-2,0.9-2,2
+	s2,5,2,5S28,7.1,28,6z"/>
+</svg>

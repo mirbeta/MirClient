@@ -1,0 +1,427 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>Platform eXtended Library (PXL): PXL.Types: record TMatrix4f</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="tipuesearch/jquery.min.js"></script>
+<script type="text/javascript" src="tipuesearch/tipuesearch_data.js"></script>
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+<script type="text/javascript" src="tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="tipuesearch/tipuesearch.js"></script>
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<center><a href="http://www.afterwarp.net"><img src="afterwarp-logo.png" /></a><img src="Logo.png" /></center><h2>Platform eXtended Library (PXL)</h2><p><a href="AllUnits.html" class="navigation">Units</a></p><p><a href="ClassHierarchy.html" class="navigation">Class Hierarchy</a></p><p><a href="AllClasses.html" class="navigation">Classes, Interfaces, Objects and Records</a></p><p><a href="AllTypes.html" class="navigation">Types</a></p><p><a href="AllVariables.html" class="navigation">Variables</a></p><p><a href="AllConstants.html" class="navigation">Constants</a></p><p><a href="AllFunctions.html" class="navigation">Functions and Procedures</a></p><p><a href="AllIdentifiers.html" class="navigation">Identifiers</a></p><p><form class="search-form" action="_tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input"></div><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></form>
+<div style="clear: both"></div>
+
+<script>
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        /* 10 items to display seems standard */
+        'show': 10,
+        /* For PasDoc docs, showing urls is not very useful,
+           since the page title already shows the unit and identifier. */
+        'showURL': false
+    });
+});
+</script>
+</p></td><td class="content">
+<a name="TMatrix4f"></a><h1 class="cio">record TMatrix4f</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Description</a></td><td>Hierarchy</td><td><a class="section" href="#PasDoc-Fields">Fields</a></td><td><a class="section" href="#PasDoc-Methods">Methods</a></td><td>Properties</td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a  href="PXL.Types.html">PXL.Types</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TMatrix4f = record</code></p>
+<h2 class="description">Description</h2>
+<p>
+4x4 transformation matrix.</p>
+<h2 class="overview">Overview</h2>
+<a name="PasDoc-Fields"></a><h3 class="summary">Fields</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code><b><a  href="PXL.Types.TMatrix4f.html#Data">Data</a></b>: array[0..3, 0..3] of <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Methods"></a><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#Adjoint">Adjoint</a></b>: <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#Determinant">Determinant</a></b>: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#EyePos">EyePos</a></b>: <a  href="PXL.Types.TVector3f.html">TVector3f</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#HeadingPitchBank">HeadingPitchBank</a></b>(const Heading, Pitch, Bank: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#HeadingPitchBank">HeadingPitchBank</a></b>(const Vector: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#Inverse">Inverse</a></b>: <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#LookAt">LookAt</a></b>(const Origin, Target, Ceiling: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#OrthogonalBDS">OrthogonalBDS</a></b>(const Left, Right, Top, Bottom, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#OrthogonalVOL">OrthogonalVOL</a></b>(const Width, Height, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#PerspectiveBDS">PerspectiveBDS</a></b>(const Left, Right, Top, Bottom, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#PerspectiveFOVX">PerspectiveFOVX</a></b>(const FieldOfView, AspectRatio, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#PerspectiveFOVY">PerspectiveFOVY</a></b>(const FieldOfView, AspectRatio, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#PerspectiveVOL">PerspectiveVOL</a></b>(const Width, Height, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#Project">Project</a></b>(const Vector: <a  href="PXL.Types.TVector3f.html">TVector3f</a>; const TargetSize: <a  href="PXL.Types.TPoint2f.html">TPoint2f</a>): <a  href="PXL.Types.TPoint2f.html">TPoint2f</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Reflect">Reflect</a></b>(const Axis: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Rotate">Rotate</a></b>(const Axis: <a  href="PXL.Types.TVector3f.html">TVector3f</a>; const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#RotateX">RotateX</a></b>(const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#RotateY">RotateY</a></b>(const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#RotateZ">RotateZ</a></b>(const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Scale">Scale</a></b>(const X, Y: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>; const Z: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a> = 0.0): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static; inline;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Scale">Scale</a></b>(const Scale: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Scale">Scale</a></b>(const Scale: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static; inline;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Translate">Translate</a></b>(const X, Y: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>; const Z: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a> = 0.0): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static; inline;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#Translate">Translate</a></b>(const Offset: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#Transpose">Transpose</a></b>: <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <b><a  href="PXL.Types.TMatrix4f.html#WorldPos">WorldPos</a></b>: <a  href="PXL.Types.TVector3f.html">TVector3f</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#YawPitchRoll">YawPitchRoll</a></b>(const Vector: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>class function <b><a  href="PXL.Types.TMatrix4f.html#YawPitchRoll">YawPitchRoll</a></b>(const Yaw, Pitch, Roll: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Fields</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Data"></a><code><b>Data</b>: array[0..3, 0..3] of <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Individual matrix values.</p>
+</td></tr>
+</table>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Adjoint"></a><code>function <b>Adjoint</b>: <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Calculates adjoint values for the current matrix.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Determinant"></a><code>function <b>Determinant</b>: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Calculates determinant of current matrix.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="EyePos"></a><code>function <b>EyePos</b>: <a  href="PXL.Types.TVector3f.html">TVector3f</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Assuming that the current matrix is a view matrix, this method calculates the 3D position where the camera (or &quot;eye&quot;) is supposedly located.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="HeadingPitchBank"></a><code>class function <b>HeadingPitchBank</b>(const Heading, Pitch, Bank: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix based on parameters similar to flight dynamics, specifically heading, pitch and Bank. Each of the components is specified individually.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="HeadingPitchBank"></a><code>class function <b>HeadingPitchBank</b>(const Vector: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix based on parameters similar to flight dynamics, specifically heading, pitch and Bank. The components are taken from the specified vector with Y corresponding to heading, X to pitch and Z to bank.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Inverse"></a><code>function <b>Inverse</b>: <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Calculates inverse of current matrix. In other words, the new matrix will &quot;undo&quot; any transformations that the given matrix would have made.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="LookAt"></a><code>class function <b>LookAt</b>(const Origin, Target, Ceiling: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates a view matrix that is defined by the camera's position, its target and vertical axis or &quot;ceiling&quot;.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="OrthogonalBDS"></a><code>class function <b>OrthogonalBDS</b>(const Left, Right, Top, Bottom, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates orthogonal projection matrix defined by the individual axis's boundaries.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="OrthogonalVOL"></a><code>class function <b>OrthogonalVOL</b>(const Width, Height, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates orthogonal projection matrix defined by the viewing volume in 3D space.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="PerspectiveBDS"></a><code>class function <b>PerspectiveBDS</b>(const Left, Right, Top, Bottom, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates perspective projection matrix defined by the individual axis's boundaries.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="PerspectiveFOVX"></a><code>class function <b>PerspectiveFOVX</b>(const FieldOfView, AspectRatio, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates perspective projection matrix defined by a field of view on X axis. In 3D shooters the field of view needs to be adjusted to allow more visible area on wide-screen monitors. The parameters that define the viewed range are important for defining the precision of the depth transformation or a depth-buffer.    </p>
+<h6 class="description_section">Parameters</h6>
+<dl class="parameters">
+<dt>FieldOfView</dt>
+<dd>The camera's field of view in radians. For example Pi/4.</dd>
+<dt>AspectRatio</dt>
+<dd>The screen's aspect ratio. Can be calculated as x/y.</dd>
+<dt>MinRange</dt>
+<dd>The closest range at which the scene will be viewed.</dd>
+<dt>MaxRange</dt>
+<dd>The farthest range at which the scene will be viewed.</dd>
+</dl>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="PerspectiveFOVY"></a><code>class function <b>PerspectiveFOVY</b>(const FieldOfView, AspectRatio, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates perspective projection matrix defined by a field of view on Y axis. This is a common way for typical 3D applications. In 3D shooters special care is to be taken because on wide-screen monitors the visible area will be bigger when using this constructor. The parameters that define the viewed range are important for defining the precision of the depth transformation or a depth-buffer.    </p>
+<h6 class="description_section">Parameters</h6>
+<dl class="parameters">
+<dt>FieldOfView</dt>
+<dd>The camera's field of view in radians. For example Pi/4.</dd>
+<dt>AspectRatio</dt>
+<dd>The screen's aspect ratio. Can be calculated as y/x.</dd>
+<dt>MinRange</dt>
+<dd>The closest range at which the scene will be viewed.</dd>
+<dt>MaxRange</dt>
+<dd>The farthest range at which the scene will be viewed.</dd>
+</dl>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="PerspectiveVOL"></a><code>class function <b>PerspectiveVOL</b>(const Width, Height, MinRange, MaxRange: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates perspective projection matrix defined by the viewing volume in 3D space.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Project"></a><code>function <b>Project</b>(const Vector: <a  href="PXL.Types.TVector3f.html">TVector3f</a>; const TargetSize: <a  href="PXL.Types.TPoint2f.html">TPoint2f</a>): <a  href="PXL.Types.TPoint2f.html">TPoint2f</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Multiplies the given 3D vector as if it was 4D (3D + 1) vector by current matrix, then divides each of the resulting components by the resulting value of W (which is then discarded), and converts absolute coordinates to screen pixels by using the given target size.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Reflect"></a><code>class function <b>Reflect</b>(const Axis: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates a reflection matrix specified by the given vector defining the orientation of the reflection.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Rotate"></a><code>class function <b>Rotate</b>(const Axis: <a  href="PXL.Types.TVector3f.html">TVector3f</a>; const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix around specified axis and angle (in radiants).</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="RotateX"></a><code>class function <b>RotateX</b>(const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix around X axis with the specified angle.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="RotateY"></a><code>class function <b>RotateY</b>(const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix around Y axis with the specified angle.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="RotateZ"></a><code>class function <b>RotateZ</b>(const Angle: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix around Z axis with the specified angle.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Scale"></a><code>class function <b>Scale</b>(const X, Y: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>; const Z: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a> = 0.0): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static; inline;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D translation matrix with specified X, Y and (optional) Z coefficients.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Scale"></a><code>class function <b>Scale</b>(const Scale: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D translation matrix with specified coefficients.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Scale"></a><code>class function <b>Scale</b>(const Scale: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static; inline;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D translation matrix with X, Y and Z equal to the specified coefficient.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Translate"></a><code>class function <b>Translate</b>(const X, Y: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>; const Z: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a> = 0.0): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static; inline;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D translation matrix with specified X, Y and (optional) Z coordinates.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Translate"></a><code>class function <b>Translate</b>(const Offset: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D translation matrix with specified offset.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="Transpose"></a><code>function <b>Transpose</b>: <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Transposes current matrix. That is, rows become columns and vice-versa.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="WorldPos"></a><code>function <b>WorldPos</b>: <a  href="PXL.Types.TVector3f.html">TVector3f</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Assuming that the specified matrix is a world matrix, this method calculates the 3D position where the object (or &quot;world&quot;) is supposedly located.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="YawPitchRoll"></a><code>class function <b>YawPitchRoll</b>(const Vector: <a  href="PXL.Types.TVector3f.html">TVector3f</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix based on parameters similar to flight dynamics, specifically yaw, pitch and roll. The components are taken from the specified vector with Y corresponding to yaw, X to pitch and Z to roll.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="YawPitchRoll"></a><code>class function <b>YawPitchRoll</b>(const Yaw, Pitch, Roll: <a  href="PXL.TypeDef.html#VectorFloat">VectorFloat</a>): <a  href="PXL.Types.TMatrix4f.html">TMatrix4f</a>; overload; static;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Creates 3D rotation matrix based on parameters similar to flight dynamics, specifically yaw, pitch and roll. Each of the components is specified individually.</p>
+</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo">Copyright &copy; 2000 - 2017 Yuriy Kotsarenko. <em>Help files generated by <u>PasDoc</u>.</em>
+</span>
+</td></tr></table></body></html>

@@ -1,0 +1,14 @@
+In this demo you can:
+
+- switch between different style sheets (via the StyleSheets TreeView to
+the left of the mainform)
+
+- use a different pre-defined style sheets (just select any item in
+the Predefined Style Sheets branch of the Style Sheets TreeView).
+
+- select a user defined style sheet via the combobox (just select any item in
+the User Defined Style Sheets branch of the StyleSheets TreeView).
+
+- modify one or more fonts and/or colors using the Edit button
+
+- load/save user defined style sheets from/to ini-files using openfile/savefile dialogs

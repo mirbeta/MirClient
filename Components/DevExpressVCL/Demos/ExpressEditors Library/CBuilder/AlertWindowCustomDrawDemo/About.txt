@@ -1,0 +1,7 @@
+This demo shows how to size alert windows and custom draw their contents in order to duplicate the display of a document in an RTF editor. 
+In this demo, you can:
+- Click the "Show Window" button to pop up one or more alert windows. The message areas in these windows will duplicate the display of a document in an RTF editor (the OnCustomDrawMessageText event handler).
+- Use the editor to load a RTF document, modify and format the text, and save changes. The displayed alert windows will automatically update their message areas in response to your text changes.
+- Size the editor’s window. New alert windows you create will be automatically sized to match the editor’s dimensions (the OnMeasureMessageText event handler).
+- Manage alert windows using the caption buttons (Pin or Close) and drag-and-drop operations.
+- Apply different paint styles to all windows (the Look&Feel menu item).

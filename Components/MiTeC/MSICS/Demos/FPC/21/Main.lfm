@@ -1,0 +1,29 @@
+object Form1: TForm1
+  Left = 715
+  Height = 71
+  Top = 284
+  Width = 334
+  BorderStyle = bsToolWindow
+  Caption = 'CPU Usage'
+  ClientHeight = 71
+  ClientWidth = 334
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object lWarn: TLabel
+    Left = 0
+    Height = 71
+    Top = 0
+    Width = 334
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'Pdh initialization failed'
+    Layout = tlCenter
+    ParentColor = False
+    Visible = False
+  end
+end

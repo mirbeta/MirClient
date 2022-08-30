@@ -1,0 +1,22 @@
+This example demonstrates how ChartView can be used to build charts based on data from a database or in-memory source.
+It also provides access to some of the chart's customization options.
+
+DB ChartView is directly connected to TDataSource and uses 2 TQuery fields as source for categories and series values.
+
+In-memory source for Unbound ChartView was created using 4 queries of data from a database: one query for each quarter of the year, defining 4 series.
+
+In this demo you can:
+
+- choose a Column/Bar/Line/Area/Pie diagram to show chart data using the View submenu or diagram selector on the toolbox
+
+- change different aspects of the chart's presentation (title, legend, toolbox) using the View submenu
+
+- customize presentation of the active diagram via the Diagram submenu (its content depends on the chosen diagram type)
+
+- show the customization form by clicking the Customize button located on the toolbox. The customization form provides options to change series, data groups (not shown in this demo) and chart settings
+
+- see how styles and custom draw are used to change the appearance of DB ChartView
+
+- see TableView at the Orders level - showing data used to feed both ChartViews
+
+- click on a chart value (column/bar/pie slice/...) of DB ChartView to show data used to calculate it in the TableView

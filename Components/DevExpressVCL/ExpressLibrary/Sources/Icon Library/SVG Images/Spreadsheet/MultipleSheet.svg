@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Multiple_Sheet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M22,14h-6v-4h6V14z M30,10h-6v4h6V10z M30,16h-6v4h6V16z M22,16h-6v4h6V16z M22,22h-6v4h6V22z M30,22h-6v4h6
+		V22z M8,14h6v-4H8V14z M8,26h6v-4H8V26z M8,20h6v-4H8V20z"/>
+</g>
+<g class="st1">
+	<path class="Black" d="M14,8H8V4h6V8z M22,4h-6v4h6V4z M6,10H0v4h6V10z M6,16H0v4h6V16z M6,4H0v4h6V4z"/>
+</g>
+</svg>

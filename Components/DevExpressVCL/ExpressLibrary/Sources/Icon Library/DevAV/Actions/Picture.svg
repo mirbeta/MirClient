@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.White{fill:#FFFFFF;}
+	.Yellow{fill:#FFB115;}
+	.Green{fill:#039C23;}
+</style>
+<g id="Picture">
+	<rect x="2" y="2" class="Yellow" width="28" height="28"/>
+	<rect x="4" y="4" class="White" width="24" height="24"/>
+	<polygon class="Green" points="2,20 10,12 22,22 30,14 30,30 2,30 	"/>
+	<circle class="Yellow" cx="21" cy="11" r="3"/>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Data_Labels_Best_Fit" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+</style>
+<rect x="26" class="Green" width="6" height="4"/>
+<path class="Red" d="M12,8C5.4,8,0,13.4,0,20c0,6.6,5.4,12,12,12s12-5.4,12-12H12V8z"/>
+<path class="Yellow" d="M14,6v12h12C26,11.4,20.6,6,14,6z"/>
+<g class="st0">
+	<polygon class="Black" points="28,6 28,8 24,8 24,10 28,10 30,10 30,8 30,6 	"/>
+</g>
+</svg>

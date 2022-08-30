@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Table" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M22,12h8v6h-8V12z M12,12v6h8v-6H12z M10,18v-6H2v6H10z M22,26h8v-6h-8V26z M12,20v6h8v-6H12z M10,26v-6H2v6
+		H10z"/>
+</g>
+<rect x="2" y="4" class="Blue" width="28" height="6"/>
+</svg>

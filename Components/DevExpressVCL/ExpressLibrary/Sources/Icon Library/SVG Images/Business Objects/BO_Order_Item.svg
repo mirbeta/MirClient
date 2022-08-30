@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{display:none;}
+	.st3{display:inline;fill:#FFB115;}
+	.st4{display:inline;}
+	.st5{display:inline;opacity:0.75;}
+	.st6{display:inline;opacity:0.5;}
+	.st7{display:inline;fill:#039C23;}
+	.st8{display:inline;fill:#D11C1C;}
+	.st9{display:inline;fill:#1177D7;}
+	.st10{display:inline;fill:#FFFFFF;}
+</style>
+<g id="Order_x5F_Item">
+	<g class="st1">
+		<path class="Yellow" d="M14,20h-1c-0.6,0-1-0.4-1-1v-4c0-0.6,0.4-1,1-1h3V8H2v14h12V20z"/>
+	</g>
+	<g class="st0">
+		<polygon class="Yellow" points="6,2 2,6 16.6,6 20.6,2 		"/>
+	</g>
+	<polygon class="Yellow" points="22,3.4 18,7.4 18,12 22,12 	"/>
+	<path class="Black" d="M20,28c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S21.1,28,20,28z M30,30c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2
+		S30,28.9,30,30z M32,24v2H16v-8h-2v-2h4v8H32z M20,22v-8h10v8H20z"/>
+</g>
+</svg>

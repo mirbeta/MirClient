@@ -1,0 +1,17 @@
+Enter text within the Find Panel's box and the grid will display those records that have one or more fields that include the text.
+
+Enable the extended syntax for search strings with the corresponding option to apply multiple conditions. According to the extended syntax, words separated by the space character are treated as individual conditions combined by the OR logical operator. The grid shows records that match at least one of these conditions. To search for a string containing a space character, enclose the string in quotation marks.
+
+The syntax allows you to use the following specifiers and wildcards to narrow search results:
+
+ - The "+" specifier. Preceding a condition with this specifier causes the grid to display only records that match this condition. The "+" specifier implements the logical AND operator. There should be no space character between the "+" sign and the condition.
+
+ - The "–" specifier. Preceding a condition with "–" excludes records that match this condition from search results. There should be no space between the "–" sign and the condition.
+
+ - The percent ("%") wildcard. This wildcard substitutes any number of characters in a condition.
+
+ - The underscore ("_") wildcard. This wildcard represents any single character in a condition.
+
+Try various options to adjust the Find Panel's look & feel.
+
+All the editing, filtering, grouping, and layout customization capabilities are enabled in this demo for you to try them out in combination with the Find Panel.

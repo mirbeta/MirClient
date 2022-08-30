@@ -1,0 +1,23 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="dbtreeRSC103Rio">
+    <MSBuild Projects="DBTree\dbtreeRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="dbtree_fRSC103Rio">
+    <MSBuild Projects="DBTree_F\dbtree_fRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="dbtreditRSC103Rio">
+    <MSBuild Projects="TreeEdit\dbtreditRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="dbtreeRSC103Rio;dbtree_fRSC103Rio;dbtreditRSC103Rio" />
+  </Target>
+</Project>

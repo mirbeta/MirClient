@@ -1,0 +1,193 @@
+object BatchDnsLookupForm: TBatchDnsLookupForm
+  Left = 202
+  Top = 118
+  Caption = 'ICS batch async DNS lookup new API (IPv6 and IPv4)'
+  BorderStyle = bsToolWindow
+  ClientHeight = 401
+  ClientWidth = 324
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 202
+  Top = 118
+  object Label1: TLabel
+    Position.Point = '(8,316)'
+    Width = 35.582027435302730000
+    Height = 18.630859375000000000
+    TabOrder = 0
+    AutoSize = True
+    Text = 'Min. #'
+    WordWrap = False
+    Left = 8
+    Top = 298
+  end
+  object Label2: TLabel
+    Position.Point = '(69,316)'
+    Width = 37.386714935302730000
+    Height = 18.630859375000000000
+    TabOrder = 1
+    AutoSize = True
+    Text = 'Max. #'
+    WordWrap = False
+    Left = 69
+    Top = 298
+  end
+  object Label3: TLabel
+    Position.Point = '(8,297)'
+    Width = 309.174774169921900000
+    Height = 18.630859375000000000
+    TabOrder = 2
+    AutoSize = True
+    Text = 'Lookup threads shared by all instances in this thread context '
+    WordWrap = False
+    Left = 8
+    Top = 279
+  end
+  object Label4: TLabel
+    Position.Point = '(8,277)'
+    Width = 160.416976928710900000
+    Height = 18.630859375000000000
+    TabOrder = 3
+    AutoSize = True
+    Text = 'Number of TWSocket instances'
+    WordWrap = False
+    Left = 8
+    Top = 259
+  end
+  object Label5: TLabel
+    Position.Point = '(8,336)'
+    Width = 69.317863464355470000
+    Height = 18.630859375000000000
+    TabOrder = 4
+    AutoSize = True
+    Text = 'SocketFamily'
+    WordWrap = False
+    Left = 8
+    Top = 318
+  end
+  object Label6: TLabel
+    Position.Point = '(132,316)'
+    Width = 167.920394897460900000
+    Height = 18.630859375000000000
+    TabOrder = 5
+    AutoSize = True
+    Text = '(Max - Min time out after 60 sec)'
+    WordWrap = False
+    Left = 132
+    Top = 298
+  end
+  object StartButton: TButton
+    Position.Point = '(223,350)'
+    Width = 75.000000000000000000
+    Height = 25.000000000000000000
+    OnClick = StartButtonClick
+    TabOrder = 6
+    Text = 'Start'
+    Left = 223
+    Top = 332
+  end
+  object DnsNamesMemo: TMemo
+    Position.Point = '(8,8)'
+    Width = 150.000000000000000000
+    Height = 260.000000000000000000
+    TabOrder = 7
+    Lines.Strings = (
+      'DnsNamesMemo')
+    KeyboardType = vktDefault
+  end
+  object ResultMemo: TMemo
+    Position.Point = '(166,8)'
+    Width = 150.000000000000000000
+    Height = 260.000000000000000000
+    TabOrder = 8
+    Lines.Strings = (
+      'ResultMemo')
+    ReadOnly = True
+    KeyboardType = vktDefault
+  end
+  object MinEdit: TEdit
+    Position.Point = '(40,313)'
+    Width = 23.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 9
+    KeyboardType = vktDefault
+    Password = False
+    Text = '0'
+    Left = 40
+    Top = 295
+  end
+  object MaxEdit: TEdit
+    Position.Point = '(105,313)'
+    Width = 23.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 10
+    KeyboardType = vktDefault
+    Password = False
+    Text = '2'
+    Left = 105
+    Top = 295
+  end
+  object InstancesEdit: TEdit
+    Position.Point = '(171,274)'
+    Width = 36.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 11
+    KeyboardType = vktDefault
+    Password = False
+    Text = '3'
+    Left = 159
+    Top = 256
+  end
+  object SocketFamilyComboBox: TComboBox
+    Position.Point = '(8,352)'
+    Width = 157.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 12
+    ItemIndex = 0
+    OnChange = SocketFamilyComboBoxChange
+    Left = 8
+    Top = 334
+    object ListBoxItem1: TListBoxItem
+      Position.Point = '(5000,5000)'
+      Width = 19.000000000000000000
+      Height = 19.000000000000000000
+      HitTest = False
+      TabOrder = 0
+      Text = 'sfAny'
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Point = '(5000,5000)'
+      Width = 19.000000000000000000
+      Height = 19.000000000000000000
+      HitTest = False
+      TabOrder = 1
+      Text = 'sfAnyIPv4'
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Point = '(5000,5000)'
+      Width = 19.000000000000000000
+      Height = 19.000000000000000000
+      HitTest = False
+      TabOrder = 2
+      Text = 'sfAnyIPv6'
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Point = '(5000,5000)'
+      Width = 19.000000000000000000
+      Height = 19.000000000000000000
+      HitTest = False
+      TabOrder = 3
+      Text = 'sfIPv4 (old Win API)'
+    end
+    object ListBoxItem5: TListBoxItem
+      Position.Point = '(5000,5000)'
+      Width = 19.000000000000000000
+      Height = 19.000000000000000000
+      HitTest = False
+      TabOrder = 4
+      Text = 'sfIPv6'
+    end
+  end
+end

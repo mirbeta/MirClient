@@ -1,0 +1,15 @@
+The demo's entity classes use the VirtualColumn attribute to define internally calculated fields in bound datasets. Properties marked with this attribute obtain their values using getters that access reference property members.
+ 
+In this demo, you can:
+
+ - Switch between combined and separate master-detail data layouts (see the Options);
+
+ - Press Insert or Ctrl+Del to manage records;
+
+ - Modify cell data via in-place editors;
+
+ - Group the Table View by dragging one or more column headers to the Group By box;
+
+ - Use the options the filter buttons in column headers provide to filter records;
+
+ - Apply sort options by clicking column/row headers while pressing Shift or Ctrl.

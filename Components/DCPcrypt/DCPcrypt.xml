@@ -1,0 +1,1406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="DCPcrypt">
+  <pointer name="Pbyte" type="Byte" indircnt="1" />
+  <pointer name="Pword" type="Word" indircnt="1" />
+  <pointer name="Pdword" type="Integer" indircnt="1" />
+  <pointer name="Pwordarray" type="Twordarray" indircnt="1" />
+  <array name="Twordarray" low="0" high="19383">
+    <element type="Word" />
+  </array>
+  <pointer name="Pdwordarray" type="Tdwordarray" indircnt="1" />
+  <array name="Tdwordarray" low="0" high="8191">
+    <element type="Integer" />
+  </array>
+  <class name="EDCP_cipher">
+    <ancestor name="Exception" namespace="SysUtils">
+      <methodref name="Create" visibility="public">
+      </methodref>
+      <methodref name="CreateFmt" visibility="public">
+      </methodref>
+      <methodref name="CreateRes" visibility="public">
+      </methodref>
+      <methodref name="CreateRes" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmt" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmt" visibility="public">
+      </methodref>
+      <methodref name="CreateHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateFmtHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmtHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmtHelp" visibility="public">
+      </methodref>
+      <propertyref name="HelpContext" visibility="public">
+      </propertyref>
+      <propertyref name="Message" visibility="public">
+      </propertyref>
+      <ancestor name="TObject" namespace="System">
+        <methodref name="Create" visibility="public">
+        </methodref>
+        <methodref name="Free" visibility="public">
+        </methodref>
+        <methodref name="InitInstance" visibility="public">
+        </methodref>
+        <methodref name="CleanupInstance" visibility="public">
+        </methodref>
+        <methodref name="ClassType" visibility="public">
+        </methodref>
+        <methodref name="ClassName" visibility="public">
+        </methodref>
+        <methodref name="ClassNameIs" visibility="public">
+        </methodref>
+        <methodref name="ClassParent" visibility="public">
+        </methodref>
+        <methodref name="ClassInfo" visibility="public">
+        </methodref>
+        <methodref name="InstanceSize" visibility="public">
+        </methodref>
+        <methodref name="InheritsFrom" visibility="public">
+        </methodref>
+        <methodref name="MethodAddress" visibility="public">
+        </methodref>
+        <methodref name="MethodName" visibility="public">
+        </methodref>
+        <methodref name="FieldAddress" visibility="public">
+        </methodref>
+        <methodref name="GetInterface" visibility="public">
+        </methodref>
+        <methodref name="GetInterfaceEntry" visibility="public">
+        </methodref>
+        <methodref name="GetInterfaceTable" visibility="public">
+        </methodref>
+        <methodref name="SafeCallException" visibility="public">
+        </methodref>
+        <methodref name="AfterConstruction" visibility="public">
+        </methodref>
+        <methodref name="BeforeDestruction" visibility="public">
+        </methodref>
+        <methodref name="Dispatch" visibility="public">
+        </methodref>
+        <methodref name="DefaultHandler" visibility="public">
+        </methodref>
+        <methodref name="NewInstance" visibility="public">
+        </methodref>
+        <methodref name="FreeInstance" visibility="public">
+        </methodref>
+        <methodref name="Destroy" visibility="public">
+        </methodref>
+      </ancestor>
+    </ancestor>
+  </class>
+  <class name="TDCP_cipher">
+    <ancestor name="TComponent" namespace="Classes">
+      <methodref name="GetComObject" visibility="private">
+      </methodref>
+      <methodref name="GetComponent" visibility="private">
+      </methodref>
+      <methodref name="GetComponentCount" visibility="private">
+      </methodref>
+      <methodref name="GetComponentIndex" visibility="private">
+      </methodref>
+      <methodref name="Insert" visibility="private">
+      </methodref>
+      <methodref name="ReadLeft" visibility="private">
+      </methodref>
+      <methodref name="ReadTop" visibility="private">
+      </methodref>
+      <methodref name="Remove" visibility="private">
+      </methodref>
+      <methodref name="RemoveNotification" visibility="private">
+      </methodref>
+      <methodref name="SetComponentIndex" visibility="private">
+      </methodref>
+      <methodref name="SetReference" visibility="private">
+      </methodref>
+      <methodref name="WriteLeft" visibility="private">
+      </methodref>
+      <methodref name="WriteTop" visibility="private">
+      </methodref>
+      <methodref name="IntfGetComponent" visibility="private">
+      </methodref>
+      <methodref name="ChangeName" visibility="protected">
+      </methodref>
+      <methodref name="DefineProperties" visibility="public">
+      </methodref>
+      <methodref name="GetChildren" visibility="protected">
+      </methodref>
+      <methodref name="GetChildOwner" visibility="protected">
+      </methodref>
+      <methodref name="GetChildParent" visibility="protected">
+      </methodref>
+      <methodref name="GetOwner" visibility="protected">
+      </methodref>
+      <methodref name="Loaded" visibility="public">
+      </methodref>
+      <methodref name="Notification" visibility="public">
+      </methodref>
+      <methodref name="PaletteCreated" visibility="protected">
+      </methodref>
+      <methodref name="ReadState" visibility="public">
+      </methodref>
+      <methodref name="SetAncestor" visibility="protected">
+      </methodref>
+      <methodref name="SetDesigning" visibility="protected">
+      </methodref>
+      <methodref name="SetInline" visibility="protected">
+      </methodref>
+      <methodref name="SetDesignInstance" visibility="protected">
+      </methodref>
+      <methodref name="SetName" visibility="public">
+      </methodref>
+      <methodref name="SetChildOrder" visibility="protected">
+      </methodref>
+      <methodref name="SetParentComponent" visibility="protected">
+      </methodref>
+      <methodref name="Updating" visibility="protected">
+      </methodref>
+      <methodref name="Updated" visibility="protected">
+      </methodref>
+      <methodref name="UpdateRegistry" visibility="public">
+      </methodref>
+      <methodref name="ValidateRename" visibility="public">
+      </methodref>
+      <methodref name="ValidateContainer" visibility="protected">
+      </methodref>
+      <methodref name="ValidateInsert" visibility="protected">
+      </methodref>
+      <methodref name="WriteState" visibility="public">
+      </methodref>
+      <methodref name="QueryInterface" visibility="public">
+      </methodref>
+      <methodref name="_AddRef" visibility="protected">
+      </methodref>
+      <methodref name="_Release" visibility="protected">
+      </methodref>
+      <methodref name="GetTypeInfoCount" visibility="protected">
+      </methodref>
+      <methodref name="GetTypeInfo" visibility="protected">
+      </methodref>
+      <methodref name="GetIDsOfNames" visibility="protected">
+      </methodref>
+      <methodref name="Invoke" visibility="protected">
+      </methodref>
+      <methodref name="Create" visibility="public">
+      </methodref>
+      <methodref name="Destroy" visibility="public">
+      </methodref>
+      <methodref name="BeforeDestruction" visibility="public">
+      </methodref>
+      <methodref name="DestroyComponents" visibility="public">
+      </methodref>
+      <methodref name="Destroying" visibility="public">
+      </methodref>
+      <methodref name="ExecuteAction" visibility="public">
+      </methodref>
+      <methodref name="FindComponent" visibility="public">
+      </methodref>
+      <methodref name="FreeNotification" visibility="public">
+      </methodref>
+      <methodref name="RemoveFreeNotification" visibility="public">
+      </methodref>
+      <methodref name="FreeOnRelease" visibility="public">
+      </methodref>
+      <methodref name="GetEnumerator" visibility="public">
+      </methodref>
+      <methodref name="GetParentComponent" visibility="public">
+      </methodref>
+      <methodref name="GetNamePath" visibility="public">
+      </methodref>
+      <methodref name="HasParent" visibility="public">
+      </methodref>
+      <methodref name="InsertComponent" visibility="public">
+      </methodref>
+      <methodref name="RemoveComponent" visibility="public">
+      </methodref>
+      <methodref name="SetSubComponent" visibility="public">
+      </methodref>
+      <methodref name="SafeCallException" visibility="public">
+      </methodref>
+      <methodref name="UpdateAction" visibility="public">
+      </methodref>
+      <methodref name="IsImplementorOf" visibility="public">
+      </methodref>
+      <methodref name="ReferenceInterface" visibility="public">
+      </methodref>
+      <propertyref name="ComObject" visibility="public">
+      </propertyref>
+      <propertyref name="Components" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentCount" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentIndex" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentState" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentStyle" visibility="public">
+      </propertyref>
+      <propertyref name="DesignInfo" visibility="public">
+      </propertyref>
+      <propertyref name="Owner" visibility="public">
+      </propertyref>
+      <propertyref name="VCLComObject" visibility="public">
+      </propertyref>
+      <propertyref name="Name" visibility="published">
+      </propertyref>
+      <propertyref name="Tag" visibility="published">
+      </propertyref>
+      <ancestor name="TPersistent" namespace="Classes">
+        <methodref name="AssignError" visibility="private">
+        </methodref>
+        <methodref name="AssignTo" visibility="public">
+        </methodref>
+        <methodref name="DefineProperties" visibility="public">
+        </methodref>
+        <methodref name="GetOwner" visibility="protected">
+        </methodref>
+        <methodref name="Destroy" visibility="public">
+        </methodref>
+        <methodref name="Assign" visibility="public">
+        </methodref>
+        <methodref name="GetNamePath" visibility="public">
+        </methodref>
+        <ancestor name="TObject" namespace="System">
+          <methodref name="Create" visibility="public">
+          </methodref>
+          <methodref name="Free" visibility="public">
+          </methodref>
+          <methodref name="InitInstance" visibility="public">
+          </methodref>
+          <methodref name="CleanupInstance" visibility="public">
+          </methodref>
+          <methodref name="ClassType" visibility="public">
+          </methodref>
+          <methodref name="ClassName" visibility="public">
+          </methodref>
+          <methodref name="ClassNameIs" visibility="public">
+          </methodref>
+          <methodref name="ClassParent" visibility="public">
+          </methodref>
+          <methodref name="ClassInfo" visibility="public">
+          </methodref>
+          <methodref name="InstanceSize" visibility="public">
+          </methodref>
+          <methodref name="InheritsFrom" visibility="public">
+          </methodref>
+          <methodref name="MethodAddress" visibility="public">
+          </methodref>
+          <methodref name="MethodName" visibility="public">
+          </methodref>
+          <methodref name="FieldAddress" visibility="public">
+          </methodref>
+          <methodref name="GetInterface" visibility="public">
+          </methodref>
+          <methodref name="GetInterfaceEntry" visibility="public">
+          </methodref>
+          <methodref name="GetInterfaceTable" visibility="public">
+          </methodref>
+          <methodref name="SafeCallException" visibility="public">
+          </methodref>
+          <methodref name="AfterConstruction" visibility="public">
+          </methodref>
+          <methodref name="BeforeDestruction" visibility="public">
+          </methodref>
+          <methodref name="Dispatch" visibility="public">
+          </methodref>
+          <methodref name="DefaultHandler" visibility="public">
+          </methodref>
+          <methodref name="NewInstance" visibility="public">
+          </methodref>
+          <methodref name="FreeInstance" visibility="public">
+          </methodref>
+          <methodref name="Destroy" visibility="public">
+          </methodref>
+        </ancestor>
+      </ancestor>
+    </ancestor>
+    <members>
+      <field name="fInitialized" type="Boolean" visibility="protected" />
+      <procedure name="DeadInt" visibility="protected">
+        <parameters>
+          <parameter name="Value" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="DeadStr" visibility="protected">
+        <parameters>
+          <parameter name="Value" type="string" />
+        </parameters>
+      </procedure>
+      <property name="Initialized" visibility="public" read="fInitialized" type="Boolean" />
+      <function name="GetId" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <function name="GetAlgorithm" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="string" />
+        </parameters>
+      </function>
+      <function name="GetMaxKeySize" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <function name="SelfTest" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Boolean" />
+        </parameters>
+      </function>
+      <procedure name="Init" visibility="public" procflags="virtual">
+        <parameters>
+          <parameter name="Key" paramflags="const" />
+          <parameter name="Size" type="Integer" />
+          <parameter name="InitVector" type="Pointer" />
+        </parameters>
+      </procedure>
+      <procedure name="InitStr" visibility="public">
+        <parameters>
+          <parameter name="Key" type="string" paramflags="const" />
+        </parameters>
+      </procedure>
+      <procedure name="Burn" visibility="public" procflags="virtual">
+      </procedure>
+      <procedure name="Reset" visibility="public" procflags="abstract virtual">
+      </procedure>
+      <procedure name="Encrypt" visibility="public" procflags="abstract virtual">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="Decrypt" visibility="public" procflags="abstract virtual">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <function name="EncryptStream" visibility="public">
+        <parameters>
+          <parameter name="InStream" type="TStream" />
+          <parameter name="OutStream" type="TStream" />
+          <parameter name="Size" type="Integer" />
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <function name="DecryptStream" visibility="public">
+        <parameters>
+          <parameter name="InStream" type="TStream" />
+          <parameter name="OutStream" type="TStream" />
+          <parameter name="Size" type="Integer" />
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <function name="EncryptString" visibility="public" procflags="virtual">
+        <parameters>
+          <parameter name="Str" type="string" paramflags="const" />
+          <retval type="string" />
+        </parameters>
+      </function>
+      <function name="DecryptString" visibility="public" procflags="virtual">
+        <parameters>
+          <parameter name="Str" type="string" paramflags="const" />
+          <retval type="string" />
+        </parameters>
+      </function>
+      <constructor name="Create" visibility="public">
+        <parameters>
+          <parameter name="AOwner" type="TComponent" />
+        </parameters>
+      </constructor>
+      <destructor name="Destroy" visibility="public">
+        <parameters>
+        </parameters>
+      </destructor>
+      <property name="Id" visibility="published" read="GetId" write="DeadInt" type="Integer" />
+      <property name="Algorithm" visibility="published" read="GetAlgorithm" write="DeadStr" type="string" />
+      <property name="MaxKeySize" visibility="published" read="GetMaxKeySize" write="DeadInt" type="Integer" />
+    </members>
+  </class>
+  <classref name="TDCP_cipherclass" ref="TDCP_cipher" />
+  <const name="cmCBC" type="TDCP_ciphermode">
+    <value>
+      cmCBC
+    </value>
+  </const>
+  <const name="cmCFB8bit" type="TDCP_ciphermode">
+    <value>
+      cmCFB8bit
+    </value>
+  </const>
+  <const name="cmCFBblock" type="TDCP_ciphermode">
+    <value>
+      cmCFBblock
+    </value>
+  </const>
+  <const name="cmOFB" type="TDCP_ciphermode">
+    <value>
+      cmOFB
+    </value>
+  </const>
+  <enum name="TDCP_ciphermode">
+    <element name="cmCBC" />
+    <element name="cmCFB8bit" />
+    <element name="cmCFBblock" />
+    <element name="cmOFB" />
+  </enum>
+  <class name="EDCP_blockcipher">
+    <ancestor name="EDCP_cipher" namespace="DCPcrypt">
+      <ancestor name="Exception" namespace="SysUtils">
+        <methodref name="Create" visibility="public">
+        </methodref>
+        <methodref name="CreateFmt" visibility="public">
+        </methodref>
+        <methodref name="CreateRes" visibility="public">
+        </methodref>
+        <methodref name="CreateRes" visibility="public">
+        </methodref>
+        <methodref name="CreateResFmt" visibility="public">
+        </methodref>
+        <methodref name="CreateResFmt" visibility="public">
+        </methodref>
+        <methodref name="CreateHelp" visibility="public">
+        </methodref>
+        <methodref name="CreateFmtHelp" visibility="public">
+        </methodref>
+        <methodref name="CreateResHelp" visibility="public">
+        </methodref>
+        <methodref name="CreateResHelp" visibility="public">
+        </methodref>
+        <methodref name="CreateResFmtHelp" visibility="public">
+        </methodref>
+        <methodref name="CreateResFmtHelp" visibility="public">
+        </methodref>
+        <propertyref name="HelpContext" visibility="public">
+        </propertyref>
+        <propertyref name="Message" visibility="public">
+        </propertyref>
+        <ancestor name="TObject" namespace="System">
+          <methodref name="Create" visibility="public">
+          </methodref>
+          <methodref name="Free" visibility="public">
+          </methodref>
+          <methodref name="InitInstance" visibility="public">
+          </methodref>
+          <methodref name="CleanupInstance" visibility="public">
+          </methodref>
+          <methodref name="ClassType" visibility="public">
+          </methodref>
+          <methodref name="ClassName" visibility="public">
+          </methodref>
+          <methodref name="ClassNameIs" visibility="public">
+          </methodref>
+          <methodref name="ClassParent" visibility="public">
+          </methodref>
+          <methodref name="ClassInfo" visibility="public">
+          </methodref>
+          <methodref name="InstanceSize" visibility="public">
+          </methodref>
+          <methodref name="InheritsFrom" visibility="public">
+          </methodref>
+          <methodref name="MethodAddress" visibility="public">
+          </methodref>
+          <methodref name="MethodName" visibility="public">
+          </methodref>
+          <methodref name="FieldAddress" visibility="public">
+          </methodref>
+          <methodref name="GetInterface" visibility="public">
+          </methodref>
+          <methodref name="GetInterfaceEntry" visibility="public">
+          </methodref>
+          <methodref name="GetInterfaceTable" visibility="public">
+          </methodref>
+          <methodref name="SafeCallException" visibility="public">
+          </methodref>
+          <methodref name="AfterConstruction" visibility="public">
+          </methodref>
+          <methodref name="BeforeDestruction" visibility="public">
+          </methodref>
+          <methodref name="Dispatch" visibility="public">
+          </methodref>
+          <methodref name="DefaultHandler" visibility="public">
+          </methodref>
+          <methodref name="NewInstance" visibility="public">
+          </methodref>
+          <methodref name="FreeInstance" visibility="public">
+          </methodref>
+          <methodref name="Destroy" visibility="public">
+          </methodref>
+        </ancestor>
+      </ancestor>
+    </ancestor>
+  </class>
+  <class name="TDCP_blockcipher">
+    <ancestor name="TDCP_cipher" namespace="DCPcrypt">
+      <methodref name="DeadInt" visibility="protected" />
+      <methodref name="DeadStr" visibility="protected" />
+      <propertyref name="Initialized" visibility="public" />
+      <methodref name="GetId" visibility="public" />
+      <methodref name="GetAlgorithm" visibility="public" />
+      <methodref name="GetMaxKeySize" visibility="public" />
+      <methodref name="SelfTest" visibility="public" />
+      <methodref name="Init" visibility="public" />
+      <methodref name="InitStr" visibility="public" />
+      <methodref name="Burn" visibility="public" />
+      <methodref name="Reset" visibility="public" />
+      <methodref name="Encrypt" visibility="public" />
+      <methodref name="Decrypt" visibility="public" />
+      <methodref name="EncryptStream" visibility="public" />
+      <methodref name="DecryptStream" visibility="public" />
+      <methodref name="EncryptString" visibility="public" />
+      <methodref name="DecryptString" visibility="public" />
+      <methodref name="Create" visibility="public" />
+      <methodref name="Destroy" visibility="public" />
+      <propertyref name="Id" visibility="published" />
+      <propertyref name="Algorithm" visibility="published" />
+      <propertyref name="MaxKeySize" visibility="published" />
+      <ancestor name="TComponent" namespace="Classes">
+        <methodref name="GetComObject" visibility="private">
+        </methodref>
+        <methodref name="GetComponent" visibility="private">
+        </methodref>
+        <methodref name="GetComponentCount" visibility="private">
+        </methodref>
+        <methodref name="GetComponentIndex" visibility="private">
+        </methodref>
+        <methodref name="Insert" visibility="private">
+        </methodref>
+        <methodref name="ReadLeft" visibility="private">
+        </methodref>
+        <methodref name="ReadTop" visibility="private">
+        </methodref>
+        <methodref name="Remove" visibility="private">
+        </methodref>
+        <methodref name="RemoveNotification" visibility="private">
+        </methodref>
+        <methodref name="SetComponentIndex" visibility="private">
+        </methodref>
+        <methodref name="SetReference" visibility="private">
+        </methodref>
+        <methodref name="WriteLeft" visibility="private">
+        </methodref>
+        <methodref name="WriteTop" visibility="private">
+        </methodref>
+        <methodref name="IntfGetComponent" visibility="private">
+        </methodref>
+        <methodref name="ChangeName" visibility="protected">
+        </methodref>
+        <methodref name="DefineProperties" visibility="public">
+        </methodref>
+        <methodref name="GetChildren" visibility="protected">
+        </methodref>
+        <methodref name="GetChildOwner" visibility="protected">
+        </methodref>
+        <methodref name="GetChildParent" visibility="protected">
+        </methodref>
+        <methodref name="GetOwner" visibility="protected">
+        </methodref>
+        <methodref name="Loaded" visibility="public">
+        </methodref>
+        <methodref name="Notification" visibility="public">
+        </methodref>
+        <methodref name="PaletteCreated" visibility="protected">
+        </methodref>
+        <methodref name="ReadState" visibility="public">
+        </methodref>
+        <methodref name="SetAncestor" visibility="protected">
+        </methodref>
+        <methodref name="SetDesigning" visibility="protected">
+        </methodref>
+        <methodref name="SetInline" visibility="protected">
+        </methodref>
+        <methodref name="SetDesignInstance" visibility="protected">
+        </methodref>
+        <methodref name="SetName" visibility="public">
+        </methodref>
+        <methodref name="SetChildOrder" visibility="protected">
+        </methodref>
+        <methodref name="SetParentComponent" visibility="protected">
+        </methodref>
+        <methodref name="Updating" visibility="protected">
+        </methodref>
+        <methodref name="Updated" visibility="protected">
+        </methodref>
+        <methodref name="UpdateRegistry" visibility="public">
+        </methodref>
+        <methodref name="ValidateRename" visibility="public">
+        </methodref>
+        <methodref name="ValidateContainer" visibility="protected">
+        </methodref>
+        <methodref name="ValidateInsert" visibility="protected">
+        </methodref>
+        <methodref name="WriteState" visibility="public">
+        </methodref>
+        <methodref name="QueryInterface" visibility="public">
+        </methodref>
+        <methodref name="_AddRef" visibility="protected">
+        </methodref>
+        <methodref name="_Release" visibility="protected">
+        </methodref>
+        <methodref name="GetTypeInfoCount" visibility="protected">
+        </methodref>
+        <methodref name="GetTypeInfo" visibility="protected">
+        </methodref>
+        <methodref name="GetIDsOfNames" visibility="protected">
+        </methodref>
+        <methodref name="Invoke" visibility="protected">
+        </methodref>
+        <methodref name="Create" visibility="public">
+        </methodref>
+        <methodref name="Destroy" visibility="public">
+        </methodref>
+        <methodref name="BeforeDestruction" visibility="public">
+        </methodref>
+        <methodref name="DestroyComponents" visibility="public">
+        </methodref>
+        <methodref name="Destroying" visibility="public">
+        </methodref>
+        <methodref name="ExecuteAction" visibility="public">
+        </methodref>
+        <methodref name="FindComponent" visibility="public">
+        </methodref>
+        <methodref name="FreeNotification" visibility="public">
+        </methodref>
+        <methodref name="RemoveFreeNotification" visibility="public">
+        </methodref>
+        <methodref name="FreeOnRelease" visibility="public">
+        </methodref>
+        <methodref name="GetEnumerator" visibility="public">
+        </methodref>
+        <methodref name="GetParentComponent" visibility="public">
+        </methodref>
+        <methodref name="GetNamePath" visibility="public">
+        </methodref>
+        <methodref name="HasParent" visibility="public">
+        </methodref>
+        <methodref name="InsertComponent" visibility="public">
+        </methodref>
+        <methodref name="RemoveComponent" visibility="public">
+        </methodref>
+        <methodref name="SetSubComponent" visibility="public">
+        </methodref>
+        <methodref name="SafeCallException" visibility="public">
+        </methodref>
+        <methodref name="UpdateAction" visibility="public">
+        </methodref>
+        <methodref name="IsImplementorOf" visibility="public">
+        </methodref>
+        <methodref name="ReferenceInterface" visibility="public">
+        </methodref>
+        <propertyref name="ComObject" visibility="public">
+        </propertyref>
+        <propertyref name="Components" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentCount" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentIndex" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentState" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentStyle" visibility="public">
+        </propertyref>
+        <propertyref name="DesignInfo" visibility="public">
+        </propertyref>
+        <propertyref name="Owner" visibility="public">
+        </propertyref>
+        <propertyref name="VCLComObject" visibility="public">
+        </propertyref>
+        <propertyref name="Name" visibility="published">
+        </propertyref>
+        <propertyref name="Tag" visibility="published">
+        </propertyref>
+        <ancestor name="TPersistent" namespace="Classes">
+          <methodref name="AssignError" visibility="private">
+          </methodref>
+          <methodref name="AssignTo" visibility="public">
+          </methodref>
+          <methodref name="DefineProperties" visibility="public">
+          </methodref>
+          <methodref name="GetOwner" visibility="protected">
+          </methodref>
+          <methodref name="Destroy" visibility="public">
+          </methodref>
+          <methodref name="Assign" visibility="public">
+          </methodref>
+          <methodref name="GetNamePath" visibility="public">
+          </methodref>
+          <ancestor name="TObject" namespace="System">
+            <methodref name="Create" visibility="public">
+            </methodref>
+            <methodref name="Free" visibility="public">
+            </methodref>
+            <methodref name="InitInstance" visibility="public">
+            </methodref>
+            <methodref name="CleanupInstance" visibility="public">
+            </methodref>
+            <methodref name="ClassType" visibility="public">
+            </methodref>
+            <methodref name="ClassName" visibility="public">
+            </methodref>
+            <methodref name="ClassNameIs" visibility="public">
+            </methodref>
+            <methodref name="ClassParent" visibility="public">
+            </methodref>
+            <methodref name="ClassInfo" visibility="public">
+            </methodref>
+            <methodref name="InstanceSize" visibility="public">
+            </methodref>
+            <methodref name="InheritsFrom" visibility="public">
+            </methodref>
+            <methodref name="MethodAddress" visibility="public">
+            </methodref>
+            <methodref name="MethodName" visibility="public">
+            </methodref>
+            <methodref name="FieldAddress" visibility="public">
+            </methodref>
+            <methodref name="GetInterface" visibility="public">
+            </methodref>
+            <methodref name="GetInterfaceEntry" visibility="public">
+            </methodref>
+            <methodref name="GetInterfaceTable" visibility="public">
+            </methodref>
+            <methodref name="SafeCallException" visibility="public">
+            </methodref>
+            <methodref name="AfterConstruction" visibility="public">
+            </methodref>
+            <methodref name="BeforeDestruction" visibility="public">
+            </methodref>
+            <methodref name="Dispatch" visibility="public">
+            </methodref>
+            <methodref name="DefaultHandler" visibility="public">
+            </methodref>
+            <methodref name="NewInstance" visibility="public">
+            </methodref>
+            <methodref name="FreeInstance" visibility="public">
+            </methodref>
+            <methodref name="Destroy" visibility="public">
+            </methodref>
+          </ancestor>
+        </ancestor>
+      </ancestor>
+    </ancestor>
+    <members>
+      <field name="fCipherMode" type="TDCP_ciphermode" visibility="protected" />
+      <field name="IV" type="PByteArray" visibility="protected" />
+      <field name="Chain" type="PByteArray" visibility="protected" />
+      <field name="Temp" type="PByteArray" visibility="protected" />
+      <field name="BS" type="Integer" visibility="protected" />
+      <function name="GetBlockSize" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <procedure name="Reset" visibility="public" procflags="override">
+      </procedure>
+      <procedure name="Burn" visibility="public" procflags="override">
+      </procedure>
+      <procedure name="SetIV" visibility="public">
+        <parameters>
+          <parameter name="Value" paramflags="const" />
+        </parameters>
+      </procedure>
+      <procedure name="GetIV" visibility="public">
+        <parameters>
+          <parameter name="Value" paramflags="var" />
+        </parameters>
+      </procedure>
+      <procedure name="Encrypt" visibility="public" procflags="override">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="Decrypt" visibility="public" procflags="override">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <function name="EncryptString" visibility="public" procflags="override">
+        <parameters>
+          <parameter name="Str" type="string" paramflags="const" />
+          <retval type="string" />
+        </parameters>
+      </function>
+      <function name="DecryptString" visibility="public" procflags="override">
+        <parameters>
+          <parameter name="Str" type="string" paramflags="const" />
+          <retval type="string" />
+        </parameters>
+      </function>
+      <procedure name="EncryptECB" visibility="public" procflags="abstract virtual">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+        </parameters>
+      </procedure>
+      <procedure name="DecryptECB" visibility="public" procflags="abstract virtual">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+        </parameters>
+      </procedure>
+      <procedure name="EncryptCBC" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="DecryptCBC" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="EncryptCFB8bit" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="DecryptCFB8bit" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="EncryptCFBblock" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="DecryptCFBblock" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="EncryptOFB" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="DecryptOFB" visibility="public">
+        <parameters>
+          <parameter name="Indata" paramflags="const" />
+          <parameter name="Outdata" paramflags="var" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <constructor name="Create" visibility="public">
+        <parameters>
+          <parameter name="AOwner" type="TComponent" />
+        </parameters>
+      </constructor>
+      <destructor name="Destroy" visibility="public">
+        <parameters>
+        </parameters>
+      </destructor>
+      <property name="BlockSize" visibility="published" read="GetBlockSize" write="DeadInt" type="Integer" />
+      <property name="CipherMode" visibility="published" read="fCipherMode" write="fCipherMode" type="TDCP_ciphermode" default="0" />
+    </members>
+  </class>
+  <classref name="TDCP_blockcipherclass" ref="TDCP_blockcipher" />
+  <class name="EDCP_hash">
+    <ancestor name="Exception" namespace="SysUtils">
+      <methodref name="Create" visibility="public">
+      </methodref>
+      <methodref name="CreateFmt" visibility="public">
+      </methodref>
+      <methodref name="CreateRes" visibility="public">
+      </methodref>
+      <methodref name="CreateRes" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmt" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmt" visibility="public">
+      </methodref>
+      <methodref name="CreateHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateFmtHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmtHelp" visibility="public">
+      </methodref>
+      <methodref name="CreateResFmtHelp" visibility="public">
+      </methodref>
+      <propertyref name="HelpContext" visibility="public">
+      </propertyref>
+      <propertyref name="Message" visibility="public">
+      </propertyref>
+      <ancestor name="TObject" namespace="System">
+        <methodref name="Create" visibility="public">
+        </methodref>
+        <methodref name="Free" visibility="public">
+        </methodref>
+        <methodref name="InitInstance" visibility="public">
+        </methodref>
+        <methodref name="CleanupInstance" visibility="public">
+        </methodref>
+        <methodref name="ClassType" visibility="public">
+        </methodref>
+        <methodref name="ClassName" visibility="public">
+        </methodref>
+        <methodref name="ClassNameIs" visibility="public">
+        </methodref>
+        <methodref name="ClassParent" visibility="public">
+        </methodref>
+        <methodref name="ClassInfo" visibility="public">
+        </methodref>
+        <methodref name="InstanceSize" visibility="public">
+        </methodref>
+        <methodref name="InheritsFrom" visibility="public">
+        </methodref>
+        <methodref name="MethodAddress" visibility="public">
+        </methodref>
+        <methodref name="MethodName" visibility="public">
+        </methodref>
+        <methodref name="FieldAddress" visibility="public">
+        </methodref>
+        <methodref name="GetInterface" visibility="public">
+        </methodref>
+        <methodref name="GetInterfaceEntry" visibility="public">
+        </methodref>
+        <methodref name="GetInterfaceTable" visibility="public">
+        </methodref>
+        <methodref name="SafeCallException" visibility="public">
+        </methodref>
+        <methodref name="AfterConstruction" visibility="public">
+        </methodref>
+        <methodref name="BeforeDestruction" visibility="public">
+        </methodref>
+        <methodref name="Dispatch" visibility="public">
+        </methodref>
+        <methodref name="DefaultHandler" visibility="public">
+        </methodref>
+        <methodref name="NewInstance" visibility="public">
+        </methodref>
+        <methodref name="FreeInstance" visibility="public">
+        </methodref>
+        <methodref name="Destroy" visibility="public">
+        </methodref>
+      </ancestor>
+    </ancestor>
+  </class>
+  <class name="TDCP_hash">
+    <ancestor name="TComponent" namespace="Classes">
+      <methodref name="GetComObject" visibility="private">
+      </methodref>
+      <methodref name="GetComponent" visibility="private">
+      </methodref>
+      <methodref name="GetComponentCount" visibility="private">
+      </methodref>
+      <methodref name="GetComponentIndex" visibility="private">
+      </methodref>
+      <methodref name="Insert" visibility="private">
+      </methodref>
+      <methodref name="ReadLeft" visibility="private">
+      </methodref>
+      <methodref name="ReadTop" visibility="private">
+      </methodref>
+      <methodref name="Remove" visibility="private">
+      </methodref>
+      <methodref name="RemoveNotification" visibility="private">
+      </methodref>
+      <methodref name="SetComponentIndex" visibility="private">
+      </methodref>
+      <methodref name="SetReference" visibility="private">
+      </methodref>
+      <methodref name="WriteLeft" visibility="private">
+      </methodref>
+      <methodref name="WriteTop" visibility="private">
+      </methodref>
+      <methodref name="IntfGetComponent" visibility="private">
+      </methodref>
+      <methodref name="ChangeName" visibility="protected">
+      </methodref>
+      <methodref name="DefineProperties" visibility="public">
+      </methodref>
+      <methodref name="GetChildren" visibility="protected">
+      </methodref>
+      <methodref name="GetChildOwner" visibility="protected">
+      </methodref>
+      <methodref name="GetChildParent" visibility="protected">
+      </methodref>
+      <methodref name="GetOwner" visibility="protected">
+      </methodref>
+      <methodref name="Loaded" visibility="public">
+      </methodref>
+      <methodref name="Notification" visibility="public">
+      </methodref>
+      <methodref name="PaletteCreated" visibility="protected">
+      </methodref>
+      <methodref name="ReadState" visibility="public">
+      </methodref>
+      <methodref name="SetAncestor" visibility="protected">
+      </methodref>
+      <methodref name="SetDesigning" visibility="protected">
+      </methodref>
+      <methodref name="SetInline" visibility="protected">
+      </methodref>
+      <methodref name="SetDesignInstance" visibility="protected">
+      </methodref>
+      <methodref name="SetName" visibility="public">
+      </methodref>
+      <methodref name="SetChildOrder" visibility="protected">
+      </methodref>
+      <methodref name="SetParentComponent" visibility="protected">
+      </methodref>
+      <methodref name="Updating" visibility="protected">
+      </methodref>
+      <methodref name="Updated" visibility="protected">
+      </methodref>
+      <methodref name="UpdateRegistry" visibility="public">
+      </methodref>
+      <methodref name="ValidateRename" visibility="public">
+      </methodref>
+      <methodref name="ValidateContainer" visibility="protected">
+      </methodref>
+      <methodref name="ValidateInsert" visibility="protected">
+      </methodref>
+      <methodref name="WriteState" visibility="public">
+      </methodref>
+      <methodref name="QueryInterface" visibility="public">
+      </methodref>
+      <methodref name="_AddRef" visibility="protected">
+      </methodref>
+      <methodref name="_Release" visibility="protected">
+      </methodref>
+      <methodref name="GetTypeInfoCount" visibility="protected">
+      </methodref>
+      <methodref name="GetTypeInfo" visibility="protected">
+      </methodref>
+      <methodref name="GetIDsOfNames" visibility="protected">
+      </methodref>
+      <methodref name="Invoke" visibility="protected">
+      </methodref>
+      <methodref name="Create" visibility="public">
+      </methodref>
+      <methodref name="Destroy" visibility="public">
+      </methodref>
+      <methodref name="BeforeDestruction" visibility="public">
+      </methodref>
+      <methodref name="DestroyComponents" visibility="public">
+      </methodref>
+      <methodref name="Destroying" visibility="public">
+      </methodref>
+      <methodref name="ExecuteAction" visibility="public">
+      </methodref>
+      <methodref name="FindComponent" visibility="public">
+      </methodref>
+      <methodref name="FreeNotification" visibility="public">
+      </methodref>
+      <methodref name="RemoveFreeNotification" visibility="public">
+      </methodref>
+      <methodref name="FreeOnRelease" visibility="public">
+      </methodref>
+      <methodref name="GetEnumerator" visibility="public">
+      </methodref>
+      <methodref name="GetParentComponent" visibility="public">
+      </methodref>
+      <methodref name="GetNamePath" visibility="public">
+      </methodref>
+      <methodref name="HasParent" visibility="public">
+      </methodref>
+      <methodref name="InsertComponent" visibility="public">
+      </methodref>
+      <methodref name="RemoveComponent" visibility="public">
+      </methodref>
+      <methodref name="SetSubComponent" visibility="public">
+      </methodref>
+      <methodref name="SafeCallException" visibility="public">
+      </methodref>
+      <methodref name="UpdateAction" visibility="public">
+      </methodref>
+      <methodref name="IsImplementorOf" visibility="public">
+      </methodref>
+      <methodref name="ReferenceInterface" visibility="public">
+      </methodref>
+      <propertyref name="ComObject" visibility="public">
+      </propertyref>
+      <propertyref name="Components" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentCount" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentIndex" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentState" visibility="public">
+      </propertyref>
+      <propertyref name="ComponentStyle" visibility="public">
+      </propertyref>
+      <propertyref name="DesignInfo" visibility="public">
+      </propertyref>
+      <propertyref name="Owner" visibility="public">
+      </propertyref>
+      <propertyref name="VCLComObject" visibility="public">
+      </propertyref>
+      <propertyref name="Name" visibility="published">
+      </propertyref>
+      <propertyref name="Tag" visibility="published">
+      </propertyref>
+      <ancestor name="TPersistent" namespace="Classes">
+        <methodref name="AssignError" visibility="private">
+        </methodref>
+        <methodref name="AssignTo" visibility="public">
+        </methodref>
+        <methodref name="DefineProperties" visibility="public">
+        </methodref>
+        <methodref name="GetOwner" visibility="protected">
+        </methodref>
+        <methodref name="Destroy" visibility="public">
+        </methodref>
+        <methodref name="Assign" visibility="public">
+        </methodref>
+        <methodref name="GetNamePath" visibility="public">
+        </methodref>
+        <ancestor name="TObject" namespace="System">
+          <methodref name="Create" visibility="public">
+          </methodref>
+          <methodref name="Free" visibility="public">
+          </methodref>
+          <methodref name="InitInstance" visibility="public">
+          </methodref>
+          <methodref name="CleanupInstance" visibility="public">
+          </methodref>
+          <methodref name="ClassType" visibility="public">
+          </methodref>
+          <methodref name="ClassName" visibility="public">
+          </methodref>
+          <methodref name="ClassNameIs" visibility="public">
+          </methodref>
+          <methodref name="ClassParent" visibility="public">
+          </methodref>
+          <methodref name="ClassInfo" visibility="public">
+          </methodref>
+          <methodref name="InstanceSize" visibility="public">
+          </methodref>
+          <methodref name="InheritsFrom" visibility="public">
+          </methodref>
+          <methodref name="MethodAddress" visibility="public">
+          </methodref>
+          <methodref name="MethodName" visibility="public">
+          </methodref>
+          <methodref name="FieldAddress" visibility="public">
+          </methodref>
+          <methodref name="GetInterface" visibility="public">
+          </methodref>
+          <methodref name="GetInterfaceEntry" visibility="public">
+          </methodref>
+          <methodref name="GetInterfaceTable" visibility="public">
+          </methodref>
+          <methodref name="SafeCallException" visibility="public">
+          </methodref>
+          <methodref name="AfterConstruction" visibility="public">
+          </methodref>
+          <methodref name="BeforeDestruction" visibility="public">
+          </methodref>
+          <methodref name="Dispatch" visibility="public">
+          </methodref>
+          <methodref name="DefaultHandler" visibility="public">
+          </methodref>
+          <methodref name="NewInstance" visibility="public">
+          </methodref>
+          <methodref name="FreeInstance" visibility="public">
+          </methodref>
+          <methodref name="Destroy" visibility="public">
+          </methodref>
+        </ancestor>
+      </ancestor>
+    </ancestor>
+    <members>
+      <field name="fInitialized" type="Boolean" visibility="protected" />
+      <procedure name="DeadInt" visibility="protected">
+        <parameters>
+          <parameter name="Value" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="DeadStr" visibility="protected">
+        <parameters>
+          <parameter name="Value" type="string" />
+        </parameters>
+      </procedure>
+      <property name="Initialized" visibility="public" read="fInitialized" type="Boolean" />
+      <function name="GetId" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <function name="GetAlgorithm" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="string" />
+        </parameters>
+      </function>
+      <function name="GetHashSize" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Integer" />
+        </parameters>
+      </function>
+      <function name="SelfTest" visibility="public" procflags="class abstract virtual">
+        <parameters>
+          <retval type="Boolean" />
+        </parameters>
+      </function>
+      <procedure name="Init" visibility="public" procflags="abstract virtual">
+      </procedure>
+      <procedure name="Final" visibility="public" procflags="abstract virtual">
+        <parameters>
+          <parameter name="Digest" paramflags="var" />
+        </parameters>
+      </procedure>
+      <procedure name="Burn" visibility="public" procflags="abstract virtual">
+      </procedure>
+      <procedure name="Update" visibility="public" procflags="abstract virtual">
+        <parameters>
+          <parameter name="Buffer" paramflags="const" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="UpdateStream" visibility="public">
+        <parameters>
+          <parameter name="Stream" type="TStream" />
+          <parameter name="Size" type="Integer" />
+        </parameters>
+      </procedure>
+      <procedure name="UpdateStr" visibility="public">
+        <parameters>
+          <parameter name="Str" type="string" paramflags="const" />
+        </parameters>
+      </procedure>
+      <destructor name="Destroy" visibility="public">
+        <parameters>
+        </parameters>
+      </destructor>
+      <property name="Id" visibility="published" read="GetId" write="DeadInt" type="Integer" />
+      <property name="Algorithm" visibility="published" read="GetAlgorithm" write="DeadStr" type="string" />
+      <property name="HashSize" visibility="published" read="GetHashSize" write="DeadInt" type="Integer" />
+    </members>
+  </class>
+  <classref name="TDCP_hashclass" ref="TDCP_hash" />
+  <pointer name="PDCP_cipherinfo" type="TDCP_cipherinfo" indircnt="1" />
+  <struct name="TDCP_cipherinfo">
+    <field name="Next" type="PDCP_cipherinfo" visibility="public" />
+    <field name="Name" type="string" visibility="public" />
+    <field name="Id" type="Integer" visibility="public" />
+    <field name="Cipher" type="TDCP_cipherclass" visibility="public" />
+    <field name="Block" type="Boolean" visibility="public" />
+  </struct>
+  <pointer name="PDCP_hashinfo" type="TDCP_hashinfo" indircnt="1" />
+  <struct name="TDCP_hashinfo">
+    <field name="Next" type="PDCP_hashinfo" visibility="public" />
+    <field name="Name" type="string" visibility="public" />
+    <field name="Id" type="Integer" visibility="public" />
+    <field name="Hash" type="TDCP_hashclass" visibility="public" />
+  </struct>
+  <variable name="DCPcipherlist" type="PDCP_cipherinfo" />
+  <variable name="DCPhashlist" type="PDCP_hashinfo" />
+  <function name="DCPcipherfromname" visibility="public">
+    <parameters>
+      <parameter name="Value" type="string" paramflags="const" />
+      <parameter name="AOwner" type="TComponent" />
+      <retval type="TDCP_cipher" />
+    </parameters>
+  </function>
+  <function name="DCPcipherfromid" visibility="public">
+    <parameters>
+      <parameter name="Value" type="Integer" />
+      <parameter name="AOwner" type="TComponent" />
+      <retval type="TDCP_cipher" />
+    </parameters>
+  </function>
+  <function name="DCPhashfromname" visibility="public">
+    <parameters>
+      <parameter name="Value" type="string" paramflags="const" />
+      <parameter name="AOwner" type="TComponent" />
+      <retval type="TDCP_hash" />
+    </parameters>
+  </function>
+  <function name="DCPhashfromid" visibility="public">
+    <parameters>
+      <parameter name="Value" type="Integer" />
+      <parameter name="AOwner" type="TComponent" />
+      <retval type="TDCP_hash" />
+    </parameters>
+  </function>
+  <procedure name="DCPregcipher" visibility="public">
+    <parameters>
+      <parameter name="Cipher" type="TDCP_cipherclass" />
+      <parameter name="Block" type="Boolean" />
+    </parameters>
+  </procedure>
+  <procedure name="DCPreghash" visibility="public">
+    <parameters>
+      <parameter name="Hash" type="TDCP_hashclass" />
+    </parameters>
+  </procedure>
+  <procedure name="XorBlock" visibility="public">
+    <parameters>
+      <parameter name="InData1" paramflags="var" />
+      <parameter name="InData2" paramflags="var" />
+      <parameter name="Size" type="Integer" />
+    </parameters>
+  </procedure>
+  <function name="CompareMemory" visibility="public">
+    <parameters>
+      <parameter name="X1" type="PByteArray" />
+      <parameter name="X2" type="PByteArray" />
+      <parameter name="Size" type="Integer" />
+      <retval type="Boolean" />
+    </parameters>
+  </function>
+  <function name="LRot16" visibility="public">
+    <parameters>
+      <parameter name="X" type="Word" />
+      <parameter name="c" type="Integer" />
+      <retval type="Word" />
+    </parameters>
+  </function>
+  <function name="RRot16" visibility="public">
+    <parameters>
+      <parameter name="X" type="Word" />
+      <parameter name="c" type="Integer" />
+      <retval type="Word" />
+    </parameters>
+  </function>
+  <function name="LRot32" visibility="public">
+    <parameters>
+      <parameter name="X" type="Integer" />
+      <parameter name="c" type="Integer" />
+      <retval type="Integer" />
+    </parameters>
+  </function>
+  <function name="RRot32" visibility="public">
+    <parameters>
+      <parameter name="X" type="Integer" />
+      <parameter name="c" type="Integer" />
+      <retval type="Integer" />
+    </parameters>
+  </function>
+  <function name="SwapDWord" visibility="public">
+    <parameters>
+      <parameter name="X" type="Integer" />
+      <retval type="Integer" />
+    </parameters>
+  </function>
+</namespace>

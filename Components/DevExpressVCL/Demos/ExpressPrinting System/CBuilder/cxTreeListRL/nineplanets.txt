@@ -1,0 +1,79 @@
+Name       #     Orbits Distance(000km) Period(days) Discoverer   Date   Radius(km) ImageIndex
+---------  ---- -------   --------       --------      ----------   ------ -------  ----------
+Sun        -       -          -               -             -           -   695000  24
+Mercury    I      Sun        57910          87.97           -           -     2440  14
+Venus      II     Sun       108200         224.70           -           -     6052  1
+Earth      III    Sun       149600         365.26           -           -     6378  3
+Mars       IV     Sun       227940         686.98           -           -     3397  2
+Jupiter    V      Sun       778330        4332.71           -           -    71492  0
+Saturn     VI     Sun      1429400       10759.50           -           -    60268  23
+Uranus     VII    Sun      2870990       30685.00        Herschel     1781   25559  31
+Neptune    VIII   Sun      4504300       60190.00        Adams        1846   24766  18
+Pluto      IX     Sun      5913520       90800           Tombaugh     1930    1137  21
+Moon       I      Earth        384          27.32           -           -     1738  17
+Phobos     I      Mars           9           0.32        Hall         1877      11  20
+Deimos     II     Mars          23           1.26        Hall         1877       6  7
+Metis      XVI    Jupiter      128           0.29        Synnott      1979      20  30
+Adrastea   XV     Jupiter      129           0.30        Jewitt       1979      10  30
+Amalthea   V      Jupiter      181           0.50        Barnard      1892      94  4
+Thebe      XIV    Jupiter      222           0.67        Synnott      1979      50  30
+Io         I      Jupiter      422           1.77        Galileo      1610    1821  12
+Europa     II     Jupiter      671           3.55        Galileo      1610    1565  10
+Ganymede   III    Jupiter     1070           7.15        Galileo      1610    2634  11
+Callisto   IV     Jupiter     1883          16.69        Galileo      1610    2403  6
+Leda       XIII   Jupiter    11094         238.72        Kowal        1974       8  30
+Himalia    VI     Jupiter    11480         250.57        Perrine      1904      93  30
+Lysithea   X      Jupiter    11720         259.22        Nicholson    1938      18  30
+Elara      VII    Jupiter    11737         259.65        Perrine      1905      38  30
+Ananke     XII    Jupiter    21200        -631           Nicholson    1951      15  30
+Carme      XI     Jupiter    22600        -692           Nicholson    1938      20  30
+Pasiphae   VIII   Jupiter    23500        -735           Melotte      1908      25  30
+Sinope     IX     Jupiter    23700        -758           Nicholson    1914      18  30
+Pan        XVIII  Saturn       134           0.58        Showalter    1990      10  30
+Atlas      XV     Saturn       138           0.60        Terrile      1980      15  30
+Prometheus XVI    Saturn       139           0.61        Collins      1980      46  30
+Pandora    XVII   Saturn       142           0.63        Collins      1980      42  30
+Epimetheus XI     Saturn       151           0.69        Walker       1980      57  30
+Janus      X      Saturn       151           0.69        Dollfus      1966      89  30
+Mimas      I      Saturn       186           0.94        Herschel     1789     199  15
+Enceladus  II     Saturn       238           1.37        Herschel     1789     249  9
+Tethys     III    Saturn       295           1.89        Cassini      1684     530  25
+Telesto    XIII   Saturn       295           1.89        Smith        1980      15  30
+Calypso    XIV    Saturn       295           1.89        Pascu        1980      13  30
+Dione      IV     Saturn       377           2.74        Cassini      1684     560  8
+Helene     XII    Saturn       377           2.74        Laques       1980      16  30
+Rhea       V      Saturn       527           4.52        Cassini      1672     764  22
+Titan      VI     Saturn      1222          15.95        Huygens      1655    2575  26
+Hyperion   VII    Saturn      1481          21.28        Bond         1848     143  30
+Iapetus    VIII   Saturn      3561          79.33        Cassini      1671     718  13
+Phoebe     IX     Saturn     12952        -550.48        Pickering    1898     110  30
+Cordelia   VI     Uranus        50           0.34        "Voyager 2"  1986      13  30
+Ophelia    VII    Uranus        54           0.38        "Voyager 2"  1986      16  30
+Bianca     VIII   Uranus        59           0.43        "Voyager 2"  1986      22  30
+Cressida   IX     Uranus        62           0.46        "Voyager 2"  1986      33  30
+Desdemona  X      Uranus        63           0.47        "Voyager 2"  1986      29  30
+Juliet     XI     Uranus        64           0.49        "Voyager 2"  1986      42  30
+Portia     XII    Uranus        66           0.51        "Voyager 2"  1986      55  30
+Rosalind   XIII   Uranus        70           0.56        "Voyager 2"  1986      27  30
+Belinda    XIV    Uranus        75           0.62        "Voyager 2"  1986      34  30
+1986U10    ?      Uranus        76           0.64        Karkoschka   1999      20  30
+Puck       XV     Uranus        86           0.76        "Voyager 2"  1985      77  30
+Miranda    V      Uranus       130           1.41        Kuiper       1948     236  16
+Ariel      I      Uranus       191           2.52        Lassell      1851     581  5
+Umbriel    II     Uranus       266           4.14        Lassell      1851     585  29
+Titania    III    Uranus       436           8.71        Herschel     1787     789  27
+Oberon     IV     Uranus       583          13.46        Herschel     1787     761  19
+Caliban    XVI    Uranus      7169        -580           Gladman      1997      40  30
+Stephano   XX     Uranus      7948        -674           Gladman      1999      15  30
+Sycorax    XVII   Uranus     12213       -1289           Nicholson    1997      80  30
+Prospero   XVIII  Uranus     16568       -2019           Holman       1999      20  30
+Setebos    XIX    Uranus     17681       -2239           Kavelaars    1999      20  30
+Naiad      III    Neptune       48           0.29        "Voyager 2"  1989      29  30
+Thalassa   IV     Neptune       50           0.31        "Voyager 2"  1989      40  30
+Despina    V      Neptune       53           0.33        "Voyager 2"  1989      74  30
+Galatea    VI     Neptune       62           0.43        "Voyager 2"  1989      79  30
+Larissa    VII    Neptune       74           0.55        Reitsema     1989      96  30
+Proteus    VIII   Neptune      118           1.12        "Voyager 2"  1989     209  30
+Triton     I      Neptune      355          -5.88        Lassell      1846    1353  28
+Nereid     II     Neptune     5513         360.13        Kuiper       1949     170  30
+Charon     I      Pluto         20           6.39        Christy      1978     586  30

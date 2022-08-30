@@ -1,0 +1,133 @@
+object dlg_db_Detail: Tdlg_db_Detail
+  Left = 326
+  Top = 330
+  ClientHeight = 522
+  ClientWidth = 500
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = True
+  Position = poMainFormCenter
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ButtonPanel: TPanel
+    Left = 0
+    Top = 480
+    Width = 500
+    Height = 42
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 0
+    object Panel: TPanel
+      Left = 410
+      Top = 0
+      Width = 90
+      Height = 42
+      Align = alRight
+      BevelOuter = bvNone
+      TabOrder = 0
+      object bOK: TButton
+        Left = 4
+        Top = 6
+        Width = 75
+        Height = 25
+        Cursor = crHandPoint
+        Cancel = True
+        Caption = 'OK'
+        Default = True
+        ModalResult = 1
+        TabOrder = 0
+      end
+    end
+  end
+  object ClientPanel: TPanel
+    Left = 0
+    Top = 0
+    Width = 500
+    Height = 480
+    Align = alClient
+    BevelOuter = bvNone
+    BorderWidth = 10
+    Caption = ' '
+    TabOrder = 1
+    object pc: TPageControl
+      Left = 10
+      Top = 10
+      Width = 480
+      Height = 460
+      ActivePage = TabSheet1
+      Align = alClient
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      object TabSheet1: TTabSheet
+        Caption = ' Properties '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        object Panel1: TPanel
+          Left = 0
+          Top = 0
+          Width = 472
+          Height = 432
+          Align = alClient
+          BevelInner = bvLowered
+          BevelOuter = bvNone
+          BorderWidth = 10
+          Caption = ' '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+          object lv: TListView
+            Left = 11
+            Top = 11
+            Width = 450
+            Height = 410
+            Align = alClient
+            BorderStyle = bsNone
+            Columns = <
+              item
+                Caption = 'Variable'
+                Width = 150
+              end
+              item
+                AutoSize = True
+                Caption = 'Value'
+              end>
+            ColumnClick = False
+            HideSelection = False
+            ReadOnly = True
+            RowSelect = True
+            ParentColor = True
+            ParentShowHint = False
+            ShowColumnHeaders = False
+            ShowHint = True
+            TabOrder = 0
+            ViewStyle = vsReport
+            OnAdvancedCustomDrawItem = lvAdvancedCustomDrawItem
+            OnAdvancedCustomDrawSubItem = lvAdvancedCustomDrawSubItem
+            OnDblClick = lvDblClick
+            ExplicitLeft = 0
+            ExplicitTop = 0
+          end
+        end
+      end
+    end
+  end
+end

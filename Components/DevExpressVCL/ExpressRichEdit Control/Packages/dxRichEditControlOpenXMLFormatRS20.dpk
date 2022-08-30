@@ -1,0 +1,81 @@
+package dxRichEditControlOpenXMLFormatRS20;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressRichEdit Control - Office Open XML format support by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  vclie,
+  dbrtl,
+  dxCoreRS20,
+  cxLibraryRS20,
+  dxGDIPlusRS20,
+  dxCloudServiceLibraryRS20,
+  dxRichEditCoreRS20,
+  dxRichEditDocumentModelRS20,
+  dxRichEditControlCoreRS20,
+  dxRichEditControlRS20;
+
+contains
+  dxRichEdit.Export.OpenXML.DocumentExporter,
+  dxRichEdit.Export.OpenXML,
+  dxRichEdit.Export.OpenXML.WordProcessingMLBaseExporter,
+  dxRichEdit.Import.OpenXML.DestinationBase,
+  dxRichEdit.Import.OpenXML.DestinationBody,
+  dxRichEdit.Import.OpenXML.DestinationBookmark,
+  dxRichEdit.Import.OpenXML.DestinationComment,
+  dxRichEdit.Import.OpenXML.DestinationDocument,
+  dxRichEdit.Import.OpenXML.DestinationDrawing,
+  dxRichEdit.Import.OpenXML.DestinationEndNote,
+  dxRichEdit.Import.OpenXML.DestinationFields,
+  dxRichEdit.Import.OpenXML.DestinationFootNote,
+  dxRichEdit.Import.OpenXML.DestinationHeaderFooter,
+  dxRichEdit.Import.OpenXML.DestinationNumbering,
+  dxRichEdit.Import.OpenXML.DestinationParagraph,
+  dxRichEdit.Import.OpenXML.DestinationPicture,
+  dxRichEdit.Import.OpenXML.DestinationRun,
+  dxRichEdit.Import.OpenXML.DestinationRunProperties,
+  dxRichEdit.Import.OpenXML.DestinationSection,
+  dxRichEdit.Import.OpenXML.DestinationSettings,
+  dxRichEdit.Import.OpenXML.DestinationStyles,
+  dxRichEdit.Import.OpenXML.DestinationTable,
+  dxRichEdit.Import.OpenXML.DestinationText,
+  dxRichEdit.Import.OpenXML.DestinationWebSettings,
+  dxRichEdit.Import.OpenXML.DocumentImporter,
+  dxRichEdit.Import.OpenXML,
+  dxRichEdit.Import.OpenXML.WordProcessingMLBaseImporter,
+  dxRichEdit.OpenXML;
+
+end.

@@ -1,0 +1,12 @@
+In this demo, you can:
+
+- Browse images loaded from an image collection using the scrollbar, scroll buttons or by clicking image thumbnails located in the preview panel.
+- Resize the preview panel by dragging the slider located next to it.
+- Add images to the collection from an image file. Each frame from multi-frame images (animated GIF and multi-frame TIFF files) is loaded as a separate image (the "File | Add..." menu item).
+- Save the entire image collection to a multi-frame image file (click the "File | Save As..." menu item and select the TIF or TIFF as the file extension).
+- Save the currently active image to an image file (click the "File | Save As..." menu item and select an appropriate file extension, other than TIF or TIFF).
+- Switch the visibility of the scrollbar and scroll buttons (the "Options | Scroll Mode" submenu).
+- Switch the visibility or change the display position of the preview panel (the "Options | Preview Position" submenu).
+- Specify how the currently active image is sized (the "Options | Stretch Mode" submenu).
+- Choose between the available animation transition effects applied to images (the "Options | Transition Effect" submenu).
+- Apply different paint styles to a form (the Look&Feel menu item).

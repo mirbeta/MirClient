@@ -1,0 +1,678 @@
+package tmsdXE6;
+
+{$R *.res}
+{$R 'planreg.dcr'}
+{$R 'rtflreg.dcr'}
+{$R 'slstreg.dcr'}
+{$R 'sysmreg.dcr'}
+{$R 'Wdatreg.dcr'}
+{$R 'Wupdreg.dcr'}
+{$R 'Webcreg.dcr'}
+{$R 'anireg.dcr'}
+{$R 'shelldlg.dcr'}
+{$R 'htmhireg.dcr'}
+{$R 'htmbureg.dcr'}
+{$R 'htmltvr.dcr'}
+{$R 'htmcoreg.dcr'}
+{$R 'Hilireg.dcr'}
+{$R 'htmlareg.dcr'}
+{$R 'htmlireg.dcr'}
+{$R 'alvreg.dcr'}
+{$R 'clistedr.dcr'}
+{$R 'edtbreg.dcr'}
+{$R 'fsreg.dcr'}
+{$R 'pdlgreg.dcr'}
+{$R 'llreg.dcr'}
+{$R 'wheelreg.dcr'}
+{$R 'olnkreg.dcr'}
+{$R 'cabr.dcr'}
+{$R 'tlreg.dcr'}
+{$R 'asreg.dcr'}
+{$R 'dbasreg.dcr'}
+{$R 'dbaereg.dcr'}
+{$R 'htmstbr.dcr'}
+{$R 'lfreg.dcr'}
+{$R 'htmstreg.dcr'}
+{$R 'dbhtmlar.dcr'}
+{$R 'dblucmbr.dcr'}
+{$R 'colcoreg.dcr'}
+{$R 'paramlstreg.dcr'}
+{$R 'paramchklreg.dcr'}
+{$R 'paramlabreg.dcr'}
+{$R 'advluedr.dcr'}
+{$R 'advedbr.dcr'}
+{$R 'dbadvler.dcr'}
+{$R 'wallpreg.dcr'}
+{$R 'collireg.dcr'}
+{$R 'advpnlreg.dcr'}
+{$R 'MoneyEdr.dcr'}
+{$R 'WebImgR.dcr'}
+{$R 'dbmereg.dcr'}
+{$R 'datelbl.dcr'}
+{$R 'frmsreg.dcr'}
+{$R 'advpicr.dcr'}
+{$R 'WebPostr.dcr'}
+{$R 'advqryr.dcr'}
+{$R 'htmldlgr.dcr'}
+{$R 'dbplanreg.dcr'}
+{$R 'edtlstreg.dcr'}
+{$R 'thumbreg.dcr'}
+{$R 'PlannerCalReg.dcr'}
+{$R 'DBPlannerCalReg.dcr'}
+{$R 'PictureContainerReg.dcr'}
+{$R 'advdropdownreg.dcr'}
+{$R 'acreg.dcr'}
+{$R 'aereg.dcr'}
+{$R 'calcreg.dcr'}
+{$R 'calpreg.dcr'}
+{$R 'lureg.dcr'}
+{$R 'parlreg.dcr'}
+{$R 'SHADER.dcr'}
+{$R 'paramtreeviewreg.dcr'}
+{$R 'dbslstreg.dcr'}
+{$R 'AstaPatchUtil.dcr'}
+{$R 'DBTodoListReg.dcr'}
+{$R 'TodoListReg.dcr'}
+{$R 'WinXP.dcr'}
+{$R 'DBAdvEdBtnReg.dcr'}
+{$R 'HTMLPopupReg.dcr'}
+{$R 'EllipsLblReg.dcr'}
+{$R 'INIInspectorBarReg.dcr'}
+{$R 'InspectorBarReg.dcr'}
+{$R 'DBInspectorBarReg.dcr'}
+{$R 'RTTIInspectorBarReg.dcr'}
+{$R 'btnlireg.dcr'}
+{$R 'atbreg.dcr'}
+{$R 'dbanreg.dcr'}
+{$R 'AdvDirectoryEdit.dcr'}
+{$R 'AdvFileNameEdit.dcr'}
+{$R 'DBHTMLBtnsReg.dcr'}
+{$R 'WebConnectReg.dcr'}
+{$R 'HotSpotImageReg.dcr'}
+{$R 'uhtmcoreg.dcr'}
+{$R 'uhtmlareg.dcr'}
+{$R 'uhtmlireg.dcr'}
+{$R 'AdvMemoReg.dcr'}
+{$R 'AdvShaperReg.dcr'}
+{$R 'AdvMoneyEditReg.dcr'}
+{$R 'AdvDBLookupComboBoxReg.dcr'}
+{$R 'GradientLblReg.dcr'}
+{$R 'HTMLTLREG.dcr'}
+{$R 'HTMLCreditReg.dcr'}
+{$R 'vCalReg.dcr'}
+{$R 'ToolPanelsReg.dcr'}
+{$R 'AdvProgressBarReg.dcr'}
+{$R 'AdvPageControlreg.dcr'}
+{$R 'MacroRecorderReg.dcr'}
+{$R 'ExeInfoReg.dcr'}
+{$R 'AdvTabSetReg.dcr'}
+{$R 'htmlchklireg.dcr'}
+{$R 'AdvAlertWindowReg.dcr'}
+{$R 'AdvNavBarReg.dcr'}
+{$R 'PlannerMonthViewReg.dcr'}
+{$R 'imgpickr.dcr'}
+{$R 'TMSGraphicsReg.dcr'}
+{$R 'AdvMenuRegister.dcr'}
+{$R 'Tilebmp.dcr'}
+{$R 'advoutlooklistreg.dcr'}
+{$R 'advglowbuttonreg.dcr'}
+{$R 'advappstyler.dcr'}
+{$R 'AdvOfficeStatusBarReg.dcr'}
+{$R 'AdvOfficeTabSetReg.dcr'}
+{$R 'TMSOfficeGraphicsReg.dcr'}
+{$R 'advofficeimagereg.dcr'}
+{$R 'piclistreg.dcr'}
+{$R 'folderdialogreg.dcr'}
+{$R 'AdvSplitterReg.dcr'}
+{$R 'AdvWiiProgressBarReg.dcr'}
+{$R 'AdvCircularProgressReg.dcr'}
+{$R 'AdvGroupBoxReg.dcr'}
+{$R 'AdvOfficeButtonsReg.dcr'}
+{$R 'AdvScrollBoxReg.dcr'}
+{$R 'AdvReflectionImageReg.dcr'}
+{$R 'AdvRefLabelReg.dcr'}
+{$R 'AdvGlassButtonReg.dcr'}
+{$R 'AdvShapeReg.dcr'}
+{$R 'AdvDateTimePickerReg.dcr'}
+{$R 'DBAdvGlowNavigatorReg.dcr'}
+{$R 'HTMLFormReg.dcr'}
+{$R 'AdvDBComboBoxReg.dcr'}
+{$R 'vCardReg.dcr'}
+{$R 'CALCEREG.DCR'}
+{$R 'ESBMATHSLIB.DCR'}
+{$R 'AdvIPEditReg.dcr'}
+{$R 'PlannerRangeSelectorReg.dcr'}
+{$R 'AdvGridFilterPanelReg.DCR'}
+{$R 'AdvDBFilterPanelReg.DCR'}
+{$R 'AdvFilterPanelButtonReg.DCR'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'TMS Component Pack'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  VCLSMP,
+  VCLDB,
+  vclimg,
+  rtl,
+  vclactnband,
+  dbrtl,
+  xmlrtl,
+  vclx,
+  adortl;
+
+contains
+  AdvGridColPicker in 'AdvGridColPicker.pas',
+  Asgreg in 'Asgreg.pas',
+  asgcreg in 'asgcreg.pas',
+  AsgHTML in 'AsgHTML.pas',
+  Asgprev in 'Asgprev.pas' {AdvPreviewForm},
+  Asgprint in 'Asgprint.pas' {AdvGridPrintSettingsForm},
+  Dbadvlst in 'Dbadvlst.pas',
+  Advgrid in 'Advgrid.pas',
+  AdvColumnSetter in 'AdvColumnSetter.pas',
+  AsgImport in 'AsgImport.pas' {AsgImport},
+  Advlistv in 'Advlistv.pas',
+  Advobj in 'Advobj.pas',
+  Advutil in 'Advutil.pas',
+  Advcgrid in 'Advcgrid.pas',
+  alvreg in 'alvreg.pas',
+  Alvutil in 'Alvutil.pas',
+  Planner in 'Planner.pas',
+  planutil in 'planutil.pas',
+  planreg in 'planreg.pas',
+  Slstbox in 'Slstbox.pas',
+  slstreg in 'slstreg.pas',
+  advpnlreg in 'advpnlreg.pas',
+  advpanel in 'advpanel.pas',
+  advimage in 'advimage.pas',
+  Lucombo in 'Lucombo.pas',
+  dblucmbr in 'dblucmbr.pas',
+  dblucomb in 'dblucomb.pas',
+  asreg in 'asreg.pas',
+  advspin in 'advspin.pas',
+  Advcombo in 'Advcombo.pas',
+  Advedit in 'Advedit.pas',
+  dbadvle in 'dbadvle.pas',
+  AdvEdBtn in 'AdvEdBtn.pas',
+  advlued in 'advlued.pas',
+  advluedr in 'advluedr.pas',
+  advedbr in 'advedbr.pas',
+  dbadvler in 'dbadvler.pas',
+  Asgedit in 'Asgedit.pas',
+  Asgspin in 'Asgspin.pas',
+  adveddd in 'adveddd.pas',
+  dbasreg in 'dbasreg.pas',
+  dbaereg in 'dbaereg.pas',
+  DBAdvEd in 'DBAdvEd.pas',
+  DBAdvSp in 'DBAdvSp.pas',
+  Editbtn in 'Editbtn.pas',
+  edtbreg in 'edtbreg.pas',
+  moneyedit in 'moneyedit.pas',
+  MoneyEdr in 'MoneyEdr.pas',
+  dbmereg in 'dbmereg.pas',
+  dbmnyed in 'dbmnyed.pas',
+  mskreg in 'mskreg.pas',
+  Maskedex in 'Maskedex.pas',
+  cabr in 'cabr.pas',
+  Cabfiles in 'Cabfiles.pas',
+  Editlist in 'Editlist.pas',
+  llreg in 'llreg.pas',
+  Listlink in 'Listlink.pas',
+  Hilireg in 'Hilireg.pas',
+  Hintlist in 'Hintlist.pas',
+  Wdatreg in 'Wdatreg.pas',
+  Webdata in 'Webdata.pas',
+  Webcreg in 'Webcreg.pas',
+  Webcopy in 'Webcopy.pas',
+  Wupdreg in 'Wupdreg.pas',
+  Wupdate in 'Wupdate.pas',
+  WupdatelanguagesU in 'WupdatelanguagesU.pas',
+  cabfdi in 'cabfdi.pas',
+  webimage in 'webimage.pas',
+  WebImgR in 'WebImgR.pas',
+  htmlireg in 'htmlireg.pas',
+  htmhireg in 'htmhireg.pas',
+  htmcoreg in 'htmcoreg.pas',
+  htmltvr in 'htmltvr.pas',
+  htmlareg in 'htmlareg.pas',
+  htmbureg in 'htmbureg.pas',
+  Htmcombo in 'Htmcombo.pas',
+  Htmlabel in 'Htmlabel.pas',
+  Htmlbtns in 'Htmlbtns.pas',
+  Htmlhint in 'Htmlhint.pas',
+  Htmlistb in 'Htmlistb.pas',
+  Htmltv in 'Htmltv.pas',
+  htmstreg in 'htmstreg.pas',
+  htmltext in 'htmltext.pas',
+  dbhtmlar in 'dbhtmlar.pas',
+  dbhtmlab in 'dbhtmlab.pas',
+  HTMLStatusBar in 'HTMLStatusBar.pas',
+  htmstbr in 'htmstbr.pas',
+  colcoreg in 'colcoreg.pas',
+  colcombo in 'colcombo.pas',
+  collistb in 'collistb.pas',
+  collireg in 'collireg.pas',
+  rtflreg in 'rtflreg.pas',
+  Rtflabel in 'Rtflabel.pas',
+  datelbl in 'datelbl.pas',
+  apreg in 'apreg.pas',
+  clistedr in 'clistedr.pas',
+  Clisted in 'Clisted.pas',
+  tlreg in 'tlreg.pas',
+  Treelist in 'Treelist.pas',
+  Paramlst in 'Paramlst.pas',
+  paramlstreg in 'paramlstreg.pas',
+  paramchklreg in 'paramchklreg.pas',
+  paramlabel in 'paramlabel.pas',
+  paramlabreg in 'paramlabreg.pas',
+  paramlistbox in 'paramlistbox.pas',
+  paramchklist in 'paramchklist.pas',
+  anireg in 'anireg.pas',
+  Aniedit in 'Aniedit.pas' {AniEditor},
+  ANIICON in 'ANIICON.pas',
+  scrlreg in 'scrlreg.pas',
+  Propscrl in 'Propscrl.pas',
+  Advprogr in 'Advprogr.pas',
+  Seldlg in 'Seldlg.pas' {selectdialog},
+  wallpreg in 'wallpreg.pas',
+  wallpaper in 'wallpaper.pas',
+  pdlgreg in 'pdlgreg.pas',
+  Pickdlg in 'Pickdlg.pas' {SelectForm},
+  shelldlg in 'shelldlg.pas',
+  Ushldlg in 'Ushldlg.pas',
+  flctrlex in 'flctrlex.pas',
+  flctrlr in 'flctrlr.pas',
+  Mswheel in 'Mswheel.pas',
+  asgdd in 'asgdd.pas',
+  advpicture in 'advpicture.pas',
+  advpicr in 'advpicr.pas',
+  asgcombo in 'asgcombo.pas',
+  WebPost in 'WebPost.pas',
+  WebPostr in 'WebPostr.pas',
+  AdvQueryDialog in 'AdvQueryDialog.pas',
+  advqryr in 'advqryr.pas',
+  htmldlgr in 'htmldlgr.pas',
+  htmldialog in 'htmldialog.pas',
+  dbplanreg in 'dbplanreg.pas',
+  DBPlanner in 'DBPlanner.pas',
+  edtlstreg in 'edtlstreg.pas',
+  thumbreg in 'thumbreg.pas',
+  ThumbnailList in 'ThumbnailList.pas',
+  PlannerCalReg in 'PlannerCalReg.pas',
+  PlannerCal in 'PlannerCal.pas',
+  DBPlannerCalReg in 'DBPlannerCalReg.pas',
+  DBPlannerCal in 'DBPlannerCal.pas',
+  PictureContainerReg in 'PictureContainerReg.pas',
+  PictureContainer in 'PictureContainer.pas',
+  AsgFindDialog in 'AsgFindDialog.pas' {AsgFindDlg},
+  acreg in 'acreg.pas',
+  aereg in 'aereg.pas',
+  lureg in 'lureg.pas',
+  parlreg in 'parlreg.pas',
+  SHADER in 'SHADER.pas',
+  asgcheck in 'asgcheck.pas',
+  DBPlannerDatePicker in 'DBPlannerDatePicker.pas',
+  plancheck in 'plancheck.pas',
+  PlannerDatePicker in 'PlannerDatePicker.pas',
+  paramtreeviewreg in 'paramtreeviewreg.pas',
+  paramtreeview in 'paramtreeview.pas',
+  dbslstreg in 'dbslstreg.pas',
+  dbslstbox in 'dbslstbox.pas',
+  wucrc32 in 'wucrc32.pas',
+  AstaPatchUtil in 'AstaPatchUtil.pas',
+  DBTodoListReg in 'DBTodoListReg.pas',
+  DBTodoList in 'DBTodoList.pas',
+  TodoListReg in 'TodoListReg.pas',
+  TodoList in 'TodoList.pas',
+  WinXP in 'WinXP.pas',
+  DBAdvEdBtnReg in 'DBAdvEdBtnReg.pas',
+  DBAdvEdBtn in 'DBAdvEdBtn.pas',
+  BaseGrid in 'BaseGrid.pas',
+  AdvXPVS in 'AdvXPVS.pas',
+  BtnXPVS in 'BtnXPVS.pas',
+  htmlxpvs in 'htmlxpvs.pas',
+  HTMLPopupReg in 'HTMLPopupReg.pas',
+  HTMLPopup in 'HTMLPopup.pas',
+  PlanXPVS in 'PlanXPVS.pas',
+  PlanHTML in 'PlanHTML.pas',
+  PlanCombo in 'PlanCombo.pas',
+  AsgLinks in 'AsgLinks.pas',
+  InspXPVS in 'InspXPVS.pas',
+  INIInspectorBarReg in 'INIInspectorBarReg.pas',
+  InspDD in 'InspDD.pas',
+  inspectorbar in 'inspectorbar.pas',
+  InspectorBarReg in 'InspectorBarReg.pas',
+  InspEdits in 'InspEdits.pas',
+  InspImg in 'InspImg.pas',
+  INIInspectorBar in 'INIInspectorBar.pas',
+  DBInspectorBarReg in 'DBInspectorBarReg.pas',
+  DBInspectorBar in 'DBInspectorBar.pas',
+  RTTIInspectorBarReg in 'RTTIInspectorBarReg.pas',
+  RTTIInspectorBar in 'RTTIInspectorBar.pas',
+  BtnListB in 'BtnListB.pas',
+  btnlireg in 'btnlireg.pas',
+  ColorCombo in 'ColorCombo.pas',
+  ImagePicker in 'ImagePicker.pas',
+  atbreg in 'atbreg.pas',
+  dbanreg in 'dbanreg.pas',
+  AEBXPVS in 'AEBXPVS.pas',
+  APXPVS in 'APXPVS.pas',
+  AdvDirectoryEdit in 'AdvDirectoryEdit.pas',
+  AdvFileNameEdit in 'AdvFileNameEdit.pas',
+  advtoolbtn in 'advtoolbtn.pas',
+  DBAdvNavigator in 'DBAdvNavigator.pas',
+  ccedlink in 'ccedlink.pas',
+  DBHTMLBtnsReg in 'DBHTMLBtnsReg.pas',
+  DBHTMLBtns in 'DBHTMLBtns.pas',
+  WebConnect in 'WebConnect.pas',
+  WebConnectReg in 'WebConnectReg.pas',
+  AsgHTMLE in 'AsgHTMLE.pas',
+  AsgMemo in 'AsgMemo.pas',
+  PlanPeriodEdit in 'PlanPeriodEdit.pas' {PeriodPlannerItemEditForm},
+  PlanItemEdit in 'PlanItemEdit.pas' {DefaultPlannerItemEditForm},
+  PlanDraw in 'PlanDraw.pas',
+  PlanSimpleEdit in 'PlanSimpleEdit.pas' {SimplePlannerItemEditForm},
+  advmps in 'advmps.pas',
+  AdvMemo in 'AdvMemo.pas',
+  AdvMemoReg in 'AdvMemoReg.pas',
+  Advmcss in 'Advmcss.pas',
+  AdvShaper in 'AdvShaper.pas',
+  AdvShaperReg in 'AdvShaperReg.pas',
+  ASXPVS in 'ASXPVS.pas',
+  ACXPVS in 'ACXPVS.pas',
+  AdvMoneyEdit in 'AdvMoneyEdit.pas',
+  DBAdvMoneyEdit in 'DBAdvMoneyEdit.pas',
+  AdvMoneyEditReg in 'AdvMoneyEditReg.pas',
+  InspLinks in 'InspLinks.pas',
+  WuWizForm in 'WuWizForm.pas' {WUWIZ},
+  WUpdateWiz in 'WUpdateWiz.pas',
+  AsgReplaceDialog in 'AsgReplaceDialog.pas' {AsgReplaceDialog},
+  AdvDBLookupComboBoxReg in 'AdvDBLookupComboBoxReg.pas',
+  AdvDBLookupComboBox in 'AdvDBLookupComboBox.pas',
+  AdvLookupBarReg in 'AdvLookupBarReg.pas',
+  AdvLookupBar in 'AdvLookupBar.pas',
+  AdvGridLookupBar in 'AdvGridLookupBar.pas',
+  planproppref in 'planproppref.pas',
+  advmbs in 'advmbs.pas',
+  GradientLblReg in 'GradientLblReg.pas',
+  GradientLabel in 'GradientLabel.pas',
+  HTMLTreeList in 'HTMLTreeList.pas',
+  HTMLTLREG in 'HTMLTLREG.pas',
+  DBAdvMemo in 'DBAdvMemo.pas',
+  AdvmSQLs in 'AdvmSQLs.pas',
+  AdvTreeComboBoxReg in 'AdvTreeComboBoxReg.pas',
+  AdvTreeComboBox in 'AdvTreeComboBox.pas',
+  HTMLCreditReg in 'HTMLCreditReg.pas',
+  HTMLCredit in 'HTMLCredit.pas',
+  ParHTML in 'ParHTML.pas',
+  ParXPVS in 'ParXPVS.pas',
+  advmws in 'advmws.pas',
+  frmctrllink in 'frmctrllink.pas',
+  vCalReg in 'vCalReg.pas',
+  vCal in 'vCal.pas',
+  ToolPanelsReg in 'ToolPanelsReg.pas',
+  ToolPanels in 'ToolPanels.pas',
+  advmcshs in 'advmcshs.pas',
+  advmes in 'advmes.pas',
+  advmpls in 'advmpls.pas',
+  advmpys in 'advmpys.pas',
+  AdvProgressBarReg in 'AdvProgressBarReg.pas',
+  AdvProgressBar in 'AdvProgressBar.pas',
+  AdvGradient in 'AdvGradient.pas',
+  AdvGridWorkbook in 'AdvGridWorkbook.pas',
+  PlannerWaitList in 'PlannerWaitList.pas',
+  PlanStyles in 'PlanStyles.pas' {PlanStyleForm},
+  PlannerMaskDatePicker in 'PlannerMaskDatePicker.pas',
+  AdvPageControl in 'AdvPageControl.pas',
+  AdvPageControlreg in 'AdvPageControlreg.pas',
+  AdvMEdBtn in 'AdvMEdBtn.pas',
+  planobj in 'planobj.pas',
+  AdvTabSet in 'AdvTabSet.pas',
+  AdvTabSetReg in 'AdvTabSetReg.pas',
+  htmlchklireg in 'htmlchklireg.pas',
+  HtmlChkList in 'HtmlChkList.pas',
+  AdvCodeListLib in 'AdvCodeListLib.pas',
+  AdvCodeList in 'AdvCodeList.pas',
+  AdvCodeListDD in 'AdvCodeListDD.pas',
+  AdvCodeHint in 'AdvCodeHint.pas',
+  AdvAlertWindowReg in 'AdvAlertWindowReg.pas',
+  AdvAlertWindow in 'AdvAlertWindow.pas',
+  AdvNavBarReg in 'AdvNavBarReg.pas',
+  AdvNavBar in 'AdvNavBar.pas',
+  DBPlannerMonthViewReg in 'DBPlannerMonthViewReg.pas',
+  DBPlannerMonthView in 'DBPlannerMonthView.pas',
+  PlannerMonthViewReg in 'PlannerMonthViewReg.pas',
+  PlannerMonthView in 'PlannerMonthView.pas',
+  TODOXPVS in 'TODOXPVS.pas',
+  WuLogin in 'WuLogin.pas' {LoginForm},
+  WuBase64 in 'WuBase64.pas',
+  AdvMemoStylerManager in 'AdvMemoStylerManager.pas',
+  AdvmINIs in 'AdvmINIs.pas',
+  Advmxml in 'Advmxml.pas',
+  PlanRecurrEdit in 'PlanRecurrEdit.pas' {RecurrEdit},
+  PlanRecurr in 'PlanRecurr.pas',
+  imgpickr in 'imgpickr.pas',
+  AdvFontCombo in 'AdvFontCombo.pas',
+  AdvSelectors in 'AdvSelectors.pas',
+  TMSGraphicsReg in 'TMSGraphicsReg.pas',
+  AdvMenuUtil in 'AdvMenuUtil.pas',
+  AdvMenus in 'AdvMenus.pas',
+  AdvMenuStylers in 'AdvMenuStylers.pas',
+  AdvMenuRegister in 'AdvMenuRegister.pas',
+  PlannerDBMaskDatePicker in 'PlannerDBMaskDatePicker.pas',
+  PlannerDBDatePicker in 'PlannerDBDatePicker.pas',
+  DBAdvGridReg in 'DBAdvGridReg.pas',
+  DBAdvGrid in 'DBAdvGrid.pas',
+  ATXPVS in 'ATXPVS.pas',
+  WcBase64 in 'WcBase64.pas',
+  WcLogin in 'WcLogin.pas',
+  Tilebmp in 'Tilebmp.pas',
+  AdvCardListStyler in 'AdvCardListStyler.pas',
+  AdvCardList in 'AdvCardList.pas',
+  ACLDD in 'ACLDD.pas',
+  AdvCardListGradient in 'AdvCardListGradient.pas',
+  AdvCardListReg in 'AdvCardListReg.pas',
+  DBAdvCardListReg in 'DBAdvCardListReg.pas',
+  DBAdvCardList in 'DBAdvCardList.pas',
+  AdvToolBarStylers in 'AdvToolBarStylers.pas',
+  AdvToolBar in 'AdvToolBar.pas',
+  AdvToolBarReg in 'AdvToolBarReg.pas',
+  PictureList in 'PictureList.pas',
+  piclistreg in 'piclistreg.pas',
+  alxpvs in 'alxpvs.pas',
+  cexpvs in 'cexpvs.pas',
+  RTFEngine in 'RTFEngine.pas',
+  advgridcsvpager in 'advgridcsvpager.pas',
+  advoutlooklistreg in 'advoutlooklistreg.pas',
+  advoutlooklist in 'advoutlooklist.pas',
+  outlookgroupedlist in 'outlookgroupedlist.pas',
+  customizeru in 'customizeru.pas',
+  customizerbtnu in 'customizerbtnu.pas',
+  planneractions in 'planneractions.pas',
+  advmphp in 'advmphp.pas',
+  gdipicture in 'gdipicture.pas',
+  advgdip in 'advgdip.pas',
+  advglowbutton in 'advglowbutton.pas',
+  advglowbuttonreg in 'advglowbuttonreg.pas',
+  AdvGridRtf in 'AdvGridRtf.pas',
+  advofficehintreg in 'advofficehintreg.pas',
+  advofficehint in 'advofficehint.pas',
+  advhintinfo in 'advhintinfo.pas',
+  advstyleif in 'advstyleif.pas',
+  advappstyler in 'advappstyler.pas',
+  advofficepagerstylers in 'advofficepagerstylers.pas',
+  advofficepager in 'advofficepager.pas',
+  advofficepagerreg in 'advofficepagerreg.pas',
+  AdvOfficeTabSetStylers in 'AdvOfficeTabSetStylers.pas',
+  AdvOfficeStatusBar in 'AdvOfficeStatusBar.pas',
+  AdvOfficeStatusBarReg in 'AdvOfficeStatusBarReg.pas',
+  AdvOfficeStatusBarStylers in 'AdvOfficeStatusBarStylers.pas',
+  AdvOfficeTabSet in 'AdvOfficeTabSet.pas',
+  AdvOfficeTabSetReg in 'AdvOfficeTabSetReg.pas',
+  TMSOfficeGraphicsReg in 'TMSOfficeGraphicsReg.pas',
+  AdvOfficeSelectors in 'AdvOfficeSelectors.pas',
+  AdvOfficeComboBox in 'AdvOfficeComboBox.pas',
+  advofficeimage in 'advofficeimage.pas',
+  advofficeimagereg in 'advofficeimagereg.pas',
+  advshapebutton in 'advshapebutton.pas',
+  advshapebuttonreg in 'advshapebuttonreg.pas',
+  advpreviewmenustylers in 'advpreviewmenustylers.pas',
+  advpreviewmenu in 'advpreviewmenu.pas',
+  advpreviewmenureg in 'advpreviewmenureg.pas',
+  taskdialog in 'taskdialog.pas',
+  taskdialogex in 'taskdialogex.pas',
+  HTMLForm in 'HTMLForm.pas',
+  HTMLFormReg in 'HTMLFormReg.pas',
+  folderdialog in 'folderdialog.pas',
+  folderdialogreg in 'folderdialogreg.pas',
+  AdvSplitter in 'AdvSplitter.pas',
+  AdvSplitterReg in 'AdvSplitterReg.pas',
+  AdvWiiProgressBar in 'AdvWiiProgressBar.pas',
+  AdvWiiProgressBarReg in 'AdvWiiProgressBarReg.pas',
+  AdvGroupBox in 'AdvGroupBox.pas',
+  AdvGroupBoxReg in 'AdvGroupBoxReg.pas',
+  AdvOfficeButtons in 'AdvOfficeButtons.pas',
+  AOBXPVS in 'AOBXPVS.pas',
+  DBAdvTrackBar in 'DBAdvTrackBar.pas',
+  DBAdvTrackBarReg in 'DBAdvTrackBarReg.pas',
+  AdvOfficeButtonsReg in 'AdvOfficeButtonsReg.pas',
+  AdvScrollBox in 'AdvScrollBox.pas',
+  AdvScrollBoxReg in 'AdvScrollBoxReg.pas',
+  dbadvmoneyeditreg in 'dbadvmoneyeditreg.pas',
+  AdvReflectionImage in 'AdvReflectionImage.pas',
+  AdvReflectionImageReg in 'AdvReflectionImageReg.pas',
+  AdvReflectionLabel in 'AdvReflectionLabel.pas',
+  AdvRefLabelReg in 'AdvRefLabelReg.pas',
+  AdvGlassButton in 'AdvGlassButton.pas',
+  AdvGlassButtonReg in 'AdvGlassButtonReg.pas',
+  DBAdvOfficeButtons in 'DBAdvOfficeButtons.pas',
+  DBAdvOfficeButtonsReg in 'DBAdvOfficeButtonsReg.pas',
+  AdvTrackbar in 'AdvTrackbar.pas',
+  AdvTrackBarReg in 'AdvTrackBarReg.pas',
+  AdvShape in 'AdvShape.pas',
+  AdvShapeReg in 'AdvShapeReg.pas',
+  AdvSmartMessageBox in 'AdvSmartMessageBox.pas',
+  AdvSmartMessageBoxReg in 'AdvSmartMessageBoxReg.pas',
+  AtbXPVS in 'AtbXPVS.pas',
+  AdvStickyPopupMenu in 'AdvStickyPopupMenu.pas',
+  AdvStickyPopupMenuReg in 'AdvStickyPopupMenuReg.pas',
+  AdvDateTimePicker in 'AdvDateTimePicker.pas',
+  AdvDBDateTimePicker in 'AdvDBDateTimePicker.pas',
+  AdvDateTimePickerReg in 'AdvDateTimePickerReg.pas',
+  DBAdvGlowNavigatorReg in 'DBAdvGlowNavigatorReg.pas',
+  DBAdvGlowNavigator in 'DBAdvGlowNavigator.pas',
+  AdvCircularProgress in 'AdvCircularProgress.pas',
+  AdvCircularProgressReg in 'AdvCircularProgressReg.pas',
+  wheelreg in 'wheelreg.pas',
+  advcalculatordropdown in 'advcalculatordropdown.pas',
+  advdropdown in 'advdropdown.pas',
+  advcolorpickerdropdown in 'advcolorpickerdropdown.pas',
+  advcontroldropdown in 'advcontroldropdown.pas',
+  advdetaildropdown in 'advdetaildropdown.pas',
+  advdropdownreg in 'advdropdownreg.pas',
+  advimagepickerdropdown in 'advimagepickerdropdown.pas',
+  advmemodropdown in 'advmemodropdown.pas',
+  advmulticolumndropdown in 'advmulticolumndropdown.pas',
+  advtimepickerdropdown in 'advtimepickerdropdown.pas',
+  advtrackbardropdown in 'advtrackbardropdown.pas',
+  DBAdvMemoDropDown in 'DBAdvMemoDropDown.pas',
+  DBAdvControlDropDown in 'DBAdvControlDropDown.pas',
+  DBAdvDetailDropDown in 'DBAdvDetailDropDown.pas',
+  DBAdvMultiColumnDropDown in 'DBAdvMultiColumnDropDown.pas',
+  DBAdvTimePickerDropDown in 'DBAdvTimePickerDropDown.pas',
+  DBAdvImagePickerDropDown in 'DBAdvImagePickerDropDown.pas',
+  DBAdvColorPickerDropDown in 'DBAdvColorPickerDropDown.pas',
+  DBAdvCalculatorDropDown in 'DBAdvCalculatorDropDown.pas',
+  DBAdvTrackBarDropDown in 'DBAdvTrackBarDropDown.pas',
+  DBAdvDropDownReg in 'DBAdvDropDownReg.pas',
+  AdvTBXPVS in 'AdvTBXPVS.pas',
+  AdvDWM in 'AdvDWM.pas',
+  DBAdvPictureReg in 'DBAdvPictureReg.pas',
+  AdvDBComboBox in 'AdvDBComboBox.pas',
+  AdvDBComboBoxReg in 'AdvDBComboBoxReg.pas',
+  AdvGridDropDown in 'AdvGridDropDown.pas',
+  AdvGridDropDownReg in 'AdvGridDropDownReg.pas',
+  AdvCustomGridDropDown in 'AdvCustomGridDropDown.pas',
+  DBAdvPicture in 'DBAdvPicture.pas',
+  AsgDateTimePicker in 'AsgDateTimePicker.pas',
+  asglistb in 'asglistb.pas',
+  AdvFindDialogForm in 'AdvFindDialogForm.pas' {FindDialogForm},
+  AdvReplaceDialogForm in 'AdvReplaceDialogForm.pas' {ReplaceDialogForm},
+  AdvFindDialogReg in 'AdvFindDialogReg.pas',
+  advmdd in 'advmdd.pas',
+  vCard in 'vCard.pas',
+  vCardReg in 'vCardReg.pas',
+  vCardBase64 in 'vCardBase64.pas',
+  advlabeledit in 'advlabeledit.pas',
+  AdvLabelEditReg in 'AdvLabelEditReg.pas',
+  AdvListBox in 'AdvListBox.pas',
+  AdvListBoxReg in 'AdvListBoxReg.pas',
+  advmultibuttonedit in 'advmultibuttonedit.pas',
+  AdvMultiButtonEditReg in 'AdvMultiButtonEditReg.pas',
+  AdvCheckTreeView in 'AdvCheckTreeView.pas',
+  AdvCheckTreeViewReg in 'AdvCheckTreeViewReg.pas',
+  AdvUpDownEdit in 'AdvUpDownEdit.pas',
+  AdvUpDownEditReg in 'AdvUpDownEditReg.pas',
+  AdvIPEdit in 'AdvIPEdit.pas',
+  AdvIPEditReg in 'AdvIPEditReg.pas',
+  PlannerRangeSelector in 'PlannerRangeSelector.pas',
+  PlannerRangeSelectorReg in 'PlannerRangeSelectorReg.pas',
+  asgxlsfmt in 'asgxlsfmt.pas',
+  ADVFORMULA in 'ADVFORMULA.PAS',
+  ADVPARS in 'ADVPARS.PAS',
+  ADVSPRD in 'ADVSPRD.PAS',
+  ASPGREG in 'ASPGREG.PAS',
+  CALCEDIT in 'CALCEDIT.PAS',
+  CALCEREG in 'CALCEREG.PAS',
+  ESBMATHS in 'ESBMATHS.PAS',
+  ESBMATHSLIB in 'ESBMATHSLIB.PAS',
+  MISCMATHLIB in 'MISCMATHLIB.PAS',
+  MISCMATHLIBREG in 'MISCMATHLIBREG.PAS',
+  PLANIMAGEDRAW in 'PLANIMAGEDRAW.PAS',
+  AdvToolBarExt in 'AdvToolBarExt.pas',
+  AdvToolBarExtReg in 'AdvToolBarExtReg.pas',
+  AdvToolBarRichEdit in 'AdvToolBarRichEdit.pas',
+  AdvToolBarRichEditReg in 'AdvToolBarRichEditReg.pas',
+  AdvGridFilterPanel in 'AdvGridFilterPanel.pas',
+  AdvGridFilterPanelReg in 'AdvGridFilterPanelReg.pas',
+  AdvDBFilterPanel in 'AdvDBFilterPanel.pas',
+  AdvDBFilterPanelReg in 'AdvDBFilterPanelReg.pas',
+  AdvFilterPanelButton in 'AdvFilterPanelButton.pas',
+  AdvFilterPanelButtonReg in 'AdvFilterPanelButtonReg.pas',
+  advpdfio in 'advpdfio.pas',
+  advpdflib in 'advpdflib.pas',
+  advpdffuncs in 'advpdffuncs.pas',
+  advgridpdfio in 'advgridpdfio.pas',
+  advmemopdfio in 'advmemopdfio.pas',
+  AdvPlannerPDFIO in 'AdvPlannerPDFIO.pas',
+  advmlua in 'advmlua.pas',
+  advmjson in 'advmjson.pas',
+  AdvGridPopupToolBar in 'AdvGridPopupToolBar.pas',
+  AdvToolBarPopup in 'AdvToolBarPopup.pas',
+  AdvCustomFilterPanel in 'AdvCustomFilterPanel.pas',
+  AdvGridActns in 'AdvGridActns.pas';
+end.

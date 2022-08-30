@@ -1,0 +1,13 @@
+In this demo you can:
+
+  - Change the scope of source data for a chart (the Chart Options/Source Data menu)
+  - Choose source data for chart categories (the Chart Options/Source for Categories menu)
+  - Change the diagram type (the Chart Options/Diagram Type menu)
+  - Filter source data
+  - Organize the layout by dragging fields into different drop areas
+  - Export data in either Excel format, as text, html or xml (the File/Export menu)
+  - Change the location of totals (the Options/Totals Location menu)
+  - Hide subtotals and grand totals (the Options/Totals Visibility menu)
+  - Specify the visibility of fields and filter separator (the Options/Elements Visibility menu)
+  - Customize selection options (the Options/Selection menu)
+  - Select a particular look and feel from the five look and feel options available (the Look&Feel menu)

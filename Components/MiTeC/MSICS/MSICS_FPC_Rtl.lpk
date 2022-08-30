@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="MSICS_FPC_Rtl"/>
+    <Author Value="Copyright (c) 2017, Michal Mutl"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="Trial\FPC\Common"/>
+        <UnitOutputDirectory Value="M:\Win\Libs\MSICS\Trial\FPC\MSICS"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="-Ur
+-dTRIAL"/>
+        <OtherDefines Count="1">
+          <Define0 Value="TRIAL"/>
+        </OtherDefines>
+      </Other>
+    </CompilerOptions>
+    <Description Value="MiTeC System Information Component Suite - Runtime"/>
+    <Files Count="44">
+      <Item1>
+        <Filename Value="MSI_APM.pas"/>
+        <UnitName Value="MSI_APM"/>
+      </Item1>
+      <Item2>
+        <Filename Value="MSI_BT.pas"/>
+        <UnitName Value="MSI_BT"/>
+      </Item2>
+      <Item3>
+        <Filename Value="MSI_Common.pas"/>
+        <UnitName Value="MSI_Common"/>
+      </Item3>
+      <Item4>
+        <Filename Value="MSI_Defs.pas"/>
+        <UnitName Value="MSI_Defs"/>
+      </Item4>
+      <Item5>
+        <Filename Value="MSI_DeviceMonitor.pas"/>
+        <UnitName Value="MSI_DeviceMonitor"/>
+      </Item5>
+      <Item6>
+        <Filename Value="MSI_Devices.pas"/>
+        <UnitName Value="MSI_Devices"/>
+      </Item6>
+      <Item7>
+        <Filename Value="MSI_Disk.pas"/>
+        <UnitName Value="MSI_Disk"/>
+      </Item7>
+      <Item8>
+        <Filename Value="MSI_DiskMonitor.pas"/>
+        <UnitName Value="MSI_DiskMonitor"/>
+      </Item8>
+      <Item9>
+        <Filename Value="MSI_Display.pas"/>
+        <UnitName Value="MSI_Display"/>
+      </Item9>
+      <Item10>
+        <Filename Value="MSI_DMA.pas"/>
+        <UnitName Value="MSI_DMA"/>
+      </Item10>
+      <Item11>
+        <Filename Value="MSI_DriveContent.pas"/>
+        <UnitName Value="MSI_DriveContent"/>
+      </Item11>
+      <Item12>
+        <Filename Value="MSI_Engines.pas"/>
+        <UnitName Value="MSI_Engines"/>
+      </Item12>
+      <Item13>
+        <Filename Value="MSI_EventLog.pas"/>
+        <UnitName Value="MSI_EventLog"/>
+      </Item13>
+      <Item14>
+        <Filename Value="MSI_Machine.pas"/>
+        <UnitName Value="MSI_Machine"/>
+      </Item14>
+      <Item15>
+        <Filename Value="MSI_Media.pas"/>
+        <UnitName Value="MSI_Media"/>
+      </Item15>
+      <Item16>
+        <Filename Value="MSI_Memory.pas"/>
+        <UnitName Value="MSI_Memory"/>
+      </Item16>
+      <Item17>
+        <Filename Value="MSI_Monitor.pas"/>
+        <UnitName Value="MSI_Monitor"/>
+      </Item17>
+      <Item18>
+        <Filename Value="MSI_MSProduct.pas"/>
+        <UnitName Value="MSI_MSProduct"/>
+      </Item18>
+      <Item19>
+        <Filename Value="MSI_NetConMon.pas"/>
+        <UnitName Value="MSI_NetConMon"/>
+      </Item19>
+      <Item20>
+        <Filename Value="MSI_Network.pas"/>
+        <UnitName Value="MSI_Network"/>
+      </Item20>
+      <Item21>
+        <Filename Value="MSI_OS.pas"/>
+        <UnitName Value="MSI_OS"/>
+      </Item21>
+      <Item22>
+        <Filename Value="MSI_PerfMon.pas"/>
+        <UnitName Value="MSI_PerfMon"/>
+      </Item22>
+      <Item23>
+        <Filename Value="MSI_Printers.pas"/>
+        <UnitName Value="MSI_Printers"/>
+      </Item23>
+      <Item24>
+        <Filename Value="MSI_Processes.pas"/>
+        <UnitName Value="MSI_Processes"/>
+      </Item24>
+      <Item25>
+        <Filename Value="MSI_ProcListMon.pas"/>
+        <UnitName Value="MSI_ProcListMon"/>
+      </Item25>
+      <Item26>
+        <Filename Value="MSI_ProcMon.pas"/>
+        <UnitName Value="MSI_ProcMon"/>
+      </Item26>
+      <Item27>
+        <Filename Value="MSI_Security.pas"/>
+        <UnitName Value="MSI_Security"/>
+      </Item27>
+      <Item28>
+        <Filename Value="MSI_SMBIOS.pas"/>
+        <UnitName Value="MSI_SMBIOS"/>
+      </Item28>
+      <Item29>
+        <Filename Value="MSI_Software.pas"/>
+        <UnitName Value="MSI_Software"/>
+      </Item29>
+      <Item30>
+        <Filename Value="MSI_Startup.pas"/>
+        <UnitName Value="MSI_Startup"/>
+      </Item30>
+      <Item31>
+        <Filename Value="MSI_Storage.pas"/>
+        <UnitName Value="MSI_Storage"/>
+      </Item31>
+      <Item32>
+        <Filename Value="MSI_SvcListMon.pas"/>
+        <UnitName Value="MSI_SvcListMon"/>
+      </Item32>
+      <Item33>
+        <Filename Value="MSI_SysModListMon.pas"/>
+        <UnitName Value="MSI_SysModListMon"/>
+      </Item33>
+      <Item34>
+        <Filename Value="MSI_SysMon.pas"/>
+        <UnitName Value="MSI_SysMon"/>
+      </Item34>
+      <Item35>
+        <Filename Value="MSI_SystemInfo.pas"/>
+        <UnitName Value="MSI_SystemInfo"/>
+      </Item35>
+      <Item36>
+        <Filename Value="MSI_USB.pas"/>
+        <UnitName Value="MSI_USB"/>
+      </Item36>
+      <Item37>
+        <Filename Value="MSI_WIFI.pas"/>
+        <UnitName Value="MSI_WIFI"/>
+      </Item37>
+      <Item38>
+        <Filename Value="MSI_XML_Reports.pas"/>
+        <UnitName Value="MSI_XML_Reports"/>
+      </Item38>
+      <Item39>
+        <Filename Value="MSI_AD.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="MSI_AD"/>
+      </Item39>
+      <Item40>
+        <Filename Value="MSI_HndListMon.pas"/>
+        <UnitName Value="MSI_HndListMon"/>
+      </Item40>
+      <Item41>
+        <Filename Value="MSI_NetCreds.pas"/>
+        <UnitName Value="MSI_NetCreds"/>
+      </Item41>
+      <Item42>
+        <Filename Value="MSI_FW.pas"/>
+        <UnitName Value="MSI_FW"/>
+      </Item42>
+      <Item43>
+        <Filename Value="MSI_USBHistory.pas"/>
+        <UnitName Value="MSI_USBHistory"/>
+      </Item43>
+      <Item44>
+        <Filename Value="MSI_WLANC.pas"/>
+        <UnitName Value="MSI_WLANC"/>
+      </Item44>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="MiTeC_Common_FPC"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

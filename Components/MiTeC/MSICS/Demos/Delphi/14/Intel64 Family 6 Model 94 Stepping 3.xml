@@ -1,0 +1,4246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="msixmlreport.xsl"?>
+<SystemInfoReport Version="13.4.0"><machine></machine><user>51231</user>
+<category title="CPU">
+  <section title="Processor #1">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #2">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #3">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #4">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #5">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #6">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>5</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>5</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #7">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>6</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>6</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+  <section title="Processor #8">
+    <recordset title="General">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Architecture</fieldvalue>
+        <fieldvalue>x64 (AMD or Intel)</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Vendor</fieldvalue>
+        <fieldvalue>Intel Corporation</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPU Name</fieldvalue>
+        <fieldvalue>Core i7-6700K</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Generic Name</fieldvalue>
+        <fieldvalue>Intel64 Family 6 Model 94 Stepping 3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Marketing Name</fieldvalue>
+        <fieldvalue>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Code Name</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Revision</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Technology</fieldvalue>
+        <fieldvalue></fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Brand</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Type</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FamilyEx</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ModelEx</fieldvalue>
+        <fieldvalue>94</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SteppingEx</fieldvalue>
+        <fieldvalue>3</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Frequency</fieldvalue>
+        <fieldvalue>4000</fieldvalue>
+        <fieldvalue>MHz</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Serial Number</fieldvalue>
+        <fieldvalue>0005-06E3-BFEB-FBFF-7FFA-FBBF</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APICID</fieldvalue>
+        <fieldvalue>7</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Package</fieldvalue>
+        <fieldvalue>8</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Core Per Package</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical Per Core</fieldvalue>
+        <fieldvalue>2</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Physical ID</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Logical ID</fieldvalue>
+        <fieldvalue>7</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Code">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 1 Data">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>32</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>8-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 2">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>4</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>256</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>4-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Cache Level 3">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <fieldname>Units</fieldname>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SharedWays</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Size</fieldvalue>
+        <fieldvalue>8192</fieldvalue>
+        <fieldvalue>KB</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>Associativity</fieldvalue>
+        <fieldvalue>16-way</fieldvalue>
+        <fieldvalue></fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>LineSize</fieldvalue>
+        <fieldvalue>64</fieldvalue>
+        <fieldvalue>entries</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - APIC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSN - Processor serial number</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CLFSH - CLFLUSH instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DS - Debug trace store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ACPI - Thermal monitor and software controlled clock</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FXSR - Fast floating point save (FXSAVE/FXRSTOR)</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE - Streaming SIMD instruction support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SS - Self snoop</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>HTT - Hyper-Threading technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SBF - Signal break on FERR</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Standard-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>SSE3 - Streaming SIMD extensions 3</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MON - MONITOR/MWAIT</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CPL - CPL qualified debug store</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VMX - Virtual machine extension</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>EST - Enhanced SpeedStep Technology</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM2 - Thermal Monitor 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CID - Context Id</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX16 - CMPXCHG16B instrucion support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>xTPR - Send task priority messages</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-1 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>FPU - Floating point unit</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VME - Virtual mode extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>DE - Debugging extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE - Page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TSC - Time stamp counter</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MSR - Machine specific registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAE - Physical address extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MCE - Machine check extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CX8 - CMPXCHG8 instrucion support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SEP - Fast system call (SYSENTER/SYSEXIT)</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MTRR - Memory type range registers</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMOV - Conditional move support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PAT - Page attribute table</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PSE36 - 36-bit page size extension</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX - MMX architecture support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>SSE2 - Streaming SIMD extensions 2</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>IA-64 - IA-64 Intel</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>APIC - On-chip APIC hardware</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>PGE - Page global enable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MP - Multiprocessing capable</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>NX - No execute page protection</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>MMX+ - Extended MMX architecture</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>x64 - AMD64/EM64T</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW+ - Extended 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>3DNOW - 3DNow! extensions</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Extended-2 Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>LSAHF - LAHF/SAHF support</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>CMPL - Core multiprocessing legacy</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+    </recordset>
+    <recordset title="Power Management Features">
+      <fieldname>Property</fieldname>
+      <fieldname>Value</fieldname>
+      <datarow>
+        <fieldvalue>TS - Temperature sensor</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>FID - Frequency id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>VID - Voltage id Control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TPP - Thermal trip</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>TM - Thermal monitor support</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>STC - Software thermal control</fieldvalue>
+        <fieldvalue>0</fieldvalue>
+      </datarow>
+      <datarow>
+        <fieldvalue>ITSC - Invariant TSC</fieldvalue>
+        <fieldvalue>1</fieldvalue>
+      </datarow>
+    </recordset>
+  </section>
+</category>
+</SystemInfoReport>

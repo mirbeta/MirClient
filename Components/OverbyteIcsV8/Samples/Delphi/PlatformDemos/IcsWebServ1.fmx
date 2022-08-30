@@ -1,0 +1,374 @@
+object WebServForm: TWebServForm
+  Left = 253
+  Top = 158
+  Caption = 'ICS WebServer Demo - http://www.overbyte.be'
+  ClientHeight = 335
+  ClientWidth = 503
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 253
+  Top = 158
+  object ToolsPanel: TPanel
+    Align = alTop
+    Width = 503.000000000000000000
+    Height = 130.000000000000000000
+    TabOrder = 0
+    object Label1: TLabel
+      Position.Point = '(40,8)'
+      Width = 38.439449310302730000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'DocDir'
+      WordWrap = False
+      Left = 40
+      Top = 8
+    end
+    object Label2: TLabel
+      Position.Point = '(19,32)'
+      Width = 59.988277435302730000
+      Height = 18.630859375000000000
+      TabOrder = 1
+      AutoSize = True
+      Text = 'DefaultDoc'
+      WordWrap = False
+      Left = 19
+      Top = 32
+    end
+    object Label3: TLabel
+      Position.Point = '(256,5)'
+      Width = 24.759275436401370000
+      Height = 18.630859375000000000
+      TabOrder = 2
+      AutoSize = True
+      Text = 'Port'
+      WordWrap = False
+      Left = 259
+      Top = 7
+    end
+    object ClientCountLabel: TLabel
+      Position.Point = '(297,34)'
+      Width = 89.427238464355470000
+      Height = 18.630859375000000000
+      TabOrder = 3
+      AutoSize = True
+      Text = 'ClientCountLabel'
+      WordWrap = False
+      Left = 294
+      Top = 34
+    end
+    object Label5: TLabel
+      Position.Point = '(255,34)'
+      Width = 39.943355560302730000
+      Height = 18.630859375000000000
+      TabOrder = 4
+      AutoSize = True
+      Text = 'Clients:'
+      WordWrap = False
+      Left = 258
+      Top = 34
+    end
+    object Label4: TLabel
+      Position.Point = '(25,81)'
+      Width = 53.054195404052730000
+      Height = 18.630859375000000000
+      TabOrder = 5
+      AutoSize = True
+      Text = 'Redir URL'
+      WordWrap = False
+      Left = 23
+      Top = 81
+    end
+    object Label6: TLabel
+      Position.Point = '(12,57)'
+      Width = 65.176757812500000000
+      Height = 18.630859375000000000
+      TabOrder = 6
+      AutoSize = True
+      Text = 'TemplateDir'
+      WordWrap = False
+      Left = 16
+      Top = 57
+    end
+    object Label7: TLabel
+      Position.Point = '(355,81)'
+      Width = 94.771476745605470000
+      Height = 18.630859375000000000
+      TabOrder = 7
+      AutoSize = True
+      Text = 'KeepAliveTimeSec'
+      WordWrap = False
+      Left = 357
+      Top = 77
+    end
+    object Label8: TLabel
+      Position.Point = '(330,106)'
+      Width = 119.532218933105500000
+      Height = 18.630859375000000000
+      TabOrder = 8
+      AutoSize = True
+      Text = 'MaxRequestsKeepAlive'
+      WordWrap = False
+      Left = 334
+      Top = 101
+    end
+    object Label9: TLabel
+      Position.Point = '(9,106)'
+      Width = 167.152328491210900000
+      Height = 18.630859375000000000
+      TabOrder = 9
+      AutoSize = True
+      Text = 'Maximum Bandwidth (bytes/sec)'
+      WordWrap = False
+      Left = 9
+      Top = 101
+    end
+    object DocDirEdit: TEdit
+      Position.Point = '(80,4)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 10
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'DocDirEdit'
+      Left = 80
+      Top = 4
+    end
+    object DefaultDocEdit: TEdit
+      Position.Point = '(80,29)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 11
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'DefaultDocEdit'
+      Left = 80
+      Top = 29
+    end
+    object StartButton: TButton
+      Position.Point = '(251,54)'
+      Width = 53.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = StartButtonClick
+      TabOrder = 12
+      Text = 'Start'
+      Left = 251
+      Top = 52
+    end
+    object StopButton: TButton
+      Position.Point = '(251,79)'
+      Width = 53.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = StopButtonClick
+      TabOrder = 13
+      Text = 'Stop'
+      Left = 251
+      Top = 79
+    end
+    object PortEdit: TEdit
+      Position.Point = '(283,3)'
+      Width = 53.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 14
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PortEdit'
+      Left = 283
+      Top = 3
+    end
+    object ClearButton: TButton
+      Position.Point = '(311,54)'
+      Width = 53.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = ClearButtonClick
+      TabOrder = 15
+      Text = 'Clear'
+      Left = 311
+      Top = 52
+    end
+    object DisplayHeaderCheckBox: TCheckBox
+      Position.Point = '(389,57)'
+      Width = 104.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 16
+      Text = 'Display Header'
+      Left = 389
+      Top = 57
+    end
+    object WriteLogFileCheckBox: TCheckBox
+      Position.Point = '(389,40)'
+      Width = 108.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = WriteLogFileCheckBoxClick
+      TabOrder = 17
+      Text = 'Write to log file'
+      Left = 389
+      Top = 40
+    end
+    object DirListCheckBox: TCheckBox
+      Position.Point = '(401,23)'
+      Width = 92.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 18
+      Text = 'Allow Dir List'
+      Left = 401
+      Top = 23
+    end
+    object OutsideRootCheckBox: TCheckBox
+      Position.Point = '(373,6)'
+      Width = 124.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 19
+      Text = 'Allow Outside Root'
+      Left = 373
+      Top = 6
+    end
+    object RedirURLEdit: TEdit
+      Position.Point = '(80,79)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 20
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'RedirURLEdit'
+      Left = 80
+      Top = 79
+    end
+    object TemplateDirEdit: TEdit
+      Position.Point = '(80,54)'
+      Width = 165.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 21
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'TemplateDirEdit'
+      Left = 80
+      Top = 54
+    end
+    object KeepAliveTimeSecEdit: TEdit
+      Position.Point = '(453,79)'
+      Width = 33.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 22
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'KeepAliveTimeSecEdit'
+      Left = 453
+      Top = 74
+    end
+    object MaxRequestsKeepAliveEdit: TEdit
+      Position.Point = '(453,104)'
+      Width = 33.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 23
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'MaxRequestsKeepAliveEdit'
+      Left = 453
+      Top = 98
+    end
+    object BandwidthLimitEdit: TEdit
+      Position.Point = '(178,104)'
+      Width = 67.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 24
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'BandwidthLimitEdit'
+      Left = 168
+      Top = 97
+    end
+    object DisableDisplayCheckBox: TCheckBox
+      Position.Point = '(249,105)'
+      Width = 88.000000000000000000
+      Height = 19.000000000000000000
+      TabOrder = 25
+      Text = 'No Display'
+    end
+  end
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,130)'
+    Width = 503.000000000000000000
+    Height = 205.000000000000000000
+    TabOrder = 1
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object HttpServer1: THttpServer
+    ListenBacklog = 5
+    MultiListenSockets = <>
+    Port = 'http'
+    Addr = '0.0.0.0'
+    SocketFamily = sfIPv4
+    MaxClients = 0
+    DocDir = '\WebShare'
+    TemplateDir = 'c:\wwwroot\templates'
+    DefaultDoc = 'index.html'
+    LingerOnOff = wsLingerNoSet
+    LingerTimeout = 1
+    Options = []
+    KeepAliveTimeSec = 10
+    MaxRequestsKeepAlive = 100
+    SizeCompressMin = 5000
+    SizeCompressMax = 5000000
+    MaxBlkSize = 8192
+    MimeTypesList = MimeTypesList1
+    BandwidthLimit = 0
+    BandwidthSampling = 1000
+    OnServerStarted = HttpServer1ServerStarted
+    OnServerStopped = HttpServer1ServerStopped
+    OnClientConnect = HttpServer1ClientConnect
+    OnClientDisconnect = HttpServer1ClientDisconnect
+    OnGetDocument = HttpServer1GetDocument
+    OnHeadDocument = HttpServer1HeadDocument
+    OnPostDocument = HttpServer1PostDocument
+    OnPostedData = HttpServer1PostedData
+    OnAuthGetPassword = HttpServer1AuthGetPassword
+    OnAuthResult = HttpServer1AuthResult
+    OnAuthGetType = HttpServer1AuthGetType
+    AuthTypes = []
+    AuthRealm = 'ics'
+    Left = 30
+    Top = 175
+  end
+  object MimeTypesList1: TMimeTypesList
+    LoadOSonDemand = True
+    MimeTypesFile = '/etc/apache2/mime.types'
+    DefaultTypes.Strings = (
+      '.htm=text/html'
+      '.html=text/html'
+      '.gif=image/gif'
+      '.bmp=image/bmp'
+      '.jpg=image/jpeg'
+      '.jpeg=image/jpeg'
+      '.tif=image/tiff'
+      '.tiff=image/tiff'
+      '.txt=text/plain'
+      '.css=text/css'
+      '.wav=audio/x-wav'
+      '.ico=image/x-icon'
+      '.wml=text/vnd.wap.wml'
+      '.wbmp=image/vnd.wap.wbmp'
+      '.wmlc=application/vnd.wap.wmlc'
+      '.wmlscript=text/vnd.wap.wmlscript'
+      '.wmlscriptc=application/vnd.wap.wmlscriptc'
+      '.pdf=application/pdf'
+      '.png=image/png'
+      '.xml=application/xml'
+      '.xhtml=application/xhtml+xml'
+      '.zip=application/zip'
+      '.exe=application/x-msdownload'
+      '.msi=application/x-msdownload'
+      '.bin=application/octet-stream'
+      '.iso=application/octet-stream')
+    MimeTypeSrc = MTypeList
+    UnknownType = 'application/octet-stream'
+    Left = 111
+    Top = 177
+  end
+end

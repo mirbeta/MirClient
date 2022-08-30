@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.White{fill:#FFFFFF;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.6;}
+</style>
+<path class="Black" d="M4,2v28h24V8V2H4z"/>
+<polygon class="White" points="26,16 26,4 6,4 6,28 16,28 16,30 28,30 28,16 "/>
+<g class="st0">
+	<rect x="12" y="6" class="Black" width="12" height="2"/>
+	<rect x="12" y="18" class="Black" width="6" height="2"/>
+	<rect x="12" y="22" class="Black" width="6" height="2"/>
+	<rect x="12" y="10" class="Black" width="12" height="2"/>
+	<rect x="12" y="14" class="Black" width="12" height="2"/>
+</g>
+<g>
+	<g>
+		<rect x="8" y="6" class="Black" width="2" height="2"/>
+		<rect x="8" y="18" class="Black" width="2" height="2"/>
+		<rect x="8" y="22" class="Black" width="2" height="2"/>
+		<rect x="8" y="10" class="Black" width="2" height="2"/>
+		<rect x="8" y="14" class="Black" width="2" height="2"/>
+	</g>
+	<g>
+		<rect x="8" y="6" class="Black" width="2" height="2"/>
+		<rect x="8" y="18" class="Black" width="2" height="2"/>
+		<rect x="8" y="22" class="Black" width="2" height="2"/>
+		<rect x="8" y="10" class="Black" width="2" height="2"/>
+		<rect x="8" y="14" class="Black" width="2" height="2"/>
+	</g>
+</g>
+<path class="Blue" d="M27,27.2c2.5,0.7,3,1.7,3,4.8h-3.7H18c0-3.2,0.5-4.1,3-4.8c1.3-0.4,1.5-1.3,1.5-1.7C21.7,24.6,21,23,21,21.2
+	c0-0.1,0-0.3,0-0.5c0-1.4,1.4-2.7,2.9-2.7c0,0,0,0,0.1,0c0,0,0,0,0.1,0c1.5,0,2.9,1.3,2.9,2.7c0,0.3,0,0.4,0,0.5
+	c0,1.8-0.7,3.4-1.5,4.3C25.5,25.9,25.7,26.8,27,27.2z"/>
+</svg>

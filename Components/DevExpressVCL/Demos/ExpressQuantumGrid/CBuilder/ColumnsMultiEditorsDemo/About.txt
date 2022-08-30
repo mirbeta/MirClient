@@ -1,0 +1,7 @@
+In this demo you can:
+
+- use Options | Edit Buttons to change how editors are displayed within cells.
+
+- edit the Grade column and see different editors in use in each row.
+
+- check how little source code required to provide the above functionality.

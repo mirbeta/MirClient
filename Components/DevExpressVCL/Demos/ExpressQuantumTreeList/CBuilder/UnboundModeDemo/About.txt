@@ -1,0 +1,9 @@
+In this demo you can:
+
+- experiment with sorting (by clicking on a column header)
+
+- incremental search by pressing keys on keyboard
+
+- change the hierarchical nodes structure using drag&drop TreeList functionality
+
+- change the height of individual nodes by dragging the bottom edge of the corresponding indicator cells

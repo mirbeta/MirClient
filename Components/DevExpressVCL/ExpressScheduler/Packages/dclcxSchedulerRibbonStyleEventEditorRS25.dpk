@@ -1,0 +1,63 @@
+package dclcxSchedulerRibbonStyleEventEditorRS25;
+
+{$R *.res}
+{$R cxSchedulerReg.dcr}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressScheduler Ribbon Event Window by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  designide,
+  vcldesigner,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxCoreRS25,
+  dxGDIPlusRS25,
+  cxLibraryRS25,
+  cxExportRS25,
+  dxComnRS25,
+  cxSchedulerRS25,
+  cxSchedulerRibbonStyleEventEditorRS25,
+  dxBarRS25,
+  dxBarExtItemsRS25,
+  dxRibbonRS25,
+  dcldb,
+  dcldxCoreRS25,
+  dclcxLibraryRS25;
+
+contains
+  cxSchedulerRibbonStyleEventEditorReg;
+
+end.

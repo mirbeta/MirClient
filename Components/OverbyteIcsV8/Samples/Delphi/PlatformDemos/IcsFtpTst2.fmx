@@ -1,0 +1,19 @@
+object DirectoryForm: TDirectoryForm
+  Left = 232
+  Top = 114
+  BiDiMode = bdLeftToRight
+  Caption = 'DirectoryForm'
+  ClientHeight = 419
+  ClientWidth = 504
+  Visible = False
+  StyleLookup = 'backgroundstyle'
+  Left = 232
+  Top = 114
+  object DirListBox: TListBox
+    Align = alClient
+    Width = 504.000000000000000000
+    Height = 419.000000000000000000
+    TabOrder = 0
+    ItemHeight = 14.000000000000000000
+  end
+end

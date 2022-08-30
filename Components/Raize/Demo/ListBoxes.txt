@@ -1,0 +1,15 @@
+TRzListBox
+Our base list box component supports Incremental Searching, horizontal scroll bars, and of course Custom Framing. We have also added the ability to specify groups within the list. In addition, the base list box automatically handles the mouse wheel and defines several methods such as Add, SelectAll, and SelectedItem.
+
+TRzTabbedListBox
+This component supports variable-sized tab stops. A custom property editor allows tab stops to be set visually at design-time. Tab stops can also be either left or right aligned. The header is a separate control but is manipulating the tabbed list box through the UpdateFromHeader method.
+
+TRzCheckList
+Each item in the list has an associated check box, which is accessible through the ItemChecked and ItemState properties. Individual items can even be disabled using the ItemEnabled property. However, unlike the standard check list box, the individual states of items in a TRzCheckList can be set at design-time using a custom editor. And since TRzCheckList descends from TRzTabbedListBox, it also supports tab stops.  As a descendant of the TRzListBox, the TRzCheckList also supports grouping as well as the ability to display an image for each item in the list.
+
+TRzEditListBox
+This list box supports the runtime editing of the items in the list. Simply click on a line a second time, or press the F2 key and a popup edit window is displayed with the item's text already selected.
+
+TRzGroupBox
+Each of list box examples on this dialog are contained in a TRzGroupBox component, which is a descendant of our TRzPanel component. In this dialog, the group boxes all have their GroupStyle properties set to gsBanner. Other options are gsStandard, gsFlat, gsTopLine, gsUnderline, and gsCustom.
+                                                                     

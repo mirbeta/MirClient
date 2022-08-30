@@ -1,0 +1,6 @@
+This demo illustrates how to use a custom draw functionality to display callouts and highlight cell content. 
+
+In this demo, you can:
+- Enter values to calculate an area of shape using the selected formula. If a value or a combination of values is incorrect, the Area cell is highlighted and a callout containing text message is displayed above the cell to draw user attention.
+- See the formulas used for calculation (the Options | Show Formulas menu item).
+- Apply different paint styles to a form (the Look&Feel menu item).

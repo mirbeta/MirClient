@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.4;}
+</style>
+<path class="Blue" d="M30,32H2c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h28c1.1,0,2,0.9,2,2v28C32,31.1,31.1,32,30,32z"/>
+<g class="st0">
+	<path class="Green" d="M30,32H2c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h28c1.1,0,2,0.9,2,2v28C32,31.1,31.1,32,30,32z"/>
+</g>
+<g class="st1">
+	<path class="White" d="M30,30H2c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h28c1.1,0,2,0.9,2,2v26C32,29.1,31.1,30,30,30z"/>
+</g>
+<polygon class="White" points="20.1,6.1 16,4 11.9,6.1 16,8.4 "/>
+<polygon class="White" points="16,10.6 10,14 10,22 16,26 22,22 22,14 "/>
+<polygon class="White" points="14.1,9.5 9.9,7.1 4,10 4,18 8,20.7 8,13 "/>
+<polygon class="White" points="28,10 22.1,7.1 17.9,9.5 24,13 24,20.7 28,18 "/>
+</svg>

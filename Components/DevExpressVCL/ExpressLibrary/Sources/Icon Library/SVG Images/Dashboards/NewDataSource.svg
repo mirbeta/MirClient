@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+	.st3{fill:#FFB115;}
+</style>
+<g>
+</g>
+<g id="NewDataSource">
+	<path class="Yellow" d="M2,10V6c0-2.2,4.5-4,10-4s10,1.8,10,4v4c0,2.2-4.5,4-10,4S2,12.2,2,10z M12,20c3.3,0,6.2-0.6,8-1.6V17
+		c0-0.6,0.4-1,1-1h1v-4c0,2.2-4.5,4-10,4S2,14.2,2,12v4C2,18.2,6.5,20,12,20z M16,21.7c-1.2,0.2-2.6,0.3-4,0.3c-5.5,0-10-1.8-10-4v4
+		c0,2.2,4.5,4,10,4c1.4,0,2.8-0.1,4-0.3V21.7z"/>
+	<polygon class="Green" points="30,22 26,22 26,18 22,18 22,22 18,22 18,26 22,26 22,30 26,30 26,26 30,26 	"/>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+In this demo you can perform the following operations with the film gallery:
+
+- Group films by genre.
+- Adjust the gallery item size.
+- Customize gallery text and column options.
+- Select a film to see its cover art image in the preview section.
+- Size an application window or drag a splitter to see how the gallery arranges its contents based on specified column options.
+- Switch the visibility of the preview section and specify its background color.
+- Zoom the cover art image in the preview section.
+- Change the cover art image size.

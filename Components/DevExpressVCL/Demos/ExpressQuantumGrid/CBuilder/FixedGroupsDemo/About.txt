@@ -1,0 +1,5 @@
+In this demo, you can:
+
+ - Choose between the classic and anchored group rows and scroll the grid content to see the difference (toggle the option using the Options | Fixed Groups menu item or the switch displayed above the grid).
+
+ - Apply different paint styles to a form (the Look&Feel menu item).

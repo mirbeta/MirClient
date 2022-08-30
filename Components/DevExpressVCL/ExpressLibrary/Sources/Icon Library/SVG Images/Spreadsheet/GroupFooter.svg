@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Group_Footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M28,8h-8V2h8V8z M22,14v2h2.6l2.4-3.6l1,1.5V10h-8v4H22z M18,2h-8v6h8V2z M16,14h2v-4h-8v6h6V14z M0,16h8v-6
+		H0V16z M0,8h8V2H0V8z"/>
+</g>
+<path class="Yellow" d="M0,18h8v6H0V18z M22,19.9l1.3-1.9H22V19.9z M11.3,22H16v-4h-6v6h2.6L11.3,22z"/>
+<path id="Sort_Fields_3_" class="Green" d="M28,30v-8h3l-4-6l-4,6h3v8H28z M18,16v8h-3l4,6l4-6h-3v-8H18z"/>
+</svg>

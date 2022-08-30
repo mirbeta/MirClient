@@ -1,0 +1,17 @@
+In this demo you can:
+
+- try the Card View options
+
+- insert/delete cards (via Ins/Del keys)
+
+- show/hide rows with no data (see Options/Show empty rows). Note that rows with empty data become visible when you begin to edit a card or insert a new one
+
+- filter data by clicking a row's filter popup drop-down button
+
+- expand/collapse a card by clicking the card caption's expand button
+
+- temporarily hide a card's rows by dragging them to the Customization dialog (see Options/Rows Customization).
+
+- resize cards by dragging column separators
+
+- see how little code was required 

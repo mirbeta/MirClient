@@ -1,0 +1,164 @@
+object IcsTimerDemoForm: TIcsTimerDemoForm
+  Left = 529
+  Top = 184
+  Caption = 'TIcsThreadTimer demo'
+  ClientHeight = 288
+  ClientWidth = 263
+  Visible = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  StyleLookup = 'backgroundstyle'
+  Left = 529
+  Top = 184
+  object Label1: TLabel
+    Position.Point = '(146,60)'
+    Width = 63.941402435302730000
+    Height = 18.630859375000000000
+    TabOrder = 0
+    AutoSize = True
+    Text = 'Timer count'
+    WordWrap = False
+    Left = 146
+    Top = 60
+  end
+  object StartButton: TButton
+    Position.Point = '(12,8)'
+    Width = 75.000000000000000000
+    Height = 25.000000000000000000
+    OnClick = StartButtonClick
+    TabOrder = 1
+    Text = 'Start Timer'
+    Left = 12
+    Top = 8
+  end
+  object DisplayMemo: TMemo
+    Position.Point = '(12,62)'
+    Width = 119.000000000000000000
+    Height = 210.000000000000000000
+    TabOrder = 2
+    WordWrap = True
+    KeyboardType = vktDefault
+  end
+  object StopButton: TButton
+    Position.Point = '(96,8)'
+    Width = 75.000000000000000000
+    Height = 25.000000000000000000
+    OnClick = StopButtonClick
+    TabOrder = 3
+    Text = 'Stop'
+    Left = 92
+    Top = 8
+  end
+  object TimerCountEdit: TEdit
+    Position.Point = '(146,74)'
+    Width = 53.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 4
+    KeyboardType = vktDefault
+    Password = False
+    Text = '10000'
+    Left = 146
+    Top = 74
+  end
+  object FreeAllButton: TButton
+    Position.Point = '(180,8)'
+    Width = 75.000000000000000000
+    Height = 25.000000000000000000
+    OnClick = FreeAllButtonClick
+    TabOrder = 5
+    Text = 'FreeAll'
+    Left = 172
+    Top = 8
+  end
+  object SleepButton: TButton
+    Position.Point = '(146,100)'
+    Width = 75.000000000000000000
+    Height = 25.000000000000000000
+    OnClick = SleepButtonClick
+    TabOrder = 6
+    Text = 'Sleep(5000)'
+    Left = 146
+    Top = 100
+  end
+  object GroupBox1: TGroupBox
+    Position.Point = '(136,130)'
+    Width = 121.000000000000000000
+    Height = 143.000000000000000000
+    TabOrder = 7
+    Text = ' Global Vars '
+    object Label2: TLabel
+      Position.Point = '(10,20)'
+      Width = 104.283683776855500000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'MaxTimerPerThread'
+      WordWrap = False
+      Left = 10
+      Top = 20
+    end
+    object Label3: TLabel
+      Position.Point = '(11,62)'
+      Width = 104.573722839355500000
+      Height = 18.630859375000000000
+      TabOrder = 1
+      AutoSize = True
+      Text = 'MinTimerResolution'
+      WordWrap = False
+      Left = 11
+      Top = 62
+    end
+    object SetGlobalsButton: TButton
+      Position.Point = '(10,106)'
+      Width = 75.000000000000000000
+      Height = 25.000000000000000000
+      OnClick = SetGlobalsButtonClick
+      TabOrder = 2
+      Text = 'SetGlobals'
+      Left = 10
+      Top = 106
+    end
+    object TimersPerClockEdit: TEdit
+      Position.Point = '(10,34)'
+      Width = 53.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 3
+      KeyboardType = vktDefault
+      Password = False
+      Text = '100'
+      Left = 10
+      Top = 34
+    end
+    object MinResolutionEdit: TEdit
+      Position.Point = '(10,76)'
+      Width = 53.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 4
+      KeyboardType = vktDefault
+      Password = False
+      Text = '100'
+      Left = 10
+      Top = 76
+    end
+  end
+  object LoopCheckBox: TCheckBox
+    Position.Point = '(12,38)'
+    Width = 131.000000000000000000
+    Height = 17.000000000000000000
+    TabOrder = 8
+    Text = 'Loop/FreeAll - Interval:'
+    Left = 12
+    Top = 38
+  end
+  object LoopIntervalEdit: TEdit
+    Position.Point = '(146,36)'
+    Width = 53.000000000000000000
+    Height = 21.000000000000000000
+    TabOrder = 9
+    KeyboardType = vktDefault
+    Password = False
+    Text = '10'
+    Left = 146
+    Top = 36
+  end
+end

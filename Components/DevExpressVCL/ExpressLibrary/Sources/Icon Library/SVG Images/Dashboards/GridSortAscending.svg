@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="GridSortAscending">
+	<path class="Red" d="M28,14h-0.2h-1.9h-0.1v-0.1L25.2,12h-4.4l-0.6,1.9V14h-0.1h-1.9H18l0.1-0.2L22,2.1V2h0.1H24h0.1v0.1l3.8,11.7
+		L28,14L28,14z M21.4,10h3.2L23,4.7c0,0,0,0,0-0.1c0,0,0,0,0,0.1L21.4,10z"/>
+	<path class="Blue" d="M27.4,28h-0.2h-8.5h-0.2v-0.1V27l5.9-9h-5.2H19v-0.1v-1.8V16h0.2h8.1h0.2v0.1V17l-5.9,9h5.6h0.2v0.1v1.8V28z
+		 M10,24V2H8v22H4l5,5l5-5H10z"/>
+</g>
+</svg>

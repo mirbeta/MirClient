@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Manhattan_Bar_Chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g class="st0">
+	<path class="Blue" d="M14,10v2H6l2-2H14z M16,6l-2,2h8V6H16z M24,2l-2,2h8V2H24z"/>
+</g>
+<path class="Blue" d="M14,16h-2v-4l2-2V16z M22,6l-2,2v4h2V6z M30,2l-2,2v20l2-2V2z"/>
+<g class="st1">
+	<path class="Blue" d="M10,18v2H6v-8h6v4L10,18z M20,12V8h-6v8h4v-2L20,12z M22,4v8h4v12h2V4H22z"/>
+</g>
+<g class="st1">
+	<path class="Yellow" d="M8,28H2v-6h6V28z M16,18h-6v10h6V18z M24,14h-6v14h6V14z"/>
+</g>
+<g class="st0">
+	<path class="Yellow" d="M10,20v2H2l2-2H10z M12,16l-2,2h8v-2H12z M20,12l-2,2h8v-2H20z"/>
+</g>
+<path class="Yellow" d="M10,26l-2,2v-6l2-2V26z M18,16l-2,2v10l2-2V16z M26,12l-2,2v14l2-2V12z"/>
+</svg>

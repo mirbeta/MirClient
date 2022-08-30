@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.Blue{fill:#1177D7;}
+</style>
+<g id="Coupon">
+	<path class="Red" d="M29,6H3C2.4,6,2,6.5,2,7v18c0,0.5,0.4,1,1,1h26c0.6,0,1-0.5,1-1V7C30,6.5,29.6,6,29,6z M10,24H8v-4h2V24z
+		 M10,18H8v-4h2V18z M10,12H8V8h2V12z"/>
+</g>
+</svg>

@@ -1,0 +1,87 @@
+object StringEdt: TStringEdt
+  Left = 0
+  Top = 0
+  ActiveControl = Memo1
+  BorderIcons = [biSystemMenu]
+  Caption = 'StringEdt'
+  ClientHeight = 302
+  ClientWidth = 623
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 261
+    Width = 623
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    ParentShowHint = False
+    ShowCaption = False
+    ShowHint = False
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 430
+      Top = 0
+      Width = 193
+      Height = 41
+      Align = alRight
+      BevelOuter = bvNone
+      Caption = 'Panel2'
+      ShowCaption = False
+      TabOrder = 0
+      object BitBtn1: TBitBtn
+        Left = 8
+        Top = 8
+        Width = 75
+        Height = 25
+        Caption = 'OK'
+        Default = True
+        ModalResult = 1
+        NumGlyphs = 2
+        TabOrder = 0
+      end
+      object BitBtn2: TBitBtn
+        Left = 89
+        Top = 8
+        Width = 75
+        Height = 25
+        Cancel = True
+        Caption = 'Cancel'
+        ModalResult = 2
+        NumGlyphs = 2
+        TabOrder = 1
+      end
+    end
+  end
+  object GroupBox1: TGroupBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 617
+    Height = 255
+    Align = alClient
+    TabOrder = 1
+    object Memo1: TMemo
+      AlignWithMargins = True
+      Left = 7
+      Top = 15
+      Width = 603
+      Height = 233
+      Margins.Left = 5
+      Margins.Top = 0
+      Margins.Right = 5
+      Margins.Bottom = 5
+      Align = alClient
+      TabOrder = 0
+    end
+  end
+end

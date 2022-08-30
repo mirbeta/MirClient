@@ -1,0 +1,112 @@
+object Form1: TForm1
+  Left = 567
+  Height = 562
+  Top = 150
+  Width = 628
+  ActiveControl = Tree
+  Caption = 'Form1'
+  ClientHeight = 562
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 522
+    Top = 0
+    Width = 628
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'Collecting data...please wait'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object Tree: TTreeView
+    Left = 8
+    Height = 512
+    Top = 8
+    Width = 612
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    DefaultItemHeight = 16
+    Indent = 19
+    ParentShowHint = False
+    ReadOnly = True
+    RowSelect = True
+    ShowButtons = False
+    ShowHint = True
+    ShowLines = False
+    TabOrder = 0
+    OnCustomDrawItem = TreeCustomDrawItem
+    Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoRowSelect, tvoShowRoot, tvoToolTips]
+  end
+  object ButtonPanel: TPanel
+    Left = 0
+    Height = 40
+    Top = 522
+    Width = 628
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 40
+    ClientWidth = 628
+    TabOrder = 1
+    object Button1: TButton
+      Cursor = crHandPoint
+      Left = 545
+      Height = 25
+      Top = 8
+      Width = 75
+      Anchors = [akTop, akRight]
+      Caption = 'Close'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Cursor = crHandPoint
+      Left = 8
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'Refresh'
+      Default = True
+      OnClick = cmRefresh
+      TabOrder = 1
+    end
+    object bSave: TButton
+      Cursor = crHandPoint
+      Left = 89
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'Save...'
+      OnClick = bSaveClick
+      TabOrder = 2
+    end
+    object bLoad: TButton
+      Cursor = crHandPoint
+      Left = 170
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'Load...'
+      OnClick = bLoadClick
+      TabOrder = 3
+    end
+  end
+  object od: TOpenDialog
+    Filter = 'MiTeC System Information files|*.sif|All files|*.*'
+    Options = [ofHideReadOnly, ofPathMustExist, ofFileMustExist, ofEnableSizing]
+    left = 316
+    top = 276
+  end
+  object sd: TSaveDialog
+    Filter = 'MiTeC System Information files|*.sif|All files|*.*'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
+    left = 394
+    top = 276
+  end
+end

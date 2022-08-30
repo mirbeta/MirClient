@@ -1,0 +1,136 @@
+package dxRichEditCoreRS17;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressRichEdit Control Core Library by Developer Express Inc.'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  vclie,
+  dxCoreRS17,
+  cxLibraryRS17,
+  dxCloudServiceLibraryRS17,
+  dxGDIPlusRS17;
+
+contains
+  dxRichEdit.NativeApi,
+  dxRichEdit.DocumentLayout.UnitConverter,
+  dxRichEdit.DocumentLayout.UnitDocumentConverter,
+  dxRichEdit.DocumentLayout.UnitPixelsConverter,
+  dxRichEdit.DocumentLayout.UnitTwipsConverter,
+  dxRichEdit.DocumentModel.Boxes.Core,
+  dxRichEdit.DocumentModel.Commands.Core,
+  dxRichEdit.DocumentModel.Core,
+  dxRichEdit.DocumentModel.DocumentsToLayoutDocumentsConverter,
+  dxRichEdit.DocumentModel.DocumentsToLayoutPixelsConverter,
+  dxRichEdit.DocumentModel.History.IndexChangedHistoryItem,
+  dxRichEdit.DocumentModel.IndexBasedObject,
+  dxRichEdit.DocumentModel.MergedProperties,
+  dxRichEdit.DocumentModel.PieceTableModifiers.Core,
+  dxRichEdit.DocumentModel.Selections.Core,
+  dxRichEdit.DocumentModel.Styles.Core,
+  dxRichEdit.DocumentModel.TwipsToLayoutDocumentsConverter,
+  dxRichEdit.DocumentModel.TwipsToLayoutPixelsConverter,
+  dxRichEdit.DocumentModel.TwipsToLayoutTwipsConverter,
+  dxRichEdit.DocumentModel.UnitConverter,
+  dxRichEdit.DocumentModel.UnitToLayoutUnitConverter,
+  dxRichEdit.DocumentModel.UnitTwipsConverter,
+  dxRichEdit.ImportExportHelper,
+  dxRichEdit.Options.Core,
+  dxRichEdit.Platform.Font,
+  dxRichEdit.Platform.Win.Control,
+  dxRichEdit.Platform.Win.Font,
+  dxRichEdit.Platform.Win.FontCache,
+  dxRichEdit.ServiceManager,
+  dxRichEdit.Strs,
+  dxRichEdit.Utils.BackgroundThreadUIUpdater,
+  dxRichEdit.Utils.BatchUpdateHelper,
+  dxRichEdit.Utils.CheckSumStream,
+  dxRichEdit.Utils.ChunkedStringBuilder,
+  dxRichEdit.Utils.Cursors,
+  dxRichEdit.Utils.DataObject,
+  dxRichEdit.Utils.DXUnit,
+  dxRichEdit.Utils.Exceptions,
+  dxRichEdit.Utils.Exceptions.Strs,
+  dxRichEdit.Utils.FastComparer,
+  dxRichEdit.Utils.FileDialogFilter,
+  dxRichEdit.Utils.Graphics,
+  dxRichEdit.Utils.Keyboard,
+  dxRichEdit.Utils.ModelUnitConverter,
+  dxRichEdit.Utils.Mouse,
+  dxRichEdit.Utils.NumberParser,
+  dxRichEdit.Utils.OfficeImage,
+  dxRichEdit.Utils.PredefinedFontSizeCollection,
+  dxRichEdit.Utils.ProgressIndication,
+  dxRichEdit.Utils.TextColors,
+  dxRichEdit.Utils.ThreadSyncService,
+  dxRichEdit.Utils.Token,
+  dxRichEdit.Utils.Types,
+  dxRichEdit.Utils.UnicodeRangeInfo,
+  dxRichEdit.Utils.UriStreamService,
+  dxRichEdit.Utils.WidthsContentInfo,
+  dxRichEdit.DocumentModel.Simple,
+  dxRichEdit.DocumentModel.PieceTableModifiers.Simple,
+  dxRichEdit.DocumentModel.History.Section,
+  dxRichEdit.DocumentModel.VisibleTextFilter.Simple,
+  dxRichEdit.DocumentModel.Commands.Simple,
+  dxRichEdit.DocumentModel.VisibleTextFilter.Core,
+  dxRichEdit.DocumentModel.Styles,
+  dxRichEdit.DocumentModel.History.Style,
+  dxRichEdit.DocumentModel.Fields.Core,
+  dxRichEdit.DocumentModel.History.FieldHistory,
+  dxRichEdit.DocumentModel.SectionRange,
+  dxRichEdit.DocumentModel.Boxes.Simple,
+  dxRichEdit.DocumentModel.InlineObjectRange,
+  dxRichEdit.DocumentModel.History.Simple,
+  dxRichEdit.DocumentModel.ParagraphRange,
+  dxRichEdit.DocumentModel.FieldRange,
+  dxRichEdit.DocumentModel.TextRange,
+  dxRichEdit.DocumentModel.CopyManager.Simple,
+  dxRichEdit.DocumentModel.Intervals.Core,
+  dxRichEdit.DocumentModel.Tables.Core,
+  dxRichEdit.DocumentModel.Hyperlink,
+  dxRichEdit.DocumentModel.CopyManager.Core,
+  dxRichEdit.DocumentModel.Paragraphs,
+  dxRichEdit.DocumentModel.ParagraphFormatting,
+  dxRichEdit.DocumentModel.Borders,
+  dxRichEdit.DocumentModel.PatternLine,
+  dxRichEdit.DocumentModel.CharacterFormatting,
+  dxRichEdit.DocumentModel.Cache.Simple,
+  dxRichEdit.DocumentModel.DocumentProperties,
+  dxRichEdit.DocumentModel.InlineObjectFormatting,
+  dxRichEdit.DocumentModel.TabFormatting,
+  dxRichEdit.DocumentModel.FrameFormatting,
+  dxRichEdit.Options.Simple;
+
+end.

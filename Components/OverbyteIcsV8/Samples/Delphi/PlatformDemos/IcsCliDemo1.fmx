@@ -1,0 +1,171 @@
+object ClientForm: TClientForm
+  Left = 139
+  Top = 650
+  Caption = 'Client'
+  ClientHeight = 247
+  ClientWidth = 452
+  Position = poDefault
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 139
+  Top = 650
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,73)'
+    Width = 452.000000000000000000
+    Height = 174.000000000000000000
+    TabOrder = 0
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object Panel1: TPanel
+    Align = alTop
+    Width = 452.000000000000000000
+    Height = 73.000000000000000000
+    TabOrder = 1
+    object Label1: TLabel
+      Position.Point = '(8,12)'
+      Width = 24.759275436401370000
+      Height = 18.630859375000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'Port'
+      WordWrap = False
+      Left = 8
+      Top = 12
+    end
+    object Label2: TLabel
+      Position.Point = '(104,12)'
+      Width = 35.168453216552730000
+      Height = 18.630859375000000000
+      TabOrder = 1
+      AutoSize = True
+      Text = 'Server'
+      WordWrap = False
+      Left = 104
+      Top = 12
+    end
+    object Label3: TLabel
+      Position.Point = '(6,43)'
+      Width = 27.310544967651370000
+      Height = 18.630859375000000000
+      TabOrder = 2
+      AutoSize = True
+      Text = 'Data'
+      WordWrap = False
+      Left = 6
+      Top = 43
+    end
+    object SendEdit: TEdit
+      Position.Point = '(32,40)'
+      Width = 185.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 3
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'SendEdit'
+      Left = 32
+      Top = 40
+    end
+    object SendButton: TButton
+      Position.Point = '(230,40)'
+      Width = 75.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = SendButtonClick
+      TabOrder = 4
+      Text = 'Send'
+      Default = True
+      Left = 230
+      Top = 40
+    end
+    object DisconnectButton: TButton
+      Enabled = False
+      Position.Point = '(214,8)'
+      Width = 75.000000000000000000
+      Height = 21.000000000000000000
+      OnClick = DisconnectButtonClick
+      TabOrder = 5
+      Text = 'Disconnect'
+      Left = 214
+      Top = 8
+    end
+    object PortEdit: TEdit
+      Position.Point = '(32,8)'
+      Width = 65.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 6
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'telnet'
+      Left = 32
+      Top = 8
+    end
+    object ServerEdit: TEdit
+      Position.Point = '(144,8)'
+      Width = 65.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 7
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'localhost'
+      Left = 144
+      Top = 8
+    end
+    object AllowBinaryCheckBox: TCheckBox
+      Position.Point = '(320,44)'
+      Width = 85.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 8
+      Text = 'Allow Binary'
+      Left = 320
+      Top = 44
+    end
+    object AddCRLFCheckBox: TCheckBox
+      Position.Point = '(320,24)'
+      Width = 97.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 9
+      IsChecked = True
+      Text = 'Add CR/LF'
+      Left = 320
+      Top = 24
+    end
+  end
+  object CliSocket: TWSocket
+    LineMode = False
+    LineLimit = 65536
+    LineEnd = #13#10
+    LineEcho = False
+    LineEdit = False
+    SocketFamily = sfAnyIPv4
+    Proto = 'tcp'
+    LocalAddr = '0.0.0.0'
+    LocalPort = '0'
+    MultiThreaded = False
+    MultiCast = False
+    MultiCastIpTTL = 1
+    FlushTimeout = 60
+    SendFlags = wsSendNormal
+    LingerOnOff = wsLingerOn
+    LingerTimeout = 0
+    KeepAliveOnOff = wsKeepAliveOnSystem
+    KeepAliveTime = 30000
+    KeepAliveInterval = 1000
+    SocksLevel = '5'
+    SocksAuthentication = socksNoAuthentication
+    LastError = 0
+    ReuseAddr = False
+    ComponentOptions = []
+    ListenBacklog = 5
+    ReqVerLow = 2
+    ReqVerHigh = 2
+    OnDataAvailable = CliSocketDataAvailable
+    OnSessionClosed = CliSocketSessionClosed
+    OnSessionConnected = CliSocketSessionConnected
+    Left = 240
+    Top = 128
+  end
+end

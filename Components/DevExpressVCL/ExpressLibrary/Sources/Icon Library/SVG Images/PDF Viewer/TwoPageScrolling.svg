@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.75;}
+</style>
+<g id="TwoPageScrolling">
+	<path class="Blue" d="M10,2H4v2h6V2z M10,6H4v2h6V6z M26,2h-6v2h6V2z M26,6h-6v2h6V6z M10,28H4v-2h6V28z M10,24H4v-2h6V24z M26,28
+		h-6v-2h6V28z M26,24h-6v-2h6V24z"/>
+	<path class="Black" d="M14,0v13c0,0.5-0.5,1-1,1H1c-0.5,0-1-0.5-1-1V0h2v12h10V0H14z M28,0v12H18V0h-2v13c0,0.5,0.5,1,1,1h12
+		c0.5,0,1-0.5,1-1V0H28z M14,30V17c0-0.5-0.5-1-1-1H1c-0.5,0-1,0.5-1,1v13h2V18h10v12H14z M28,30V18H18v12h-2V17c0-0.5,0.5-1,1-1h12
+		c0.5,0,1,0.5,1,1v13H28z"/>
+</g>
+</svg>

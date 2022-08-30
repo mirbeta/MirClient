@@ -1,0 +1,76 @@
+package uFormDesigner;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  vclactnband,
+  xmlrtl;
+
+contains
+  uColnEdit in 'DesignIde\uColnEdit.pas',
+  uComponentDesigner in 'DesignIde\uComponentDesigner.pas',
+  uDesignConst in 'DesignIde\uDesignConst.pas',
+  uDesignEditors in 'DesignIde\uDesignEditors.pas',
+  uDesignerTypes in 'DesignIde\uDesignerTypes.pas',
+  uDesignIntf in 'DesignIde\uDesignIntf.pas',
+  uDesignMenus in 'DesignIde\uDesignMenus.pas',
+  uDesignMenusFactor in 'DesignIde\uDesignMenusFactor.pas',
+  uDesignWindows in 'DesignIde\uDesignWindows.pas',
+  uDockForm in 'DesignIde\uDockForm.pas' {DockableForm},
+  uDsnConst in 'DesignIde\uDsnConst.pas',
+  uEvents in 'DesignIde\uEvents.pas',
+  uIStreams in 'DesignIde\uIStreams.pas',
+  uOCXReg in 'DesignIde\uOCXReg.pas',
+  uProxies in 'DesignIde\uProxies.pas',
+  uStructureViewAPI in 'DesignIde\uStructureViewAPI.pas',
+  uToolsAPI in 'DesignIde\uToolsAPI.pas',
+  uToolWnds in 'DesignIde\uToolWnds.pas' {ToolbarDesignWindow},
+  uTreeIntf in 'DesignIde\uTreeIntf.pas',
+  uVCLEditors in 'DesignIde\uVCLEditors.pas',
+  uPicEdit in 'Property Editors\uPicEdit.pas' {PictureEditorDlg},
+  uStringsEdt in 'Property Editors\uStringsEdt.pas' {StringEdt},
+  uTabOrderEditor in 'Property Editors\uTabOrderEditor.pas' {frmTabOrder},
+  uControlPostionSize in 'Property Editors\uControlPostionSize.pas' {frmPostionSize},
+  uPackageManager in 'uPackageManager.pas',
+  uPropertyGrid in 'uPropertyGrid.pas',
+  uPropertyInplaceEdit in 'uPropertyInplaceEdit.pas',
+  uPropertyManager in 'uPropertyManager.pas',
+  uComponentDesignerImpl in 'uComponentDesignerImpl.pas',
+  uComponentEditors in 'uComponentEditors.pas',
+  uComponentList in 'uComponentList.pas',
+  uDesigner in 'uDesigner.pas',
+  uDesignerReg in 'uDesignerReg.pas',
+  uDraggedControl in 'uDraggedControl.pas',
+  uNonVisibleComponentDesgn in 'uNonVisibleComponentDesgn.pas',
+  uImgEdit in 'Property Editors\uImgEdit.pas' {ImageListEditor},
+  ActnListXe in 'ActnListXe.pas';
+
+end.

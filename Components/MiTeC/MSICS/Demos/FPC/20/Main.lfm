@@ -1,0 +1,77 @@
+object wndMain: TwndMain
+  Left = 436
+  Height = 534
+  Top = 270
+  Width = 933
+  Caption = 'Network Connections'
+  ClientHeight = 534
+  ClientWidth = 933
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object sb: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 511
+    Width = 933
+    Panels = <    
+      item
+        Alignment = taCenter
+        Width = 100
+      end    
+      item
+        Width = 500
+      end    
+      item
+        Width = 50
+      end>
+  end
+  object List: TListView
+    Left = 0
+    Height = 511
+    Top = 0
+    Width = 933
+    Align = alClient
+    BorderStyle = bsNone
+    Columns = <    
+      item
+        Caption = 'Process'
+        Width = 200
+      end    
+      item
+        Caption = 'Local address'
+        Width = 200
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Local port'
+        Width = 75
+      end    
+      item
+        Caption = 'Remote address'
+        Width = 200
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Remote port'
+        Width = 75
+      end    
+      item
+        Caption = 'Protocol'
+      end    
+      item
+        Caption = 'Status'
+        Width = 100
+      end>
+    ColumnClick = False
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 1
+    ViewStyle = vsReport
+  end
+end

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{display:none;}
+	.st3{display:inline;fill:#1177D7;}
+	.st4{display:inline;fill:#727272;}
+</style>
+<g id="ShowExportWarnings">
+	<g class="st0">
+		<rect x="10" y="10" class="Red" width="12" height="12"/>
+	</g>
+	<path class="Red" d="M23,24c0.5,0,1-0.5,1-1V10V8h-2H9C8.5,8,8,8.5,8,9v13v2h2H23z M10,10h12v12H10V10z"/>
+	<path class="Black" d="M8,22v2H3c-0.5,0-1-0.5-1-1V3c0-0.5,0.5-1,1-1h20c0.5,0,1,0.5,1,1v5h-2V4H4v18H8z M29,8h-5v2h4v18H10v-4H8v5
+		c0,0.5,0.5,1,1,1h20c0.5,0,1-0.5,1-1V9C30,8.5,29.5,8,29,8z"/>
+</g>
+</svg>

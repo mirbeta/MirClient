@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="FloatingObjectBringInFrontOfText"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+</style>
+<path class="Black" d="M4,8h14v2H4V8z M4,6h14V4H4V6z M10,21c0-0.3,0-0.7,0.1-1H2V2h18v8.1c0.3,0,0.7-0.1,1-0.1s0.7,0,1,0.1V1
+	c0-0.5-0.5-1-1-1H1C0.5,0,0,0.5,0,1v20c0,0.5,0.5,1,1,1h9.1C10,21.7,10,21.3,10,21z M4,14h8.5c0.6-0.8,1.4-1.4,2.2-2H4V14z M4,18
+	h6.4c0.2-0.7,0.5-1.4,0.8-2H4V18z"/>
+<circle class="Blue" cx="21" cy="21" r="9"/>
+</svg>

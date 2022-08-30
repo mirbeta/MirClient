@@ -1,0 +1,8 @@
+In this demo, you can:
+- Invoke the grid's context menu and choose from the predefined rules, data bars, icons, and color scales and apply them to the focused column's cells displaying numeric values. 
+- Click Options | Manage Rules... to display a built-in dialog that allows you to: 
+  - Create rules and customize them and their appearance settings. 
+  - Specify how rules apply to cells and values. 
+ 
+- Clear rules applied to all or specific columns. 
+- Apply different paint styles to a form (the Look&Feel menu item).

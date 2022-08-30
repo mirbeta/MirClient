@@ -1,0 +1,64 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{bae54a66-3881-4207-ae62-c26697f8c772}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="..\FileEnc\FileEnc.dproj" />
+    <Projects Include="..\HashFile\HashFile.dproj" />
+    <Projects Include="..\Info\Info.dproj" />
+    <Projects Include="Project1.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Project1">
+    <MSBuild Projects="Project1.dproj" Targets="" />
+  </Target>
+  <Target Name="Project1:Clean">
+    <MSBuild Projects="Project1.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Project1:Make">
+    <MSBuild Projects="Project1.dproj" Targets="Make" />
+  </Target>
+  <Target Name="HashFile">
+    <MSBuild Projects="..\HashFile\HashFile.dproj" Targets="" />
+  </Target>
+  <Target Name="HashFile:Clean">
+    <MSBuild Projects="..\HashFile\HashFile.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="HashFile:Make">
+    <MSBuild Projects="..\HashFile\HashFile.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Info">
+    <MSBuild Projects="..\Info\Info.dproj" Targets="" />
+  </Target>
+  <Target Name="Info:Clean">
+    <MSBuild Projects="..\Info\Info.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Info:Make">
+    <MSBuild Projects="..\Info\Info.dproj" Targets="Make" />
+  </Target>
+  <Target Name="FileEnc">
+    <MSBuild Projects="..\FileEnc\FileEnc.dproj" Targets="" />
+  </Target>
+  <Target Name="FileEnc:Clean">
+    <MSBuild Projects="..\FileEnc\FileEnc.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="FileEnc:Make">
+    <MSBuild Projects="..\FileEnc\FileEnc.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Project1;HashFile;Info;FileEnc" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Project1:Clean;HashFile:Clean;Info:Clean;FileEnc:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Project1:Make;HashFile:Make;Info:Make;FileEnc:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

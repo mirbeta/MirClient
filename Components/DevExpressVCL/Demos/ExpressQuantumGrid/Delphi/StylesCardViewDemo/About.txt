@@ -1,0 +1,9 @@
+In this demo you can:
+
+- change the current style sheet by selecting the tabs above
+
+- edit the user defined style sheet using the edit button
+
+- set the OptionsView property values for each style sheet
+
+- resize the card width using drag and drop

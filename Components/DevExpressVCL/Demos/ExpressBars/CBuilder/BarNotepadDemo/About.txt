@@ -1,0 +1,11 @@
+This application is a fully functional RTF editor with a toolbar-menu interface similar to that found in Microsoft Office 2003 or earlier. It provides the usual editing features that an rich-text editor should have, and the toolbar-menu system provides all the customization capabilities that are available in Microsoft Office, both at design time and at runtime. So, for example, at design time you can right-click a bar item control to invoke the Customizing Popup Menu.
+
+To enable all this functionality, it uses our TdxBarManager, TdxBarPopupMenu, TdxTabbedMDIManager, TdxSkinController, TcxLookAndFeelController, and TcxImageList components.
+
+In the demo you can:
+
+- Use the Look And Feel submenu (it can be opened via the corresponding bar item or View | Look And Feel in the main menu) to pick between available skins and look & feel options.
+
+- Manage documents, format and manipulate text using main menu, bar item, and context menu commands.
+
+- Zoom the document content and switch its read-only state via status bar options.

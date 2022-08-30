@@ -1,0 +1,114 @@
+Formulas can contain cell references, constants, single parameter 
+functions, multi parameters functions, cell name references
+and cell range functions. 
+
+Cell references :
+If CellNameMode is nmRC then cell references are in RxCx format,
+where x is the row number and y is the column number.
+If CellNameMode is nmA1 then a cell reference consists of 2 parts : 
+the column identifier and the row identifier. The column identifier is a 
+character, starting from A for the first column, B for the second column, etc.. 
+After column 26, the column identifier is a double character string AA, AB, 
+etc... The row identifier starts at 1 for the first editable row.
+Thus, cell 1,1 is A1, cell 2,2 is B2, cell 27,27 is AA27
+Cell ranges are specified by the top left cell and bottom right cell. Thus, 
+the first 15 cells in column 1, can be specified as A1:A15. 
+
+Constants : 
+Following constants are available : PI, E,True,False
+
+Single parameter functions :
+ABS(parameter) : absolute value
+ROUND(parameter) : rounds value
+TRUNC(parameter) : truncates value
+CEILING(parameter; significance) : rounds the parameter to the nearest 
+multiple of significance
+FRAC(parameter) : returns fractional part of value
+FACT(parameter) : factioral of value
+INT(parameter) : int part of value
+SIN(parameter) : sine of value
+COS(parameter) : cosine of value
+TAN(parameter) : tangens of value
+COTAN(parameter) : cotangens of value
+SINH(parameter) : hyperbolic sine of value
+COSH(parameter) : hyperbolic cosine of value
+TANH(parameter) : hyperbolic tangens of value
+COTANH(parameter) : hyperbolic cotangens of value
+ASIN(parameter) : arcsin of value
+ACOS(parameter) : arccos of value
+ATAN(parameter) : arctangens of value
+ACOTAN(parameter) : arccotangens of value
+LN(parameter) : natural logarithm of value
+LOG2(parameter) : base 2 logarithm of value
+LOG10(parameter) : base 10 logarithm of value
+EXP(parameter) : exponential of value
+RAND(parameter) : random between 0 and value
+RADIANS(parameter) : converts degrees to radians
+DEGREES(parameter) : converts radians to degrees
+SQR(parameter) : square of value
+SQRT(parameter) : square root of value
+CUBE(parameter) : cubic square of value
+CHS(parameter) : change sign
+POWER(parameter,exp) : parameter to exponent exp
+
+Multi parameter functions :
+LT(param1;param2) : larger than : returns 1 of param1>param2
+ST(param1;param2) : smaller than : returns 1 of param1<param2
+EQ(param1;param2) : equal : returns 1 of param1=param2 else 0
+CHOOSE(sel;param1;param2) : returns param1 if sel>0 else param2
+
+Cell range functions : 
+SUM(range) : sum of all cell values in range
+PRODUCT(rangfe) : product of all cell values in range
+AVERAGE(range) : average of all cell values in range
+MIN(range) : min. cell value in range
+MAX(range) : max. cell value in range
+COUNT(range) : nr. of cells in range
+COUNTA(range) : nr of non blank cells in range
+COUNTIF(range;condition) : nr of cells meeting condition in range
+STDEV(range) : standard deviation of range
+STDEVP(range) : standard deviation of total population of range
+DEVSQ(range) : sum of squares of deviations of range
+VAR(range) : variance of range
+
+Date & Time functions : 
+HOUR(parameter) : gets the hour from a cell containing a valid time string
+MIN(parameter) : gets the minute from a cell containing a valid time string
+SECOND(parameter) : gets the second from a cell containing a valid time 
+string
+DAY(parameter) : gets the day from a cell containing a valid time string
+MONTH(parameter) : gets the month from a cell containing a valid time string
+YEAR(parameter) : gets the year from a cell containing a valid time string
+WEEKDAY(parameter) : gets the day of the week from a cell containing a 
+valid time string
+TODAY : gets the current day
+NOW : gets the current time
+
+Logical functions :
+AND(parameters) : logical AND function
+OR((parameters) : logical OR function
+NAND(parameters) : logical NAND function
+NOR((parameters) : logical NOR function
+XOR((parameters) : logical XOR function
+NOT(parameter) : logical NOT function
+TRUE : constant returning true
+FALSE: constant returning false
+
+String functions :
+LEN(parameter) : returns the length of a string value
+LOWER(parameter) : returns string in lowercase
+UPPER(parameter) : returns string in uppercase
+CONCATENATE(parameter list) : returns concatenated string of parameters
+SUBSTITUTE(param text; param oldtext; param new text) : returns string with 
+oldtext replaced by newtext
+LEFT(param string;len integer) : returns first len charactares of string
+RIGHT(param string;len integer) : returns last len characters of string
+MID(param string; pos; len: integer): returns len characters starting from 
+position pos in string
+TRIM(param) : removes all spaces from text except spaces between words
+SEARCH(find text; text) : returns position of string find text in text
+LOOKUP(param; range1, range2) : returns the value of the element in range2 
+that has the index of the matching element in range1 for param
+MATCH(lookup; range) : returns the index of the element  param in the range
+INDEX(range; val1, val2) : returns the value of element at index val1,val2 in 
+the range

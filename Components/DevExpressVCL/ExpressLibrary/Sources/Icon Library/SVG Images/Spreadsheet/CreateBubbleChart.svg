@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Create_Bubble_Chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Green{fill:#039C23;}
+</style>
+<circle class="Yellow" cx="11" cy="21" r="7"/>
+<circle class="Blue" cx="23" cy="11" r="5"/>
+<circle class="Green" cx="24" cy="22" r="2"/>
+<circle class="Red" cx="12" cy="6" r="4"/>
+</svg>

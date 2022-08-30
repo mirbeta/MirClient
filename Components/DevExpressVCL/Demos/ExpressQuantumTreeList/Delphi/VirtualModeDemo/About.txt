@@ -1,0 +1,13 @@
+In this demo you can:
+
+- disable/enable the TreeList's SmartLoad mode (see Options|SmartLoad mode) to see how much faster the TreeList works with a large set of data in this mode
+
+- change the visibility of TreeList elements via the Options menu
+
+- add/delete nodes using the Ctrl+Ins/Ctrl+Delete key combinations
+
+- change the node hierarchy via drag and drop
+
+- see performance results in the status bar
+
+- see how data is created and updated on the fly within the OnGetChildCount, OnGetNodeValue, and OnSetNodeValue event handlers

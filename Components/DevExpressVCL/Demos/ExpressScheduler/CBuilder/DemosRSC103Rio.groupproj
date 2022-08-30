@@ -1,0 +1,47 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="AgendaViewDemoRSC103Rio">
+    <MSBuild Projects="AgendaViewDemo\AgendaViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="RangeControlDemoRSC103Rio">
+    <MSBuild Projects="RangeControlDemo\RangeControlDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundDemoRSC103Rio">
+    <MSBuild Projects="UnboundDemo\UnboundDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="DBDemoRSC103Rio">
+    <MSBuild Projects="DBDemo\DBDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesDemoRSC103Rio">
+    <MSBuild Projects="StylesDemo\StylesDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoRSC103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="ResourceDemoRSC103Rio">
+    <MSBuild Projects="ResourceDemo\ResourceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="GanttViewDemoRSC103Rio">
+    <MSBuild Projects="GanttViewDemo\GanttViewDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="HolidaysDemoRSC103Rio">
+    <MSBuild Projects="HolidaysDemo\HolidaysDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="AggregateDemoRSC103Rio">
+    <MSBuild Projects="AggregateDemo\AggregateDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="WebServiceDemoRSC103Rio">
+    <MSBuild Projects="WebServiceDemo\WebServiceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="AgendaViewDemoRSC103Rio;RangeControlDemoRSC103Rio;UnboundDemoRSC103Rio;DBDemoRSC103Rio;StylesDemoRSC103Rio;CustomDrawDemoRSC103Rio;ResourceDemoRSC103Rio;GanttViewDemoRSC103Rio;HolidaysDemoRSC103Rio;AggregateDemoRSC103Rio;WebServiceDemoRSC103Rio" />
+  </Target>
+</Project>

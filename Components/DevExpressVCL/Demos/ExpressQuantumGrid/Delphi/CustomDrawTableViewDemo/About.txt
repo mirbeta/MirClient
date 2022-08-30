@@ -1,0 +1,10 @@
+In this demo you can:
+
+- apply different custom draw techniques to the following grid elements for master and/or detail views (see the Option 'Show Custom Draw Editor...'):
+
+  Cell
+  Column Header
+  Footer
+  Group Cell
+  Indicator Cell
+  Background

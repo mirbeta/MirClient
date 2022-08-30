@@ -1,0 +1,17 @@
+In this demo you can:
+
+- try the TreeList options
+
+- practice Incremental Search (type any Trademark)
+
+- display resizable images by clicking on the focused icon
+
+- click on column headers to sort (hold down the shift key for sorting multiple columns)
+
+- reorder columns using drag&drop facilities (drag any column header and drop it to the required place)
+
+- delete records (via the Ctrl+Del keys)
+
+- delete several records at once using the Multi Select option
+
+- check how little source code is required

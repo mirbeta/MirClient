@@ -1,0 +1,13 @@
+In this demo you can:
+
+- explore the mask editor's options
+
+- compare its three modes with a standard maskedit
+
+- edit data records using text and masked editors
+
+- change an editor's edit mask and mask kind at runtime
+
+- explore the pre-built regular expressions
+
+- see the auto-complete in action

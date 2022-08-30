@@ -1,0 +1,6 @@
+This demo shows how to animate tile frame contents.
+
+In this demo, you can:
+- Change animation settings via the tile context menu. Initial values are determined randomly on each application run.
+- Adjust content scroll and tile arrangement settings (the Options menu item).
+- Apply different paint styles to tiles (the Look&Feel menu item).

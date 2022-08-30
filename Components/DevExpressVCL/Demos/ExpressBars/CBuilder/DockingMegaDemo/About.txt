@@ -1,0 +1,11 @@
+This demo shows how ExpressBars provides docking facilities similar in style to MS Visual Studio.
+
+Experiment with docking - you can dock, undock panels, autohide and float them
+
+Set the Font and Color of docking panels and change the View Style (see Style Menu)
+
+You can also set properties for each docking panel - select an item in the Solution Explorer and change its properties in the Properties panel.
+
+Use the 'Save Layout' followed by 'Load Layout' to show the persistance of settings at runtime.
+
+Note:  most of the images used in this demo have been provided by Glyfz - to purchase your copy or download free samples, please visit www.glyfz.com

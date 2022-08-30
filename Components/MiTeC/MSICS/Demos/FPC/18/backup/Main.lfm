@@ -1,0 +1,307 @@
+object wndMain: TwndMain
+  Left = 401
+  Height = 603
+  Top = 211
+  Width = 1008
+  Caption = 'Process Monitor'
+  ClientHeight = 603
+  ClientWidth = 1008
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  Visible = False
+  object sb: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 580
+    Width = 1008
+    Panels = <    
+      item
+        Alignment = taCenter
+        Width = 100
+      end    
+      item
+        Width = 500
+      end    
+      item
+        Width = 50
+      end>
+  end
+  object ListPanel: TPanel
+    Left = 0
+    Height = 580
+    Top = 0
+    Width = 454
+    Align = alLeft
+    BevelOuter = bvNone
+    ClientHeight = 580
+    ClientWidth = 454
+    TabOrder = 1
+    object List: TListView
+      Left = 0
+      Height = 559
+      Top = 0
+      Width = 454
+      Align = alClient
+      Columns = <      
+        item
+          Caption = 'PID'
+        end      
+        item
+          Alignment = taRightJustify
+          Caption = 'Session'
+        end      
+        item
+          Alignment = taRightJustify
+          Caption = 'Bits'
+          Width = 40
+        end      
+        item
+          Alignment = taRightJustify
+          Caption = 'CPU'
+        end      
+        item
+          Alignment = taRightJustify
+          Caption = 'Memory'
+          Width = 75
+        end      
+        item
+          Caption = 'Name'
+          Width = 175
+        end      
+        item
+          Caption = 'Username'
+          Width = 200
+        end>
+      ColumnClick = False
+      HideSelection = False
+      ReadOnly = True
+      RowSelect = True
+      TabOrder = 0
+      ViewStyle = vsReport
+      OnSelectItem = ListSelectItem
+    end
+    object eSearch: TEdit
+      Left = 0
+      Height = 21
+      Hint = 'Find process by name'
+      Top = 559
+      Width = 454
+      Align = alBottom
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+    end
+  end
+  object InfoPanel: TPanel
+    Left = 454
+    Height = 580
+    Top = 0
+    Width = 554
+    Align = alClient
+    ClientHeight = 580
+    ClientWidth = 554
+    Color = clWindow
+    ParentColor = False
+    TabOrder = 2
+    Visible = False
+    object lPri: TLabel
+      Left = 9
+      Height = 13
+      Top = 79
+      Width = 38
+      Caption = 'Priority:'
+      ParentColor = False
+    end
+    object lCT: TLabel
+      Left = 9
+      Height = 13
+      Top = 34
+      Width = 43
+      Caption = 'Created:'
+      ParentColor = False
+    end
+    object lMem: TLabel
+      Left = 9
+      Height = 13
+      Top = 103
+      Width = 42
+      Caption = 'Memory:'
+      ParentColor = False
+    end
+    object lCPU: TLabel
+      Left = 9
+      Height = 13
+      Top = 57
+      Width = 57
+      Caption = 'CPU Usage:'
+      ParentColor = False
+    end
+    object lIORead: TLabel
+      Left = 9
+      Height = 13
+      Top = 126
+      Width = 70
+      Caption = 'IO Read Rate:'
+      ParentColor = False
+    end
+    object lIOWrite: TLabel
+      Left = 9
+      Height = 13
+      Top = 150
+      Width = 71
+      Caption = 'IO Write Rate:'
+      ParentColor = False
+    end
+    object Panel2: TPanel
+      Left = 1
+      Height = 23
+      Top = 1
+      Width = 552
+      Align = alTop
+      ClientHeight = 23
+      ClientWidth = 552
+      Color = 16118770
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+      TabOrder = 0
+      object lTitle: TLabel
+        Left = 1
+        Height = 21
+        Top = 1
+        Width = 550
+        Align = alClient
+        AutoSize = False
+        Caption = '<no process selected>'
+        Layout = tlCenter
+        ParentColor = False
+      end
+    end
+    object pc: TPageControl
+      Cursor = crHandPoint
+      Left = 9
+      Height = 395
+      Top = 174
+      Width = 537
+      ActivePage = tsThreads
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      TabIndex = 0
+      TabOrder = 1
+      object tsThreads: TTabSheet
+        Caption = 'Threads'
+        ClientHeight = 369
+        ClientWidth = 529
+        object ThreadList: TListView
+          Left = 0
+          Height = 369
+          Top = 0
+          Width = 529
+          Align = alClient
+          Columns = <          
+            item
+              Caption = 'Thread'
+            end          
+            item
+              Caption = 'State'
+              Width = 200
+            end          
+            item
+              Alignment = taRightJustify
+              Caption = 'CPU'
+            end          
+            item
+              Alignment = taCenter
+              Caption = 'Priority'
+            end          
+            item
+              Caption = 'Start address'
+              Width = 150
+            end>
+          ColumnClick = False
+          HideSelection = False
+          ReadOnly = True
+          RowSelect = True
+          TabOrder = 0
+          ViewStyle = vsReport
+        end
+      end
+      object tsModules: TTabSheet
+        Caption = 'Modules'
+        ClientHeight = 369
+        ClientWidth = 529
+        ImageIndex = 1
+        object ModList: TListView
+          Left = 0
+          Height = 369
+          Top = 0
+          Width = 529
+          Align = alClient
+          Columns = <          
+            item
+              Caption = 'Name'
+              Width = 200
+            end          
+            item
+              Alignment = taRightJustify
+              Caption = 'Base address'
+              Width = 100
+            end          
+            item
+              Alignment = taRightJustify
+              Caption = 'Size'
+              Width = 100
+            end          
+            item
+              Caption = 'Description'
+              Width = 200
+            end>
+          ColumnClick = False
+          HideSelection = False
+          ReadOnly = True
+          RowSelect = True
+          TabOrder = 0
+          ViewStyle = vsReport
+        end
+      end
+      object tsHandles: TTabSheet
+        Caption = 'Handles'
+        ClientHeight = 369
+        ClientWidth = 529
+        ImageIndex = 2
+        object HandleList: TListView
+          Left = 0
+          Height = 369
+          Top = 0
+          Width = 529
+          Align = alClient
+          Columns = <          
+            item
+              Caption = 'Handle'
+              Width = 100
+            end          
+            item
+              Caption = 'Type'
+              Width = 100
+            end          
+            item
+              Caption = 'Name'
+              Width = 300
+            end>
+          ColumnClick = False
+          HideSelection = False
+          ReadOnly = True
+          RowSelect = True
+          TabOrder = 0
+          ViewStyle = vsReport
+        end
+      end
+    end
+  end
+end

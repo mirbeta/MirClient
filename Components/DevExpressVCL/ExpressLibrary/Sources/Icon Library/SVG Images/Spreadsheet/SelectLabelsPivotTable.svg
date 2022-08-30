@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Select_Labels_Pivot_Table" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<path class="Black" d="M29,2H3C2.5,2,2,2.5,2,3v26c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V3C30,2.5,29.5,2,29,2z M28,28H4V4h24V28z"/>
+<path class="Blue" d="M10,10H6V6h4V10z M26,6H12v4h14V6z M10,12H6v14h4V12z"/>
+<g class="st0">
+	<rect x="12" y="12" class="Blue" width="14" height="14"/>
+</g>
+</svg>

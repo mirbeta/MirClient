@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Reset_Range" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Blue" d="M29,2H3C2.5,2,2,2.5,2,3v26c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V3C30,2.5,29.5,2,29,2z M28,12h-3.2l-4,4l2,2
+		H28v10H4V14h5.2l-2-2H4V4h12v4h3.2L20,7.2L20.8,8H28V12z"/>
+</g>
+<polygon class="Red" points="22,12 20,10 16,14 12,10 10,12 14,16 10,20 12,22 16,18 20,22 22,20 18,16 "/>
+</svg>

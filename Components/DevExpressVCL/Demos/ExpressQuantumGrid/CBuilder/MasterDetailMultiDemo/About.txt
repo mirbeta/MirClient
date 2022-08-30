@@ -1,0 +1,12 @@
+In this demo you can:
+
+- switch between Genre tabs and see movies of the corresponding genre. Only one set of grid views (master and details) is used. Data is provided by the dynamic query
+
+- see a movie's detail data such as Companies/People/Photos by expanding the movie grid row
+
+- change the position of the Genre tabs using the "View/Genre Tab Position" submenu (<Grid>.RootLevelOptions/<Level>.Options.DetailTabsPosition).
+Note that when tabs are located at the top of the grid, not all of them are visible and a scroll button(s) is provided to access invisible tabs
+
+- show/hide tabs for details with no data via the "View/Tabs For Empty Details" menu item (<Level>.Options.TabsForEmptyDetails)
+
+- customize tab appearance using the "Tab Style" and "Tab Caption Alignment" submenus (<Grid>.LevelTabs.Style/CaptionAlignment)

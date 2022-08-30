@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="InsertTableColumnsToTheRight"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Black" d="M24,14h6v6h-6V14z M14,28V6H8v22H14z M24,28h6v-6h-6V28z M0,14v6h6v-6H0z M6,12V6H0v6H6z M6,28v-6H0v6H6z"/>
+</g>
+<rect x="16" y="6" class="Blue" width="6" height="22"/>
+<polygon class="Yellow" points="28,5.6 29.6,4 29.6,6.4 32,6.4 30.4,8 32,9.6 29.6,9.6 29.6,12 28,10.4 26.4,12 26.4,9.6 24,9.6 
+	25.6,8 24,6.4 26.4,6.4 26.4,4 "/>
+</svg>

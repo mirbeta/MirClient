@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpCollection>
+<HelpCollection
+  DTDVersion="1.0"
+  FileVersion="0.0.0.0"
+  Title="ExpressPageControl Suite">
+
+  <TOCDef File="ExpressPageControl.HxT"/>
+
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="FTS"/>
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="ExpressPageControl"/>
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K"/>
+  <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="NamedUrlIndex"/>
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A"/>
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F"/>
+</HelpCollection>

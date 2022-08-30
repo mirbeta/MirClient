@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.2;}
+</style>
+<polygon class="Blue" points="18,18 16,20 16,30 26,30 28,28 28,18 "/>
+<g class="st0">
+	<polygon class="White" points="26,20 16,20 18,18 28,18 	"/>
+</g>
+<g class="st0">
+	<polygon class="Red" points="28,28 26,30 26,20 28,18 	"/>
+</g>
+<rect x="8" y="6" class="Black" width="12" height="2"/>
+<rect x="8" y="10" class="Black" width="12" height="2"/>
+<rect x="8" y="14" class="Black" width="12" height="2"/>
+<rect x="8" y="18" class="Black" width="6" height="2"/>
+<g>
+	<g>
+		<path class="Black" d="M6,26V4h16v12h2V3c0-0.6-0.4-1-1-1H5C4.4,2,4,2.4,4,3v24c0,0.6,0.4,1,1,1h9v-2H6z"/>
+	</g>
+	<g>
+		<path class="Black" d="M6,26V4h16v12h2V3c0-0.6-0.4-1-1-1H5C4.4,2,4,2.4,4,3v24c0,0.6,0.4,1,1,1h9v-2H6z"/>
+	</g>
+</g>
+</svg>

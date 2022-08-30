@@ -1,0 +1,3 @@
+Shape your grid data as required in Server Mode - try the in-place editing, sorting, grouping, filtering, summary, and record manipulation capabilities and see for yourself how lightning fast the ExpressQuantumGrid is in this mode.
+
+Click the Table View and Banded Table View tabs to switch between the Views bound to the same data source.

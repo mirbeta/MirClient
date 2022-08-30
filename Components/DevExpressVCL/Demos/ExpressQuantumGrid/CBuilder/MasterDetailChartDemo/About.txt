@@ -1,0 +1,9 @@
+In this demo you can see how the ChartView can be used to show data from a detail dataset for each master row.
+
+The MaxDetailHeight property of the master level is used to limit the maximum height of the detail ChartView (by default it uses all the available space).
+
+The number of visible columns for the Orders chart is limited to 10 by the chvOrders.OptionsView.CategoriesPerPage property.
+Values of the Payment Amount series are sorted from high to low.
+Take a look at the custom hint for chart values (columns). It shows information about the order under the mouse cursor. This is retrieved from several datasets and hidden series.
+
+On the Products page you can see a ChartView connected to a query using the DetailInSQLMode option of the data controller. The VaryColorsByCategory feature was used to show each column with different color.

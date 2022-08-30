@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{opacity:0.35;}
+	.st3{opacity:0.65;}
+</style>
+<g id="Bar3D">
+	<g class="st1">
+		<rect x="2" y="18" class="Blue" width="6" height="10"/>
+		<rect x="12" y="12" class="Yellow" width="6" height="16"/>
+		<rect x="22" y="6" class="Red" width="6" height="22"/>
+	</g>
+	<g class="st0">
+		<polygon class="Yellow" points="12,12 18,12 20,10 14,10 		"/>
+		<polygon class="Blue" points="2,18 8,18 10,16 4,16 		"/>
+		<polygon class="Red" points="24,4 22,6 28,6 30,4 		"/>
+	</g>
+	<polygon class="Blue" points="8,28 10,26 10,16 8,18 	"/>
+	<polygon class="Yellow" points="18,28 20,26 20,10 18,12 	"/>
+	<polygon class="Red" points="28,6 28,28 30,26 30,4 	"/>
+</g>
+</svg>

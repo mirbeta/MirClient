@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+</style>
+<g id="WorkingHours">
+	<path class="Blue" d="M6.2,18H0v-4h6.2C6.1,14.6,6,15.3,6,16S6.1,17.4,6.2,18z M10,8H0v4h6.8C7.5,10.4,8.6,9,10,8z M14,2H0v4h14V2z
+		 M6.8,20H0v4h10C8.6,23,7.5,21.6,6.8,20z M0,30h14v-4H0V30z M22,8c1.4,1,2.5,2.4,3.2,4H30V8H22z M26,16c0,0.7-0.1,1.4-0.2,2H30v-4
+		h-4.2C25.9,14.6,26,15.3,26,16z"/>
+	<path class="Red" d="M24,16c0,4.4-3.6,8-8,8s-8-3.6-8-8s3.6-8,8-8S24,11.6,24,16z M22,16c0-3.3-2.7-6-6-6s-6,2.7-6,6s2.7,6,6,6
+		S22,19.3,22,16z"/>
+	<path class="Black" d="M20,16v2h-4h-2v-2v-4h2v4H20z"/>
+	<g class="st0">
+		<path class="Black" d="M30,2v4H16V2H30z M16,30h14v-4H16V30z M22,24h8v-4h-4.8C24.5,21.6,23.4,23,22,24z"/>
+	</g>
+</g>
+</svg>

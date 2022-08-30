@@ -1,0 +1,11 @@
+In this demo you can:
+
+- change between combined or separate master-detail data (see the Options)
+
+- group master tables by dragging one or more column headers to the grouping area
+
+- display resizable images by clicking on the focused icon
+
+- display a calendar by dropping down the 'Date of Birth' entries
+
+- see the code needed to change styles at runtime

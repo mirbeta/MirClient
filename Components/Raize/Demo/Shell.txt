@@ -1,0 +1,17 @@
+This form uses the Shell controls included in Raize Components to create a Windows Explorer-like interface.
+
+TRzShellTree
+This component is a specialized tree view for navigating through the shell namespace.
+
+TRzShellList
+This component is a specialized list view for displaying the contents of a shell folder.
+
+TRzShellCombo
+This component is a specialized combo box for selecting folders in the shell namespace.
+
+TRzOpenDialog & TRzSaveDialog
+These components are replacements for the standard Open/Save dialog components with many more features, such as the ability to display a ShellTree in the dialog next to the ShellList.
+
+TRzSelectFolderDialog
+This dialog component allows a user to select a folder in the Shell namespace.
+                                                                

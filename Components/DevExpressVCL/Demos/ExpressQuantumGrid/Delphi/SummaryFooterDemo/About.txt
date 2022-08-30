@@ -1,0 +1,17 @@
+In this demo you can:
+
+- add/delete column summaries (see Options/Summary)
+
+- change the summary types (right mouse click on the group footer cell)
+
+- calculate using selected records only (see Options/Summary)
+
+- ignore Null values for Count and Average summaries (see Options/Summary)
+
+- group both tables by dragging column header(s) to the grouping area
+
+- display resizable images by clicking on a focused image icon
+
+- display a calendar by editing a PurchaseDate
+
+- display a calculator by editing a PaymentAmount

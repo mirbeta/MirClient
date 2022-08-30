@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{opacity:0.25;}
+</style>
+<g id="ChangedRecurrence">
+	<path class="Black" d="M14.8,13.4l-1.9-1.9c0.5-0.7,0.9-1.5,1-2.5h-2.1c-0.1,0.4-0.2,0.7-0.4,1L6,4.6C6.6,4.2,7.3,4,8,4
+		c1.1,0,2.1,0.5,2.8,1.2L9,7h5V2l-1.8,1.8C11.1,2.7,9.7,2,8,2C6.7,2,5.5,2.4,4.5,3.1L2.6,1.2L1.2,2.6l1.9,1.9C2.6,5.3,2.2,6.1,2.1,7
+		h2.1c0.1-0.4,0.2-0.7,0.4-1l5.5,5.5C9.4,11.8,8.7,12,8,12c-1.1,0-2.1-0.5-2.8-1.2L7,9H2.1H2v5l1.8-1.8C4.9,13.3,6.3,14,8,14
+		c1.3,0,2.5-0.4,3.5-1.1l1.9,1.9L14.8,13.4z"/>
+</g>
+</svg>

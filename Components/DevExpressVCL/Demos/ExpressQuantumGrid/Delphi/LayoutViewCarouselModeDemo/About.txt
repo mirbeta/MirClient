@@ -1,0 +1,5 @@
+Scroll or pan the Layout View to browse cards.
+
+Try various look & feel options to adjust the carousel rolling effects.
+
+All the editing, filtering, card collapsing, and layout customization capabilities are enabled in this demo for you to try them out in Carousel mode.

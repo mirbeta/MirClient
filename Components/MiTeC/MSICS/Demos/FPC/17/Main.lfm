@@ -1,0 +1,78 @@
+object wndMain: TwndMain
+  Left = 551
+  Height = 355
+  Top = 298
+  Width = 733
+  Caption = 'Interface List'
+  ClientHeight = 355
+  ClientWidth = 733
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object bOK: TButton
+    Cursor = crHandPoint
+    Left = 650
+    Height = 25
+    Top = 322
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'OK'
+    Default = True
+    OnClick = bOKClick
+    TabOrder = 0
+  end
+  object List: TListView
+    Left = 11
+    Height = 295
+    Top = 8
+    Width = 710
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'Interface'
+        Width = 300
+      end    
+      item
+        Caption = 'IP Address'
+        Width = 100
+      end    
+      item
+        Caption = 'Mask'
+        Width = 100
+      end    
+      item
+        Caption = 'MAC Address'
+        Width = 120
+      end    
+      item
+        Caption = 'Type'
+        Width = 150
+      end    
+      item
+        Caption = 'Operational'
+        Width = 100
+      end    
+      item
+        Caption = 'Admin'
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'Speed [Mbps]'
+        Width = 80
+      end    
+      item
+        Alignment = taRightJustify
+        Caption = 'MTU [B]'
+      end>
+    ColumnClick = False
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 1
+    ViewStyle = vsReport
+  end
+end

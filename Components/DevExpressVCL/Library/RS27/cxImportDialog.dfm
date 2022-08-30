@@ -1,0 +1,201 @@
+object cxImportDialogForm: TcxImportDialogForm
+  Left = 288
+  Top = 203
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Import'
+  ClientHeight = 367
+  ClientWidth = 546
+  Color = clBtnFace
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  object Panel1: TPanel
+    AlignWithMargins = True
+    Left = 185
+    Top = 8
+    Width = 90
+    Height = 351
+    Margins.Left = 0
+    Margins.Top = 8
+    Margins.Right = 0
+    Margins.Bottom = 8
+    Align = alLeft
+    BevelOuter = bvNone
+    TabOrder = 1
+    object Button1: TButton
+      AlignWithMargins = True
+      Left = 0
+      Top = 0
+      Width = 90
+      Height = 25
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Align = alTop
+      Caption = 'Import'
+      Enabled = False
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      AlignWithMargins = True
+      Left = 0
+      Top = 31
+      Width = 90
+      Height = 25
+      Margins.Left = 0
+      Margins.Right = 0
+      Align = alTop
+      Cancel = True
+      Caption = 'Close'
+      ModalResult = 2
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 0
+      Top = 326
+      Width = 90
+      Height = 25
+      Align = alBottom
+      Caption = 'Options >>'
+      TabOrder = 2
+      OnClick = Button3Click
+    end
+  end
+  object ListBox1: TListBox
+    AlignWithMargins = True
+    Left = 8
+    Top = 8
+    Width = 169
+    Height = 351
+    Margins.Left = 8
+    Margins.Top = 8
+    Margins.Right = 8
+    Margins.Bottom = 8
+    Align = alLeft
+    ItemHeight = 13
+    TabOrder = 0
+    OnClick = ListBox1Click
+    OnDblClick = ListBox1DblClick
+  end
+  object pcStylePane: TPageControl
+    AlignWithMargins = True
+    Left = 283
+    Top = 8
+    Width = 255
+    Height = 351
+    Margins.Left = 8
+    Margins.Top = 8
+    Margins.Right = 8
+    Margins.Bottom = 8
+    ActivePage = TabSheet2
+    Align = alClient
+    TabOrder = 2
+    TabStop = False
+    object TabSheet2: TTabSheet
+      Caption = 'Styles'
+      ImageIndex = 1
+      OnShow = TabSheet2Show
+      object GroupBox2: TGroupBox
+        AlignWithMargins = True
+        Left = 8
+        Top = 33
+        Width = 231
+        Height = 282
+        Margins.Left = 8
+        Margins.Top = 0
+        Margins.Right = 8
+        Margins.Bottom = 8
+        Align = alClient
+        Caption = ' StyleRepository Options '
+        TabOrder = 1
+        object RadioButton1: TRadioButton
+          AlignWithMargins = True
+          Left = 10
+          Top = 23
+          Width = 211
+          Height = 17
+          Margins.Left = 8
+          Margins.Top = 8
+          Margins.Right = 8
+          Margins.Bottom = 0
+          Align = alTop
+          Caption = 'Create New StyleRepository'
+          Checked = True
+          TabOrder = 0
+          TabStop = True
+          OnClick = RadioButton1Click
+        end
+        object RadioButton2: TRadioButton
+          AlignWithMargins = True
+          Left = 10
+          Top = 77
+          Width = 211
+          Height = 17
+          Margins.Left = 8
+          Margins.Top = 8
+          Margins.Right = 8
+          Margins.Bottom = 0
+          Align = alTop
+          Caption = 'Use Existing StyleRepository'
+          TabOrder = 2
+          OnClick = RadioButton2Click
+        end
+        object Edit1: TEdit
+          AlignWithMargins = True
+          Left = 26
+          Top = 48
+          Width = 195
+          Height = 21
+          Margins.Left = 24
+          Margins.Top = 8
+          Margins.Right = 8
+          Margins.Bottom = 0
+          Align = alTop
+          TabOrder = 1
+        end
+        object ComboBox1: TComboBox
+          AlignWithMargins = True
+          Left = 26
+          Top = 102
+          Width = 195
+          Height = 21
+          Margins.Left = 24
+          Margins.Top = 8
+          Margins.Right = 8
+          Margins.Bottom = 0
+          Align = alTop
+          Style = csDropDownList
+          Color = clBtnFace
+          Enabled = False
+          TabOrder = 3
+        end
+      end
+      object cbImportStyles: TCheckBox
+        AlignWithMargins = True
+        Left = 8
+        Top = 8
+        Width = 231
+        Height = 17
+        Margins.Left = 8
+        Margins.Top = 8
+        Margins.Right = 8
+        Margins.Bottom = 8
+        Align = alTop
+        Caption = 'Import Styles'
+        Checked = True
+        State = cbChecked
+        TabOrder = 0
+        OnClick = cbImportStylesClick
+      end
+    end
+  end
+end

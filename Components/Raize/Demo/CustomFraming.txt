@@ -1,0 +1,8 @@
+Every edit field, list box, combo box, tree view, and list view control in Raize Components contains a set of properties that affect the appearance of the component's border and other aspects of the component's appearance. In particular, when active (FrameVisible = True), a control's border can be displayed in 1 of 11 different styles (FrameStyle, FrameColor). 
+
+The Custom Framing properties also allow developers to select which sides of the frame will appear making it a snap to create applications that mimic paper forms. In addition, the custom framing properties support showing a second frame style whenever the mouse is positioned over the control or the control receives the input focus (i.e. FrameHotTrack, FrameHotStyle, FrameHotColor). 
+
+RC expands Custom Framing to include additional ways of altering the appearance of controls. In particular, the new FocusColor property specifies the color to be used whenever a control receives the input focus.  Likewise, the DisabledColor property specifies the color to use when the control is disabled. And finally the ReadOnlyColor property specifies the color to use when the control has its ReadOnly property set to True.
+
+TRzFrameController
+The top half of the form represents the properties of the nonvisual TRzFrameController component. With this component, the appearance of multiple controls that support custom framing can be managed from a single component.  As you change the framing options in the top half, the components in the bottom half are immediately updated to reflect the changes. The Frame Visible check box is the master property, in that all other framing properties are ignored if FrameVisible is False.

@@ -1,0 +1,40 @@
+In this demo you can:
+
+- experiment with the various editors (the three tabbed pages are part of the grid itself!)
+
+- change how the editor buttons display (via Options in the main menu)
+
+
+CUSTOMERS PAGE
+
+- choose a State via the dropdown list (maintained in 'most recently used' order)
+
+- select a City via the dropdown (the additional button invokes a webpage with U.S city information)
+
+- set a Prefix via a dropdown list
+
+- toggle a Customer status by clicking the checkbox
+
+- edit FaxPhone or ZipCode values using the MaskEdit editor
+
+
+ORDERS PAGE
+
+- display a calendar by editing a PurchaseDate
+
+- focus on the Car entry and type the first character of its name to see a filtered dropdown list
+
+- display a calendar dropdown by editing a PurchaseDate
+
+- edit a Time or Quantity via a spin edit
+
+- display a calculator by editing a PaymentAmount
+
+- change the PaymentType via a drop down image list
+
+
+CARS PAGE
+
+- display/edit the Info entry via a popup window
+
+- go to the car manufacturer's website by double-clicking on the Hyperlink value

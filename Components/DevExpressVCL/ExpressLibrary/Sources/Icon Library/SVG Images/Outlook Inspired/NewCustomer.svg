@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Blue{fill:#1177D7;}
+	.Red{fill:#D11C1C;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{fill:#727272;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.75;}
+</style>
+<g id="NewCustomer">
+	<path class="Green" d="M14.5,28H2v-1.5c0-7.5,5.7-5,8-8.5c0.8,1.5,2.1,4,4,4c0.2,0,0.4,0,0.6-0.1c-0.4,1-0.6,2-0.6,3.1
+		C14,26.1,14.2,27.1,14.5,28z M9.3,12.9c0,0,0,0.1,0,0.2c0.6,2.3,2,4.9,4.7,4.9s4.2-2.6,4.7-4.9V13c1,0.1,0.6-1.1,0.9-1.6
+		c0.2-0.5,0.4-0.9,0.3-1.4c-0.1-0.4-0.4-0.4-0.5-0.3C21.2,4.8,18.3,5,18.3,5S18,2,12.8,2C8,2,7.4,6,8.5,9.6C8.4,9.6,8.1,9.7,8,9.9
+		c-0.1,0.5,0.2,0.9,0.4,1.4C8.6,11.8,8.3,13,9.3,12.9z M23,18c-3.9,0-7,3.1-7,7s3.1,7,7,7s7-3.1,7-7S26.9,18,23,18z M24,26v4h-2v-4
+		h-4v-2h4v-4h2v4h4v2H24z"/>
+</g>
+</svg>

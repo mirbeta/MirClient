@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+</style>
+<rect y="14" class="Green" width="6" height="12"/>
+<rect x="8" y="8" class="Yellow" width="6" height="18"/>
+<polygon class="Red" points="22,12 22,2 16,2 16,18 "/>
+<path class="Black" d="M28,24l2.3,2.3C31.4,25.1,32,24,32,24s-3.6-6-8-6c-0.6,0-1.2,0.1-1.7,0.3L24,20C26.2,20,28,21.8,28,24z"/>
+<path class="Black" d="M31,29l-1.7-1.7l-1.7-1.7L26,24c0-1.1-0.9-2-2-2l-1.6-1.6l-1.4-1.4L19,17l-2,2l1.7,1.7C17,22.3,16,24,16,24
+	s3.6,6,8,6c1.1,0,2.1-0.4,3.1-0.9L29,31L31,29z M24,28c-2.2,0-4-1.8-4-4c0-0.6,0.1-1.1,0.4-1.6L22,24c0,1.1,0.9,2,2,2l1.6,1.6
+	C25.1,27.9,24.6,28,24,28z"/>
+</svg>

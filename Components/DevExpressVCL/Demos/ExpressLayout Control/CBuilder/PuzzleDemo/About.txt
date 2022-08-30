@@ -1,0 +1,33 @@
+This demo demonstrates the use of puzzle pieces as layout items, so it helps you to understand how the layout control can be used for arranging items in the best way.
+
+The demo allows you to perform the following operations:
+
+Runtime Customization - You can rearrange and hide layout groups and items in customization mode. To open the Customization Form, click File | Solve Puzzle, or press the F2 key. Prior to starting, be sure to shuffle the items. To shuffle, click File | Shuffle Puzzle.
+
+Automatic Sizing - The layout control and the form automatically resize to accommodate the contents. To enable this mode, click Options | Autosize.
+
+Save and Restore Layout - The layout can be saved and restored using the Store Layout and Restore Layout buttons in the Customization Form.
+
+Undo/Redo capabilities. You can sequentially undo or redo any changes to the layout content, using the undo and redo buttons in the Customization Form.
+
+Built-in customization context menus. These menus can be used at runtime when the Customization Form is open. They provide commonly used content arrangement operations, and can be invoked directly on the layout group or item. The Customization Form is also capable of its own built-in pane-dependant context menus that duplicate most operations performed in the Customization Form, and via the layout element context menus. 
+
+
+The ExpressLayoutControl's main features include:
+
+Advanced Layout Capabilities:
+  - Automatic Layout Management. A layout control can simultaneously manage the layout of multiple controls regardless of their type and size. It ensures that controls are always arranged without any overlap. Layout groups and items are automatically aligned.
+  - Groups and Tabbed Groups. Controls can be arranged into groups, and standard groups can be nested within tabbed groups. As such, you don't need to use additional controls such as panels or tab controls.
+
+Advanced Drag and Drop Capabilities:
+  - Drag and drop operations between layout controls. At design time, you can drag layout groups or layout items between different layout controls.
+  - More intuitive positioning. While dragging, the layout control keeps track of the mouse pointer, and estimates the target space relative to the neighbor controls, anticipating your action. It simultaneously highlights the target container and the target location, facilitating the drop operation for you.
+
+Advanced Design-Time Capabilities:
+  - On-the-Fly Layout Customization. Layout customization is performed via drag and drop. This simplifies the process of adding and arranging controls in the layout control.
+  - Quick On-Form Access to Individual Layout Items or Linked Controls. You can use layout item selectors for this purpose. If the customization form is hidden, click the item's selector to display the item's settings in the Object Inspector. The item will also be selected in the IDE's Object TreeView. To use the item selector for the linked control, open the customization form. Then click the item selector of the control whose settings you want to display in the Object Inspector. The corresponding element will be also selected in the IDE's Object TreeView.
+  - Built-In Customization Form. It stores temporarily hidden layout groups and items, and shows the hierarchical structure of the layout. The customization form can also be used at runtime.
+  - Design-Time Keyboard Shortcuts Support. The Del key is used to delete the selected item. Navigation in the container hierarchy is performed with the Esc key.
+
+Look and Feel support: 
+  - The control comes with four look and feel options: the TcxLookAndFeel-based style and three built-in look & feel styles.

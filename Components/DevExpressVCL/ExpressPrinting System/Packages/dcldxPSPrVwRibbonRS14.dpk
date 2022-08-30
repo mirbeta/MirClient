@@ -1,0 +1,61 @@
+package dcldxPSPrVwRibbonRS14;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressPrinting System Ribbon Preview Window by Developer Express Inc.'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbrtl,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  designide,
+  vcldesigner,
+  dxComnRS14,
+  dxCoreRS14,
+  dxGDIPlusRS14,
+  cxLibraryRS14,
+  dxBarRS14,
+  dxBarExtItemsRS14,
+  dxRibbonRS14,
+  dxPSCoreRS14,
+  dcldxCoreRS14,
+  dcldxPSCoreRS14,
+  dclcxLibraryRS14,
+  dxPSPrVwRibbonRS14;
+
+contains
+  dxPSPrVwRibbonReg;
+
+end.

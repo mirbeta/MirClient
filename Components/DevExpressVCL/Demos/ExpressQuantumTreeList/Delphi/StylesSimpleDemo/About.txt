@@ -1,0 +1,7 @@
+In this demo you can:
+
+- change styles of cxTreeList elements using the Styles Dialog (press the Edit button placed to the right of the corresponding cxTreeList element)
+
+- reassign styles of cxTreeList elements via the Styles Dialog (select any style from the dropdown list placed to the right of the corresponding cxTreeList element)
+
+- change cxTreeList elements displayed via Options

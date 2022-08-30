@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.Black{fill:#727272;}
+</style>
+<g id="Слой_2">
+	<path class="Black" d="M4,28v-4H0V4h16v4h4v20H4z"/>
+	<path class="White" d="M16,26H6v-2h10V10h2v14v2H16z M2,6h6h6v4v12H2V6z"/>
+	<path class="Blue" d="M28,22V4h-2v18h-4l5,6l5-6H28z"/>
+	<path class="Black" d="M4,18h8v-2H4V18z M4,14h8v-2H4V14z M4,8v2h8V8H4z"/>
+</g>
+</svg>

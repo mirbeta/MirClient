@@ -1,0 +1,371 @@
+package tmsexd2009;
+
+{$R *.res}
+{$R 'AdvSyskeyboardHookReg.dcr'}
+{$R 'calpreg.dcr'}
+{$R 'calcreg.dcr'}
+{$R 'exeinforeg.dcr'}
+{$R 'ellipslblreg.dcr'}
+{$R 'fsreg.dcr'}
+{$R 'frmsreg.dcr'}
+{$R 'hotspotimagereg.dcr'}
+{$R 'lfreg.dcr'}
+{$R 'macrorecorderreg.dcr'}
+{$R 'sysmreg.dcr'}
+{$R 'advsmoothbuttonreg.dcr'}
+{$R 'advsmoothcalendarreg.dcr'}
+{$R 'advsmoothdatepickerreg.dcr'}
+{$R 'advsmoothlabelreg.dcr'}
+{$R 'advsmoothlistboxreg.dcr'}
+{$R 'advsmoothcomboboxreg.dcr'}
+{$R 'advsmoothimagelistboxreg.dcr'}
+{$R 'advsmoothimagelistboxpickerreg.dcr'}
+{$R 'advsmoothmenureg.dcr'}
+{$R 'advsmoothpanelreg.dcr'}
+{$R 'advsmoothspinnerreg.dcr'}
+{$R 'advsmoothtrackbarreg.dcr'}
+{$R 'advsmoothtogglebuttonreg.dcr'}
+{$R 'advsmoothstatusindicatorreg.dcr'}
+{$R 'advsmoothtabpagerreg.dcr'}
+{$R 'advsmoothprogressbarreg.dcr'}
+{$R 'advsmoothledlabelreg.dcr'}
+{$R 'advsmoothjogwheelreg.dcr'}
+{$R 'advsmoothgaugereg.dcr'}
+{$R 'advsmoothexpandergroupreg.dcr'}
+{$R 'advsmoothdockreg.dcr'}
+{$R 'advsmoothsplashscreenreg.dcr'}
+{$R 'advsmoothmessagedialogreg.dcr'}
+{$R 'advsmoothscrollbarreg.dcr'}
+{$R 'advsmoothtimelinereg.dcr'}
+{$R 'advsmoothsliderreg.dcr'}
+{$R 'AdvSmoothMegaMenuReg.dcr'}
+{$R 'gdippicturecontainerreg.dcr'}
+{$R 'advfocushelperreg.dcr'}
+{$R 'advsmoothcalculatorreg.dcr'}
+{$R 'AdvPolyPagerReg.dcr'}
+{$R 'AdvHorizontalPolyListReg.dcr'}
+{$R 'AdvPolyBoxReg.dcr'}
+{$R 'AdvPolyListReg.dcr'}
+{$R 'AdvVerticalPolyListReg.dcr'}
+{$R 'AdvSmoothSlideShowReg.dcr'}
+{$R 'SPBEPCReg.dcr'}
+{$R 'AdvSmoothCapacityBarReg.dcr'}
+{$R 'AdvSmoothPopupReg.dcr'}
+{$R 'AdvSmoothStepControlReg.dcr'}
+{$R 'W7Bars.dcr'}
+{$R 'W7Buttons.dcr'}
+{$R 'W7Images.dcr'}
+{$R 'W7Labels.dcr'}
+{$R 'W7ListViewItems.dcr'}
+{$R 'W7NaviButtons.dcr'}
+{$R 'W7Panels.dcr'}
+{$R 'W7ProgressBars.dcr'}
+{$R 'AdvSmoothTileListReg.dcr'}
+{$R 'AdvSmoothPageSliderReg.dcr'}
+{$R 'AdvDataLabelReg.dcr'}
+{$R 'advduallistboxreg.dcr'}
+{$R 'AdvWordCloudReg.dcr'}
+{$R 'AdvSmoothCircularProgressReg.dcr'}
+{$R 'AdvCurveReg.dcr'}
+{$R 'AdvSmoothRotaryMenuReg.dcr'}
+{$R 'AdvCheckTreeViewReg.dcr'}
+{$R 'AdvSmoothWin8MarqueeReg.dcr'}
+{$R 'WebPictureContainerreg.dcr'}
+{$R 'AdvGraphicCheckLabelReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TMS Component Pack Extra'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  tmsd2009,
+  dbrtl,
+  vcldb;
+
+contains
+  AdvSyskeyboardHookReg in 'AdvSyskeyboardHookReg.pas',
+  AdvSyskeyboardHook in 'AdvSyskeyboardHook.pas',
+  AdvTouchKeyboardReg in 'AdvTouchKeyboardReg.pas',
+  AdvTouchKeyboard in 'AdvTouchKeyboard.pas',
+  CurvyControls in 'CurvyControls.pas',
+  CurvyControlsReg in 'CurvyControlsReg.pas',
+  AdvLockAppReg in 'AdvLockAppReg.pas',
+  AdvLockApp in 'AdvLockApp.pas',
+  AdvLockAppDlg in 'AdvLockAppDlg.pas' {AdvUnLockForm},
+  AeroButtons in 'AeroButtons.pas',
+  AeroButtonsReg in 'AeroButtonsReg.pas',
+  AeroLabel in 'AeroLabel.pas',
+  AeroLabelReg in 'AeroLabelReg.pas',
+  AeroRes in 'AeroRes.pas',
+  AeroWizardButton in 'AeroWizardButton.pas',
+  AeroWizardButtonReg in 'AeroWizardButtonReg.pas',
+  calpreg in 'calpreg.pas',
+  calcomp in 'calcomp.pas',
+  calcreg in 'calcreg.pas',
+  calpanel in 'calpanel.pas',
+  exeinforeg in 'exeinforeg.pas',
+  ellipslabel in 'ellipslabel.pas',
+  ellipslblreg in 'ellipslblreg.pas',
+  exeinfo in 'exeinfo.pas',
+  fsreg in 'fsreg.pas',
+  formsize in 'formsize.pas',
+  frmshape in 'frmshape.pas',
+  frmsreg in 'frmsreg.pas',
+  hotspotimagereg in 'hotspotimagereg.pas',
+  hotspotimage in 'hotspotimage.pas',
+  hotspoteditorcomp in 'hotspoteditorcomp.pas',
+  hotspoteditor in 'hotspoteditor.pas' {frmHSIEditor},
+  lfreg in 'lfreg.pas',
+  linelibrary in 'linelibrary.pas',
+  macrorecorder in 'macrorecorder.pas',
+  macrorecorderreg in 'macrorecorderreg.pas',
+  layeredform in 'layeredform.pas',
+  sysmreg in 'sysmreg.pas',
+  sysmon in 'sysmon.pas',
+  moneycal in 'moneycal.pas',
+  AdvFocusHelper in 'AdvFocusHelper.pas',
+  AdvFocusHelperReg in 'AdvFocusHelperReg.pas',
+  AdvSmoothButton in 'AdvSmoothButton.pas',
+  AdvSmoothButtonReg in 'AdvSmoothButtonReg.pas',
+  AdvSmoothCalendar in 'AdvSmoothCalendar.pas',
+  AdvSmoothCalendarReg in 'AdvSmoothCalendarReg.pas',
+  AdvSmoothDatePicker in 'AdvSmoothDatePicker.pas',
+  AdvSmoothDatePickerReg in 'AdvSmoothDatePickerReg.pas',
+  AdvSmoothLabel in 'AdvSmoothLabel.pas',
+  AdvSmoothLabelReg in 'AdvSmoothLabelReg.pas',
+  DBAdvSmoothLabel in 'DBAdvSmoothLabel.pas',
+  DBAdvSmoothLabelReg in 'DBAdvSmoothLabelReg.pas',
+  AdvSmoothListBox in 'AdvSmoothListBox.pas',
+  AdvSmoothListBoxDragDrop in 'AdvSmoothListBoxDragDrop.pas',
+  AdvSmoothListBoxReg in 'AdvSmoothListBoxReg.pas',
+  AdvSmoothComboBox in 'AdvSmoothComboBox.pas',
+  AdvSmoothComboBoxReg in 'AdvSmoothComboBoxReg.pas',
+  AdvSmoothImageListBox in 'AdvSmoothImageListBox.pas',
+  AdvSmoothImageListBoxReg in 'AdvSmoothImageListBoxReg.pas',
+  AdvSmoothImageListBoxPicker in 'AdvSmoothImageListBoxPicker.pas',
+  AdvSmoothImageListBoxPickerReg in 'AdvSmoothImageListBoxPickerReg.pas',
+  AdvSmoothPanel in 'AdvSmoothPanel.pas',
+  AdvSmoothPanelReg in 'AdvSmoothPanelReg.pas',
+  AdvSmoothMenu in 'AdvSmoothMenu.pas',
+  AdvSmoothMenuReg in 'AdvSmoothMenuReg.pas',
+  AdvSmoothStyles in 'AdvSmoothStyles.pas' {AdvSmoothStyleForm},
+  AdvSmoothFillEditor in 'AdvSmoothFillEditor.pas' {AdvSmoothFillEditorForm},
+  AdvSmoothHTMLEditor in 'AdvSmoothHTMLEditor.pas' {AdvSmoothHTMLEditorForm},
+  AdvSmoothFillPreview in 'AdvSmoothFillPreview.pas',
+  AdvSmoothFillPreviewReg in 'AdvSmoothFillPreviewReg.pas',
+  AdvSmoothSelectors in 'AdvSmoothSelectors.pas',
+  AdvSmoothSelectorsReg in 'AdvSmoothSelectorsReg.pas',
+  AdvSmoothSpin in 'AdvSmoothSpin.pas',
+  AdvSmoothSpinReg in 'AdvSmoothSpinReg.pas',
+  AdvSmoothXPVS in 'AdvSmoothXPVS.pas',
+  AdvSmoothEddd in 'AdvSmoothEddd.pas',
+  AdvSmoothEdit in 'AdvSmoothEdit.pas',
+  AdvSmoothTheme in 'AdvSmoothTheme.pas',
+  AdvSmoothEditButton in 'AdvSmoothEditButton.pas',
+  AdvSmoothSpinner in 'AdvSmoothSpinner.pas',
+  AdvSmoothSpinnerReg in 'AdvSmoothSpinnerReg.pas',
+  AdvSmoothJogWheel in 'AdvSmoothJogWheel.pas',
+  AdvSmoothJogWheelReg in 'AdvSmoothJogWheelReg.pas',
+  AdvSmoothGauge in 'AdvSmoothGauge.pas',
+  AdvSmoothGaugeReg in 'AdvSmoothGaugeReg.pas',
+  AdvSmoothTrackbar in 'AdvSmoothTrackbar.pas',
+  AdvSmoothTrackbarReg in 'AdvSmoothTrackbarReg.pas',
+  AdvSmoothStatusIndicator in 'AdvSmoothStatusIndicator.pas',
+  AdvSmoothStatusIndicatorReg in 'AdvSmoothStatusIndicatorReg.pas',
+  AdvSmoothProgressBar in 'AdvSmoothProgressBar.pas',
+  AdvSmoothProgressBarReg in 'AdvSmoothProgressBarReg.pas',
+  AdvSmoothTabPager in 'AdvSmoothTabPager.pas',
+  AdvSmoothTabPagerReg in 'AdvSmoothTabPagerReg.pas',
+  AdvSmoothToggleButton in 'AdvSmoothToggleButton.pas',
+  AdvSmoothToggleButtonReg in 'AdvSmoothToggleButtonReg.pas',
+  AdvSmoothLEDLabel in 'AdvSmoothLEDLabel.pas',
+  AdvSmoothLEDLabelReg in 'AdvSmoothLEDLabelReg.pas',
+  DBAdvSmoothLEDLabel in 'DBAdvSmoothLEDLabel.pas',
+  DBAdvSmoothLEDLabelReg in 'DBAdvSmoothLEDLabelReg.pas',
+  AdvSmoothDock in 'AdvSmoothDock.pas',
+  AdvSmoothDockReg in 'AdvSmoothDockReg.pas',
+  AdvSmoothDockDragDrop in 'AdvSmoothDockDragDrop.pas',
+  AdvSmoothExpanderPanel in 'AdvSmoothExpanderPanel.pas',
+  AdvSmoothExpanderPanelReg in 'AdvSmoothExpanderPanelReg.pas',
+  AdvSmoothExpanderButtonPanel in 'AdvSmoothExpanderButtonPanel.pas',
+  AdvSmoothExpanderButtonPanelReg in 'AdvSmoothExpanderButtonPanelReg.pas',
+  AdvSmoothExpanderGroup in 'AdvSmoothExpanderGroup.pas',
+  AdvSmoothExpanderGroupReg in 'AdvSmoothExpanderGroupReg.pas',
+  AdvSmoothTimeLine in 'AdvSmoothTimeLine.pas',
+  AdvSmoothTimeLineReg in 'AdvSmoothTimeLineReg.pas',
+  AdvSmoothMessageDialog in 'AdvSmoothMessageDialog.pas',
+  AdvSmoothMessageDialogReg in 'AdvSmoothMessageDialogReg.pas',
+  AdvSmoothSplashScreen in 'AdvSmoothSplashScreen.pas',
+  AdvSmoothSplashScreenReg in 'AdvSmoothSplashScreenReg.pas',
+  AdvSmoothScrollBar in 'AdvSmoothScrollBar.pas',
+  AdvSmoothScrollBarReg in 'AdvSmoothScrollBarReg.pas',
+  AdvSmoothSlider in 'AdvSmoothSlider.pas',
+  AdvSmoothSliderReg in 'AdvSmoothSliderReg.pas',
+  AdvSmoothCalculator in 'AdvSmoothCalculator.pas',
+  AdvSmoothCalculatorDropDown in 'AdvSmoothCalculatorDropDown.pas',
+  AdvSmoothCalculatorReg in 'AdvSmoothCalculatorReg.pas',
+  AdvExplorerTreeview in 'AdvExplorerTreeview.pas',
+  AdvExplorerTreeviewReg in 'AdvExplorerTreeviewReg.pas',
+  AdvSmoothMegaMenu in 'AdvSmoothMegaMenu.pas',
+  AdvSmoothMegaMenuReg in 'AdvSmoothMegaMenuReg.pas',
+  AdvSmoothTouchKeyBoard in 'AdvSmoothTouchKeyBoard.pas',
+  AdvSmoothTouchKeyBoardReg in 'AdvSmoothTouchKeyBoardReg.pas',
+  AdvSmoothDropDownList in 'AdvSmoothDropDownList.pas',
+  AdvGDIPicture in 'AdvGDIPicture.pas',
+  AdvGDIPicReg in 'AdvGDIPicReg.pas',
+  DBAdvGDIPPicture in 'DBAdvGDIPPicture.pas',
+  DBAdvGDIPPictureReg in 'DBAdvGDIPPictureReg.pas',
+  GDIPPictureContainer in 'GDIPPictureContainer.pas',
+  GDIPPictureContainerReg in 'GDIPPictureContainerReg.pas',
+  GDIPMenu in 'GDIPMenu.pas',
+  GDIPFill in 'GDIPFill.pas',
+  AdvSmoothImageListBoxDragDrop in 'AdvSmoothImageListBoxDragDrop.pas',
+  DBAdvSmoothTimeLineReg in 'DBAdvSmoothTimeLineReg.pas',
+  DBAdvSmoothComboBox in 'DBAdvSmoothComboBox.pas',
+  DBAdvSmoothComboBoxReg in 'DBAdvSmoothComboBoxReg.pas',
+  DBAdvSmoothDatePicker in 'DBAdvSmoothDatePicker.pas',
+  DBAdvSmoothDatePickerReg in 'DBAdvSmoothDatePickerReg.pas',
+  DBAdvSmoothImageListBox in 'DBAdvSmoothImageListBox.pas',
+  DBAdvSmoothImageListBoxReg in 'DBAdvSmoothImageListBoxReg.pas',
+  DBAdvSmoothListBox in 'DBAdvSmoothListBox.pas',
+  DBAdvSmoothListBoxReg in 'DBAdvSmoothListBoxReg.pas',
+  DBAdvSmoothTimeLine in 'DBAdvSmoothTimeLine.pas',
+  AdvHorizontalPolyList in 'AdvHorizontalPolyList.pas',
+  AdvHorizontalPolyListReg in 'AdvHorizontalPolyListReg.pas',
+  AdvPolyBox in 'AdvPolyBox.pas',
+  AdvPolyBoxReg in 'AdvPolyBoxReg.pas',
+  AdvPolyList in 'AdvPolyList.pas',
+  AdvPolyListReg in 'AdvPolyListReg.pas',
+  AdvPolyPager in 'AdvPolyPager.pas',
+  AdvPolyPagerReg in 'AdvPolyPagerReg.pas',
+  AdvVerticalPolyList in 'AdvVerticalPolyList.pas',
+  AdvVerticalPolyListReg in 'AdvVerticalPolyListReg.pas',
+  CustomItemsContainer in 'CustomItemsContainer.pas',
+  GDIPBase in 'GDIPBase.pas',
+  GDIPButtonItem in 'GDIPButtonItem.pas',
+  GDIPCheckItem in 'GDIPCheckItem.pas',
+  GDIPCustomItem in 'GDIPCustomItem.pas',
+  GDIPDropDownItem in 'GDIPDropDownItem.pas',
+  GDIPExpandableImageSectionItem in 'GDIPExpandableImageSectionItem.pas',
+  GDIPGraphicItem in 'GDIPGraphicItem.pas',
+  GDIPGroupItem in 'GDIPGroupItem.pas',
+  GDIPHTMLItem in 'GDIPHTMLItem.pas',
+  GDIPHTMLSectionItem in 'GDIPHTMLSectionItem.pas',
+  GDIPImageItem in 'GDIPImageItem.pas',
+  GDIPImageSectionItem in 'GDIPImageSectionItem.pas',
+  GDIPImageTextButtonItem in 'GDIPImageTextButtonItem.pas',
+  GDIPImageTextButtonSectionItem in 'GDIPImageTextButtonSectionItem.pas',
+  GDIPImageTextItem in 'GDIPImageTextItem.pas',
+  GDIPLargeButtonedItem in 'GDIPLargeButtonedItem.pas',
+  GDIPRadioItem in 'GDIPRadioItem.pas',
+  GDIPSectionItem in 'GDIPSectionItem.pas',
+  GDIPTextItem in 'GDIPTextItem.pas',
+  GDIPWedgeItem in 'GDIPWedgeItem.pas',
+  GDIPButtonBarItem in 'GDIPButtonBarItem.pas',
+  GDIPFullDropDownItem in 'GDIPFullDropDownItem.pas',
+  GDIPHeaderItem in 'GDIPHeaderItem.pas',
+  GDIPLargeButtonedHTMLItem in 'GDIPLargeButtonedHTMLItem.pas',
+  GDIPSplitterItem in 'GDIPSplitterItem.pas',
+  AdvSmoothSlideShow in 'AdvSmoothSlideShow.pas',
+  AdvSmoothSlideShowReg in 'AdvSmoothSlideShowReg.pas',
+  GDIPProgressItem in 'GDIPProgressItem.pas',
+  AdvSmoothCapacityBar in 'AdvSmoothCapacityBar.pas',
+  AdvSmoothCapacityBarReg in 'AdvSmoothCapacityBarReg.pas',
+  SPBEPC in 'SPBEPC.pas',
+  SPBEPCReg in 'SPBEPCReg.pas',
+  AdvSmoothPopup in 'AdvSmoothPopup.pas',
+  AdvSmoothPopupReg in 'AdvSmoothPopupReg.pas',
+  AdvsmoothStepControl in 'AdvsmoothStepControl.pas',
+  AdvsmoothStepControlReg in 'AdvsmoothStepControlReg.pas',
+  TMSW7Reg in 'TMSW7Reg.pas',
+  W7Bars in 'W7Bars.pas',
+  W7Buttons in 'W7Buttons.pas',
+  W7Classes in 'W7Classes.pas',
+  W7Common in 'W7Common.pas',
+  W7Graphics in 'W7Graphics.pas',
+  W7Images in 'W7Images.pas',
+  W7Labels in 'W7Labels.pas',
+  W7ListViewItems in 'W7ListViewItems.pas',
+  W7NaviButtons in 'W7NaviButtons.pas',
+  W7Panels in 'W7Panels.pas',
+  W7ProgressBars in 'W7ProgressBars.pas',
+  AdvSmoothTileList in 'AdvSmoothTileList.pas',
+  AdvSmoothTileListEx in 'AdvSmoothTileListEx.pas',
+  AdvSmoothTileListHTMLVisualizer in 'AdvSmoothTileListHTMLVisualizer.pas',
+  AdvSmoothTileListImageVisualizer in 'AdvSmoothTileListImageVisualizer.pas',
+  AdvSmoothTileListReg in 'AdvSmoothTileListReg.pas',
+  AdvMetroButton in 'AdvMetroButton.pas',
+  AdvMetroButtonReg in 'AdvMetroButtonReg.pas',
+  AdvMetroDlgs in 'AdvMetroDlgs.pas',
+  AdvMetroHint in 'AdvMetroHint.pas',
+  AdvMetroHintReg in 'AdvMetroHintReg.pas',
+  AdvMetroProgressBar in 'AdvMetroProgressBar.pas',
+  AdvMetroProgressBarReg in 'AdvMetroProgressBarReg.pas',
+  AdvMetroRes in 'AdvMetroRes.pas',
+  AdvMetroScrollBox in 'AdvMetroScrollBox.pas',
+  AdvMetroScrollBoxReg in 'AdvMetroScrollBoxReg.pas',
+  AdvMetroTaskDialog in 'AdvMetroTaskDialog.pas',
+  AdvMetroTaskDialogReg in 'AdvMetroTaskDialogReg.pas',
+  AdvMetroTile in 'AdvMetroTile.pas',
+  AdvSmoothPageSlider in 'AdvSmoothPageSlider.pas',
+  AdvSmoothPageSliderReg in 'AdvSmoothPageSliderReg.pas',
+  AdvMetroFindDialog in 'AdvMetroFindDialog.pas',
+  AdvMetroReplaceDialog in 'AdvMetroReplaceDialog.pas',
+  AdvMetroReplaceDialogReg in 'AdvMetroReplaceDialogReg.pas',
+  AdvMetroFindDialogReg in 'AdvMetroFindDialogReg.pas',
+  AdvMetroForm in 'AdvMetroForm.pas',
+  AdvSmoothCalendarGroup in 'AdvSmoothCalendarGroup.pas',
+  AdvSmoothCalendarGroupReg in 'AdvSmoothCalendarGroupReg.pas',
+  AdvDataLabel in 'AdvDataLabel.pas',
+  AdvDataLabelReg in 'AdvDataLabelReg.pas',
+  AdvListEditor in 'AdvListEditor.pas',
+  AdvListEditorReg in 'AdvListEditorReg.pas',
+  advduallistbox in 'advduallistbox.pas',
+  advduallistboxreg in 'advduallistboxreg.pas',
+  advwordcloud in 'advwordcloud.pas',
+  advwordcloudreg in 'advwordcloudreg.pas',
+  AdvWordCloudDropDownReg in 'AdvWordCloudDropDownReg.pas',
+  advwordclouddropdown in 'AdvWordCloudDropDown.pas',
+  AdvSmoothCircularProgress in 'AdvSmoothCircularProgress.pas',
+  AdvSmoothCircularProgressReg in 'AdvSmoothCircularProgressReg.pas',
+  AdvFancyLabel in 'AdvFancyLabel.pas',
+  AdvFancyLabelReg in 'AdvFancyLabelReg.pas',
+  AdvCurve in 'AdvCurve.pas',
+  AdvCurveReg in 'AdvCurveReg.pas',
+  AdvSmoothRotaryMenu in 'AdvSmoothRotaryMenu.pas',
+  AdvSmoothRotaryMenuReg in 'AdvSmoothRotaryMenuReg.pas',
+  AdvCheckTreeView in 'AdvCheckTreeView.pas',
+  AdvCheckTreeViewReg in 'AdvCheckTreeViewReg.pas',
+  AdvSmoothWin8Marquee in 'AdvSmoothWin8Marquee.pas',
+  AdvSmoothWin8MarqueeReg in 'AdvSmoothWin8MarqueeReg.pas',
+  AdvGraphicCheckLabel in 'AdvGraphicCheckLabel.pas',
+  AdvGraphicCheckLabelReg in 'AdvGraphicCheckLabelReg.pas',
+  DBAdvGraphicCheckLabel in 'DBAdvGraphicCheckLabel.pas',
+  DBAdvGraphicCheckLabelReg in 'DBAdvGraphicCheckLabelReg.pas',
+  WebPictureContainer in 'WebPictureContainer.pas',
+  WebPictureContainerreg in 'WebPictureContainerreg.pas',
+  DBAdvSmoothSlider in 'DBAdvSmoothSlider.pas',
+  AdvToolBarRes in 'AdvToolBarRes.pas',
+  DBAdvSmoothSliderReg in 'DBAdvSmoothSliderReg.pas';
+end.

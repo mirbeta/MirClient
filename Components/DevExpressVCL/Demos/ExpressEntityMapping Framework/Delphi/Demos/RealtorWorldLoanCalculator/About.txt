@@ -1,0 +1,17 @@
+This demo is based on the Loan Calculator module shipped as part of the Realtor World compiled demo available at https://go.devexpress.com/DevExpressDownload_VCLDemos.aspx.
+
+The demo does the following:
+
+ - Designates TMonthlyPayment and TYearlyPayment as storage classes for monthly and yearly loan payments;
+
+ - Calls the entity manager's RegisterEntity function to register these classes as entity classes;
+
+ - Enables simplified table and column mapping for the classes via the Automapping function;
+
+ - Stores calculated payments to object lists (TObjectList<TMonthlyPayment> and TObjectList<TYearlyPayment>);
+
+ - Loads data from the object lists to the TdxEMFDataSet components;
+
+ - Binds the TdxEMFDataSet components to the Table and Chart grid Views;
+
+ - Unregisters the entity classes in the form's destructor.

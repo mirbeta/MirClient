@@ -1,0 +1,313 @@
+object wnd_Main: Twnd_Main
+  Left = 296
+  Height = 517
+  Top = 324
+  Width = 729
+  Caption = 'MiTeC Process Viewer'
+  ClientHeight = 497
+  ClientWidth = 729
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Menu = MainMenu
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object Bevel1: TBevel
+    Left = 0
+    Height = 2
+    Top = 0
+    Width = 729
+    Align = alTop
+    Shape = bsTopLine
+  end
+  object pc: TPageControl
+    Cursor = crHandPoint
+    Left = 11
+    Height = 472
+    Top = 12
+    Width = 706
+    ActivePage = tsPrc
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 0
+    OnChange = pcChange
+    object tsPrc: TTabSheet
+      Caption = ' Processes '
+      ClientHeight = 446
+      ClientWidth = 698
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      object PrcList: TListView
+        Left = 8
+        Height = 367
+        Top = 7
+        Width = 674
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'Name'
+            Width = 200
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'PID'
+            Width = 70
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'CPU Time'
+            Width = 100
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Mem Usage'
+            Width = 100
+          end        
+          item
+            Caption = 'Command line'
+            Width = 500
+          end>
+        HideSelection = False
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+        OnDblClick = cmPrcDetails
+      end
+      object Button2: TButton
+        Cursor = crHandPoint
+        Left = 607
+        Height = 25
+        Top = 384
+        Width = 75
+        Anchors = [akRight, akBottom]
+        Caption = 'Details...'
+        OnClick = cmPrcDetails
+        TabOrder = 1
+      end
+    end
+    object tsSvc: TTabSheet
+      Caption = ' Services '
+      ClientHeight = 446
+      ClientWidth = 698
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 2
+      ParentFont = False
+      object SvcList: TListView
+        Left = 7
+        Height = 336
+        Top = 42
+        Width = 674
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'Display Name'
+            Width = 300
+          end        
+          item
+            Caption = 'Type'
+            Width = 100
+          end        
+          item
+            Caption = 'Status'
+            Width = 80
+          end        
+          item
+            Caption = 'Startup Type'
+            Width = 75
+          end        
+          item
+            Caption = 'Account'
+            Width = 200
+          end>
+        HideSelection = False
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+        OnDblClick = cmSvcDetails
+      end
+      object Button5: TButton
+        Cursor = crHandPoint
+        Left = 607
+        Height = 25
+        Top = 384
+        Width = 75
+        Anchors = [akRight, akBottom]
+        Caption = 'Details...'
+        OnClick = cmSvcDetails
+        TabOrder = 1
+      end
+      object cbSvc: TComboBox
+        Cursor = crHandPoint
+        Left = 7
+        Height = 21
+        Top = 11
+        Width = 163
+        ItemHeight = 13
+        ItemIndex = 2
+        Items.Strings = (
+          'Services'
+          'Drivers'
+          'All'
+        )
+        OnChange = cbSvcChange
+        Style = csDropDownList
+        TabOrder = 2
+        Text = 'All'
+      end
+    end
+    object tsDrv: TTabSheet
+      Caption = ' Drivers '
+      ClientHeight = 446
+      ClientWidth = 698
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      ImageIndex = 1
+      ParentFont = False
+      TabVisible = False
+      object DrvList: TListView
+        Left = 8
+        Height = 367
+        Top = 7
+        Width = 674
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Columns = <        
+          item
+            Caption = 'Name'
+            Width = 150
+          end        
+          item
+            Caption = 'Base Address'
+            Width = 150
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Load Cnt'
+            Width = 60
+          end        
+          item
+            Caption = 'Description'
+            Width = 500
+          end>
+        HideSelection = False
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnAdvancedCustomDrawItem = ListAdvancedCustomDrawItem
+        OnAdvancedCustomDrawSubItem = ListAdvancedCustomDrawSubItem
+        OnColumnClick = ListColumnClick
+        OnCompare = ListCompare
+        OnDblClick = cmDrvDetails
+      end
+      object Button6: TButton
+        Cursor = crHandPoint
+        Left = 607
+        Height = 25
+        Top = 384
+        Width = 75
+        Anchors = [akRight, akBottom]
+        Caption = 'Details...'
+        OnClick = cmDrvDetails
+        TabOrder = 1
+      end
+    end
+  end
+  object MainMenu: TMainMenu
+    left = 78
+    top = 158
+    object File1: TMenuItem
+      Caption = 'File'
+      object mmRefresh: TMenuItem
+        Caption = 'Refresh'
+        ShortCut = 116
+        OnClick = cmRefresh
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object mmExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = cmExit
+      end
+    end
+    object mmProcess: TMenuItem
+      Caption = 'Process'
+      object mmPrcProps: TMenuItem
+        Caption = 'Properties...'
+      end
+      object mmPrcDetails: TMenuItem
+        Caption = 'Details...'
+        OnClick = cmPrcDetails
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object mmPrcKill: TMenuItem
+        Caption = 'Kill'
+        OnClick = cmPrcKill
+      end
+    end
+    object mmService: TMenuItem
+      Caption = 'Service'
+      Visible = False
+      object mmSvcProps: TMenuItem
+        Caption = 'Properties...'
+      end
+      object mSvcDetails: TMenuItem
+        Caption = 'Details...'
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object mmSvcStart: TMenuItem
+        Caption = 'Start'
+        OnClick = cmSvcStart
+      end
+      object mmSvcStop: TMenuItem
+        Caption = 'Stop'
+        OnClick = cmSvcStop
+      end
+      object mmSvcPause: TMenuItem
+        Caption = 'Pause'
+        OnClick = cmSvcPause
+      end
+      object mmSvcResume: TMenuItem
+        Caption = 'Resume'
+        OnClick = cmSvcResume
+      end
+    end
+    object mmDriver: TMenuItem
+      Caption = 'Driver'
+      Visible = False
+      object mmDrvProps: TMenuItem
+        Caption = 'Properties...'
+      end
+    end
+    object mmAbout: TMenuItem
+      Caption = 'About'
+      OnClick = mmAboutClick
+    end
+  end
+end

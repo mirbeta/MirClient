@@ -1,0 +1,11 @@
+In this demo you can:
+
+- change a Style using the Edit button
+
+- re-assign Styles via the Assign button
+
+- drag a column header to the grouping area
+
+- change grid elements displayed via Options or the toolbar
+
+- right click in footers to set summary totals

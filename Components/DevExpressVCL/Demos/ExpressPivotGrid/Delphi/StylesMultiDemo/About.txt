@@ -1,0 +1,8 @@
+  In this demo you can: 
+  - switch between different types of the style sheet
+  - select a particular user-defined style sheet via the supplied combo box 
+  - load or save user-defined style sheets from/to ini-files
+  - export data in either Excel's format, as text, html or xml (the File/Export menu)
+  - change the location of grand totals (the Options/Totals Location menu)
+  - hide the subtotals and grand totals (the Options/Totals Visibility menu)
+  - select a particular look and feel from the five look and feel options available (the Look&Feel menu)

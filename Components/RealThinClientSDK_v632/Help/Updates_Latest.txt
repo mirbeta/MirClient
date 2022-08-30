@@ -1,0 +1,18 @@
+You can find information on updating the RTC SDK components in the "Readme.txt" file.
+
+*******************************************************
+*                                                     *
+* RealThinClient SDK v6.32, released April 11th 2014. *
+*                                                     *
+*******************************************************
+
+---------------------------------------------------------
+* Changes in v6.32
+---------------------------------------------------------
+
+1) TRtcDataRouter and TRtcLoadBalancer components updated for SSL support using 3rd-party encryption components.
+
+2) LoadBalancer3 Demo extended with SSL encryption support (using StreamSec Tools 2.1)
+
+3) BrowserUpload QuickStart example extended with SSL encryption support (using StreamSec Tools 2.1)
+

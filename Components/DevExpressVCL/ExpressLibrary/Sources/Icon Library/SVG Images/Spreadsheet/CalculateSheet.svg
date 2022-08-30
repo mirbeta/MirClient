@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calculate_Sheet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Yellow{fill:#FFB115;}
+	.st0{opacity:0.5;}
+</style>
+<rect x="6" y="6" class="Blue" width="16" height="6"/>
+<rect x="18" y="14" class="Yellow" width="4" height="4"/>
+<path class="Black" d="M10,18H6v-4h4V18z M16,14h-4v4h4V14z M10,20H6v4h4V20z M16,20h-4v4h4V20z M16,26H4V4h20v14h2V3
+	c0-0.6-0.4-1-1-1H3C2.4,2,2,2.4,2,3v24c0,0.6,0.4,1,1,1h13V26z"/>
+<g class="st0">
+	<path class="Black" d="M24,24h-6v-4h6V24z M32,20h-6v4h6V20z M24,26h-6v4h6V26z M32,26h-6v4h6V26z"/>
+</g>
+</svg>

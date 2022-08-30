@@ -1,0 +1,16 @@
+TRzComboBox
+All combo boxes in Raize Components support incremental keyboard searching and AutoComplete. Type a few characters of the item you wish to find, and the combo box will display the closest matching item in the edit portion. When the AllowEdit property is False, you can type into the edit portion, but you cannot enter an item that does not appear in the list. 
+
+The TRzComboBox control also defines a Values property, which allows you to associate each item in the drop down list with a value. In the example, the combo box displays a list of U.S. State names. However, each name is associated with it's abbreviation code. Selecting an item causes the corresponding value to appear in the status box.
+
+TRzMRUComboBox
+This combo box automatically keeps track of the most-recently-used items that you enter into the edit portion or ones that you select from the drop down list. Simply type in a string and click on another control to change the focus. Now go back to the MRU combo box and drop down the list. The item you just entered is at the top of the list.
+
+TRzColorComboBox
+This combo box provides the ability to select a color. However, there are many different display options. The check boxes above the color combo box toggle a few of the settings. Try changing the various settings and see how the drop down list is affected. The SelectedColor property makes determining which color was selected by the user a snap.
+
+TRzFontComboBox
+This combo box makes it easy for a user to select a font. The radio buttons above this component represent three of the properties that can be used to customize the list. The SelectedFont property provides access to the selected Font object rather than just the font name.
+
+TRzRadioGroup
+The three sets of radio buttons that are used to customize the font combo box are actually the TRzRadioGroup components. The most notable feature used in this dialog is that the borders of the radio-groups are not visible. TRzRadioGroups also support custom glyphs and 3D text styles.

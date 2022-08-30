@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Clear_Pivot_Table" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.5;}
+</style>
+<g class="st0">
+	<path class="Blue" d="M10,10H6V6h4V10z M24,6H12v4h12V6z M10,12H6v12h4V12z"/>
+</g>
+<path class="Blue" d="M19,23.3L16.3,26c-0.4,0.4-0.4,1.2,0,1.6l4,4c0.4,0.4,1.2,0.4,1.6,0l2.7-2.7L19,23.3z"/>
+<path class="Black" d="M14,26.8c0-0.3,0.1-0.6,0.1-0.8H4V4h22v10.1c0.3-0.1,0.5-0.1,0.8-0.1c0.4,0,0.8,0.1,1.2,0.2V3
+	c0-0.6-0.4-1-1-1H3C2.4,2,2,2.4,2,3v24c0,0.6,0.4,1,1,1h11.2C14.1,27.6,14,27.2,14,26.8z"/>
+<path class="Red" d="M31.7,20.4l-4-4c-0.4-0.4-1.2-0.4-1.6,0l-6.1,6.1l5.6,5.6l6.1-6.1C32.1,21.5,32.1,20.8,31.7,20.4z"/>
+</svg>

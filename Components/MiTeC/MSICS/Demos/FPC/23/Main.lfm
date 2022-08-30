@@ -1,0 +1,44 @@
+object wndMain: TwndMain
+  Left = 0
+  Height = 404
+  Top = 0
+  Width = 740
+  ActiveControl = List
+  Caption = 'Task Scheduler'
+  ClientHeight = 404
+  ClientWidth = 740
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  Visible = False
+  object List: TListView
+    Left = 0
+    Height = 404
+    Top = 0
+    Width = 740
+    Align = alClient
+    Columns = <    
+      item
+        Caption = 'Name'
+        Width = 300
+      end    
+      item
+        Caption = 'CommandLine'
+        Width = 300
+      end    
+      item
+        Caption = 'Author'
+        Width = 100
+      end>
+    ColumnClick = False
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+end

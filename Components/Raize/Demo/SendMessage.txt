@@ -1,0 +1,7 @@
+TRzSendMessage
+This form illustrates how to send electronic mail using the TRzSendMessage component.
+
+First, enter the email addresses for all receipients. Next, enter a subject and a message body, and then select any file attachments. Press the Send button to send the message.
+
+NOTE:  The TRzSendMessage requires a MAPI compliant messaging service such as Microsoft Outlook.
+                                       

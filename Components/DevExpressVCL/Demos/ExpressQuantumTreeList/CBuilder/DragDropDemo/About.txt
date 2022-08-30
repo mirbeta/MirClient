@@ -1,0 +1,27 @@
+In this demo you can:
+
+- assign persons to a department as employees
+This can be done in three different ways:
+
+    (a) multiselect any rows of the Person list from the Dictionaries
+  form and drop them onto the list of persons displayed to the left of the main form
+
+    (b) multiselect any rows of the Person list from the Dictionar
+  ies form and drop them onto any department within the Departments hierarchy,
+  displayed to the right of the main form
+
+    (c) multiselect any rows of the employee list displayed to the
+  left of the main form and drop them into another department within
+  the Departments hierarchy
+
+- change the Departments hierarchy
+This can be done in two different ways:
+
+    (a) multiselect any rows of the department list from the Dictionaries form
+  and drop them onto any department within the Depart
+  ments hierarchy
+
+    (b) select any department within the Departments hierarchy and
+  drop it onto another department
+
+- insert/delete departments using the Ins/Ctrl+Delete keys

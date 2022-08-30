@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Green_Yellow_Red_Color_Scale"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.st0{opacity:0.5;}
+</style>
+<rect class="Green" width="30" height="6"/>
+<path class="Yellow" d="M30,14H0V8h30V14z M30,16H0v6h30V16z"/>
+<g class="st0">
+	<rect y="8" class="Green" width="30" height="6"/>
+</g>
+<rect y="24" class="Red" width="30" height="6"/>
+</svg>

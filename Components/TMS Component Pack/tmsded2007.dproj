@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e449567b-198a-426f-955d-08a3e482995a}</ProjectGuid>
+    <MainSource>tmsded2007.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Documents and Settings\All Users\Documents\RAD Studio\5.0\Bpl\tmsded2007.bpl</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="PackageDescription">TMS Component Pack design time support</Package_Options><Package_Options Name="ImplicitBuild">False</Package_Options><Package_Options Name="DesigntimeOnly">True</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2067</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">tmsded2007.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="tmsded2007.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="acgde.pas" />
+    <DCCReference Include="adortl.dcp" />
+    <DCCReference Include="AdvAlertMessageDE.pas" />
+    <DCCReference Include="AdvAlertWindowRegDE.pas" />
+    <DCCReference Include="AdvCardListRegDE.pas" />
+    <DCCReference Include="AdvDBComboBoxDE.pas" />
+    <DCCReference Include="AdvDBComboBoxListEditor.pas" />
+    <DCCReference Include="AdvDBComboBoxRegDE.pas" />
+    <DCCReference Include="AdvDBLookupComboBoxDE.pas" />
+    <DCCReference Include="AdvDBLookupComboBoxRegDe.pas" />
+    <DCCReference Include="AdvDropDownDE.pas" />
+    <DCCReference Include="AdvDropDownRegDE.pas" />
+    <DCCReference Include="AdvDropDownStyles.pas">
+      <Form>TAdvDropDownStyleForm</Form>
+    </DCCReference>
+    <DCCReference Include="AdvExplorerTreeviewDE.pas" />
+    <DCCReference Include="AdvExplorerTreeviewEditor.pas">
+      <Form>ExpTreeviewEditor</Form>
+    </DCCReference>
+    <DCCReference Include="AdvExplorerTreeviewRegDE.pas" />
+    <DCCReference Include="AdvExplorerTreeviewStyles.pas">
+      <Form>AdvExplorerTreeViewStyleForm</Form>
+    </DCCReference>
+    <DCCReference Include="AdvGDIPicDE.pas" />
+    <DCCReference Include="AdvGDIPicRegDE.pas" />
+    <DCCReference Include="AdvGlassButtonRegDE.pas" />
+    <DCCReference Include="advglowbuttonregde.pas" />
+    <DCCReference Include="AdvHTMLDE.pas" />
+    <DCCReference Include="AdvHTMLProp.pas">
+      <Form>AdvHTMLEditor</Form>
+    </DCCReference>
+    <DCCReference Include="advimgde.pas" />
+    <DCCReference Include="AdvMemoAC.pas">
+      <Form>MemoAC</Form>
+    </DCCReference>
+    <DCCReference Include="AdvMemoDE.pas" />
+    <DCCReference Include="AdvMemoRegDe.pas" />
+    <DCCReference Include="AdvNavBarRegDE.pas" />
+    <DCCReference Include="AdvOfficeComboBoxRegDE.pas" />
+    <DCCReference Include="advofficehintregde.pas" />
+    <DCCReference Include="advofficeimageregde.pas" />
+    <DCCReference Include="advofficepagerde.pas" />
+    <DCCReference Include="advofficepagerregde.pas" />
+    <DCCReference Include="AdvOfficeSelectorsRegDE.pas" />
+    <DCCReference Include="AdvOfficeTabSetRegDE.pas" />
+    <DCCReference Include="advoutlooklistde.pas" />
+    <DCCReference Include="AdvPageControlde.pas" />
+    <DCCReference Include="AdvPageControlRegDe.pas" />
+    <DCCReference Include="advpicde.pas" />
+    <DCCReference Include="advpicregde.pas" />
+    <DCCReference Include="advpnlde.pas" />
+    <DCCReference Include="advpnlregde.pas" />
+    <DCCReference Include="advpreviewmenude.pas" />
+    <DCCReference Include="advpreviewmenueditor.pas">
+      <Form>PreviewMenuEditor</Form>
+    </DCCReference>
+    <DCCReference Include="advpreviewmenuregde.pas" />
+    <DCCReference Include="AdvRangeSliderGallery.pas" />
+    <DCCReference Include="AdvRefLabelRegDE.pas" />
+    <DCCReference Include="AdvReflectionImageRegDE.pas" />
+    <DCCReference Include="advshapebuttonregde.pas" />
+    <DCCReference Include="AdvShapeRegDE.pas" />
+    <DCCReference Include="AdvSmartMessageBoxRegDE.pas" />
+    <DCCReference Include="advsmoothbuttonde.pas" />
+    <DCCReference Include="advsmoothbuttonregde.pas" />
+    <DCCReference Include="AdvSmoothCalculatorDE.pas" />
+    <DCCReference Include="AdvSmoothCalculatorRegDE.pas" />
+    <DCCReference Include="AdvSmoothCalendarDE.pas" />
+    <DCCReference Include="AdvSmoothCalendarRegDE.pas" />
+    <DCCReference Include="AdvSmoothDatePickerDE.pas" />
+    <DCCReference Include="AdvSmoothDatePickerRegDE.pas" />
+    <DCCReference Include="AdvSmoothDockDE.pas" />
+    <DCCReference Include="AdvSmoothDockRegDE.pas" />
+    <DCCReference Include="AdvSmoothExpanderButtonPanelDE.pas" />
+    <DCCReference Include="AdvSmoothExpanderButtonPanelRegDE.pas" />
+    <DCCReference Include="AdvSmoothExpanderGroupDE.pas" />
+    <DCCReference Include="AdvSmoothExpanderGroupRegDE.pas" />
+    <DCCReference Include="AdvSmoothExpanderPanelDE.pas" />
+    <DCCReference Include="AdvSmoothExpanderPanelRegDE.pas" />
+    <DCCReference Include="AdvSmoothGaugeDE.pas" />
+    <DCCReference Include="AdvSmoothGaugeRegDE.pas" />
+    <DCCReference Include="AdvSmoothGDIPDE.pas" />
+    <DCCReference Include="AdvSmoothGDIPRegDE.pas" />
+    <DCCReference Include="AdvSmoothHTMLProp.pas" />
+    <DCCReference Include="AdvSmoothImageListBoxDE.pas" />
+    <DCCReference Include="AdvSmoothImageListBoxPickerDE.pas" />
+    <DCCReference Include="AdvSmoothImageListBoxPickerRegDE.pas" />
+    <DCCReference Include="AdvSmoothImageListBoxRegDE.pas" />
+    <DCCReference Include="AdvSmoothListBoxDE.pas" />
+    <DCCReference Include="AdvSmoothListBoxRegDE.pas" />
+    <DCCReference Include="AdvSmoothMegaMenuDE.pas" />
+    <DCCReference Include="AdvSmoothMegaMenuEditor.pas" />
+    <DCCReference Include="AdvSmoothMegaMenuGallery.pas" />
+    <DCCReference Include="AdvSmoothMegaMenuRegDE.pas" />
+    <DCCReference Include="AdvSmoothMenuDE.pas" />
+    <DCCReference Include="AdvSmoothMenuRegDE.pas" />
+    <DCCReference Include="AdvSmoothMessageDialogDE.pas" />
+    <DCCReference Include="AdvSmoothMessageDialogRegDE.pas" />
+    <DCCReference Include="AdvSmoothPanelDE.pas" />
+    <DCCReference Include="AdvSmoothPanelRegDE.pas" />
+    <DCCReference Include="AdvSmoothProgressBarDE.pas" />
+    <DCCReference Include="AdvSmoothProgressBarRegDE.pas" />
+    <DCCReference Include="AdvSmoothScrollBarDE.pas" />
+    <DCCReference Include="AdvSmoothScrollBarRegDE.pas" />
+    <DCCReference Include="AdvSmoothSliderDE.pas" />
+    <DCCReference Include="AdvSmoothSliderRegDE.pas" />
+    <DCCReference Include="AdvSmoothSpinnerDE.pas" />
+    <DCCReference Include="AdvSmoothSpinnerRegDE.pas" />
+    <DCCReference Include="AdvSmoothSplashScreenDE.pas" />
+    <DCCReference Include="AdvSmoothSplashScreenRegDE.pas" />
+    <DCCReference Include="AdvSmoothTabPagerDE.pas" />
+    <DCCReference Include="AdvSmoothTabPagerRegDE.pas" />
+    <DCCReference Include="AdvSmoothTimeLineDE.pas" />
+    <DCCReference Include="AdvSmoothTimeLineRegDE.pas" />
+    <DCCReference Include="AdvSmoothToggleButtonDE.pas" />
+    <DCCReference Include="AdvSmoothToggleButtonRegDE.pas" />
+    <DCCReference Include="AdvSmoothTrackBarDE.pas" />
+    <DCCReference Include="AdvSmoothTrackBarRegDE.pas" />
+    <DCCReference Include="AdvStickyPopupMenuDE.pas" />
+    <DCCReference Include="AdvStickyPopupMenuRegDE.pas" />
+    <DCCReference Include="AdvToolBarDE.pas" />
+    <DCCReference Include="AdvToolBarRegDE.pas" />
+    <DCCReference Include="AdvToolButtonDE.pas" />
+    <DCCReference Include="AdvToolButtonStyles.pas">
+      <Form>AdvToolButtonStyleForm</Form>
+    </DCCReference>
+    <DCCReference Include="AdvTrackBarGallery.pas" />
+    <DCCReference Include="AdvTrackbarPersist.pas" />
+    <DCCReference Include="advtrackbarregde.pas" />
+    <DCCReference Include="AdvTreeComboBoxDE.pas" />
+    <DCCReference Include="AdvTreeComboBoxRegDE.pas" />
+    <DCCReference Include="alvde.pas" />
+    <DCCReference Include="alvregde.pas" />
+    <DCCReference Include="anide.pas" />
+    <DCCReference Include="aniregde.pas" />
+    <DCCReference Include="asgcregde.pas" />
+    <DCCReference Include="asgde.pas" />
+    <DCCReference Include="AsgGallery.pas" />
+    <DCCReference Include="AsgPropPref.pas" />
+    <DCCReference Include="AsgRegDE.pas" />
+    <DCCReference Include="atbregde.pas" />
+    <DCCReference Include="bdertl.dcp" />
+    <DCCReference Include="cabregde.pas" />
+    <DCCReference Include="calcregde.pas" />
+    <DCCReference Include="ColorDlg.pas">
+      <Form>ColorChooser</Form>
+    </DCCReference>
+    <DCCReference Include="DBAdvCardListRegDE.pas" />
+    <DCCReference Include="DBAdvGlowNavigatorDE.pas" />
+    <DCCReference Include="DBAdvGridDE.pas" />
+    <DCCReference Include="DBAdvSmoothComboBoxDE.pas" />
+    <DCCReference Include="DBAdvSmoothComboBoxRegDE.pas" />
+    <DCCReference Include="DBAdvSmoothImageListBoxDE.pas" />
+    <DCCReference Include="DBAdvSmoothImageListBoxRegDE.pas" />
+    <DCCReference Include="DBAdvSmoothListBoxDE.pas" />
+    <DCCReference Include="DBAdvSmoothListBoxRegDE.pas" />
+    <DCCReference Include="DBAdvSmoothTimeLineDE.pas" />
+    <DCCReference Include="DBAdvSmoothTimeLineRegDE.pas" />
+    <DCCReference Include="dbalvde.pas" />
+    <DCCReference Include="dbhtmlaregde.pas" />
+    <DCCReference Include="DBHTMLBtnsRegDE.pas" />
+    <DCCReference Include="DBInspDE.pas" />
+    <DCCReference Include="DBInspectorBarRegDE.pas" />
+    <DCCReference Include="dbplande.pas" />
+    <DCCReference Include="DBPlannerCalDE.pas" />
+    <DCCReference Include="DBPlannerCalRegDE.pas" />
+    <DCCReference Include="DBPlannerMonthViewRegDE.pas" />
+    <DCCReference Include="dbplanregde.pas" />
+    <DCCReference Include="dbrtl.dcp" />
+    <DCCReference Include="DBTodoListDE.pas" />
+    <DCCReference Include="DBTodoListRegDE.pas" />
+    <DCCReference Include="designide.dcp" />
+    <DCCReference Include="frtfbox.pas">
+      <Form>RTFBox</Form>
+    </DCCReference>
+    <DCCReference Include="GDIPFillDE.pas" />
+    <DCCReference Include="GDIPFillRegDE.pas" />
+    <DCCReference Include="gdipicde.pas" />
+    <DCCReference Include="GDIPMenuDE.pas" />
+    <DCCReference Include="GDIPMenuRegDE.pas" />
+    <DCCReference Include="HotSpotEditorDE.pas" />
+    <DCCReference Include="HotSpotImageRegDE.pas" />
+    <DCCReference Include="htmburegde.pas" />
+    <DCCReference Include="htmlaregde.pas" />
+    <DCCReference Include="htmlchkliregde.pas" />
+    <DCCReference Include="HTMLCreditRegDE.pas" />
+    <DCCReference Include="htmlde.pas" />
+    <DCCReference Include="HTMLFormRegDE.pas" />
+    <DCCReference Include="htmlpopupregde.pas" />
+    <DCCReference Include="htmlprop.pas">
+      <Form>htmleditor</Form>
+    </DCCReference>
+    <DCCReference Include="htmlsde.pas" />
+    <DCCReference Include="htmstregde.pas" />
+    <DCCReference Include="InspDE.pas" />
+    <DCCReference Include="InspectorBarRegDE.pas" />
+    <DCCReference Include="paramchklregde.pas" />
+    <DCCReference Include="Paramde.pas" />
+    <DCCReference Include="paramedit.pas">
+      <Form>ParamInfo</Form>
+    </DCCReference>
+    <DCCReference Include="paramlabregde.pas" />
+    <DCCReference Include="paramlistprop.pas">
+      <Form>paramlisteditor</Form>
+    </DCCReference>
+    <DCCReference Include="paramlstregde.pas" />
+    <DCCReference Include="paramprop.pas">
+      <Form>parameditor</Form>
+    </DCCReference>
+    <DCCReference Include="paramsde.pas" />
+    <DCCReference Include="paramtreeprop.pas">
+      <Form>paramtreeeditor</Form>
+    </DCCReference>
+    <DCCReference Include="paramtreeviewregde.pas" />
+    <DCCReference Include="parlregde.pas" />
+    <DCCReference Include="pdlgregde.pas" />
+    <DCCReference Include="PictureContainerDE.pas" />
+    <DCCReference Include="PictureContainerProp.pas">
+      <Form>ContainerEditor</Form>
+    </DCCReference>
+    <DCCReference Include="PictureContainerRegDe.pas" />
+    <DCCReference Include="plande.pas" />
+    <DCCReference Include="PlannerCalRegDE.pas" />
+    <DCCReference Include="PlannerMonthViewRegDE.pas" />
+    <DCCReference Include="planregde.pas" />
+    <DCCReference Include="Rtflde.pas" />
+    <DCCReference Include="rtflregde.pas" />
+    <DCCReference Include="rtl.dcp" />
+    <DCCReference Include="slstde.pas" />
+    <DCCReference Include="slstregde.pas" />
+    <DCCReference Include="taskdialogde.pas" />
+    <DCCReference Include="taskdialogregde.pas" />
+    <DCCReference Include="tee.dcp" />
+    <DCCReference Include="thumbde.pas" />
+    <DCCReference Include="thumbregde.pas" />
+    <DCCReference Include="TMSD2007.dcp" />
+    <DCCReference Include="tmsexd2007.dcp" />
+    <DCCReference Include="TMSSplash.pas" />
+    <DCCReference Include="ToDoListde.pas" />
+    <DCCReference Include="ToDoListregde.pas" />
+    <DCCReference Include="ToolPanelsDE.pas" />
+    <DCCReference Include="ToolPanelsRegDE.pas" />
+    <DCCReference Include="uMemoEdit.pas">
+      <Form>TMSMemoEdit</Form>
+    </DCCReference>
+    <DCCReference Include="vcl.dcp" />
+    <DCCReference Include="vclactnband.dcp" />
+    <DCCReference Include="vcldb.dcp" />
+    <DCCReference Include="vcljpg.dcp" />
+    <DCCReference Include="VclSmp.dcp" />
+    <DCCReference Include="vclx.dcp" />
+    <DCCReference Include="wallpde.pas" />
+    <DCCReference Include="wallpregde.pas" />
+    <DCCReference Include="WebImgDe.pas" />
+    <DCCReference Include="WebImgRegDE.pas" />
+    <DCCReference Include="xmlrtl.dcp" />
+    <None Include="ModelSupport\default.txaPackage" />
+  </ItemGroup>
+</Project>

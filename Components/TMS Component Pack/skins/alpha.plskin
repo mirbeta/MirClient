@@ -1,0 +1,15 @@
+[NORMAL]
+TOP=alphah.bmp
+CENTER=alphac.bmp
+BOTTOM=alphab.bmp
+
+[SELECTED]
+TOP=alphahs.bmp
+CENTER=alphac.bmp
+BOTTOM=alphab.bmp
+
+[MARGIN]
+X=4
+Y=12
+CAPTIONX=4
+CAPTIONY=-8

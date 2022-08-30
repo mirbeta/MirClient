@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Long_Date" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.st0{opacity:0.5;}
+</style>
+<path class="Black" d="M8,4H6V0h2V4z M22,0h-2v4h2V0z"/>
+<g class="st0">
+	<path class="Black" d="M10,18H6v-4h4V18z M16,14h-4v4h4V14z M22,14h-4v4h4V14z M10,20H6v4h4V20z"/>
+</g>
+<path class="Red" d="M27,2h-3v4h-6V2h-8v4H4V2H1C0.4,2,0,2.4,0,3v7h28V3C28,2.4,27.6,2,27,2z"/>
+<path class="Yellow" d="M31,32H13c-0.6,0-1-0.5-1-1V21c0-0.5,0.4-1,1-1h18c0.5,0,1,0.5,1,1v10C32,31.5,31.5,32,31,32z"/>
+<g>
+	<g>
+		<rect x="26" y="10" class="Black" width="2" height="8"/>
+		<path class="Black" d="M10,28H2V10H0v19c0,0.5,0.5,1,1,1h9V28z"/>
+	</g>
+	<g>
+		<rect x="26" y="10" class="Black" width="2" height="8"/>
+		<path class="Black" d="M10,28H2V10H0v19c0,0.5,0.5,1,1,1h9V28z"/>
+	</g>
+</g>
+</svg>

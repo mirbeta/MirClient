@@ -1,0 +1,14 @@
+This demo shows how to create a spreadsheet-based invoice report using data from a bound dataset.
+
+In this demo, you can:
+
+- Customize the report template:
+  - Manage report sections (the Report | Sections submenu).
+  - Add dataset fields to spreadsheet cells using drag and drop (the Field Chooser panel).
+  - Build formula expressions using dataset fields.
+
+- Filter the dataset to provide data of specific customer orders (the Filter Options panel).
+
+- Build and preview a report that contains order invoices as individual sheets (the Report | Preview menu item).
+
+- Apply different paint styles to forms (the Look&Feel menu item).

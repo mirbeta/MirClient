@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.White{fill:#FFFFFF;}
+	.st0{opacity:0.5;}
+	.st1{opacity:0.75;}
+	.st2{opacity:0.25;}
+</style>
+<g id="ChangeLabel_1_">
+	<path class="Black" d="M29,2H3C2.5,2,2,2.5,2,3v26c0,0.5,0.5,1,1,1h26c0.5,0,1-0.5,1-1V3C30,2.5,29.5,2,29,2z M26,26H6V6h20V26z"/>
+	<path class="White" d="M4,4v24h24V4H4z M26,26H6V6h20V26z"/>
+</g>
+</svg>

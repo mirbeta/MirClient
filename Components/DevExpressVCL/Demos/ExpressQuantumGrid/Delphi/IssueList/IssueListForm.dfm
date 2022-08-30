@@ -1,0 +1,61 @@
+object frmBasic: TfrmBasic
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  ClientHeight = 254
+  ClientWidth = 225
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbCaption: TcxLabel
+    Left = 0
+    Top = 0
+    Align = alTop
+    AutoSize = False
+    Caption = 'lbCaption'
+    ParentColor = False
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -19
+    Style.Font.Name = 'Tahoma'
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    Transparent = True
+    Height = 35
+    Width = 225
+  end
+  object plTop: TPanel
+    Left = 0
+    Top = 60
+    Width = 225
+    Height = 194
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+  object cxNavigator: TcxNavigator
+    Left = 0
+    Top = 35
+    Width = 216
+    Height = 25
+    TabStop = True
+    Control = IssueListGridForm.cxGrid
+    Buttons.Edit.Visible = False
+    Buttons.Refresh.Visible = False
+    Buttons.Filter.Visible = False
+    InfoPanel.Font.Charset = DEFAULT_CHARSET
+    InfoPanel.Font.Color = 536870912
+    InfoPanel.Font.Height = -11
+    InfoPanel.Font.Name = 'Tahoma'
+    InfoPanel.Font.Style = []
+    Align = alTop
+    TabOrder = 0
+  end
+end

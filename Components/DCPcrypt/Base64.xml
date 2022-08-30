@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="Base64">
+  <function name="Base64Encode" visibility="public">
+    <parameters>
+      <parameter name="pInput" type="Pointer" />
+      <parameter name="pOutput" type="Pointer" />
+      <parameter name="Size" type="Integer" />
+      <retval type="Integer" />
+    </parameters>
+  </function>
+  <function name="Base64EncodeStr" visibility="public">
+    <parameters>
+      <parameter name="Value" type="string" paramflags="const" />
+      <retval type="string" />
+    </parameters>
+  </function>
+  <function name="Base64Decode" visibility="public">
+    <parameters>
+      <parameter name="pInput" type="Pointer" />
+      <parameter name="pOutput" type="Pointer" />
+      <parameter name="Size" type="Integer" />
+      <retval type="Integer" />
+    </parameters>
+  </function>
+  <function name="Base64DecodeStr" visibility="public">
+    <parameters>
+      <parameter name="Value" type="string" paramflags="const" />
+      <retval type="string" />
+    </parameters>
+  </function>
+</namespace>

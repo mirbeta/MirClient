@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Green{fill:#039C23;}
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.White{fill:#FFFFFF;}
+	.Red{fill:#D11C1C;}
+	.st0{opacity:0.75;}
+</style>
+<g id="Businessman">
+	<path class="Black" d="M10,9.9c-0.1,0.5,0.2,0.9,0.4,1.4c0.2,0.5-0.1,1.7,0.9,1.6c0,0,0,0.1,0,0.2c0.6,2.3,2,4.9,4.7,4.9
+		c2.7,0,4.2-2.6,4.7-4.9c0,0,0-0.1,0-0.1c1,0.1,0.6-1.1,0.9-1.6c0.2-0.5,0.4-0.9,0.3-1.4c-0.1-0.4-0.4-0.4-0.5-0.3
+		c1.8-4.9-1.1-4.7-1.1-4.7S20,2,14.8,2C10,2,9.4,6,10.5,9.6C10.4,9.6,10.1,9.7,10,9.9z"/>
+	<path class="Black" d="M20,18l-2.4,7.9L17,22l0.6-2h-3.2l0.6,2l-0.6,3.9L12,18c-2.3,3.5-8,1-8,8.5V30h10h1h2h1h10v-3.5
+		C28,19.1,22.3,21.4,20,18z"/>
+</g>
+</svg>

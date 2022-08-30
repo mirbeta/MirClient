@@ -1,0 +1,25 @@
+In this demo you can:
+
+  - keep this window open while you experiment with the various editors
+
+  - focus on the Company entry and type the first character of its name to see a filtered dropdown list.
+
+  - focus on the Company Email entry and press the ellipsis button to send an email
+
+  - focus on the Car entry and type the first character of it's name to see a filtered dropdown list.
+
+  - display a calendar dropdown by editing a PurchaseDate
+
+  - edit a Time via the time spin edit
+
+  - display a calculator by editing a PaymentAmount
+
+  - change the PaymentType via a dropdown image list
+
+  - edit the Quantity via a spin edit
+
+  - focus on the CarInfo column and click on its button to display details and:
+ (1) edit the Trademark via the MRU editor
+ (2) edit the Category via the Radiogroup editor
+ (3) display a resizable image by focusing & clicking on the icon below the fixed image
+ (4) visit the manufacturer's website by double clicking on the URL

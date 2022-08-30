@@ -1,0 +1,69 @@
+object TcpSrvForm: TTcpSrvForm
+  Left = 544
+  Top = 164
+  Caption = 'TcpSrvIPv6Form'
+  ClientHeight = 277
+  ClientWidth = 397
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 544
+  Top = 164
+  object ToolPanel: TPanel
+    Align = alTop
+    Width = 397.000000000000000000
+    Height = 41.000000000000000000
+    TabOrder = 0
+  end
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,41)'
+    Width = 397.000000000000000000
+    Height = 236.000000000000000000
+    TabOrder = 1
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object WSocketServer1: TWSocketServer
+    LineMode = False
+    LineLimit = 65536
+    LineEnd = #13#10
+    LineEcho = False
+    LineEdit = False
+    SocketFamily = sfIPv4
+    Proto = 'tcp'
+    LocalAddr = '0.0.0.0'
+    LocalPort = '0'
+    MultiThreaded = False
+    MultiCast = False
+    MultiCastIpTTL = 1
+    FlushTimeout = 60
+    SendFlags = wsSendNormal
+    LingerOnOff = wsLingerOn
+    LingerTimeout = 0
+    KeepAliveOnOff = wsKeepAliveOff
+    KeepAliveTime = 0
+    KeepAliveInterval = 0
+    SocksLevel = '5'
+    SocksAuthentication = socksNoAuthentication
+    LastError = 0
+    ReuseAddr = False
+    ComponentOptions = []
+    ListenBacklog = 5
+    ReqVerLow = 2
+    ReqVerHigh = 2
+    OnSessionClosed = WSocketServer1SessionClosed
+    OnSessionAvailable = WSocketServer1SessionAvailable
+    OnBgException = WSocketServer1BgException
+    Banner = 'Welcome to TcpSrv'
+    BannerTooBusy = 'Sorry, too many clients'
+    MaxClients = 0
+    OnClientDisconnect = WSocketServer1ClientDisconnect
+    OnClientConnect = WSocketServer1ClientConnect
+    MultiListenSockets = <>
+    Left = 38
+    Top = 68
+  end
+end

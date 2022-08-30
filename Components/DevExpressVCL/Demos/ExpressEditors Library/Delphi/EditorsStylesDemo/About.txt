@@ -1,0 +1,13 @@
+This demo shows a selection of editors and controls so that you can see how they all work together using a selection of styles, look&feel and hint types.
+
+Each top level item in the left treelist, when focused, will display a different page on the right. The treelist's child rows show the editors and controls featured on the page. If you select a child row, the appropriate page will be displayed on the right and the borders of the selected control will flash in red making it obvious where the control resides on the page.
+
+Under the treelist, you will find text appropriate to the selected page.
+
+Each page has a different default style and hint type. These may be changed via the menu (except the Style Palette page - see below), either for a single or for all pages. Hints display the names of the controls in use and you have the option to turn the hints off (they can get in the way when looking more closely at controls).
+
+The Style Palette page has its own set of styles and is provided to display some of the special effects available.
+
+All the various hint display effects are provided by a central cxHintStyleController and this allows you to switch to/from standard hints via a single property.
+
+Note: this demo uses a range of styles, hint types and splitters for illustration purposes only. For real, you would select a consistent set.

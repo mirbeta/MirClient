@@ -1,0 +1,1247 @@
+object FtpReceiveForm: TFtpReceiveForm
+  Left = 227
+  Top = 183
+  Caption = 'FTP - http://www.overbyte.be'
+  ClientHeight = 596
+  ClientWidth = 634
+  Visible = False
+  OnCreate = FormCreate
+  OnClose = FormClose
+  StyleLookup = 'backgroundstyle'
+  Left = 227
+  Top = 183
+  object DisplayMemo: TMemo
+    Align = alClient
+    Position.Point = '(0,401)'
+    Width = 634.000000000000000000
+    Height = 195.000000000000000000
+    TabOrder = 0
+    Lines.Strings = (
+      'DisplayMemo')
+    KeyboardType = vktDefault
+  end
+  object Panel1: TPanel
+    Align = alTop
+    Position.Point = '(0,173)'
+    Width = 634.000000000000000000
+    Height = 228.000000000000000000
+    TabOrder = 1
+    object InfoLabel: TLabel
+      Position.Point = '(512,6)'
+      Width = 52.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 0
+      AutoSize = True
+      Text = 'InfoLabel'
+      WordWrap = False
+    end
+    object StateLabel: TLabel
+      Position.Point = '(512,25)'
+      Width = 105.000000000000000000
+      Height = 13.000000000000000000
+      TabOrder = 1
+      Text = 'StateLabel'
+      WordWrap = False
+    end
+    object Label7: TLabel
+      Position.Point = '(504,122)'
+      Width = 59.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 2
+      AutoSize = True
+      Text = 'Resume at'
+      WordWrap = False
+    end
+    object Label11: TLabel
+      Position.Point = '(504,142)'
+      Width = 51.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 3
+      AutoSize = True
+      Text = 'Start Pos'
+      WordWrap = False
+    end
+    object Label12: TLabel
+      Position.Point = '(504,162)'
+      Width = 46.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 4
+      AutoSize = True
+      Text = 'End Pos'
+      WordWrap = False
+    end
+    object Label13: TLabel
+      Position.Point = '(504,182)'
+      Width = 62.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 5
+      AutoSize = True
+      Text = 'Max KBytes'
+      WordWrap = False
+    end
+    object Label15: TLabel
+      Position.Point = '(504,202)'
+      Width = 55.500000000000000000
+      Height = 19.500000000000000000
+      TabOrder = 6
+      AutoSize = True
+      Text = 'Language'
+      WordWrap = False
+    end
+    object ExitButton: TButton
+      Position.Point = '(512,78)'
+      Width = 105.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ExitButtonClick
+      TabOrder = 7
+      Text = '&Exit Program'
+    end
+    object OpenAsyncButton: TButton
+      Position.Point = '(8,6)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = OpenAsyncButtonClick
+      TabOrder = 8
+      Text = 'Open'
+    end
+    object QuitAsyncButton: TButton
+      Position.Point = '(8,24)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = QuitAsyncButtonClick
+      TabOrder = 9
+      Text = 'Quit'
+    end
+    object CwdAsyncButton: TButton
+      Position.Point = '(254,6)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = CwdAsyncButtonClick
+      TabOrder = 10
+      Text = 'Cwd'
+    end
+    object UserAsyncButton: TButton
+      Position.Point = '(90,6)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = UserAsyncButtonClick
+      TabOrder = 11
+      Text = 'User'
+    end
+    object PassAsyncButton: TButton
+      Position.Point = '(172,6)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = PassAsyncButtonClick
+      TabOrder = 12
+      Text = 'Pass'
+    end
+    object ConnectAsyncButton: TButton
+      Position.Point = '(90,24)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ConnectAsyncButtonClick
+      TabOrder = 13
+      Text = 'Connect'
+    end
+    object GetAsyncButton: TButton
+      Position.Point = '(8,42)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = GetAsyncButtonClick
+      TabOrder = 14
+      Text = 'Get'
+    end
+    object ReceiveAsyncButton: TButton
+      Position.Point = '(8,60)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ReceiveAsyncButtonClick
+      TabOrder = 15
+      Text = 'Receive'
+    end
+    object AbortAsyncButton: TButton
+      Position.Point = '(172,24)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AbortAsyncButtonClick
+      TabOrder = 16
+      Text = 'Abort'
+    end
+    object DirAsyncButton: TButton
+      Position.Point = '(172,78)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = DirAsyncButtonClick
+      TabOrder = 17
+      Text = 'Dir'
+    end
+    object DirectoryAsyncButton: TButton
+      Position.Point = '(172,96)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = DirectoryAsyncButtonClick
+      TabOrder = 18
+      Text = 'Directory'
+    end
+    object LsAsyncButton: TButton
+      Position.Point = '(254,78)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = LsAsyncButtonClick
+      TabOrder = 19
+      Text = 'Ls'
+    end
+    object ListAsyncButton: TButton
+      Position.Point = '(254,96)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ListAsyncButtonClick
+      TabOrder = 20
+      Text = 'List'
+    end
+    object SystAsyncButton: TButton
+      Position.Point = '(418,6)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SystAsyncButtonClick
+      TabOrder = 21
+      Text = 'Syst'
+    end
+    object SystemAsyncButton: TButton
+      Position.Point = '(418,24)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SystemAsyncButtonClick
+      TabOrder = 22
+      Text = 'System'
+    end
+    object FileSizeAsyncButton: TButton
+      Position.Point = '(336,60)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = FileSizeAsyncButtonClick
+      TabOrder = 23
+      Text = 'FileSize'
+    end
+    object SizeAsyncButton: TButton
+      Position.Point = '(336,42)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SizeAsyncButtonClick
+      TabOrder = 24
+      Text = 'Size'
+    end
+    object MkdAsyncButton: TButton
+      Position.Point = '(418,42)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MkdAsyncButtonClick
+      TabOrder = 25
+      Text = 'Mkd'
+    end
+    object MkdirAsyncButton: TButton
+      Position.Point = '(418,60)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MkdirAsyncButtonClick
+      TabOrder = 26
+      Text = 'Mkdir'
+    end
+    object RmdAsyncButton: TButton
+      Position.Point = '(418,78)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RmdAsyncButtonClick
+      TabOrder = 27
+      Text = 'Rmd'
+    end
+    object RmdirAsyncButton: TButton
+      Position.Point = '(418,96)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RmdirAsyncButtonClick
+      TabOrder = 28
+      Text = 'Rmdir'
+    end
+    object RenAsyncButton: TButton
+      Position.Point = '(8,78)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RenAsyncButtonClick
+      TabOrder = 29
+      Text = 'Ren'
+    end
+    object RenameAsyncButton: TButton
+      Position.Point = '(8,96)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RenameAsyncButtonClick
+      TabOrder = 30
+      Text = 'Rename'
+    end
+    object DeleAsyncButton: TButton
+      Position.Point = '(90,78)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = DeleAsyncButtonClick
+      TabOrder = 31
+      Text = 'Dele'
+    end
+    object DeleteAsyncButton: TButton
+      Position.Point = '(90,96)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = DeleteAsyncButtonClick
+      TabOrder = 32
+      Text = 'Delete'
+    end
+    object PwdAsyncButton: TButton
+      Position.Point = '(254,24)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = PwdAsyncButtonClick
+      TabOrder = 33
+      Text = 'Pwd'
+    end
+    object QuoteAsyncButton: TButton
+      Position.Point = '(336,78)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = QuoteAsyncButtonClick
+      TabOrder = 34
+      Text = 'Quote'
+    end
+    object DoQuoteAsyncButton: TButton
+      Position.Point = '(336,96)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = DoQuoteAsyncButtonClick
+      TabOrder = 35
+      Text = 'DoQuote'
+    end
+    object PutAsyncButton: TButton
+      Position.Point = '(90,42)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = PutAsyncButtonClick
+      TabOrder = 36
+      Text = 'Put'
+    end
+    object TransmitAsyncButton: TButton
+      Position.Point = '(90,60)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = TransmitAsyncButtonClick
+      TabOrder = 37
+      Text = 'Transmit'
+    end
+    object TypeSetAsyncButton: TButton
+      Position.Point = '(336,6)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = TypeSetAsyncButtonClick
+      TabOrder = 38
+      Text = 'TypeSet'
+    end
+    object RestGetAsyncButton: TButton
+      Position.Point = '(172,42)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RestGetAsyncButtonClick
+      TabOrder = 39
+      Text = 'RestGet'
+    end
+    object RestartGetAsyncButton: TButton
+      Position.Point = '(172,60)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RestartGetAsyncButtonClick
+      TabOrder = 40
+      Text = 'RestartGet'
+    end
+    object CDupAsyncButton: TButton
+      Position.Point = '(336,24)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = CDupAsyncButtonClick
+      TabOrder = 41
+      Text = 'CDup'
+    end
+    object ClearButton: TButton
+      Position.Point = '(512,60)'
+      Width = 105.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ClearButtonClick
+      TabOrder = 42
+      Text = 'Clear Display'
+    end
+    object AppendFileAsyncButton: TButton
+      Position.Point = '(254,60)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AppendFileAsyncButtonClick
+      TabOrder = 43
+      Text = 'AppendFile'
+    end
+    object AppendAsyncButton: TButton
+      Position.Point = '(254,42)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AppendAsyncButtonClick
+      TabOrder = 44
+      Text = 'Append'
+    end
+    object Button1: TButton
+      Position.Point = '(512,42)'
+      Width = 105.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = Button1Click
+      TabOrder = 45
+      Text = 'Button1'
+    end
+    object RestPutAsyncButton: TButton
+      Position.Point = '(8,114)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RestPutAsyncButtonClick
+      TabOrder = 46
+      Text = 'RestPut'
+    end
+    object RestartPutAsyncButton: TButton
+      Position.Point = '(8,132)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = RestartPutAsyncButtonClick
+      TabOrder = 47
+      Text = 'RestartPut'
+    end
+    object ResumeAtEdit: TEdit
+      Position.Point = '(560,118)'
+      Width = 57.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 48
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'ResumeAtEdit'
+    end
+    object TransmitUsingStreamButton: TButton
+      Position.Point = '(336,114)'
+      Width = 163.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = TransmitUsingStreamButtonClick
+      TabOrder = 49
+      Text = 'Transmit using a stream'
+    end
+    object ReceiveUsingStreamButton: TButton
+      Position.Point = '(336,132)'
+      Width = 163.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ReceiveUsingStreamButtonClick
+      TabOrder = 50
+      Text = 'Receive using a stream'
+    end
+    object StressPutButton: TButton
+      Position.Point = '(512,96)'
+      Width = 105.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = StressPutButtonClick
+      TabOrder = 51
+      Text = 'Stress Put'
+    end
+    object AbortXferAsyncButton: TButton
+      Position.Point = '(254,114)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AbortXferAsyncButtonClick
+      TabOrder = 52
+      Text = 'AbortXfer'
+    end
+    object AuthSslButton: TButton
+      Position.Point = '(254,132)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      TabOrder = 53
+      Text = 'AuthSsl'
+    end
+    object AcctAsyncButton: TButton
+      Position.Point = '(90,114)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AcctAsyncButtonClick
+      TabOrder = 54
+      Text = 'Account'
+    end
+    object SiteExecAsyncButton: TButton
+      Position.Point = '(8,186)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SiteExecAsyncButtonClick
+      TabOrder = 55
+      Text = 'SiteExec'
+    end
+    object ClntAsyncButton: TButton
+      Position.Point = '(172,114)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ClntAsyncButtonClick
+      TabOrder = 56
+      Text = 'Client'
+    end
+    object MlsdAsyncButton: TButton
+      Position.Point = '(90,132)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MlsdAsyncButtonClick
+      TabOrder = 57
+      Text = 'MLSD'
+    end
+    object MlstAsyncButton: TButton
+      Position.Point = '(172,132)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MlstAsyncButtonClick
+      TabOrder = 58
+      Text = 'MLST'
+    end
+    object XCmlsdAsyncButton: TButton
+      Position.Point = '(90,168)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = XCmlsdAsyncButtonClick
+      TabOrder = 59
+      Text = 'XCMLSD'
+    end
+    object FeatAsyncButton: TButton
+      Position.Point = '(8,150)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = FeatAsyncButtonClick
+      TabOrder = 60
+      Text = 'Feat'
+    end
+    object XDmlsdAsyncButton: TButton
+      Position.Point = '(172,168)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = XDmlsdAsyncButtonClick
+      TabOrder = 61
+      Text = 'XDMLSD'
+    end
+    object Md5AsyncButton: TButton
+      Position.Point = '(254,150)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = Md5AsyncButtonClick
+      TabOrder = 62
+      Text = 'MD5'
+    end
+    object MdtmAsyncButton: TButton
+      Position.Point = '(90,150)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MdtmAsyncButtonClick
+      TabOrder = 63
+      Text = 'MDTM'
+    end
+    object XcrcAsyncButton: TButton
+      Position.Point = '(418,150)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = XcrcAsyncButtonClick
+      TabOrder = 64
+      Text = 'XCRC'
+    end
+    object MfmtAsyncButton: TButton
+      Position.Point = '(172,150)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = MfmtAsyncButtonClick
+      TabOrder = 65
+      Text = 'MFMT'
+    end
+    object SiteZoneAsyncButton: TButton
+      Position.Point = '(8,168)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SiteZoneAsyncButtonClick
+      TabOrder = 66
+      Text = 'SiteZone'
+    end
+    object SiteIndexAsyncButton: TButton
+      Position.Point = '(254,168)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SiteIndexAsyncButtonClick
+      TabOrder = 67
+      Text = 'SiteIndex'
+    end
+    object SitePaswdAsyncButton: TButton
+      Position.Point = '(336,168)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SitePaswdAsyncButtonClick
+      TabOrder = 68
+      Text = 'SitePaswd'
+    end
+    object SiteMsgAsyncButton: TButton
+      Position.Point = '(418,168)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SiteMsgAsyncButtonClick
+      TabOrder = 69
+      Text = 'SiteMsg'
+    end
+    object XMd5AsyncButton: TButton
+      Position.Point = '(336,150)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = XMd5AsyncButtonClick
+      TabOrder = 70
+      Text = 'XMD5'
+    end
+    object AlloAsyncButton: TButton
+      Position.Point = '(90,186)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = AlloAsyncButtonClick
+      TabOrder = 71
+      Text = 'Allo'
+    end
+    object PosStartEdit: TEdit
+      Position.Point = '(560,138)'
+      Width = 57.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 72
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PosStartEdit'
+    end
+    object PosEndEdit: TEdit
+      Position.Point = '(560,158)'
+      Width = 57.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 73
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'PosEndEdit'
+    end
+    object CombAsyncButton: TButton
+      Position.Point = '(172,186)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = CombAsyncButtonClick
+      TabOrder = 74
+      Text = 'Comb'
+    end
+    object OptsAsyncButton: TButton
+      Position.Point = '(254,186)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = OptsAsyncButtonClick
+      TabOrder = 75
+      Text = 'Opts'
+    end
+    object ModeZAsyncButton: TButton
+      Position.Point = '(336,186)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ModeZAsyncButtonClick
+      TabOrder = 76
+      Text = 'Mode Z'
+    end
+    object ModeSAsyncButton: TButton
+      Position.Point = '(418,186)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ModeSAsyncButtonClick
+      TabOrder = 77
+      Text = 'Mode S'
+    end
+    object MaxKB: TEdit
+      Position.Point = '(560,178)'
+      Width = 57.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 78
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'MaxKB'
+    end
+    object ConnectHostAsyncButton: TButton
+      Position.Point = '(8,204)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ConnectHostAsyncButtonClick
+      TabOrder = 79
+      Text = 'Connect Host'
+    end
+    object HostAsyncButton: TButton
+      Position.Point = '(90,204)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = HostAsyncButtonClick
+      TabOrder = 80
+      Text = 'Host'
+    end
+    object ReinAsyncButton: TButton
+      Position.Point = '(172,204)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ReinAsyncButtonClick
+      TabOrder = 81
+      Text = 'Reinitialize'
+    end
+    object LangAsyncButton: TButton
+      Position.Point = '(254,204)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = LangAsyncButtonClick
+      TabOrder = 82
+      Text = 'LANG'
+    end
+    object Lanugage: TEdit
+      Position.Point = '(560,200)'
+      Width = 57.000000000000000000
+      Height = 21.000000000000000000
+      TabOrder = 83
+      KeyboardType = vktDefault
+      Password = False
+      Text = 'EN'
+    end
+    object SleepButton: TButton
+      Position.Point = '(418,204)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = SleepButtonClick
+      TabOrder = 84
+      Text = 'Sleep(10 sec)'
+    end
+    object ConnectFeatButton: TButton
+      Position.Point = '(336,204)'
+      Width = 81.000000000000000000
+      Height = 17.000000000000000000
+      OnClick = ConnectFeatAsyncButtonClick
+      TabOrder = 85
+      Text = 'Connect Feat'
+    end
+  end
+  object SettingsPageControl: TTabControl
+    Align = alTop
+    Width = 634.000000000000000000
+    Height = 173.000000000000000000
+    TabOrder = 2
+    TabIndex = 0
+    TabHeight = 20.000000000000000000
+    object MainSettingsTabSheet: TTabItem
+      Width = 80.000000000000000000
+      Height = 20.000000000000000000
+      TabOrder = 0
+      Index = 0
+      TextAlign = taCenter
+      Text = 'Main'
+      WordWrap = False
+      object Panel2: TPanel
+        Align = alClient
+        Position.Point = '(2,2)'
+        Width = 630.000000000000000000
+        Height = 149.000000000000000000
+        Padding.Rect = '(2,2,2,2)'
+        StyleLookup = 'PanelWinStyle'
+        TabOrder = 0
+        object Label1: TLabel
+          Position.Point = '(11,12)'
+          Width = 60.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 0
+          AutoSize = True
+          Text = 'HostName'
+          WordWrap = False
+        end
+        object Label3: TLabel
+          Position.Point = '(20,95)'
+          Width = 50.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 1
+          AutoSize = True
+          Text = 'Host File'
+          WordWrap = False
+        end
+        object Label4: TLabel
+          Position.Point = '(11,39)'
+          Width = 59.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 2
+          AutoSize = True
+          Text = 'UserName'
+          WordWrap = False
+        end
+        object Label5: TLabel
+          Position.Point = '(216,40)'
+          Width = 55.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 3
+          AutoSize = True
+          Text = 'PassWord'
+          WordWrap = False
+        end
+        object Label2: TLabel
+          Position.Point = '(16,123)'
+          Width = 52.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 4
+          AutoSize = True
+          Text = 'Local File'
+          WordWrap = False
+        end
+        object Label6: TLabel
+          Position.Point = '(240,12)'
+          Width = 27.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 5
+          AutoSize = True
+          Text = 'Port'
+          WordWrap = False
+        end
+        object Label8: TLabel
+          Position.Point = '(7,63)'
+          Width = 62.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 6
+          AutoSize = True
+          Text = 'Port Range'
+          WordWrap = False
+        end
+        object Label9: TLabel
+          Position.Point = '(137,63)'
+          Width = 12.500000000000000000
+          Height = 15.500000000000000000
+          TabOrder = 7
+          Text = 'to'
+          WordWrap = False
+        end
+        object Label10: TLabel
+          Position.Point = '(224,64)'
+          Width = 46.500000000000000000
+          Height = 19.500000000000000000
+          TabOrder = 8
+          AutoSize = True
+          Text = 'Account'
+          WordWrap = False
+        end
+        object Label14: TLabel
+          Position.Point = '(501,96)'
+          Width = 53.000000000000000000
+          Height = 13.000000000000000000
+          TabOrder = 9
+          Text = 'CodePage:'
+          WordWrap = False
+        end
+        object Label16: TLabel
+          Position.Point = '(460,72)'
+          Width = 25.000000000000000000
+          Height = 13.000000000000000000
+          TabOrder = 10
+          Text = 'Opts:'
+          WordWrap = False
+        end
+        object HostNameEdit: TEdit
+          Position.Point = '(72,8)'
+          Width = 137.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 11
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'HostNameEdit'
+        end
+        object HostFileEdit: TEdit
+          Position.Point = '(212,92)'
+          Width = 261.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 12
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'HostFileEdit'
+        end
+        object UserNameEdit: TEdit
+          Position.Point = '(72,36)'
+          Width = 137.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 13
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'UserNameEdit'
+        end
+        object PassWordEdit: TEdit
+          Position.Point = '(276,36)'
+          Width = 137.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 14
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'PassWordEdit'
+        end
+        object DisplayCheckBox: TCheckBox
+          Position.Point = '(491,4)'
+          Width = 117.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 15
+          Text = 'Display Data'
+        end
+        object LocalFileEdit: TEdit
+          Position.Point = '(72,119)'
+          Width = 545.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 16
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'LocalFileEdit'
+        end
+        object BinaryCheckBox: TCheckBox
+          Position.Point = '(376,12)'
+          Width = 93.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 17
+          IsChecked = True
+          Text = 'Binary Mode'
+        end
+        object HostDirEdit: TEdit
+          Position.Point = '(72,92)'
+          Width = 137.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 18
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'HostDirEdit'
+        end
+        object PortEdit: TEdit
+          Position.Point = '(276,8)'
+          Width = 85.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 19
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'PortEdit'
+        end
+        object SyncCheckBox: TCheckBox
+          Position.Point = '(491,34)'
+          Width = 117.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 20
+          Text = 'Synchronous'
+        end
+        object PassiveCheckBox: TCheckBox
+          Position.Point = '(491,19)'
+          Width = 117.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 21
+          Text = 'Passive Mode'
+        end
+        object NoAutoResumeAtCheckBox: TCheckBox
+          Position.Point = '(491,49)'
+          Width = 117.000000000000000000
+          Height = 17.000000000000000000
+          TabOrder = 22
+          Text = 'NoAutoResumeAt'
+        end
+        object DataPortRangeStartEdit: TEdit
+          Position.Point = '(72,60)'
+          Width = 57.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 23
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'DataPortRangeStartEdit'
+        end
+        object DataPortRangeEndEdit: TEdit
+          Position.Point = '(156,60)'
+          Width = 53.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 24
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'DataPortRangeEndEdit'
+        end
+        object AccountEdit: TEdit
+          Position.Point = '(276,60)'
+          Width = 137.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 25
+          KeyboardType = vktDefault
+          Password = False
+          Text = 'AccountEdit'
+        end
+        object CodePageEdit: TEdit
+          Position.Point = '(560,92)'
+          Width = 57.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 26
+          KeyboardType = vktDefault
+          OnChange = CodePageEditChange
+          Password = False
+          Text = 'CodePageEdit'
+        end
+        object OptsEdit: TComboBox
+          Position.Point = '(491,69)'
+          Width = 126.000000000000000000
+          Height = 21.000000000000000000
+          TabOrder = 27
+          ItemIndex = 0
+          ItemHeight = 13.000000000000000000
+          object ListBoxItem1: TListBoxItem
+            Position.Point = '(5000,5000)'
+            Width = 101.000000000000000000
+            Height = 17.000000000000000000
+            HitTest = False
+            TabOrder = 0
+            IsSelected = True
+            Text = 'UTF8 ON'
+          end
+          object ListBoxItem2: TListBoxItem
+            Position.Point = '(0,13)'
+            Width = 106.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 1
+            Text = 'UTF8 OFF'
+          end
+          object ListBoxItem3: TListBoxItem
+            Position.Point = '(0,26)'
+            Width = 106.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 2
+            Text = 'MODE Z LEVEL 8'
+          end
+          object ListBoxItem4: TListBoxItem
+            Position.Point = '(0,39)'
+            Width = 106.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 3
+            Text = 'MODE Z LEVEL 4'
+          end
+          object ListBoxItem5: TListBoxItem
+            Position.Point = '(0,52)'
+            Width = 106.000000000000000000
+            Height = 13.000000000000000000
+            HitTest = False
+            TabOrder = 4
+            Text = 'MODE Z LEVEL 2'
+          end
+        end
+      end
+    end
+    object ConnectionTypeTabSheet: TTabItem
+      Position.Point = '(80,0)'
+      Width = 100.000000000000000000
+      Height = 20.000000000000000000
+      TabOrder = 1
+      Index = 1
+      TextAlign = taCenter
+      Text = 'Connection Type'
+      WordWrap = False
+      object Label22: TLabel
+        Position.Point = '(39,10)'
+        Width = 30.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 0
+        AutoSize = True
+        Text = 'Type'
+        WordWrap = False
+      end
+      object Label23: TLabel
+        Position.Point = '(225,11)'
+        Width = 90.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 1
+        AutoSize = True
+        Text = 'HTTP proxy auth.'
+        WordWrap = False
+      end
+      object Label18: TLabel
+        Position.Point = '(14,37)'
+        Width = 58.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 2
+        AutoSize = True
+        Text = 'Proxy host'
+        WordWrap = False
+      end
+      object Label19: TLabel
+        Position.Point = '(16,63)'
+        Width = 58.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 3
+        AutoSize = True
+        Text = 'Proxy port'
+        WordWrap = False
+      end
+      object Label20: TLabel
+        Position.Point = '(260,37)'
+        Width = 57.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 4
+        AutoSize = True
+        Text = 'Proxy user'
+        WordWrap = False
+      end
+      object Label21: TLabel
+        Position.Point = '(235,64)'
+        Width = 84.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 5
+        AutoSize = True
+        Text = 'Proxy password'
+        WordWrap = False
+      end
+      object Label17: TLabel
+        Position.Point = '(16,92)'
+        Width = 450.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 6
+        AutoSize = True
+        Text = 
+          'Note: Property Passive is set (overwritten) when HTTP or SOCKS p' +
+          'roxy connection is used.'
+        WordWrap = False
+      end
+      object Label24: TLabel
+        Position.Point = '(16,106)'
+        Width = 481.500000000000000000
+        Height = 19.500000000000000000
+        TabOrder = 7
+        AutoSize = True
+        Text = 
+          'The ftpProxy connection-type supports type USER@HOST FTP-proxies' +
+          ', active or passive mode. '
+        WordWrap = False
+      end
+      object ProxyTypeComboBox: TComboBox
+        Position.Point = '(71,8)'
+        Width = 145.000000000000000000
+        Height = 21.000000000000000000
+        TabOrder = 8
+        ItemIndex = -1
+        OnChange = ProxyTypeComboBoxCloseUp
+      end
+      object ProxyHttpAuthTypeComboBox: TComboBox
+        Position.Point = '(317,8)'
+        Width = 145.000000000000000000
+        Height = 21.000000000000000000
+        TabOrder = 9
+        ItemIndex = -1
+        OnChange = ProxyHttpAuthTypeComboBoxCloseUp
+      end
+      object ProxyHostEdit: TEdit
+        Position.Point = '(71,34)'
+        Width = 145.000000000000000000
+        Height = 21.000000000000000000
+        TabOrder = 10
+        KeyboardType = vktDefault
+        Password = False
+        Text = 'ProxyHostEdit'
+      end
+      object ProxyPortEdit: TEdit
+        Position.Point = '(71,61)'
+        Width = 56.000000000000000000
+        Height = 21.000000000000000000
+        TabOrder = 11
+        KeyboardType = vktDefault
+        Password = False
+        Text = 'ProxyPortEdit'
+      end
+      object ProxyUserEdit: TEdit
+        Position.Point = '(317,34)'
+        Width = 145.000000000000000000
+        Height = 21.000000000000000000
+        TabOrder = 12
+        KeyboardType = vktDefault
+        Password = False
+        Text = 'ProxyUserEdit'
+      end
+      object ProxyPasswordEdit: TEdit
+        Position.Point = '(317,60)'
+        Width = 145.000000000000000000
+        Height = 21.000000000000000000
+        TabOrder = 13
+        KeyboardType = vktDefault
+        Password = False
+        Text = 'ProxyPasswordEdit'
+      end
+    end
+  end
+  object StyleBook1: TStyleBook
+    Resource.Strings = (
+      'object _1: TLayout'
+      '  Align = alClient'
+      '  Position.Point = '#39'(0,33)'#39
+      '  Width = 840.000000000000000000'
+      '  Height = 708.000000000000000000'
+      '  object TRectangle'
+      '    StyleName = '#39'PanelWinStyle'#39
+      '    Position.Point = '#39'(395,329)'#39
+      '    Width = 50.000000000000000000'
+      '    Height = 50.000000000000000000'
+      '    HitTest = False'
+      '    Fill.Color = claWhite'
+      '    Stroke.Color = xFF8E8E8E'
+      '    Sides = []'
+      '  end'
+      '  object TRectangle'
+      '    StyleName = '#39'PanelMacStyle'#39
+      '    Position.Point = '#39'(395,329)'#39
+      '    Width = 50.000000000000000000'
+      '    Height = 50.000000000000000000'
+      '    HitTest = False'
+      '    Fill.Kind = bkGradient'
+      '    Fill.Gradient.Points = <'
+      '      item'
+      '        Color = xFFFAFAFA'
+      '      end'
+      '      item'
+      '        Color = xFFF0F0F0'
+      '        Offset = 0.165467619895935100'
+      '      end'
+      '      item'
+      '        Color = xFFECECEC'
+      '        Offset = 0.841726601123809800'
+      '      end'
+      '      item'
+      '        Color = xFFD8D8D8'
+      '        Offset = 1.000000000000000000'
+      '      end>'
+      '    Stroke.Color = xFF8E8E8E'
+      '    Sides = []'
+      '  end'
+      'end')
+    Left = 112
+    Top = 445
+  end
+  object FtpClient1: TFtpClient
+    Timeout = 15
+    MultiThreaded = False
+    Port = 'ftp'
+    CodePage = 0
+    DataPortRangeStart = 0
+    DataPortRangeEnd = 0
+    LocalAddr = '0.0.0.0'
+    DisplayFileFlag = False
+    Binary = True
+    ShareMode = ftpShareDenyWrite
+    Options = [ftpAcceptLF]
+    ConnectionType = ftpDirect
+    ProxyPort = 'ftp'
+    Language = 'EN'
+    OnDisplayFile = FtpClient1DisplayFile
+    OnProgress64 = FtpClient1Progress64
+    OnSessionConnected = FtpClient1SessionConnected
+    OnSessionClosed = FtpClient1SessionClosed
+    OnRequestDone = FtpClient1RequestDone
+    OnStateChange = FtpClient1StateChange
+    BandwidthLimit = 10000
+    BandwidthSampling = 1000
+    SocketFamily = sfAny
+    Left = 38
+    Top = 446
+  end
+end

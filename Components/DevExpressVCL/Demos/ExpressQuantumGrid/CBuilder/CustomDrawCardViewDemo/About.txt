@@ -1,0 +1,9 @@
+In this demo you can:
+
+- experiment by using the supplied background images or load one of your own
+
+- check out the look of various gradient fill options
+
+- see how the gender field is used to change how each card is displayed
+
+- use the Font option together with one of the other options (except for default drawing)

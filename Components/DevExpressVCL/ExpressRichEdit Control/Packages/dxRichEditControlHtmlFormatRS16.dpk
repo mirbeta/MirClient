@@ -1,0 +1,75 @@
+package dxRichEditControlHtmlFormatRS16;
+
+{$R *.res}
+{$IFDEF DXDEBUGMODE}
+  {$DEBUGINFO ON}
+  {$LOCALSYMBOLS ON}
+  {$OPTIMIZATION OFF}
+  {$STACKFRAMES ON}
+{$ELSE}
+  {$DEBUGINFO OFF}
+  {$LOCALSYMBOLS OFF}
+  {$OPTIMIZATION ON}
+  {$STACKFRAMES OFF}
+{$ENDIF}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'ExpressRichEdit Control - HTML format support by Developer Express Inc.'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx,
+  vclie,
+  dbrtl,
+  dxCoreRS16,
+  cxLibraryRS16,
+  dxCloudServiceLibraryRS16,
+  dxGDIPlusRS16,
+  dxRichEditCoreRS16,
+  dxRichEditDocumentModelRS16,
+  dxRichEditControlCoreRS16,
+  dxRichEditControlRS16;
+
+contains
+  dxRichEdit.Export.Html.Classes,
+  dxRichEdit.Export.Html.ContentExporter,
+  dxRichEdit.Export.Html.DocumentExporter,
+  dxRichEdit.Export.Html,
+  dxRichEdit.Export.Html.Types,
+  dxRichEdit.Export.Html.Utils,
+  dxRichEdit.Html,
+  dxRichEdit.Import.Html.CSSParser,
+  dxRichEdit.Import.Html.DocumentImporter,
+  dxRichEdit.Import.Html.DocumentTags,
+  dxRichEdit.Import.Html.FormattingTags,
+  dxRichEdit.Import.Html.FormTags,
+  dxRichEdit.Import.Html.FrameTags,
+  dxRichEdit.Import.Html.HTMLParser,
+  dxRichEdit.Import.Html.HtmlTags,
+  dxRichEdit.Import.Html.ImageTags,
+  dxRichEdit.Import.Html.NumberingListTags,
+  dxRichEdit.Import.Html.ObjectTags,
+  dxRichEdit.Import.Html,
+  dxRichEdit.Import.Html.TableTags,
+  dxRichEdit.Import.Html.TagBase,
+  dxRichEdit.Import.Html.TextTags;
+
+end.

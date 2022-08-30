@@ -1,0 +1,71 @@
+<ScaleStyle Type = "Circular" Name = "RedNeedle">
+  <CompositeShape>
+    <Canvas Name="_1_design" Width="250" Height="250">
+      <Canvas Name="BackgroundLayer1" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Path Name="Path" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0" Fill="#FFE7E7E7" Data="M 125,0C 194.04,0 250,55.96 250,125C 250,194.04 194.04,250 125,250C 55.96,250 0,194.04 0,125C 0,55.96 55.96,0 125,0 Z M 125,14C 63.7,14 14,63.7 14,125C 14,186.3 63.7,236 125,236C 186.3,236 236,186.3 236,125C 236,63.7 186.3,14 125,14 Z" />
+        <Ellipse Name="Ellipse" Width="234" Height="234" Canvas.Left="8" Canvas.Top="8" Fill="#FFE7E7E7" />
+        <Path Name="Path_0" Width="218" Height="204.85" Canvas.Left="16" Canvas.Top="16" Fill="#FF565656" Data="M 125,16C 185.2,16 234,64.8 234,125C 234,166.39 210.93,202.39 176.95,220.85L 176,219.09C 209.36,200.97 232,165.63 232,125C 232,65.91 184.09,18 125,18C 65.91,18 18,65.91 18,125C 18,165.42 40.42,200.61 73.5,218.81L 72.53,220.56C 38.84,202.02 16,166.18 16,125C 16,64.8 64.8,16 125,16 Z" />
+        <Path Name="Path_1" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0" Fill="#FF9C9C9C" Data="M 125,0C 194.04,0 250,55.96 250,125C 250,194.04 194.04,250 125,250C 55.96,250 0,194.04 0,125C 0,55.96 55.96,0 125,0 Z M 125,1C 56.52,1 1,56.52 1,125C 1,193.48 56.52,249 125,249C 193.48,249 249,193.48 249,125C 249,56.52 193.48,1 125,1 Z" />
+        <Path Name="Path_2" Width="58" Height="143.43" Canvas.Left="176" Canvas.Top="77.4" Fill="#FFFF5000" Data="M 234,124.98C 234,166.37 210.93,202.37 176.95,220.83L 176,219.07C 209.36,200.95 232,165.61 232,124.98C 232,108.47 228.26,92.83 221.58,78.86C 222.08,78.38 222.59,77.89 223.09,77.4C 230.08,91.78 234,107.92 234,124.98 Z" />
+      </Canvas>
+      <Canvas Name="Tick1" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Rectangle Name="Rectangle" Width="2" Height="1" Canvas.Left="4" Canvas.Top="28" Fill="#FF000000" />
+      </Canvas>
+      <Canvas Name="Tick2" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Path Name="Path_101" Width="6" Height="3" Canvas.Left="4" Canvas.Top="21" Fill="#FF000000" Data="M 10,24L 7,24L 4,22.5L 7,21L 10,21L 10,24 Z" />
+      </Canvas>
+      <Canvas Name="Tick2" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Path Name="Path_101" Width="6" Height="3" Canvas.Left="4" Canvas.Top="21" Fill="#FF000000" Data="M 7,24L 4,24L 10,22.5L 4,21L 7,21L 7,24 Z" />
+      </Canvas>
+      <Canvas Name="Tick3" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Path Name="Path_102" Width="3.77" Height="2.83" Canvas.Left="4" Canvas.Top="14" Fill="#FF565656" Data="M 8,16.5L 8,14L 4,15.5L 8,16.5 Z" />
+      </Canvas>
+      <Canvas Name="Tick4" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Path Name="Path_103" Width="8" Height="6" Canvas.Left="4" Canvas.Top="4" Fill="#FF565656" Data="M 12,10L 12,4L 4,7L 12,10 Z" />
+      </Canvas>
+      <Canvas Name="Needle" Width="250" Height="250" Canvas.Left="0" Canvas.Top="0">
+        <Path Name="Path_104" Width="106" Height="6" Canvas.Left="125" Canvas.Top="122" Fill="#FFBD6E6E" Data="M 125,128C 151.01,127.62 211.54,126.48 231,126C 231,125 231,124 231,124L 125,122L 125,128 Z" />
+        <Ellipse Name="Ellipse_105" Width="20" Height="20" Canvas.Left="115" Canvas.Top="115" Fill="#FFBD6E6E" />
+        <Ellipse Name="Ellipse_106" Width="12" Height="12" Canvas.Left="119" Canvas.Top="119" Fill="#FFBD6E6E" />
+      </Canvas>
+    </Canvas>
+  </CompositeShape>
+  <DefaultParameters>
+	<CircularScale>
+		<Font>
+			<Color Value="Black"/> 
+			<Name Value="Tahoma"/> 
+			<Size Value="12"/>
+		</Font>    
+		<Labels> 
+			<Offset Value="-6"/>
+			<ShowLabels Value="True"/>
+		</Labels>
+		<TicksVisibility>
+			<AllowOverlapMajorTicks Value="False"/> 	
+			<ShowFirstTick Value="True"/>
+			<ShowLastTick Value="True"/>
+			<ShowTicks Value="True"/>
+		</TicksVisibility>
+		<MajorTicks>	
+			<Count Value="11"/>
+			<Offset Value="-6.1"/>
+			<ScaleFactor Value="0.7, 0.9"/>
+			<TickType Value="Tick4"/>
+		</MajorTicks>
+		<MinorTicks>	
+			<Count Value="4"/>
+			<Offset Value="-3.1"/>
+			<ScaleFactor Value="0.7, 1.1"/>
+			<TickType Value="Tick3"/>
+		</MinorTicks>
+		<Needle>
+			<StartOffset Value="-9.5"/>
+			<EndOffset Value="5"/>
+		</Needle>
+		<AngleStart Value="240"/>		
+		<AngleEnd Value="-60"/>
+		<ArcRadiusFactor Value="0.856"/>
+	</CircularScale>		
+  </DefaultParameters>
+<ScaleStyle>

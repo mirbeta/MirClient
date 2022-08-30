@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+</style>
+<g id="Слой_2">
+	<g>
+		<g>
+			<polygon class="Black" points="10,4 4,12 8,12 8,28 12,28 12,12 16,12 			"/>
+		</g>
+	</g>
+	<path class="Blue" d="M24,20l0-16h-4v16h-4l6,8l6-8H24z"/>
+</g>
+</svg>

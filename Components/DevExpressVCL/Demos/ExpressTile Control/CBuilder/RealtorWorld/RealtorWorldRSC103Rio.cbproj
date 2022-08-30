@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C7765C05-59B0-4326-B3D8-592382770374}</ProjectGuid>
+    <ProjectVersion>14.6</ProjectVersion>
+    <MainSource>RealtorWorld.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Base</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <Multithreaded>true</Multithreaded>
+    <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;vcldb.lib;dbrtl.lib;adortl.lib;cxLibraryRS26.lib;dxCoreRS26.lib;dxGDIPlusRS26.lib;dsnap.lib;vclx.lib;dxTileControlRS26.lib;dxSkinsCoreRS26.lib;cxExportRS26.lib;cxGridRS26.lib;dxServerModeRS26.lib;cxPivotGridRS26.lib;dxmdsRS26.lib;psapi.lib;dxComnRS26.lib;dxSpreadSheetRS26.lib;dxSpreadSheetCoreRS26.lib;dxSpreadSheetCoreDialogsRS26.lib;</AllPackageLibs>
+    <LinkPackageImports></LinkPackageImports>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+   <IncludePath>$(IncludePath);..\Common;..</IncludePath>
+   <ILINK_LibraryPath>$(ILINK_LibraryPath);..\Common;..</ILINK_LibraryPath>
+    <DCC_Namespace>WinApi;Vcl;System;System.Win;Vcl.Imaging;Data;Data.Win;Bde;Xml;Xml.Win;Vcl.Shell;VclTee;Datasnap;IBX;Vcl.Samples;$(DCC_Namespace)</DCC_Namespace>
+    <BCC_wpar>false</BCC_wpar>
+  </PropertyGroup>
+  <ItemGroup>
+    <ResFiles Include="RealtorWorld.res">
+    </ResFiles>
+    <CppCompile Include="RealtorWorld.cpp"> </CppCompile>
+    <CppCompile Include="RealtorWorldDM.cpp">
+      <Form>DMRealtorWorld</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldMain.cpp">
+      <Form>frmRealtorWorld</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldUnderConstruction.cpp">
+      <Form>frmUnderConstruction</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldListing.cpp">
+      <Form>frmListing</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldMortgageRate.cpp">
+      <Form>frmMortgageRate</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldResearch.cpp">
+      <Form>frmResearch</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldAgents.cpp">
+      <Form>frmAgents</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldStatistic.cpp">
+      <Form>frmStatistic</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldLoanCalculator.cpp">
+      <Form>frmLoanCalculator</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldBaseFrame.cpp">
+      <Form>frmBase</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldHomePhotosBase.cpp">
+      <Form>frmHomePhotosBase</Form>
+    </CppCompile>
+    <CppCompile Include="RealtorWorldSystemInformation.cpp">
+      <Form>frmSystemInformation</Form>
+    </CppCompile>
+    <FormResources Include="RealtorWorldDM.dfm" />
+    <FormResources Include="RealtorWorldMain.dfm" />
+    <FormResources Include="RealtorWorldUnderConstruction.dfm" />
+    <FormResources Include="RealtorWorldListing.dfm" />
+    <FormResources Include="RealtorWorldMortgageRate.dfm" />
+    <FormResources Include="RealtorWorldResearch.dfm" />
+    <FormResources Include="RealtorWorldAgents.dfm" />
+    <FormResources Include="RealtorWorldStatistic.dfm" />
+    <FormResources Include="RealtorWorldLoanCalculator.dfm" />
+    <FormResources Include="RealtorWorldBaseFrame.dfm" />
+    <FormResources Include="RealtorWorldHomePhotosBase.dfm" />
+    <FormResources Include="RealtorWorldSystemInformation.dfm" />  </ItemGroup>
+  <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+      <CPlusPlusBuilder.Personality>
+      </CPlusPlusBuilder.Personality>
+      <Platforms>
+        <Platform value="Win32">True</Platform>
+        <Platform value="Win64">True</Platform>
+      </Platforms>
+    </BorlandProject>
+    <ProjectFileVersion>12</ProjectFileVersion>
+  </ProjectExtensions>
+</Project>

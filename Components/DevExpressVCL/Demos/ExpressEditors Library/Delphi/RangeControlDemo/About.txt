@@ -1,0 +1,22 @@
+In this demo, you can:
+
+Try the three built-in clients for numeric range selection, date-time range selection, and date-time range selection via clickable intervals.
+
+Adjust a range in any of the following ways:
+ - Drag two selection thumbs to mark the lower and upper bounds;
+ - Drag the mouse within the client area to mark new bounds;
+ - Drag the current selection within the area to move both the bounds simultaneously;
+ - Drag the selection scroll thumb of the Zoom&Scroll bar located at the control's bottom edge;
+ - In the DateHeader client, click any header displayed by the ruler to select the range specified by the header's caption.
+
+Zoom the selection in/out by:
+ - Using the mouse wheel while holding down the Ctrl key.
+ - Dragging the zoom grips of the Zoom&Scroll bar.
+
+Specify the manner in which range controls visualize values - lines, area, or bars.
+
+Switch the visibility of scales and customize their interval.
+
+Toggle the animation and change the visibility of other range elements (the Options menu item).
+
+Apply different paint styles to a form (the Look&Feel menu item).

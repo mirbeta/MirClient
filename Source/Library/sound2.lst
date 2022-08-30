@@ -1,0 +1,1078 @@
+1:	wav\1.wav
+2:	wav\2.wav
+3:	wav\3.wav
+4:	wav\4.wav
+5:	wav\5.wav
+6:	wav\6.wav
+7:	wav\7.wav
+8:	wav\8.wav
+9:	wav\9.wav
+10:	wav\10.wav
+11:	wav\11.wav
+12:	wav\12.wav
+13:	wav\13.wav
+14:	wav\14.wav
+15:	wav\15.wav
+16:	wav\16.wav
+17:	wav\17.wav
+18:	wav\18.wav
+19:	wav\19.wav
+20:	wav\20.wav
+21:	wav\21.wav
+22:	wav\22.wav
+23:	wav\23.wav
+24:	wav\24.wav
+25:	wav\25.wav
+26:	wav\26.wav
+27:	wav\27.wav
+28:	wav\28.wav
+29:	wav\29.wav
+30:	wav\30.wav
+31:	wav\31.wav
+32:	wav\32.wav
+48: 	wav\M42-2.wav
+49: 	wav\game-over2.wav
+50:	wav\50.wav
+51:	wav\51.wav
+52:	wav\52.wav
+53:	wav\53.wav
+54:	wav\54.wav
+55:	wav\55.wav
+56:	wav\56.wav
+57:	wav\57.wav
+60:	wav\60.wav
+61:	wav\61.wav
+62:	wav\62.wav
+63:	wav\63.wav
+64:	wav\64.wav
+65:	wav\65.wav
+70:	wav\70.wav
+71:	wav\71.wav
+72:	wav\72.wav
+73:	wav\73.wav
+80:	wav\80.wav
+81:	wav\81.wav
+82:	wav\82.wav
+83:	wav\83.wav
+91: 	wav\91.wav
+92: 	wav\92.wav
+100:	wav\100.wav
+101:	wav\101.wav
+102:	wav\102.wav
+103:	wav\103.wav
+104:	wav\104.wav
+105:	wav\105.wav
+106:	wav\106.wav
+107:	wav\107.wav
+108:	wav\108.wav
+109:	wav\109.wav
+110:    wav\110.wav
+111:    wav\111.wav
+112:    wav\112.wav
+113:    wav\113.wav
+114:    wav\114.wav
+115:    wav\115.wav
+116:    wav\116.wav
+117:    wav\117.wav
+118:    wav\118.wav
+122:    wav\122.wav
+123:    wav\123.wav
+124:    wav\124.wav
+125:    wav\125.wav
+126:    wav\126.wav
+130:    wav\M7-1.wav
+131:    wav\M7-2.wav
+132:    wav\M12-1.wav
+133:    wav\M25-1.wav
+134:    wav\M27-L.wav
+135:    wav\M27-R.wav
+136:    wav\M26-1.wav
+137:    wav\M26-3.wav
+138:    wav\138.wav
+139:    wav\139.wav
+140:    wav\M34-1.wav    
+141:    wav\M38-0.wav    
+142:    wav\M38-1.wav    
+143:
+144:    wav\144.wav
+145:    wav\145.wav
+;;Dungeon01(Old)~08
+;;160:    wav\160-1.wav
+;;161:    wav\160-2.wav
+;;162:    wav\162.wav    
+;;163:    wav\163.wav
+;;164:    wav\164.wav
+;;165:    wav\165.wav
+;;166:    wav\166.wav
+;;167:    wav\167.wav
+;;168:    wav\168.wav
+;;Field01(Old)~04
+;;169:    wav\169-1.wav
+;;170:    wav\169-2.wav
+;;171:    wav\171.wav
+;;172:    wav\172.wav
+;;173:    wav\173.wav
+
+
+210:   
+211:    wav\210-1.wav
+212:    wav\210-2.wav
+213:
+214:    wav\210-4.wav
+215:    wav\210-5.wav
+291:    wav\290-1.wav
+292:    wav\290-2.wav
+293:
+294:    wav\290-4.wav
+295:    wav\290-5.wav
+300:    wav\300-1.wav
+301:    wav\300-1.wav
+302:    wav\300-2.wav
+303:
+304:    wav\300-4.wav
+305:    wav\300-5.wav
+400:
+401:    wav\400-1.wav
+402:    wav\400-2.wav
+403:    wav\400-3.wav
+404:    wav\400-4.wav
+405:    wav\400-5.wav
+410:
+411:    wav\410-1.wav
+412:    wav\410-2.wav
+413:
+414:    wav\410-4.wav
+415:    wav\410-5.wav
+420:
+421:    wav\420-1.wav
+422:    wav\420-2.wav
+423:
+424:    wav\420-4.wav
+425:    wav\420-5.wav
+430:
+431:    wav\430-1.wav
+432:    wav\430-2.wav
+433:    wav\430-3.wav
+434:    wav\430-4.wav
+435:    wav\430-5.wav
+440:
+441:    wav\440-1.wav
+442:    wav\440-2.wav
+443:
+444:    wav\440-4.wav
+445:    wav\440-5.wav
+450:
+451:    wav\450-1.wav
+452:    wav\450-2.wav
+453:    wav\450-3.wav
+454:    wav\450-4.wav
+455:    wav\450-5.wav
+460:
+461:    wav\460-1.wav
+462:    wav\460-2.wav
+463:    wav\460-3.wav
+464:    wav\460-4.wav
+465:    wav\460-5.wav
+470:
+471:    wav\470-1.wav
+472:    wav\470-2.wav
+473:
+474:    wav\470-4.wav
+475:    wav\470-5.wav
+480:
+481:    wav\480-1.wav
+482:    wav\480-2.wav
+483:
+484:    wav\480-4.wav
+485:    wav\480-5.wav
+490:
+491:    wav\490-1.wav
+492:    wav\490-2.wav
+493:
+494:    wav\490-4.wav
+495:    wav\490-5.wav
+500:
+501:    wav\500-1.wav
+502:    wav\500-2.wav
+503:
+504:    wav\500-4.wav
+505:    wav\500-5.wav
+510:
+511:    wav\510-1.wav
+512:    wav\510-2.wav
+513:
+514:    wav\510-4.wav
+515:    wav\510-5.wav    
+520:
+521:    wav\520-1.wav
+522:    wav\520-2.wav
+523:
+524:    wav\520-4.wav
+525:    wav\520-5.wav
+530:
+531:    wav\530-1.wav
+532:    wav\530-2.wav
+533:
+534:    wav\530-4.wav
+535:    wav\530-5.wav
+540:
+541:    wav\540-1.wav
+542:    wav\540-2.wav
+543:    wav\540-3.wav
+544:    wav\540-4.wav
+545:    wav\540-5.wav
+560:
+561:    wav\560-1.wav
+562:    wav\560-2.wav
+563:
+564:    wav\560-4.wav
+565:    wav\560-5.wav
+570:    wav\M17-3.wav
+571:
+572:    wav\54.wav
+573:    wav\64.wav
+574:
+575:    wav\570-5.wav
+580:
+581:    wav\580-1.wav
+582:    wav\580-2.wav
+583:
+584:    wav\580-4.wav
+585:    wav\580-5.wav
+590:
+591:    wav\590-1.wav
+592:    wav\590-2.wav
+593:
+594:    wav\590-4.wav
+595:    wav\590-5.wav
+600:
+601:    wav\600-1.wav
+602:    wav\600-2.wav
+603:
+604:    wav\600-4.wav
+605:    wav\600-5.wav
+610:
+611:    wav\610-1.wav
+612:    wav\610-2.wav
+613:
+614:    wav\610-4.wav
+615:    wav\610-5.wav
+620:
+621:    wav\620-1.wav
+622:    wav\620-2.wav
+623:
+624:    wav\620-4.wav
+625:    wav\620-5.wav
+630:
+631:    wav\630-1.wav
+632:    wav\630-2.wav
+633:
+634:    wav\630-4.wav
+635:    wav\630-5.wav
+640:
+641:    wav\640-1.wav
+642:    wav\640-2.wav
+643:
+644:    wav\640-4.wav
+645:    wav\640-5.wav
+650:
+651:    wav\650-1.wav
+652:    wav\650-2.wav
+653:
+654:    wav\650-4.wav
+655:    wav\650-5.wav
+660:
+661:    wav\660-1.wav
+662:    wav\660-2.wav
+663:
+664:    wav\660-4.wav
+665:    wav\660-5.wav
+670:
+671:    wav\670-1.wav
+672:    wav\670-2.wav
+673:
+674:    wav\670-4.wav
+675:    wav\670-5.wav
+680:    
+681:    wav\680-1.wav
+682:    wav\680-2.wav
+683:
+684:    wav\680-4.wav
+685:    wav\680-5.wav
+690:    
+691:    wav\680-1.wav
+692:    wav\680-2.wav
+693:
+694:    wav\680-4.wav
+695:    wav\680-5.wav
+700:    wav\700-0.wav
+701:    wav\700-1.wav
+702:    wav\700-2.wav
+703:
+704:    wav\700-4.wav
+705:    wav\700-5.wav
+710:    wav\710-0.wav
+711:    wav\710-1.wav
+712:    wav\710-2.wav
+713:
+714:    wav\710-4.wav
+715:    wav\710-5.wav
+720:    wav\710-0.wav
+721:    wav\720-1.wav
+722:    wav\720-2.wav
+723:
+724:    wav\720-4.wav
+725:    wav\720-5.wav
+730:    wav\710-0.wav
+731:    wav\730-1.wav
+732:    wav\730-2.wav
+733:
+734:    wav\730-4.wav
+735:    wav\730-5.wav
+810:
+811:    wav\810-1.wav
+812:    wav\810-2.wav
+813:
+814:    wav\810-4.wav
+815:    wav\810-5.wav
+820:
+821:    wav\820-1.wav
+822:    wav\820-2.wav
+823:
+824:    wav\820-4.wav
+825:
+830:    wav\830-0.wav
+831:    wav\830-1.wav
+832:    wav\830-2.wav
+833:
+834:    wav\830-4.wav
+835:    wav\830-5.wav
+900:
+901:    wav\900-1.wav
+902:    wav\900-2.wav
+903:
+904:    wav\900-4.wav
+905:    wav\900-5.wav
+930:
+931:    wav\930-1.wav
+932:    wav\930-2.wav
+933:
+934:    wav\930-4.wav
+935:    wav\930-5.wav
+940:    wav\940-0.wav
+941:    wav\940-1.wav
+942:    wav\940-2.wav
+943:    wav\940-3.wav
+944:    wav\940-4.wav
+945:    wav\940-5.wav
+1000:
+1001:
+1002:   wav\1000-2.wav
+1003:
+1004:
+1005:   wav\1000-5.wav
+1006:   wav\1000-6.wav
+1010:
+1011:   wav\1010-1.wav
+1012:   wav\1010-2.wav
+1013:
+1014:   wav\1010-4.wav
+1015:   wav\1010-5.wav
+1020:
+1021:   wav\1020-1.wav
+1022:   wav\1020-2.wav
+1023:
+1024:   wav\1020-4.wav
+1025:   wav\1020-5.wav
+1030:
+1031:
+1032:   wav\1030-2.wav
+1033:
+1034:
+1035:   wav\1030-5.wav
+1100:
+1101:   wav\1100-1.wav
+1102:   wav\1100-2.wav
+1103:
+1104:   wav\1100-4.wav
+1105:   wav\1100-5.wav
+1110:
+1111:   wav\1110-1.wav
+1112:   wav\1110-2.wav
+1113:
+1114:   wav\1110-4.wav
+1115:   wav\1110-5.wav
+1120:   
+1121:	wav\1360-1.wav
+1122:	wav\1360-2.wav
+1123:	wav\1360-3.wav
+1124:	wav\1360-4.wav
+1125:	wav\1360-5.wav
+1130:
+1131:	wav\1360-1.wav
+1132:	wav\1360-2.wav
+1133:	wav\1360-3.wav
+1134:	wav\1360-4.wav
+1135:	wav\1360-5.wav
+1200:
+1201:   wav\1200-1.wav
+1202:   wav\1200-2.wav
+1203:
+1204:   wav\1200-4.wav
+1205:   wav\1200-5.wav
+1210:
+1211:   wav\1210-1.wav
+1212:   wav\1210-2.wav
+1213:   wav\1220-3.wav
+1214:   wav\1210-4.wav
+1215:   wav\1210-5.wav
+1220:
+1221:   wav\1220-1.wav
+1222:   wav\1220-2.wav
+1223:   wav\1220-3.wav
+1224:   wav\1220-4.wav
+1225:   wav\1220-5.wav
+1230: 
+1231: wav\1230-1.wav
+1232: wav\1230-2.wav
+1233:
+1234: wav\1230-4.wav
+1235: wav\1230-5.wav
+1240:
+1241: wav\1240-1.wav
+1242: wav\1240-2.wav
+1243:
+1244: wav\1240-4.wav
+1245: wav\1240-5.wav
+1250:
+1251: wav\1240-1.wav
+1252: wav\1240-2.wav
+1253:
+1254: wav\1240-4.wav
+1255: wav\1240-5.wav
+1260:
+1261: wav\1260-1.wav
+1262: wav\1260-2.wav
+1263:
+1264: wav\1260-4.wav
+1265: wav\1260-5.wav
+1270:
+1271: wav\1260-1.wav
+1272: wav\1260-2.wav
+1273:
+1274: wav\1260-4.wav
+1275: wav\1260-5.wav
+1300:
+1301:   wav\1310-1.wav
+1302:   wav\1310-2.wav
+1303:
+1304:   wav\1310-4.wav
+1305:   wav\1310-5.wav
+1310:
+1311:   wav\1310-1.wav
+1312:   wav\1310-2.wav
+1313:	
+1314:   wav\1310-4.wav
+1315:   wav\1310-5.wav
+1320:
+1321:   wav\1320-1.wav
+1322:   
+1323:   wav\1320-3.wav
+1324:   wav\1320-4.wav
+1325:   wav\1320-5.wav
+1330:
+1331:	wav\1330-1.wav
+1332:	wav\1330-2.wav
+1333:	wav\1330-3.wav
+1334:	wav\1330-4.wav
+1335:	wav\1330-5.wav
+1340:	
+1341:	wav\1340-1.wav
+1342:	wav\1340-2.wav
+1343:	wav\1340-3.wav
+1344:	wav\1340-4.wav
+1345:	wav\1340-5.wav
+1350:
+1351:	wav\1350-1.wav
+1352:	wav\1350-2.wav
+1353:	
+1354:	wav\1350-4.wav
+1355:	wav\1350-5.wav
+1360:
+1361:	wav\1360-1.wav
+1362:	wav\1360-2.wav
+1363:	wav\1360-3.wav
+1364:	wav\1360-4.wav
+1365:	wav\1360-5.wav
+1370:
+1371:	wav\1370-1.wav
+1372:	wav\1370-2.wav
+1373:	wav\1370-3.wav
+1374:	wav\1370-4.wav
+1375:	wav\1370-5.wav
+1380:
+1381:	wav\1380-1.wav
+1382:	wav\1380-2.wav
+1383:
+1384:	wav\1380-4.wav
+1385:	wav\1380-5.wav
+1390:
+1391:	wav\1390-1.wav
+1392:	wav\1390-2.wav
+1393:	wav\1390-3.wav
+1394:	wav\1390-4.wav
+1395:	wav\1390-5.wav
+1400:
+1401:   wav\1400-1.wav
+1402:   wav\1400-2.wav
+1403:
+1404:   wav\1400-4.wav
+1405:   wav\1400-5.wav
+1410:
+1411:   wav\1410-1.wav
+1412:   wav\1410-2.wav
+1413:
+1414:   wav\1410-4.wav
+1415:   wav\1410-5.wav
+1500:
+1501:   wav\1500-1.wav
+1502:   wav\1500-2.wav
+1503:	  wav\1500-3.wav
+1504:   wav\1500-4.wav
+1505:   wav\1500-5.wav
+1510:
+1511:	wav\1510-1.wav
+1512:	wav\1510-2.wav
+1513:	wav\1510-3.wav
+1514:	wav\1510-4.wav
+1515:	wav\1510-5.wav
+1520:
+1521:	wav\1520-1.wav
+1522:	wav\1520-2.wav
+1523:	
+1524:	wav\1520-4.wav
+1525:	wav\1520-5.wav
+1530:		
+1531:	wav\1530-1.wav
+1532:	
+1533:	
+1534:	wav\1530-4.wav
+1535:	wav\1530-5.wav
+1600: wav\1600-0.wav
+1601:	
+1602:	wav\1600-2.wav
+1603:	
+1604:	wav\1600-4.wav
+1605:	wav\1600-5.wav
+1700:
+1701:   wav\1700-1.wav
+1702:   wav\1700-2.wav
+1703:   wav\1700-2.wav
+1704:   wav\1700-4.wav
+1705:   wav\1700-5.wav
+1710:
+1711:   wav\1710-1.wav
+1712:   wav\1710-2.wav
+1713:
+1714:   wav\1710-4.wav
+1715:   wav\1710-5.wav
+1720:
+1721:   wav\1720-1.wav
+1722:   wav\1720-2.wav
+1723:
+1724:   wav\1720-4.wav
+1725:   wav\1720-5.wav
+1800:
+1801:   wav\1800-1.wav
+1802:   wav\1800-2.wav
+1803:
+1804:   wav\1800-4.wav
+1805:   wav\1800-5.wav
+1810:
+1811:   wav\1810-1.wav
+1812:   wav\1810-2.wav
+1813:
+1814:   wav\1810-4.wav
+1815:   wav\1810-5.wav
+1820:
+1821:   wav\1820-1.wav
+1822:   wav\1820-2.wav
+1823:
+1824:   wav\1820-4.wav
+1825:   wav\1820-5.wav
+1830:
+1831:   wav\1830-1.wav
+1832:   wav\1830-2.wav
+1833:
+1834:   wav\1830-4.wav
+1835:   wav\1830-5.wav
+1900:   wav\M30-3.wav
+1901:   wav\1900-1.wav
+1902:
+1903:
+1904:   wav\1900-4.wav
+1905:   wav\1900-5.wav
+1910:   wav\1910-0.wav
+1911:   wav\1910-1.wav
+1912:   wav\1910-2.wav
+1913:   wav\1910-3.wav
+1914:   wav\1910-4.wav
+1915:   wav\1910-5.wav
+1920:   wav\1920-0.wav
+1921:   wav\1920-1.wav
+1922:   wav\M11-1.wav
+1923:   wav\M11-2.wav
+1924:   wav\1920-4.wav
+1925:   wav\1920-5.wav
+2000:   
+2001:   wav\2000-1.wav
+2002:   wav\2000-2.wav
+2003:   wav\2000-3.wav
+2004:   wav\2000-4.wav
+2005:   wav\2000-5.wav
+2010:   
+2011:   wav\2010-1.wav
+2012:   wav\2010-2.wav
+2013:   wav\2010-3.wav
+2014:   wav\2010-4.wav
+2015:   wav\2010-5.wav
+2020:   
+2021:   wav\2020-1.wav
+2022:   wav\2020-2.wav
+2023:   wav\2020-3.wav
+2024:   wav\2020-4.wav
+2025:   wav\2020-5.wav
+2100:
+2101:   wav\2100-1.wav
+2102:   wav\2100-2.wav
+2103:   wav\2100-3.wav
+2104:   wav\2100-4.wav
+2105:   wav\2100-5.wav
+2110:
+2111:   wav\2110-1.wav
+2112:   wav\2110-2.wav
+2113:   wav\2110-3.wav
+2114:   wav\2110-4.wav
+2115:   wav\2110-5.wav
+2120:
+2121:   wav\2120-1.wav
+2122:   wav\2120-2.wav
+2123:   wav\2120-3.wav
+2124:   wav\2120-4.wav
+2125:   wav\2120-5.wav
+2130:
+2131:   wav\2130-1.wav
+2132:   wav\2130-2.wav
+2133:   wav\2130-3.wav
+2134:   wav\2130-4.wav
+2135:   wav\2130-5.wav
+2140:
+2141:   wav\2140-1.wav
+2142:   wav\2130-2.wav
+2143:   wav\2140-3.wav
+2144:   wav\2130-4.wav
+2145:   wav\2130-5.wav
+2150:
+2151:   wav\2150-1.wav
+2152:   wav\2130-2.wav
+2153:   wav\2150-3.wav
+2154:   wav\2130-4.wav
+2155:   wav\2130-5.wav
+2160:   wav\2160-0.wav
+2161:   wav\2160-1.wav
+2162:   wav\2160-2.wav
+2163:   wav\2160-3.wav
+2164:   wav\2160-4.wav
+2165:   wav\2160-5.wav
+2200:
+2201:   wav\2200-1.wav
+2202:   wav\2200-2.wav
+2203:   wav\2200-3.wav
+2204:   wav\2200-4.wav
+2205:   wav\2200-5.wav
+2210:
+2211:   wav\2210-1.wav
+2212:   wav\2210-2.wav
+2213:   wav\2210-3.wav
+2214:   wav\2210-4.wav
+2215:   wav\2210-5.wav
+2220:
+2221:   wav\2220-1.wav
+2222:   wav\2220-2.wav
+2223:   wav\2220-3.wav
+2224:   wav\2220-4.wav
+2225:   wav\2220-5.wav
+2230:
+2231:   wav\2230-1.wav
+2232:   wav\2230-2.wav
+2233:   wav\2230-3.wav
+2234:   wav\2230-4.wav
+2235:   wav\2230-5.wav
+2240:
+2241:   wav\2240-1.wav
+2242:   wav\2240-2.wav
+2243:   wav\2240-3.wav
+2244:   wav\2240-4.wav
+2245:   wav\2240-5.wav
+2250:
+2251:   wav\2250-1.wav
+2252:   wav\2250-2.wav
+2253:   wav\2250-3.wav
+2254:   wav\2250-4.wav
+2255:   wav\2250-5.wav
+2260:
+2261:   wav\2260-1.wav
+2262:   wav\2260-2.wav
+2263:   wav\2260-3.wav
+2264:   wav\2260-4.wav
+2265:   wav\2260-5.wav
+2270:
+2271:   wav\2270-1.wav
+2272:   wav\2270-2.wav
+2273:   wav\2270-3.wav
+2274:   wav\2270-4.wav
+2275:   wav\2270-5.wav
+2276:   wav\2270.wav
+2300:
+2301:   wav\2300-1.wav
+2302:   wav\2300-2.wav
+2303:   wav\2300-3.wav
+2304:   wav\2300-4.wav
+2305:   wav\2300-5.wav
+2306:   wav\2300-6.wav
+2310:
+2311:   wav\2310-1.wav
+2312:
+2313:   wav\2310-3.wav
+2314:   wav\2310-4.wav
+2315:   wav\2310-5.wav
+2320:
+2321:   wav\2320-1.wav
+2322:
+2323:   wav\2320-3.wav
+2324:   wav\2320-4.wav
+2325:   wav\2320-5.wav
+2330:
+2331:   wav\2330-1.wav
+2332:
+2333:   wav\2330-3.wav
+2334:   wav\2330-4.wav
+2335:   wav\2330-5.wav
+2340:
+2341:   wav\2340-1.wav
+2342:                 
+2343:   wav\2340-3.wav
+2344:   wav\2340-4.wav
+2345:   wav\2340-5.wav
+2350:
+2351:   wav\2350-1.wav
+2352:                 
+2353:   wav\2350-3.wav
+2354:   wav\2350-4.wav
+2355:   wav\2350-5.wav
+2360:
+2361:
+2362:
+2363:
+2364:
+2365:
+2370:
+2371:   wav\2370-1.wav
+2372:
+2373:   wav\2370-3.wav
+2374:   wav\2370-4.wav
+2375:   wav\2370-5.wav
+2380:
+2381:   wav\2370-1.wav
+2382:
+2383:   wav\2380-3.wav
+2384:   wav\2370-4.wav
+2385:   wav\2370-5.wav
+2390:
+2391:   wav\2390-1.wav
+2392:                 
+2393:   wav\2390-3.wav
+2394:   wav\2390-4.wav
+2395:   wav\2390-5.wav
+2396:   wav\2390-6.wav
+2400:
+2401:   wav\2400-1.wav
+2402:   wav\2400-2.wav
+2403:   
+2404:   wav\2400-4.wav
+2405:   wav\2400-5.wav
+2406:	wav\2400-6.wav
+2410:
+2411:   wav\2410-1.wav
+2412:   wav\2410-2.wav
+2413:   
+2414:   wav\2410-4.wav
+2415:   wav\2410-5.wav
+2416:   wav\2410-6.wav
+2420:	
+2421:	wav\2420-1.wav
+2422:	wav\2420-2.wav
+2423:
+2424:	wav\2420-4.wav
+2425:	wav\2420-5.wav
+2426:	wav\2420-6.wav
+2430:	
+2431:	wav\2430-1.wav
+2432:	wav\2430-2.wav
+2433:
+2434:	wav\2430-4.wav
+2435:	wav\2430-5.wav
+2436:	wav\2430-6.wav
+2437:	wav\2430-7.wav
+2780:
+2781:   wav\1200-1.wav
+2782:   wav\1200-2.wav
+2783:
+2784:   wav\1200-4.wav
+2785:   wav\1200-5.wav
+2790:
+2791:   wav\630-1.wav
+2792:   wav\65.wav
+2793:
+2794:   wav\630-4.wav
+2795:   wav\630-5.wav
+2800:
+2801:   wav\1100-1.wav
+2802:   wav\1100-2.wav
+2803:
+2804:   wav\1100-4.wav
+2805:   wav\1100-5.wav
+2810
+2811:    wav\900-1.wav
+2812:    wav\900-2.wav
+2813:
+2814:    wav\900-4.wav
+2815:    wav\900-5.wav
+2820:
+2821:   wav\1200-1.wav
+2822:   wav\1200-2.wav
+2823:
+2824:   wav\1200-4.wav
+2825:   wav\1200-5.wav
+2840:   
+2841:    wav\210-1.wav
+2842:    wav\210-2.wav
+2843:
+2844:    wav\210-4.wav
+2845:    wav\210-5.wav
+
+8200:
+8201:   wav\8200-1.wav
+8202:   wav\8200-2.wav
+8203:   wav\8200-3.wav
+8204:   wav\8200-4.wav
+8205:
+8206:   wav\8200-6.wav
+8207:   wav\8200-7.wav
+8208:   wav\8200-8.wav
+8220:
+8221:
+8222:   wav\8220-6.wav
+8223:   
+8224:   
+8225:
+8226:
+8227:
+8301:   wav\8300-1.wav
+8302:   wav\8300-2.wav
+9200:   wav\9200-0.wav
+9201:
+9202:   wav\9200-2.wav
+9203:
+9204:   wav\9200-4.wav
+9205:   wav\9200-5.wav
+9210:   wav\9210-0.wav
+9211:
+9212:
+9213:
+9214:   wav\9210-4.wav
+9215:   wav\9210-5.wav
+9220:   wav\9210-0.wav
+9221:
+9222:
+9223:
+9224:   wav\9220-4.wav
+9225:   wav\9210-5.wav
+9230:   wav\9210-0.wav
+9231:
+9232:
+9233:
+9234:   wav\9220-4.wav
+9235:   wav\9210-5.wav
+
+10010:  wav\M1-1.wav
+10011:  wav\M1-2.wav
+10012:  wav\M1-3.wav
+10020:  wav\M2-1.wav
+10021:
+10022:  wav\M2-3.wav
+10050:  wav\M5-1.wav
+10051:  wav\M5-2.wav
+10052:  wav\M5-3.wav
+10060:  wav\M6-1.wav
+10061:  wav\M6-2.wav
+10062:  wav\M6-3.wav
+10080:  wav\M8-2.wav
+10081:
+10082:
+10090:  wav\M9-1.wav
+10091:
+10092:  wav\M9-3.wav
+10100:  wav\M10-1.wav
+10110:  wav\M11-1.wav
+10111:  wav\M11-1.wav
+10112:  wav\M11-2.wav
+10120:  wav\M12-1.wav
+10130:  wav\M13-1.wav
+10131:  wav\M13-2.wav
+10132:  wav\M13-3.wav
+10140:
+10141:  wav\M14-2.wav
+10142:  wav\M14-3.wav
+10150:
+10151:  wav\M15-2.wav
+10152:  wav\M15-3.wav
+10160:  wav\M16-1.wav
+10161:
+10162:  wav\M16-3.wav
+10170:  wav\M17-1.wav
+10171:
+10172:
+10180:  wav\M18-1.wav
+10181:
+10182:
+10190:
+10191:  wav\M19-2.wav
+10192:  wav\M19-3.wav
+10200:  wav\M20-1.wav
+10201:
+10202:  wav\M20-3.wav
+10210:  wav\M21-1.wav
+10211:
+10212:
+10220:  wav\M22-1.wav
+10221:  wav\M22-2.wav
+10222:  wav\M22-3.wav
+10230:  wav\M23-1.wav
+10231:
+10232:  wav\M23-3.wav
+10240:  wav\M24-1.wav
+10241:  wav\M24-2.wav
+10242:
+10280:  wav\M28-1.wav
+10281:
+10282:  wav\M28-3.wav
+10290:  wav\M29-1.wav
+10291:
+10292:  wav\M29-3.wav
+10300:  wav\M30-1.wav
+10301:
+10302:
+10310:  wav\M31-1.wav
+10311:
+10312:
+10320:  wav\M32-1.wav
+10321:
+10322:  wav\M32-3.wav
+10330:  wav\M33-1.wav
+10331:
+10332:  wav\M33-3.wav
+10350:  wav\M35-1.wav
+10351:
+10352:  wav\M35-1.wav
+10360:  wav\M36-1.wav
+10361:
+10362:
+10370:  wav\M37-1.wav
+10371:
+10372:
+10390:  wav\M39-0.wav
+10391:  wav\M39-1.wav
+10392:  wav\M39-2.wav
+10393:  wav\M39-3.wav
+10400:  wav\M40-0.wav
+10401:  wav\M40-1.wav
+10402:
+10410:  wav\M41-0.wav
+10420:  wav\M42-0.wav
+10430:  wav\M43-0.wav
+10440:  wav\M44-0.wav
+10450:	wav\M45-0.wav
+10461:  wav\M46-1.wav
+10470:  wav\M47-0.wav
+10472:  wav\M47-2.wav
+10475:  wav\M47-5.wav
+10480:  wav\M48-0.wav
+10482:  wav\M48-2.wav
+10485:  wav\M48-5.wav
+10490:  wav\M49-0.wav
+10491:  wav\M49-1.wav
+10492:  wav\M49-2.wav
+10493:  wav\newysound-mix.wav
+
+10510:  wav\M51-0.wav
+10511:  
+10512:  wav\M51-2.wav
+10520:  wav\M52-0.wav
+10521:  wav\M52-1.wav
+10522:  wav\M52-2.wav
+10530:  wav\M53-0.wav
+10531:
+10532:  wav\M53-2.wav
+10540:  wav\M54-0.wav
+10541:
+10542:  wav\M54-2.wav
+10550:  wav\M55-0.wav
+10551:
+10552:  wav\M55-2.wav
+11000:  wav\M100-0.wav
+11001:
+11002:	wav\M100-2.wav
+11010:  wav\M101-0.wav
+11011:
+11012:	wav\M101-2.wav
+
+11040:  wav\cboFs2_start.wav
+11041:
+11042:	wav\cboFs2_target.wav
+11050:  wav\cboFs3_start.wav
+11051:
+11052:	wav\cboFs3_target.wav
+11060:  wav\cboFs4_start.wav
+11061:
+11062:	wav\cboFs4_target.wav
+11070:  wav\cboFs1_start.wav
+11071:
+11072:	wav\cboFs1_target.wav
+11080:  wav\cboDs1_start.wav
+11081:
+11082:	wav\cboDs1_target.wav
+11090:  wav\cboDs2_start.wav
+11091:
+11092:	wav\cboDs2_target.wav
+11100:  wav\cboDs3_start.wav
+11101:
+11102:	wav\cboDs3_target.wav
+11110:  wav\cboDs4_start.wav
+11111:
+11112:	wav\cboDs4_target.wav
+11120:  wav\cboFs2_start.wav
+11121:
+11122:	wav\cboFs2_target.wav
+
+11160:  wav\cboFs1_start.wav
+11161:
+11162:	wav\cboFs1_target.wav
+
+11170:  wav\cboFs3_start.wav
+11171:
+11172:	wav\cboFs3_target.wav
+
+11180:  wav\M101-0.wav
+11181:  wav\warpower-up.wav
+11182:  wav\warpower-up.wav

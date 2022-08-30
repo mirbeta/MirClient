@@ -1,0 +1,50 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	  <ProjectGuid>{624986FA-A7F7-4F65-944F-B4291D80BD68}</ProjectGuid>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="ChartConnectionDemoRSC103Rio">
+    <MSBuild Projects="ChartConnectionDemo\ChartConnectionDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CompactLayoutDemoRSC103Rio">
+    <MSBuild Projects="CompactLayoutDemo\CompactLayoutDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="CustomDrawDemoRSC103Rio">
+    <MSBuild Projects="CustomDrawDemo\CustomDrawDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="DataSetsDemoRSC103Rio">
+    <MSBuild Projects="DataSetsDemo\DataSetsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="MultipleTotalsDemoRSC103Rio">
+    <MSBuild Projects="MultipleTotalsDemo\MultipleTotalsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="OLAPBrowserRSC103Rio">
+    <MSBuild Projects="OLAPBrowser\OLAPBrowserRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="OrderReportsDemoRSC103Rio">
+    <MSBuild Projects="OrderReportsDemo\OrderReportsDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="SortBySummaryDemoRSC103Rio">
+    <MSBuild Projects="SortBySummaryDemo\SortBySummaryDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="StylesMultiDemoRSC103Rio">
+    <MSBuild Projects="StylesMultiDemo\StylesMultiDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="UnboundExternalDemoRSC103Rio">
+    <MSBuild Projects="UnboundExternalDemo\UnboundExternalDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="PrefilterByCodeDemoRSC103Rio">
+    <MSBuild Projects="PrefilterByCodeDemo\PrefilterByCodeDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="EditorsInPlaceDemoRSC103Rio">
+    <MSBuild Projects="EditorsInPlaceDemo\EditorsInPlaceDemoRSC103Rio.cbproj" Targets="" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="ChartConnectionDemoRSC103Rio;CompactLayoutDemoRSC103Rio;CustomDrawDemoRSC103Rio;DataSetsDemoRSC103Rio;MultipleTotalsDemoRSC103Rio;OLAPBrowserRSC103Rio;OrderReportsDemoRSC103Rio;SortBySummaryDemoRSC103Rio;StylesMultiDemoRSC103Rio;UnboundExternalDemoRSC103Rio;PrefilterByCodeDemoRSC103Rio;EditorsInPlaceDemoRSC103Rio" />
+  </Target>
+</Project>
